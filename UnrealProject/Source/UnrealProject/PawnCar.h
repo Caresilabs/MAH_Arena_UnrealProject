@@ -14,6 +14,19 @@ public:
 	// Sets default values for this pawn's properties
 	APawnCar();
 
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* StaticMesh;
+
+	UPROPERTY(EditAnywhere)
+	UFloatingPawnMovement* Movement;
+
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* CollisionBox;
+
+
+	float speed;
+	FVector direction;
+
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
@@ -22,6 +35,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
+
+	void AddDirection(FVector direction);
+
+	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
 	
 	

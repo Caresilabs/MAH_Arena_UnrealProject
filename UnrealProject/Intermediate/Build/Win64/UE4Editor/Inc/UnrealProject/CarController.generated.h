@@ -39,7 +39,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define UnrealProject_Source_UnrealProject_CarController_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ACarController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ACarController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACarController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACarController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACarController); \
@@ -50,15 +50,13 @@ public:
 
 
 #define UnrealProject_Source_UnrealProject_CarController_h_14_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ACarController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private copy-constructor, should never be used */ \
 	NO_API ACarController(const ACarController& InCopy); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACarController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACarController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACarController)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACarController)
 
 
 #define UnrealProject_Source_UnrealProject_CarController_h_11_PROLOG
