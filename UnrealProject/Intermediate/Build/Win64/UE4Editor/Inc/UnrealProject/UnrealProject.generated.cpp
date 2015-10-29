@@ -21,11 +21,17 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	{
 	}
 	IMPLEMENT_CLASS(AUnrealProjectGameMode, 1049404836);
+	void AWorldCamera::StaticRegisterNativesAWorldCamera()
+	{
+	}
+	IMPLEMENT_CLASS(AWorldCamera, 3999884295);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
+	ENGINE_API class UClass* Z_Construct_UClass_ACameraActor();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
 
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController();
@@ -33,6 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode();
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_AWorldCamera_NoRegister();
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_AWorldCamera();
 	UNREALPROJECT_API class UPackage* Z_Construct_UPackage_UnrealProject();
 	UClass* Z_Construct_UClass_ACarController_NoRegister()
 	{
@@ -133,6 +141,45 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealProjectGameMode(Z_Construct_UClass_AUnrealProjectGameMode, TEXT("AUnrealProjectGameMode"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealProjectGameMode);
+	UClass* Z_Construct_UClass_AWorldCamera_NoRegister()
+	{
+		return AWorldCamera::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AWorldCamera()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACameraActor();
+			Z_Construct_UPackage_UnrealProject();
+			OuterClass = AWorldCamera::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_Actors = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Actors"), RF_Public|RF_Transient|RF_Native) UArrayProperty(CPP_PROPERTY_BASE(Actors, AWorldCamera), 0x0000000000000001);
+				UProperty* NewProp_Actors_Inner = new(EC_InternalUseOnlyConstructor, NewProp_Actors, TEXT("Actors"), RF_Public|RF_Transient|RF_Native) UObjectProperty(FObjectInitializer(), EC_CppProperty, 0, 0x0000000000000000, Z_Construct_UClass_AActor_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Input Rendering"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Actors/WorldCamera.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Actors/WorldCamera.h"));
+				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+				MetaData->SetValue(NewProp_Actors, TEXT("Category"), TEXT("WorldCamera"));
+				MetaData->SetValue(NewProp_Actors, TEXT("ModuleRelativePath"), TEXT("Actors/WorldCamera.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AWorldCamera(Z_Construct_UClass_AWorldCamera, TEXT("AWorldCamera"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AWorldCamera);
 	UPackage* Z_Construct_UPackage_UnrealProject()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -141,8 +188,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x0D621C59;
-			Guid.B = 0xC54E95A2;
+			Guid.A = 0x41D7AE9B;
+			Guid.B = 0x8EC62A35;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

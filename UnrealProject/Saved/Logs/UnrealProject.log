@@ -1,914 +1,711 @@
-﻿[2015.10.29-12.08.58:255][  0]Log file open, 10/29/15 13:08:58
-[2015.10.29-12.08.58:255][  0]LogInit:Display: Running engine for game: UnrealProject
-[2015.10.29-12.08.58:255][  0]LogInit:Display: RandInit(-2125861763) SRandInit(-2125861763).
-[2015.10.29-12.08.58:255][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.10.29-12.08.58:255][  0]LogStats: Stats thread started at 0.072006
-[2015.10.29-12.08.58:255][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.29-12.08.58:255][  0]LogInit: API Version: 2672455
-[2015.10.29-12.08.58:255][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.10.29-12.08.58:255][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.10.29-12.08.58:255][  0]LogInit: Build Configuration: Development
-[2015.10.29-12.08.58:255][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.10.29-12.08.58:255][  0]LogInit: Command line: 
-[2015.10.29-12.08.58:255][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.10.29-12.08.58:255][  0]LogInit: Rocket: 1
-[2015.10.29-12.08.58:262][  0]LogInit: Using libcurl 7.41.0
-[2015.10.29-12.08.58:262][  0]LogInit:  - built for x86_64-pc-win32
-[2015.10.29-12.08.58:262][  0]LogInit:  - supports SSL with WinSSL
-[2015.10.29-12.08.58:262][  0]LogInit:  - other features:
-[2015.10.29-12.08.58:262][  0]LogInit:      CURL_VERSION_SSL
-[2015.10.29-12.08.58:262][  0]LogInit:      CURL_VERSION_IPV6
-[2015.10.29-12.08.58:262][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.10.29-12.08.58:262][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.10.29-12.08.58:262][  0]LogInit:      CURL_VERSION_IDN
-[2015.10.29-12.08.58:262][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.10.29-12.08.58:262][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.10.29-12.08.58:262][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.10.29-12.08.58:262][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.10.29-12.08.58:262][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.10.29-12.08.58:268][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.29-12.08.58:273][  0]LogInit: Object subsystem initialized
-[2015.10.29-12.08.58:274][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.29-12.08.58:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.29-12.08.58:282][  0]LogInit: Computer: PATTES
-[2015.10.29-12.08.58:282][  0]LogInit: User: Patte
-[2015.10.29-12.08.58:282][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.10.29-12.08.58:282][  0]LogInit: High frequency timer resolution =3.507520 MHz
-[2015.10.29-12.08.58:282][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2015.10.29-12.08.58:282][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.29-12.08.58:282][  0]LogMemory: Process Physical Memory: 54.21 MB used, 54.21 MB peak
-[2015.10.29-12.08.58:282][  0]LogMemory: Process Virtual Memory: 56.50 MB used, 56.50 MB peak
-[2015.10.29-12.08.58:282][  0]LogMemory: Physical Memory: 3196.37 MB used, 16324.34 MB total
-[2015.10.29-12.08.58:282][  0]LogMemory: Virtual Memory: 366.66 MB used, 134217728.00 MB total
-[2015.10.29-12.08.58:306][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
-[2015.10.29-12.08.58:949][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
-[2015.10.29-12.08.58:949][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
-[2015.10.29-12.08.58:950][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.10.29-12.08.58:950][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
-[2015.10.29-12.08.58:950][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.29-12.08.58:953][  0]LogD3D11RHI: !Direct3DDevice
-[2015.10.29-12.08.58:953][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.10.29-12.08.58:965][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.29-12.08.58:980][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/7784/).
-[2015.10.29-12.08.58:980][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/14B1E387442C0E6910E699BF03765F31/'.
-[2015.10.29-12.08.58:980][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.10.29-12.08.59:798][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.10.29-12.08.59:802][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.10.29-12.08.59:807][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.10.29-12.08.59:811][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.10.29-12.08.59:815][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.10.29-12.08.59:818][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.10.29-12.08.59:821][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.10.29-12.08.59:824][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.10.29-12.08.59:827][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.10.29-12.08.59:830][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.10.29-12.08.59:832][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.10.29-12.08.59:835][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.10.29-12.08.59:836][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.10.29-12.08.59:852][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.10.29-12.08.59:855][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.10.29-12.08.59:857][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.10.29-12.08.59:860][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.10.29-12.08.59:860][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.29-12.08.59:924][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.29-12.08.59:960][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.29-12.08.59:960][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.10.29-12.08.59:961][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.29-12.08.59:961][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.29-12.08.59:961][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.10.29-12.08.59:961][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.10.29-12.09.00:074][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.29-12.09.00:086][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Patte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.29-12.09.00:219][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.29-12.09.00:222][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.29-12.09.00:319][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.29-12.09.00:319][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.29-12.09.00:515][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.29-12.09.01:057][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.29-12.09.01:158][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
-[2015.10.29-12.09.01:281][  0]SourceControl: Info Source control is disabled
-[2015.10.29-12.09.01:287][  0]SourceControl: Info Source control is disabled
-[2015.10.29-12.09.01:297][  0]SourceControl: Info Source control is disabled
-[2015.10.29-12.09.01:304][  0]SourceControl: Info Source control is disabled
-[2015.10.29-12.09.01:406][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.29-12.09.01:463][  0]LogObj: 28365 objects as part of root set at end of initial load.
-[2015.10.29-12.09.01:463][  0]LogUObjectAllocator: 6040832 out of 0 bytes used by permanent object pool.
-[2015.10.29-12.09.01:509][  0]LogEngine: Initializing Engine...
-[2015.10.29-12.09.01:510][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.10.29-12.09.01:511][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.10.29-12.09.01:606][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.29-12.09.01:610][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.29-12.09.01:630][  0]LogInit: FAudioDevice initialized.
-[2015.10.29-12.09.01:647][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.29-12.09.01:651][  0]LogInit: Texture streaming: Enabled
-[2015.10.29-12.09.01:655][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.29-12.09.01:655][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.29-12.09.01:655][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d64b8b5483bfedc8d998f82f4192655|13486bde023f4a2ab96e5809842d42e4|71295755-6037-4172-8870-b93479030fdb
-[2015.10.29-12.09.01:655][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.10.29-12.09.01:677][  0]LogInit: Transaction tracking system initialized
-[2015.10.29-12.09.01:700][  0]BlueprintLog: New page: Editor Load
-[2015.10.29-12.09.02:016][  0]LocalizationService: Info Localization service is disabled
-[2015.10.29-12.09.02:077][  0]LogConsoleResponse:Display: 
-[2015.10.29-12.09.02:159][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.29-12.09.02:205][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.01s
-[2015.10.29-12.09.02:205][  0]SourceControl: Info Source control is disabled
-[2015.10.29-12.09.02:205][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.09.02:206][  0]LightingResults: New page: Lighting Build
-[2015.10.29-12.09.02:208][  0]MapCheck: New page: Map Check
-[2015.10.29-12.09.02:208][  0]LightingResults: New page: Lighting Build
-[2015.10.29-12.09.02:219][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850368A160
-[2015.10.29-12.09.02:547][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.29-12.09.02:553][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.09.02:553][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.09.02:597][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.549ms to complete.
-[2015.10.29-12.09.02:597][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.392
-[2015.10.29-12.09.02:695][  0]LogCollectionManager: Loaded 0 collections in 0.001656 seconds
-[2015.10.29-12.09.02:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.01s
-[2015.10.29-12.09.02:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Patte/Collections/' took 0.01s
-[2015.10.29-12.09.02:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
-[2015.10.29-12.09.02:735][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 1868 classes and 335 folders.
-[2015.10.29-12.09.02:738][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.10.29-12.09.02:744][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2015.10.29-12.09.02:774][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2015.10.29-12.09.02:778][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2015.10.29-12.09.02:796][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.29-12.09.02:799][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.29-12.09.02:821][  0]LogLoad: Full Startup: 5.23 seconds (BP compile: 0.03 seconds)
-[2015.10.29-12.09.02:893][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.10.29-12.09.03:006][  0]LogRenderer: Reallocating scene render targets to support 1056x576 (Frame:2).
-[2015.10.29-12.09.03:113][  2]LogAssetRegistry: Asset discovery search completed in 1.9663 seconds
-[2015.10.29-12.09.03:113][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.10.29-12.09.03:113][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
-[2015.10.29-12.11.46:667][265]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.11.46:689][265]LightingResults: New page: Lighting Build
-[2015.10.29-12.11.46:702][265]LoadErrors: New page: Loading map: Template_Default.umap
-[2015.10.29-12.11.46:702][265]MapCheck: New page: Map Check
-[2015.10.29-12.11.46:702][265]LightingResults: New page: Lighting Build
-[2015.10.29-12.11.46:716][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008570DA2160
-[2015.10.29-12.11.46:739][265]LogAIModule: Creating AISystem for world Untitled_1
-[2015.10.29-12.11.46:747][265]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.11.46:756][265]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.11.46:794][265]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.714ms to complete.
-[2015.10.29-12.11.46:794][265]LogFileHelpers: Loading map 'Template_Default' took 0.128
-[2015.10.29-12.12.53:403][230]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.12.53:424][230]LightingResults: New page: Lighting Build
-[2015.10.29-12.12.53:437][230]LoadErrors: New page: Loading map: Advanced_Lighting.umap
-[2015.10.29-12.12.53:437][230]MapCheck: New page: Map Check
-[2015.10.29-12.12.53:437][230]LightingResults: New page: Lighting Build
-[2015.10.29-12.12.53:447][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008503B19120
-[2015.10.29-12.12.54:451][230]LogAIModule: Creating AISystem for world Advanced_Lighting
-[2015.10.29-12.12.54:464][230]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
-/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.BP_LightStudio_C_0.Skybox
-Current X=0.000000 Y=0.000000 Z=1500.000000 Cached X=0.000000 Y=0.000000 Z=1500.000000
-[2015.10.29-12.12.54:511][230]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.12.54:539][230]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.12.54:582][230]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.099ms to complete.
-[2015.10.29-12.12.54:582][230]LogFileHelpers: Loading map 'Advanced_Lighting' took 1.180
-[2015.10.29-12.13.00:320][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.29-12.13.00:320][900]PIE: New page: PIE session: Advanced_Lighting (Oct 29, 2015, 2:13:00 PM)
-[2015.10.29-12.13.00:320][900]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting
-[2015.10.29-12.13.00:323][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002708s)
-[2015.10.29-12.13.00:323][900]LogAIModule: Creating AISystem for world Advanced_Lighting
-[2015.10.29-12.13.00:324][900]LogPlayLevel: PIE: World Init took: (0.000596s)
-[2015.10.29-12.13.00:324][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting to /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting (0.003466s)
-[2015.10.29-12.13.00:348][900]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.29-12.13.00:358][900]LogInit: FAudioDevice initialized.
-[2015.10.29-12.13.00:402][900]LogWorld: Game class is 'UnrealProjectGameMode'
-[2015.10.29-12.13.00:405][900]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting up for play (max tick rate 0) at 2015.10.29-13.13.00
-[2015.10.29-12.13.00:405][900]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.29-12.13.00:405][900]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.29-12.13.00:405][900]LogWorld: Bringing up level for play took: 0.002525
-[2015.10.29-12.13.00:408][900]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting 0.206
-[2015.10.29-12.13.28:845][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085145AD9E0
-[2015.10.29-12.13.51:300][755]LogSavePackage: Save=27.045034ms
-[2015.10.29-12.13.51:300][755]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/TimDB9B84074345714488D47F804D394A3C.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap'
-[2015.10.29-12.13.51:301][755]LogSavePackage: Total save time: 28.822076ms
-[2015.10.29-12.13.51:301][755]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap
-[2015.10.29-12.13.51:327][755]LogFileHelpers: Saving map 'Tim' took 1.428
-[2015.10.29-12.13.56:029][311]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.13.56:045][311]LightingResults: New page: Lighting Build
-[2015.10.29-12.13.56:056][311]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.13.56:057][311]MapCheck: New page: Map Check
-[2015.10.29-12.13.56:057][311]LightingResults: New page: Lighting Build
-[2015.10.29-12.13.56:065][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000852CDB11C0
-[2015.10.29-12.13.56:098][311]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.13.56:100][311]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
-/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BP_LightStudio_C_0.Skybox
-Current X=0.000000 Y=0.000000 Z=1500.000000 Cached X=0.000000 Y=0.000000 Z=1500.000000
-[2015.10.29-12.13.56:135][311]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.13.56:161][311]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.13.56:204][311]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.772ms to complete.
-[2015.10.29-12.13.56:204][311]LogFileHelpers: Loading map 'Tim' took 0.176
-[2015.10.29-12.14.06:728][448]LightingResults: New page: Lighting Build
-[2015.10.29-12.14.06:729][448]MapCheck: New page: Map Check
-[2015.10.29-12.14.06:729][448]LightingResults: New page: Lighting Build
-[2015.10.29-12.14.06:745][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000851444F100
-[2015.10.29-12.14.06:747][448]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.29-12.14.06:788][448]LoadErrors: New page: New Map
-[2015.10.29-12.14.06:800][448]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.14.06:801][448]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
-/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BP_LightStudio_C_0.Skybox
-Current X=0.000000 Y=0.000000 Z=1500.000000 Cached X=0.000000 Y=0.000000 Z=1500.000000
-[2015.10.29-12.14.14:730][379]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.29-12.14.19:545][472]LogAIModule: Creating AISystem for world StarterMap
-[2015.10.29-12.14.19:546][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.P_Ambient_Dust_17.ParticleSystemComponent0
-[2015.10.29-12.14.19:552][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
-[2015.10.29-12.14.19:552][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
-[2015.10.29-12.14.19:552][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
-[2015.10.29-12.14.19:552][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
-[2015.10.29-12.14.19:555][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
-[2015.10.29-12.14.19:555][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
-[2015.10.29-12.14.19:555][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
-[2015.10.29-12.14.19:556][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
-[2015.10.29-12.14.19:556][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
-[2015.10.29-12.14.19:557][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
-[2015.10.29-12.14.19:557][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
-[2015.10.29-12.14.19:557][472]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
-[2015.10.29-12.14.21:767][590]LogAIModule: Creating AISystem for world Advanced_Lighting
-[2015.10.29-12.14.21:768][590]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
-/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.BP_LightStudio_C_0.Skybox
-Current X=0.000000 Y=0.000000 Z=1500.000000 Cached X=0.000000 Y=0.000000 Z=1500.000000
-[2015.10.29-12.14.26:615][ 23]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.14.26:629][ 23]LightingResults: New page: Lighting Build
-[2015.10.29-12.14.26:641][ 23]LoadErrors: New page: Loading map: Minimal_Default.umap
-[2015.10.29-12.14.26:641][ 23]MapCheck: New page: Map Check
-[2015.10.29-12.14.26:641][ 23]LightingResults: New page: Lighting Build
-[2015.10.29-12.14.26:651][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850E64E980
-[2015.10.29-12.14.26:709][ 23]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.14.26:735][ 23]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.14.26:803][ 23]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.587ms to complete.
-[2015.10.29-12.14.26:803][ 23]LogFileHelpers: Loading map 'Minimal_Default' took 0.190
-[2015.10.29-12.14.32:521][573]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.14.32:530][573]LightingResults: New page: Lighting Build
-[2015.10.29-12.14.32:541][573]LoadErrors: New page: Loading map: Template_Default.umap
-[2015.10.29-12.14.32:542][573]MapCheck: New page: Map Check
-[2015.10.29-12.14.32:542][573]LightingResults: New page: Lighting Build
-[2015.10.29-12.14.32:552][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008573A6BEC0
-[2015.10.29-12.14.32:570][573]LogAIModule: Creating AISystem for world Untitled_3
-[2015.10.29-12.14.32:636][573]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.14.32:645][573]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.14.32:709][573]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.979ms to complete.
-[2015.10.29-12.14.32:709][573]LogFileHelpers: Loading map 'Template_Default' took 0.189
-[2015.10.29-12.14.39:428][835]LogSavePackage: Save=20.491402ms
-[2015.10.29-12.14.39:428][835]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Tim7A740EB64B6DDC0C5C662C862A5CA76D.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap'
-[2015.10.29-12.14.39:428][835]LogSavePackage: Total save time: 21.664880ms
-[2015.10.29-12.14.39:429][835]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap
-[2015.10.29-12.14.39:453][835]LogFileHelpers: Saving map 'Tim' took 1.043
-[2015.10.29-12.14.45:557][ 29]LogSavePackage: Save=20.565527ms
-[2015.10.29-12.14.45:557][ 29]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Patrik6010C62646026C76806616997A18A070.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap'
-[2015.10.29-12.14.45:558][ 29]LogSavePackage: Total save time: 21.787759ms
-[2015.10.29-12.14.45:558][ 29]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap
-[2015.10.29-12.14.45:583][ 29]LogFileHelpers: Saving map 'Patrik' took 0.149
-[2015.10.29-12.14.52:574][307]LogSavePackage: Save=19.802311ms
-[2015.10.29-12.14.52:574][307]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/SimonDBDAEF0D4EC9638710103D92A49D12AF.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap'
-[2015.10.29-12.14.52:575][307]LogSavePackage: Total save time: 21.105509ms
-[2015.10.29-12.14.52:575][307]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap
-[2015.10.29-12.14.52:600][307]LogFileHelpers: Saving map 'Simon' took 0.166
-[2015.10.29-12.15.00:044][605]LogSavePackage: Save=20.371374ms
-[2015.10.29-12.15.00:044][605]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Joakim9E7A030D4D27B5E0158CC69C33BFE383.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap'
-[2015.10.29-12.15.00:045][605]LogSavePackage: Total save time: 21.581631ms
-[2015.10.29-12.15.00:045][605]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap
-[2015.10.29-12.15.00:078][605]LogFileHelpers: Saving map 'Joakim' took 0.179
-[2015.10.29-12.15.18:030][154]LogSavePackage: Save=20.443218ms
-[2015.10.29-12.15.18:030][154]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/BernhardB5770FE1438029A1380F5494E25F87B6.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap'
-[2015.10.29-12.15.18:031][154]LogSavePackage: Total save time: 21.850199ms
-[2015.10.29-12.15.18:031][154]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap
-[2015.10.29-12.15.18:056][154]LogFileHelpers: Saving map 'Bernhard' took 0.172
-[2015.10.29-12.15.25:860][ 84]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.15.25:866][ 84]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.25:878][ 84]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.15.25:878][ 84]MapCheck: New page: Map Check
-[2015.10.29-12.15.25:878][ 84]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.25:889][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008573A69D00
-[2015.10.29-12.15.25:917][ 84]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.15.25:983][ 84]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.15.26:009][ 84]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.15.26:085][ 84]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.647ms to complete.
-[2015.10.29-12.15.26:085][ 84]LogFileHelpers: Loading map 'Patrik' took 0.227
-[2015.10.29-12.15.30:820][645]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-12.15.31:664][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.10.29-12.15.34:653][ 87]LogSavePackage: Save=19.541157ms
-[2015.10.29-12.15.34:653][ 87]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Patrik1697BC78412EC072446FE3B95CAD858C.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap'
-[2015.10.29-12.15.34:656][ 87]LogSavePackage: Total save time: 26.292365ms
-[2015.10.29-12.15.34:656][ 87]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap
-[2015.10.29-12.15.43:526][137]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.15.43:534][137]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.43:545][137]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.15.43:545][137]MapCheck: New page: Map Check
-[2015.10.29-12.15.43:545][137]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.43:556][137]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008573A69580
-[2015.10.29-12.15.43:566][137]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.15.43:640][137]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.15.43:666][137]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.15.43:736][137]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.104ms to complete.
-[2015.10.29-12.15.43:736][137]LogFileHelpers: Loading map 'Patrik' took 0.212
-[2015.10.29-12.15.48:846][744]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.15.48:867][744]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.48:879][744]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.15.48:879][744]MapCheck: New page: Map Check
-[2015.10.29-12.15.48:879][744]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.48:890][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008503E34FE0
-[2015.10.29-12.15.48:899][744]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.15.48:980][744]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.15.49:007][744]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.15.49:075][744]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.008ms to complete.
-[2015.10.29-12.15.49:075][744]LogFileHelpers: Loading map 'Patrik' took 0.231
-[2015.10.29-12.15.51:903][ 76]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.15.51:917][ 76]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.51:929][ 76]LoadErrors: New page: Loading map: Bernhard.umap
-[2015.10.29-12.15.51:929][ 76]MapCheck: New page: Map Check
-[2015.10.29-12.15.51:929][ 76]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.51:940][ 76]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008514A7B7E0
-[2015.10.29-12.15.51:949][ 76]LogAIModule: Creating AISystem for world Bernhard
-[2015.10.29-12.15.52:044][ 76]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.15.52:070][ 76]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.15.52:133][ 76]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.14ms to complete.
-[2015.10.29-12.15.52:133][ 76]LogFileHelpers: Loading map 'Bernhard' took 0.231
-[2015.10.29-12.15.56:761][627]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.15.56:768][627]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.56:780][627]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.15.56:780][627]MapCheck: New page: Map Check
-[2015.10.29-12.15.56:780][627]LightingResults: New page: Lighting Build
-[2015.10.29-12.15.56:791][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008503668540
-[2015.10.29-12.15.56:799][627]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.15.56:897][627]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.15.56:922][627]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.15.56:997][627]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.237ms to complete.
-[2015.10.29-12.15.56:997][627]LogFileHelpers: Loading map 'Joakim' took 0.237
-[2015.10.29-12.16.03:762][435]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-12.16.05:786][660]LogSavePackage: Save=18.269318ms
-[2015.10.29-12.16.05:786][660]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/JoakimE90C7DB14DD2E6DC317EBA9C3A2A78BA.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap'
-[2015.10.29-12.16.05:789][660]LogSavePackage: Total save time: 24.099648ms
-[2015.10.29-12.16.05:789][660]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap
-[2015.10.29-12.16.05:810][660]LogFileHelpers: Saving map 'Joakim' took 0.124
-[2015.10.29-12.16.08:662][997]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.08:668][997]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.08:680][997]LoadErrors: New page: Loading map: Bernhard.umap
-[2015.10.29-12.16.08:680][997]MapCheck: New page: Map Check
-[2015.10.29-12.16.08:680][997]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.08:691][997]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008514C399E0
-[2015.10.29-12.16.08:701][997]LogAIModule: Creating AISystem for world Bernhard
-[2015.10.29-12.16.08:803][997]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.08:829][997]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.08:892][997]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.359ms to complete.
-[2015.10.29-12.16.08:892][997]LogFileHelpers: Loading map 'Bernhard' took 0.231
-[2015.10.29-12.16.15:946][823]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-12.16.17:055][933]LogSavePackage: Save=18.166681ms
-[2015.10.29-12.16.17:055][933]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Bernhard209F6B3A467B79E91BC1B98D393D1630.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap'
-[2015.10.29-12.16.17:057][933]LogSavePackage: Total save time: 24.060305ms
-[2015.10.29-12.16.17:057][933]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap
-[2015.10.29-12.16.17:079][933]LogFileHelpers: Saving map 'Bernhard' took 0.127
-[2015.10.29-12.16.20:147][294]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.20:153][294]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.20:164][294]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.16.20:164][294]MapCheck: New page: Map Check
-[2015.10.29-12.16.20:165][294]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.20:175][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085200207C0
-[2015.10.29-12.16.20:184][294]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.16.20:294][294]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.20:321][294]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.20:387][294]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.649ms to complete.
-[2015.10.29-12.16.20:387][294]LogFileHelpers: Loading map 'Joakim' took 0.243
-[2015.10.29-12.16.23:639][677]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.23:653][677]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.23:664][677]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.16.23:664][677]MapCheck: New page: Map Check
-[2015.10.29-12.16.23:664][677]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.23:675][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850F1F7740
-[2015.10.29-12.16.23:684][677]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.16.23:801][677]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.23:828][677]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.23:899][677]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.285ms to complete.
-[2015.10.29-12.16.23:899][677]LogFileHelpers: Loading map 'Patrik' took 0.262
-[2015.10.29-12.16.29:056][288]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.29:070][288]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.29:082][288]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.16.29:082][288]MapCheck: New page: Map Check
-[2015.10.29-12.16.29:082][288]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.29:092][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008563C774C0
-[2015.10.29-12.16.29:101][288]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.16.29:226][288]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.29:252][288]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.29:321][288]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.075ms to complete.
-[2015.10.29-12.16.29:321][288]LogFileHelpers: Loading map 'Simon' took 0.267
-[2015.10.29-12.16.32:475][664]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-12.16.34:539][894]LogSavePackage: Save=20.895676ms
-[2015.10.29-12.16.34:539][894]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon908EA6A04BF3AADBA632AFBD12D7EC7F.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap'
-[2015.10.29-12.16.34:541][894]LogSavePackage: Total save time: 27.030207ms
-[2015.10.29-12.16.34:541][894]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap
-[2015.10.29-12.16.34:563][894]LogFileHelpers: Saving map 'Simon' took 0.127
-[2015.10.29-12.16.41:651][739]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.41:671][739]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.41:682][739]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.16.41:683][739]MapCheck: New page: Map Check
-[2015.10.29-12.16.41:683][739]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.41:692][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000857652BEC0
-[2015.10.29-12.16.41:702][739]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.16.41:830][739]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.41:859][739]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.41:934][739]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.966ms to complete.
-[2015.10.29-12.16.41:934][739]LogFileHelpers: Loading map 'Patrik' took 0.284
-[2015.10.29-12.16.43:644][941]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.16.43:659][941]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.43:659][941]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.43:670][941]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.16.43:671][941]MapCheck: New page: Map Check
-[2015.10.29-12.16.43:671][941]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.43:682][941]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000857652B740
-[2015.10.29-12.16.43:833][941]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.43:858][941]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.43:932][941]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.297ms to complete.
-[2015.10.29-12.16.43:932][941]LogFileHelpers: Loading map 'Tim' took 0.274
-[2015.10.29-12.16.52:146][921]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.16.52:158][921]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.52:158][921]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.52:170][921]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.16.52:170][921]MapCheck: New page: Map Check
-[2015.10.29-12.16.52:170][921]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.52:180][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008541BCA520
-[2015.10.29-12.16.52:324][921]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.52:348][921]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.52:423][921]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.045ms to complete.
-[2015.10.29-12.16.52:423][921]LogFileHelpers: Loading map 'Simon' took 0.265
-[2015.10.29-12.16.53:344][ 29]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.16.53:357][ 29]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.53:357][ 29]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.53:369][ 29]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.16.53:369][ 29]MapCheck: New page: Map Check
-[2015.10.29-12.16.53:369][ 29]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.53:379][ 29]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008503731BC0
-[2015.10.29-12.16.53:529][ 29]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.53:552][ 29]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.53:616][ 29]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.201ms to complete.
-[2015.10.29-12.16.53:616][ 29]LogFileHelpers: Loading map 'Patrik' took 0.260
-[2015.10.29-12.16.54:283][102]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.29-12.16.54:296][102]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.54:296][102]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.54:308][102]LoadErrors: New page: Loading map: Minimal_Default.umap
-[2015.10.29-12.16.54:308][102]MapCheck: New page: Map Check
-[2015.10.29-12.16.54:308][102]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.54:317][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085783F0B80
-[2015.10.29-12.16.54:486][102]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.54:509][102]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.54:574][102]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.567ms to complete.
-[2015.10.29-12.16.54:574][102]LogFileHelpers: Loading map 'Minimal_Default' took 0.280
-[2015.10.29-12.16.56:045][274]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.16.56:059][274]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.56:060][274]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.56:071][274]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.16.56:072][274]MapCheck: New page: Map Check
-[2015.10.29-12.16.56:072][274]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.56:081][274]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085783F1F80
-[2015.10.29-12.16.56:256][274]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.56:280][274]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.56:344][274]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.126ms to complete.
-[2015.10.29-12.16.56:344][274]LogFileHelpers: Loading map 'Joakim' took 0.286
-[2015.10.29-12.16.57:044][355]LogAIModule: Creating AISystem for world Bernhard
-[2015.10.29-12.16.57:058][355]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.57:058][355]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.57:069][355]LoadErrors: New page: Loading map: Bernhard.umap
-[2015.10.29-12.16.57:069][355]MapCheck: New page: Map Check
-[2015.10.29-12.16.57:069][355]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.57:079][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085739ED8A0
-[2015.10.29-12.16.57:251][355]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.57:274][355]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.57:339][355]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.342ms to complete.
-[2015.10.29-12.16.57:339][355]LogFileHelpers: Loading map 'Bernhard' took 0.282
-[2015.10.29-12.16.58:162][451]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.16.58:178][451]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.58:178][451]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.58:190][451]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.16.58:190][451]MapCheck: New page: Map Check
-[2015.10.29-12.16.58:191][451]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.58:200][451]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085715EF420
-[2015.10.29-12.16.58:389][451]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.58:412][451]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.58:475][451]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.491ms to complete.
-[2015.10.29-12.16.58:475][451]LogFileHelpers: Loading map 'Simon' took 0.298
-[2015.10.29-12.16.59:061][518]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.16.59:074][518]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.16.59:074][518]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.59:086][518]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.16.59:087][518]MapCheck: New page: Map Check
-[2015.10.29-12.16.59:087][518]LightingResults: New page: Lighting Build
-[2015.10.29-12.16.59:096][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085000A7A60
-[2015.10.29-12.16.59:279][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.16.59:305][518]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.16.59:370][518]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.91ms to complete.
-[2015.10.29-12.16.59:370][518]LogFileHelpers: Loading map 'Tim' took 0.297
-[2015.10.29-12.17.03:532][ 14]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-12.17.19:074][837]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-12.17.30:999][202]Cmd: EDIT COPY
-[2015.10.29-12.17.31:243][229]Cmd: EDIT PASTE
-[2015.10.29-12.17.33:500][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.10.29-12.17.33:876][491]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-12.17.39:784][193]Cmd: EDIT COPY
-[2015.10.29-12.17.39:993][201]Cmd: EDIT PASTE
-[2015.10.29-12.17.48:177][ 34]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
-[2015.10.29-12.17.50:426][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-12.17.53:779][684]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
-[2015.10.29-12.18.05:385][995]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-12.18.11:672][703]LogSavePackage: Save=173.052185ms
-[2015.10.29-12.18.11:672][703]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Tim896670E84A7B799F4B7F6ABB9552A3A2.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap'
-[2015.10.29-12.18.11:674][703]LogSavePackage: Total save time: 180.014938ms
-[2015.10.29-12.18.11:674][703]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap
-[2015.10.29-12.18.11:703][703]LogFileHelpers: Saving map 'Tim' took 0.294
-[2015.10.29-12.18.13:733][945]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.18.13:751][945]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.13:751][945]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.13:763][945]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.18.13:763][945]MapCheck: New page: Map Check
-[2015.10.29-12.18.13:763][945]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.13:773][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008503988E00
-[2015.10.29-12.18.13:979][945]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.14:005][945]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.14:089][945]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.666ms to complete.
-[2015.10.29-12.18.14:089][945]LogFileHelpers: Loading map 'Simon' took 0.339
-[2015.10.29-12.18.14:983][ 50]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.18.14:996][ 50]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.14:996][ 50]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.15:008][ 50]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.18.15:008][ 50]MapCheck: New page: Map Check
-[2015.10.29-12.18.15:008][ 50]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.15:018][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085000CC220
-[2015.10.29-12.18.15:234][ 50]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.15:257][ 50]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.15:326][ 50]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.008ms to complete.
-[2015.10.29-12.18.15:326][ 50]LogFileHelpers: Loading map 'Patrik' took 0.331
-[2015.10.29-12.18.16:233][155]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.18.16:246][155]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.16:246][155]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.16:257][155]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.18.16:257][155]MapCheck: New page: Map Check
-[2015.10.29-12.18.16:257][155]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.16:266][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085000CC220
-[2015.10.29-12.18.16:477][155]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.16:501][155]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.16:567][155]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.691ms to complete.
-[2015.10.29-12.18.16:567][155]LogFileHelpers: Loading map 'Joakim' took 0.322
-[2015.10.29-12.18.17:016][207]LogAIModule: Creating AISystem for world Bernhard
-[2015.10.29-12.18.17:030][207]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.17:030][207]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.17:041][207]LoadErrors: New page: Loading map: Bernhard.umap
-[2015.10.29-12.18.17:042][207]MapCheck: New page: Map Check
-[2015.10.29-12.18.17:042][207]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.17:052][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000857883B600
-[2015.10.29-12.18.17:292][207]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.17:316][207]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.17:382][207]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.452ms to complete.
-[2015.10.29-12.18.17:382][207]LogFileHelpers: Loading map 'Bernhard' took 0.354
-[2015.10.29-12.18.18:192][300]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.18.18:210][300]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.18:210][300]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.18:222][300]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.18.18:222][300]MapCheck: New page: Map Check
-[2015.10.29-12.18.18:222][300]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.18:231][300]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008544EFCA40
-[2015.10.29-12.18.18:613][300]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.18:636][300]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.18:704][300]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.888ms to complete.
-[2015.10.29-12.18.18:704][300]LogFileHelpers: Loading map 'Tim' took 0.495
-[2015.10.29-12.18.24:692][  8]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.29-12.18.24:706][  8]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.24:706][  8]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.24:718][  8]LoadErrors: New page: Loading map: Minimal_Default.umap
-[2015.10.29-12.18.24:718][  8]MapCheck: New page: Map Check
-[2015.10.29-12.18.24:718][  8]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.24:728][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000852383BD80
-[2015.10.29-12.18.24:984][  8]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.25:009][  8]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.25:090][  8]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.35ms to complete.
-[2015.10.29-12.18.25:090][  8]LogFileHelpers: Loading map 'Minimal_Default' took 0.385
-[2015.10.29-12.18.32:535][797]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.32:535][797]MapCheck: New page: Map Check
-[2015.10.29-12.18.32:535][797]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.32:545][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085788A4F40
-[2015.10.29-12.18.32:548][797]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.29-12.18.32:784][797]LoadErrors: New page: New Map
-[2015.10.29-12.18.32:804][797]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.29-12.18.32:947][797]LogAudio:Warning: Detected orphaned looping sound 'Starter_Background_Cue'.
-[2015.10.29-12.18.33:878][903]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.18.33:896][903]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.33:896][903]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.33:908][903]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.18.33:908][903]MapCheck: New page: Map Check
-[2015.10.29-12.18.33:908][903]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.34:317][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008523C27F60
-[2015.10.29-12.18.34:317][903]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.34:341][903]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.34:421][903]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.365ms to complete.
-[2015.10.29-12.18.34:421][903]LogFileHelpers: Loading map 'Tim' took 0.526
-[2015.10.29-12.18.34:968][965]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.18.34:983][965]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.34:984][965]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.34:996][965]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.18.34:996][965]MapCheck: New page: Map Check
-[2015.10.29-12.18.34:996][965]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.35:005][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008523C59E40
-[2015.10.29-12.18.35:281][965]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.35:304][965]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.35:370][965]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.905ms to complete.
-[2015.10.29-12.18.35:370][965]LogFileHelpers: Loading map 'Simon' took 0.388
-[2015.10.29-12.18.35:984][ 35]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.18.35:998][ 35]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.35:998][ 35]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.36:011][ 35]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.18.36:011][ 35]MapCheck: New page: Map Check
-[2015.10.29-12.18.36:011][ 35]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.36:020][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008504B1B9C0
-[2015.10.29-12.18.36:279][ 35]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.36:302][ 35]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.36:368][ 35]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.789ms to complete.
-[2015.10.29-12.18.36:368][ 35]LogFileHelpers: Loading map 'Patrik' took 0.371
-[2015.10.29-12.18.36:951][103]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.18.36:970][103]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.36:970][103]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.36:985][103]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.18.36:985][103]MapCheck: New page: Map Check
-[2015.10.29-12.18.36:985][103]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.36:994][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085005CD940
-[2015.10.29-12.18.37:287][103]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.37:310][103]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.37:373][103]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.638ms to complete.
-[2015.10.29-12.18.37:373][103]LogFileHelpers: Loading map 'Joakim' took 0.405
-[2015.10.29-12.18.37:850][158]LogAIModule: Creating AISystem for world Bernhard
-[2015.10.29-12.18.37:862][158]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.37:863][158]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.37:874][158]LoadErrors: New page: Loading map: Bernhard.umap
-[2015.10.29-12.18.37:874][158]MapCheck: New page: Map Check
-[2015.10.29-12.18.37:874][158]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.37:883][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008578CEC860
-[2015.10.29-12.18.38:155][158]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.38:179][158]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.38:243][158]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.545ms to complete.
-[2015.10.29-12.18.38:243][158]LogFileHelpers: Loading map 'Bernhard' took 0.381
-[2015.10.29-12.18.38:884][232]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.18.38:898][232]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.38:898][232]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.38:909][232]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.18.38:910][232]MapCheck: New page: Map Check
-[2015.10.29-12.18.38:910][232]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.38:919][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000858B15FEC0
-[2015.10.29-12.18.39:215][232]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.39:239][232]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.39:304][232]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.085ms to complete.
-[2015.10.29-12.18.39:304][232]LogFileHelpers: Loading map 'Joakim' took 0.407
-[2015.10.29-12.18.39:734][281]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.18.39:747][281]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.39:747][281]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.39:758][281]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.18.39:759][281]MapCheck: New page: Map Check
-[2015.10.29-12.18.39:759][281]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.39:768][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000858FC39DA0
-[2015.10.29-12.18.40:055][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.40:079][281]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.40:142][281]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.989ms to complete.
-[2015.10.29-12.18.40:142][281]LogFileHelpers: Loading map 'Patrik' took 0.396
-[2015.10.29-12.18.40:568][330]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.18.40:581][330]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.40:581][330]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.40:593][330]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.18.40:594][330]MapCheck: New page: Map Check
-[2015.10.29-12.18.40:594][330]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.40:603][330]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000858FC391C0
-[2015.10.29-12.18.40:931][330]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.40:956][330]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.41:022][330]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.718ms to complete.
-[2015.10.29-12.18.41:022][330]LogFileHelpers: Loading map 'Simon' took 0.443
-[2015.10.29-12.18.41:360][367]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.18.41:378][367]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.41:378][367]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.41:389][367]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.18.41:389][367]MapCheck: New page: Map Check
-[2015.10.29-12.18.41:389][367]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.41:399][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085619A6340
-[2015.10.29-12.18.41:900][367]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.41:924][367]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.41:992][367]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.428ms to complete.
-[2015.10.29-12.18.41:992][367]LogFileHelpers: Loading map 'Tim' took 0.615
-[2015.10.29-12.18.48:017][ 83]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.48:017][ 83]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.48:029][ 83]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.18.48:029][ 83]MapCheck: New page: Map Check
-[2015.10.29-12.18.48:029][ 83]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.48:039][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008590A41D00
-[2015.10.29-12.18.48:057][ 83]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.18.48:566][ 83]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.48:591][ 83]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.48:679][ 83]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.416ms to complete.
-[2015.10.29-12.18.48:683][ 83]LogFileHelpers: Loading map 'Tim' took 0.667
-[2015.10.29-12.18.49:535][182]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.18.49:548][182]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.18.49:548][182]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.49:560][182]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.18.49:560][182]MapCheck: New page: Map Check
-[2015.10.29-12.18.49:560][182]LightingResults: New page: Lighting Build
-[2015.10.29-12.18.49:894][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008573D2C900
-[2015.10.29-12.18.49:894][182]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.18.49:918][182]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.18.49:982][182]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.961ms to complete.
-[2015.10.29-12.18.49:982][182]LogFileHelpers: Loading map 'Simon' took 0.435
-[2015.10.29-12.19.07:998][605]LogSavePackage: Save=24.134716ms
-[2015.10.29-12.19.07:998][605]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/MainMapCEB9AA114865EF4024C9DEAE1CF0E896.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/MainMap.umap'
-[2015.10.29-12.19.07:999][605]LogSavePackage: Total save time: 25.248896ms
-[2015.10.29-12.19.07:999][605]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/MainMap.umap
-[2015.10.29-12.19.08:024][605]LogFileHelpers: Saving map 'MainMap' took 0.174
-[2015.10.29-12.19.09:562][784]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.19.09:562][784]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.09:574][784]LoadErrors: New page: Loading map: MainMap.umap
-[2015.10.29-12.19.09:575][784]MapCheck: New page: Map Check
-[2015.10.29-12.19.09:575][784]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.09:584][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008578CEEE80
-[2015.10.29-12.19.09:611][784]LogAIModule: Creating AISystem for world MainMap
-[2015.10.29-12.19.09:941][784]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.19.09:965][784]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.19.10:042][784]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.951ms to complete.
-[2015.10.29-12.19.10:043][784]LogFileHelpers: Loading map 'MainMap' took 0.482
-[2015.10.29-12.19.12:101][ 28]Cmd: DELETE
-[2015.10.29-12.19.12:101][ 28]Cmd: ACTOR DELETE
-[2015.10.29-12.19.12:103][ 28]LogEditorActor: Deleted Actor: Brush
-[2015.10.29-12.19.12:125][ 28]LogEditorActor: Deleted 1 Actors (0.024 secs)
-[2015.10.29-12.19.19:889][947]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-12.19.29:765][119]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-12.19.30:873][231]LogSavePackage: Save=22.504789ms
-[2015.10.29-12.19.30:873][231]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/MainMapB78F63C845ECB58CA0D12D897CFF5895.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/MainMap.umap'
-[2015.10.29-12.19.30:877][231]LogSavePackage: Total save time: 30.973736ms
-[2015.10.29-12.19.30:877][231]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/MainMap.umap
-[2015.10.29-12.19.30:899][231]LogFileHelpers: Saving map 'MainMap' took 0.136
-[2015.10.29-12.19.31:814][337]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-12.19.31:832][337]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.19.31:832][337]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.31:844][337]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-12.19.31:845][337]MapCheck: New page: Map Check
-[2015.10.29-12.19.31:845][337]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.32:392][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008560F180E0
-[2015.10.29-12.19.32:392][337]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.19.32:417][337]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.19.32:481][337]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.979ms to complete.
-[2015.10.29-12.19.32:481][337]LogFileHelpers: Loading map 'Tim' took 0.650
-[2015.10.29-12.19.33:320][434]LogAIModule: Creating AISystem for world Simon
-[2015.10.29-12.19.33:335][434]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.19.33:335][434]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.33:347][434]LoadErrors: New page: Loading map: Simon.umap
-[2015.10.29-12.19.33:347][434]MapCheck: New page: Map Check
-[2015.10.29-12.19.33:347][434]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.33:359][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000858F62AE80
-[2015.10.29-12.19.33:719][434]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.19.33:743][434]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.19.33:811][434]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.587ms to complete.
-[2015.10.29-12.19.33:811][434]LogFileHelpers: Loading map 'Simon' took 0.477
-[2015.10.29-12.19.36:104][705]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.19.36:117][705]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.19.36:117][705]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.36:129][705]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.19.36:129][705]MapCheck: New page: Map Check
-[2015.10.29-12.19.36:129][705]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.36:139][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085787D87C0
-[2015.10.29-12.19.36:489][705]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.19.36:514][705]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.19.36:589][705]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.799ms to complete.
-[2015.10.29-12.19.36:589][705]LogFileHelpers: Loading map 'Patrik' took 0.473
-[2015.10.29-12.19.37:720][838]LogAIModule: Creating AISystem for world MainMap
-[2015.10.29-12.19.37:733][838]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.19.37:733][838]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.37:745][838]LoadErrors: New page: Loading map: MainMap.umap
-[2015.10.29-12.19.37:745][838]MapCheck: New page: Map Check
-[2015.10.29-12.19.37:745][838]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.37:755][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000858AE505E0
-[2015.10.29-12.19.38:106][838]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.19.38:131][838]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.19.38:198][838]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.421ms to complete.
-[2015.10.29-12.19.38:198][838]LogFileHelpers: Loading map 'MainMap' took 0.466
-[2015.10.29-12.19.39:221][958]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.19.39:237][958]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.19.39:237][958]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.39:250][958]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.19.39:250][958]MapCheck: New page: Map Check
-[2015.10.29-12.19.39:250][958]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.39:259][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850863C680
-[2015.10.29-12.19.39:617][958]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.19.39:641][958]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.19.39:709][958]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.795ms to complete.
-[2015.10.29-12.19.39:709][958]LogFileHelpers: Loading map 'Joakim' took 0.473
-[2015.10.29-12.19.41:504][170]LogAIModule: Creating AISystem for world Bernhard
-[2015.10.29-12.19.41:519][170]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Bernhard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.19.41:519][170]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.41:531][170]LoadErrors: New page: Loading map: Bernhard.umap
-[2015.10.29-12.19.41:531][170]MapCheck: New page: Map Check
-[2015.10.29-12.19.41:531][170]LightingResults: New page: Lighting Build
-[2015.10.29-12.19.41:540][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000852E310D60
-[2015.10.29-12.19.41:916][170]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.19.41:940][170]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.19.42:007][170]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.659ms to complete.
-[2015.10.29-12.19.42:007][170]LogFileHelpers: Loading map 'Bernhard' took 0.489
-[2015.10.29-12.20.07:403][102]Recompiling UnrealProject...
-[2015.10.29-12.20.07:403][102]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 479 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
-[2015.10.29-12.20.07:404][102]Warning: Starting HotReload took  0.0s.
-[2015.10.29-12.20.08:066][162]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 2:20:08 PM
-[2015.10.29-12.20.08:066][162]CompilerResultsLog: Info Compiling game modules for hot reload
-[2015.10.29-12.20.08:066][162]CompilerResultsLog: Info Target is up to date.
-[2015.10.29-12.20.08:066][162]LogMainFrame: MainFrame: Module compiling took 0.665 seconds
-[2015.10.29-12.20.09:455][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.29-12.20.09:455][327]PIE: New page: PIE session: Bernhard (Oct 29, 2015, 2:20:09 PM)
-[2015.10.29-12.20.09:455][327]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Bernhard
-[2015.10.29-12.20.09:457][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002319s)
-[2015.10.29-12.20.09:458][327]LogAIModule: Creating AISystem for world Bernhard
-[2015.10.29-12.20.09:458][327]LogPlayLevel: PIE: World Init took: (0.000998s)
-[2015.10.29-12.20.09:458][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Bernhard.Bernhard to /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard (0.003499s)
-[2015.10.29-12.20.09:471][327]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.29-12.20.09:479][327]LogInit: FAudioDevice initialized.
-[2015.10.29-12.20.09:509][327]LogWorld: Game class is 'UnrealProjectGameMode'
-[2015.10.29-12.20.09:511][327]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard up for play (max tick rate 0) at 2015.10.29-13.20.09
-[2015.10.29-12.20.09:511][327]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.29-12.20.09:511][327]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.29-12.20.09:511][327]LogWorld: Bringing up level for play took: 0.001551
-[2015.10.29-12.20.09:513][327]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Bernhard -0.689
-[2015.10.29-12.20.10:330][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008563CBA480
-[2015.10.29-12.20.12:723][704]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.20.12:736][704]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.20.12:736][704]LightingResults: New page: Lighting Build
-[2015.10.29-12.20.12:748][704]LoadErrors: New page: Loading map: Joakim.umap
-[2015.10.29-12.20.12:748][704]MapCheck: New page: Map Check
-[2015.10.29-12.20.12:748][704]LightingResults: New page: Lighting Build
-[2015.10.29-12.20.12:757][704]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085084602C0
-[2015.10.29-12.20.13:133][704]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.20.13:157][704]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.20.13:228][704]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.102ms to complete.
-[2015.10.29-12.20.13:228][704]LogFileHelpers: Loading map 'Joakim' took 0.493
-[2015.10.29-12.20.13:835][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.29-12.20.13:835][775]PIE: New page: PIE session: Joakim (Oct 29, 2015, 2:20:13 PM)
-[2015.10.29-12.20.13:835][775]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Joakim
-[2015.10.29-12.20.13:837][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002154s)
-[2015.10.29-12.20.13:838][775]LogAIModule: Creating AISystem for world Joakim
-[2015.10.29-12.20.13:838][775]LogPlayLevel: PIE: World Init took: (0.000553s)
-[2015.10.29-12.20.13:838][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Joakim.Joakim to /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim (0.002872s)
-[2015.10.29-12.20.13:851][775]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.29-12.20.13:858][775]LogInit: FAudioDevice initialized.
-[2015.10.29-12.20.13:888][775]LogWorld: Game class is 'UnrealProjectGameMode'
-[2015.10.29-12.20.13:890][775]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim up for play (max tick rate 0) at 2015.10.29-13.20.13
-[2015.10.29-12.20.13:890][775]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.29-12.20.13:890][775]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.29-12.20.13:890][775]LogWorld: Bringing up level for play took: 0.001541
-[2015.10.29-12.20.13:892][775]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Joakim -0.31
-[2015.10.29-12.20.14:717][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850831E660
-[2015.10.29-12.24.28:203][403]LogAIModule: Creating AISystem for world Patrik
-[2015.10.29-12.24.28:218][403]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-12.24.28:218][403]LightingResults: New page: Lighting Build
-[2015.10.29-12.24.28:231][403]LoadErrors: New page: Loading map: Patrik.umap
-[2015.10.29-12.24.28:231][403]MapCheck: New page: Map Check
-[2015.10.29-12.24.28:231][403]LightingResults: New page: Lighting Build
-[2015.10.29-12.24.28:241][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850745ACA0
-[2015.10.29-12.24.28:612][403]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-12.24.28:640][403]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-12.24.28:709][403]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.626ms to complete.
-[2015.10.29-12.24.28:709][403]LogFileHelpers: Loading map 'Patrik' took 0.492
-[2015.10.29-12.24.51:823][ 68]Running C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject Win64 Development -editorrecompile "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -invalidatemakefilesonly -rocket
-[2015.10.29-12.24.52:128][ 68]Invalidating makefiles only in this run.
-[2015.10.29-12.24.52:237][ 68]Recompiling UnrealProject...
-[2015.10.29-12.24.52:237][ 68]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2630 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 2:25:04 PM
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (no existing makefile)
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Compiling game modules for hot reload
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 6,1977268 seconds
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info UnrealProject.generated.cpp
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info PawnCar.cpp
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info [3/3] Link UE4Editor-UnrealProject-2630.dll
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2630.lib and object C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2630.exp
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Total build time: 11,93 seconds
-[2015.10.29-12.25.04:196][ 68]LogMainFrame: MainFrame: Module compiling took 11.961 seconds
-[2015.10.29-12.25.04:227][ 68]LogClass: Could not find existing class PawnCar in package /Script/UnrealProject for HotReload, assuming new class
-[2015.10.29-12.25.04:229][ 68]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0010 seconds. Added 2 classes and 2 folders.
-[2015.10.29-12.25.04:230][ 68]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2015.10.29-12.25.04:268][ 68]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1870 classes and 337 folders.
-[2015.10.29-12.25.04:275][ 68]Warning: HotReload operation took 12.0s.
-[2015.10.29-12.25.06:112][ 68]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.h'
-[2015.10.29-12.25.06:373][ 68]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.cpp'
-[2015.10.29-12.25.06:381][ 68]LogHotReload: New module detected: UE4Editor-UnrealProject-2630.dll
-[2015.10.29-12.25.06:407][ 69]LogHotReload: Starting Hot-Reload from IDE
-[2015.10.29-12.25.06:448][ 69]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0009 seconds. Added 2 classes and 2 folders.
-[2015.10.29-12.25.06:449][ 69]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2015.10.29-12.25.06:456][ 69]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1870 classes and 337 folders.
-[2015.10.29-12.25.55:499][662]Running C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject Win64 Development -editorrecompile "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -invalidatemakefilesonly -rocket
-[2015.10.29-12.25.55:801][662]Invalidating makefiles only in this run.
-[2015.10.29-12.25.55:948][662]Recompiling UnrealProject...
-[2015.10.29-12.25.55:948][662]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6527 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
-[2015.10.29-12.26.08:086][662]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 2:26:08 PM
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (no existing makefile)
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Compiling game modules for hot reload
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 6,4121547 seconds
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info UnrealProject.generated.cpp
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info CarController.cpp
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info [3/3] Link UE4Editor-UnrealProject-6527.dll
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6527.lib and object C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6527.exp
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Total build time: 12,11 seconds
-[2015.10.29-12.26.08:087][662]LogMainFrame: MainFrame: Module compiling took 12.141 seconds
-[2015.10.29-12.26.08:118][662]LogClass: Could not find existing class CarController in package /Script/UnrealProject for HotReload, assuming new class
-[2015.10.29-12.26.08:122][662]LogContentBrowser: Native class hierarchy
+﻿[2015.10.29-13.45.50:376][  0]Log file open, 10/29/15 14:45:50
+[2015.10.29-13.45.50:376][  0]LogInit:Display: Running engine for game: UnrealProject
+[2015.10.29-13.45.50:376][  0]LogInit:Display: RandInit(2103381649) SRandInit(2103381650).
+[2015.10.29-13.45.50:376][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.29-13.45.50:376][  0]LogStats: Stats thread started at 0.115889
+[2015.10.29-13.45.50:376][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-UnrealProject.dll
+[2015.10.29-13.46.23:069][  0]Running C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject Development Win64 -project="C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket -editorrecompile -progress -noubtmakefiles
+[2015.10.29-13.46.51:198][  0]@progress push 5%
+[2015.10.29-13.46.52:302][  0]Parsing headers for UnrealProjectEditor
+[2015.10.29-13.46.52:302][  0]  Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-13.47.00:626][  0]Reflection code generated for UnrealProjectEditor in 8,3100166 seconds
+[2015.10.29-13.47.00:827][  0]@progress pop
+[2015.10.29-13.47.07:361][  0]Performing 9 actions (4 in parallel)
+[2015.10.29-13.47.07:361][  0][2/9] Resource PCLaunch.rc
+[2015.10.29-13.47.07:362][  0][3/9] Resource ModuleVersionResource.rc.inl
+[2015.10.29-13.47.07:666][  0]PCH.UnrealProject.h.cpp
+[2015.10.29-13.47.42:062][  0]CarController.cpp
+[2015.10.29-13.47.42:062][  0]UnrealProjectGameMode.cpp
+[2015.10.29-13.47.42:164][  0]PawnCar.cpp
+[2015.10.29-13.47.42:265][  0]UnrealProject.generated.cpp
+[2015.10.29-13.47.42:465][  0]UnrealProject.cpp
+[2015.10.29-13.47.42:766][  0][9/9] Link UE4Editor-UnrealProject.dll
+[2015.10.29-13.47.44:673][  0]   Creating library C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject.lib and object C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject.exp
+[2015.10.29-13.47.45:375][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-13.47.45:576][  0]Total build time: 82,21 seconds
+[2015.10.29-13.47.46:169][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.29-13.47.46:169][  0]LogInit: API Version: 2672455
+[2015.10.29-13.47.46:170][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.29-13.47.46:170][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.29-13.47.46:170][  0]LogInit: Build Configuration: Development
+[2015.10.29-13.47.46:170][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.29-13.47.46:170][  0]LogInit: Command line: 
+[2015.10.29-13.47.46:170][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.29-13.47.46:170][  0]LogInit: Rocket: 1
+[2015.10.29-13.47.46:177][  0]LogInit: Using libcurl 7.41.0
+[2015.10.29-13.47.46:177][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.29-13.47.46:177][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.29-13.47.46:177][  0]LogInit:  - other features:
+[2015.10.29-13.47.46:177][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.29-13.47.46:177][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.29-13.47.46:177][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.29-13.47.46:177][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.29-13.47.46:177][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.29-13.47.46:177][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.29-13.47.46:177][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.29-13.47.46:177][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.29-13.47.46:177][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.29-13.47.46:177][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.29-13.47.46:185][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.29-13.47.46:191][  0]LogInit: Object subsystem initialized
+[2015.10.29-13.47.46:192][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.29-13.47.46:192][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.29-13.47.46:216][  0]LogInit: Computer: DESKTOP-IHCFVK3
+[2015.10.29-13.47.46:216][  0]LogInit: User: timpe
+[2015.10.29-13.47.46:216][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.29-13.47.46:216][  0]LogInit: High frequency timer resolution =3.507518 MHz
+[2015.10.29-13.47.46:216][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.29-13.47.46:216][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.29-13.47.46:216][  0]LogMemory: Process Physical Memory: 56.82 MB used, 56.82 MB peak
+[2015.10.29-13.47.46:216][  0]LogMemory: Process Virtual Memory: 56.80 MB used, 56.80 MB peak
+[2015.10.29-13.47.46:216][  0]LogMemory: Physical Memory: 5206.04 MB used, 16324.34 MB total
+[2015.10.29-13.47.46:216][  0]LogMemory: Virtual Memory: 392.91 MB used, 134217728.00 MB total
+[2015.10.29-13.47.46:248][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.29-13.47.47:046][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.10.29-13.47.47:046][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2015.10.29-13.47.47:047][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.29-13.47.47:047][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2015.10.29-13.47.47:047][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.29-13.47.47:052][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.29-13.47.47:052][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.29-13.47.47:062][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.29-13.47.47:077][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/3796/).
+[2015.10.29-13.47.47:077][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/470CC846413194F87FCE6080DD15F978/'.
+[2015.10.29-13.47.47:077][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.29-13.47.50:660][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.29-13.47.50:664][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.29-13.47.50:669][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.29-13.47.50:673][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.29-13.47.50:677][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.29-13.47.50:682][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.29-13.47.50:685][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.29-13.47.50:687][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.29-13.47.50:690][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.29-13.47.50:693][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.29-13.47.50:695][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.29-13.47.50:698][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.29-13.47.50:699][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.29-13.47.50:718][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.29-13.47.50:720][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.29-13.47.50:722][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.29-13.47.50:727][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.29-13.47.50:727][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.29-13.47.50:793][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.29-13.47.51:525][  0]LogDerivedDataCache: Loaded boot cache 0.73s 41MB C:/Users/timpe/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.29-13.47.51:525][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/timpe/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.29-13.47.51:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.29-13.47.51:526][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.29-13.47.51:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.29-13.47.51:526][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.29-13.47.51:681][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.29-13.47.51:693][  0]LogDerivedDataCache: Using Local data cache path C:/Users/timpe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.29-13.47.51:828][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.29-13.47.51:830][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.29-13.47.51:952][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.29-13.47.51:952][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.29-13.47.52:218][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.29-13.47.58:148][  0]LogWmfMedia: Failed to load mf.dll
+[2015.10.29-13.47.58:148][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2015.10.29-13.47.58:155][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2015.10.29-13.47.58:156][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2015.10.29-13.47.58:157][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2015.10.29-13.47.58:227][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.29-13.47.58:451][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.10.29-13.47.58:579][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.47.58:586][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.47.58:594][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.47.58:602][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.47.58:904][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-13.47.58:962][  0]LogObj: 28370 objects as part of root set at end of initial load.
+[2015.10.29-13.47.58:962][  0]LogUObjectAllocator: 6044968 out of 0 bytes used by permanent object pool.
+[2015.10.29-13.47.59:022][  0]LogEngine: Initializing Engine...
+[2015.10.29-13.47.59:025][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.29-13.47.59:025][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.29-13.47.59:121][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.29-13.47.59:124][  0]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.47.59:132][  0]LogInit: FAudioDevice initialized.
+[2015.10.29-13.47.59:167][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/timpe/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.29-13.47.59:170][  0]LogInit: Texture streaming: Enabled
+[2015.10.29-13.47.59:175][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.29-13.47.59:175][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.29-13.47.59:175][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a680e8924ecfc36e6dbec597b616981c|a52f7d62b5914d13b7110ccf331056a2|1edd87fd-b448-4ae5-9309-6666c2b9e242
+[2015.10.29-13.47.59:175][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.29-13.47.59:201][  0]LogInit: Transaction tracking system initialized
+[2015.10.29-13.47.59:226][  0]BlueprintLog: New page: Editor Load
+[2015.10.29-13.47.59:400][  0]LocalizationService: Info Localization service is disabled
+[2015.10.29-13.48.02:289][  0]LogConsoleResponse:Display: 
+[2015.10.29-13.48.03:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.05s
+[2015.10.29-13.48.03:221][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.29-13.48.03:641][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.48.03:641][  0]Cmd: MAP LOAD FILE="../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-13.48.03:641][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.10.29-13.48.03:666][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-13.48.03:699][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.317ms to complete.
+[2015.10.29-13.48.03:699][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.058
+[2015.10.29-13.48.07:882][  0]LogCollectionManager: Loaded 0 collections in 0.001912 seconds
+[2015.10.29-13.48.08:303][  0]LogFileCache: Scanning file cache for directory 'C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.01s
+[2015.10.29-13.48.08:303][  0]LogFileCache: Scanning file cache for directory 'C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/timpe/Collections/' took 0.01s
+[2015.10.29-13.48.08:303][  0]LogFileCache: Scanning file cache for directory 'C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
+[2015.10.29-13.48.08:303][  0]LogContentBrowser: Native class hierarchy populated in 0.0741 seconds. Added 1870 classes and 335 folders.
+[2015.10.29-13.48.08:699][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.10.29-13.48.09:377][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.10.29-13.48.11:002][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.10.29-13.48.11:087][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2015.10.29-13.48.12:170][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.29-13.48.12:480][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.29-13.48.12:561][  0]LogLoad: Full Startup: 144.23 seconds (BP compile: 0.29 seconds)
+[2015.10.29-13.48.13:246][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.29-13.48.14:445][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.10.29-13.48.15:744][  1]LogEditorViewport: Clicking Background
+[2015.10.29-13.48.15:813][  1]LogEditorViewport: Clicking Background
+[2015.10.29-13.48.15:994][  3]LogAssetRegistry: Asset discovery search completed in 17.5552 seconds
+[2015.10.29-13.48.15:994][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.29-13.48.15:994][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2015.10.29-13.48.29:348][495]Cmd: MAP LOAD FILE="../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-13.48.29:367][495]LightingResults: New page: Lighting Build
+[2015.10.29-13.48.29:371][495]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0009 seconds. Added 5 classes and 0 folders.
+[2015.10.29-13.48.29:384][495]LoadErrors: New page: Loading map: Simon.umap
+[2015.10.29-13.48.29:384][495]MapCheck: New page: Map Check
+[2015.10.29-13.48.29:384][495]LightingResults: New page: Lighting Build
+[2015.10.29-13.48.29:391][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000496497DA80
+[2015.10.29-13.48.29:675][495]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-13.48.29:748][495]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.29-13.48.29:833][495]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-13.48.29:870][495]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.088ms to complete.
+[2015.10.29-13.48.29:870][495]LogFileHelpers: Loading map 'Simon' took 0.524
+[2015.10.29-13.48.45:131][219]Cmd: MAP LOAD FILE="../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-13.48.45:151][219]LightingResults: New page: Lighting Build
+[2015.10.29-13.48.45:163][219]LoadErrors: New page: Loading map: Tim.umap
+[2015.10.29-13.48.45:178][219]MapCheck: New page: Map Check
+[2015.10.29-13.48.45:178][219]LightingResults: New page: Lighting Build
+[2015.10.29-13.48.45:186][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004907223420
+[2015.10.29-13.48.45:267][219]LogAIModule: Creating AISystem for world Tim
+[2015.10.29-13.48.45:293][219]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.29-13.48.45:320][219]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-13.48.45:355][219]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.05ms to complete.
+[2015.10.29-13.48.45:355][219]LogFileHelpers: Loading map 'Tim' took 0.226
+[2015.10.29-13.49.37:856][507]Cmd: MAP LOAD FILE="../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-13.49.37:871][507]LightingResults: New page: Lighting Build
+[2015.10.29-13.49.37:883][507]LoadErrors: New page: Loading map: Simon.umap
+[2015.10.29-13.49.37:883][507]MapCheck: New page: Map Check
+[2015.10.29-13.49.37:883][507]LightingResults: New page: Lighting Build
+[2015.10.29-13.49.37:893][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004956C2C720
+[2015.10.29-13.49.37:903][507]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-13.49.37:906][507]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.29-13.49.37:933][507]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-13.49.37:972][507]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.951ms to complete.
+[2015.10.29-13.49.37:972][507]LogFileHelpers: Loading map 'Simon' took 0.118
+[2015.10.29-13.49.42:168][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.29-13.50.09:207][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.29-13.50.29:626][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.29-13.50.50:568][586]Cmd: DELETE
+[2015.10.29-13.50.50:568][586]Cmd: ACTOR DELETE
+[2015.10.29-13.50.50:798][586]LogEditorActor: Deleted Actor: Brush
+[2015.10.29-13.50.50:902][586]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2015.10.29-13.50.54:042][933]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2015.10.29-13.50.54:119][933]Recompiling UnrealProject...
+[2015.10.29-13.50.54:120][933]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 9594 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.50.54:124][933]Warning: Starting HotReload took  0.1s.
+[2015.10.29-13.51.01:906][826]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:51:01 PM
+[2015.10.29-13.51.01:907][826]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2015.10.29-13.51.01:907][826]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (.uproject file is newer)
+[2015.10.29-13.51.01:907][826]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.51.01:907][826]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.51.01:907][826]LogMainFrame: MainFrame: Module compiling took 7.864 seconds
+[2015.10.29-13.53.44:778][367]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2015.10.29-13.53.44:780][367]Recompiling UnrealProject...
+[2015.10.29-13.53.44:780][367]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 3349 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.53.44:782][367]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.53.47:236][643]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:53:47 PM
+[2015.10.29-13.53.47:236][643]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.53.47:236][643]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.53.47:236][643]LogMainFrame: MainFrame: Module compiling took 2.459 seconds
+[2015.10.29-13.53.49:587][925]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.29-13.54.10:713][409]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.10.29-13.54.32:277][954]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.29-13.54.32:294][954]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.10.29-13.57.06:091][113]Running C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -game -rocket -progress
+[2015.10.29-13.57.07:699][113]Discovering modules, targets and source code for game...
+[2015.10.29-13.57.13:571][113]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2015.10.29-13.57.13:574][113]Recompiling UnrealProject...
+[2015.10.29-13.57.13:574][113]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6296 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:57:48 PM
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (List of files containing UHT types has changed)
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 6,947765 seconds
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info UnrealProject.generated.cpp
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info [3/3] Link UE4Editor-UnrealProject-6296.dll
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info    Creating library C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6296.lib and object C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6296.exp
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-13.57.48:088][113]CompilerResultsLog: Info Total build time: 34,38 seconds
+[2015.10.29-13.57.48:088][113]LogMainFrame: MainFrame: Module compiling took 34.518 seconds
+[2015.10.29-13.57.48:235][113]LogClass: Could not find existing class WorldCamera in package /Script/UnrealProject for HotReload, assuming new class
+[2015.10.29-13.57.48:361][113]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0066 seconds. Added 4 classes and 3 folders.
+[2015.10.29-13.57.48:365][113]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-13.57.48:913][113]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 1872 classes and 338 folders.
+[2015.10.29-13.57.48:937][113]Warning: HotReload operation took 35.4s.
+[2015.10.29-13.57.49:173][113]LogHotReload: New module detected: UE4Editor-UnrealProject-6296.dll
+[2015.10.29-13.57.49:248][114]LogHotReload: Starting Hot-Reload from IDE
+[2015.10.29-13.57.49:434][114]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0045 seconds. Added 4 classes and 3 folders.
+[2015.10.29-13.57.49:435][114]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-13.57.49:444][114]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 1872 classes and 338 folders.
+[2015.10.29-14.00.33:882][493]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.29-14.00.37:485][922]Cmd: POLY SELECT ALL
+[2015.10.29-14.00.39:468][ 21]LogSavePackage: Save=316.223907ms
+[2015.10.29-14.00.39:468][ 21]LogSavePackage: Moving '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon6B7945144F7373652D90A79317D27D7C.tmp' to '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap'
+[2015.10.29-14.00.39:491][ 21]LogSavePackage: Total save time: 414.932154ms
+[2015.10.29-14.00.39:491][ 21]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap
+[2015.10.29-14.00.39:557][ 21]LogFileHelpers: Saving map 'Simon' took 0.911
+[2015.10.29-14.02.38:979][814]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2015.10.29-14.02.52:442][815]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h'
+[2015.10.29-14.02.53:364][815]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.cpp'
+[2015.10.29-14.03.22:423][739]Recompiling UnrealProject...
+[2015.10.29-14.03.22:423][739]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6293 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.03.22:425][739]Warning: Starting HotReload took  0.3s.
+[2015.10.29-14.03.25:112][ 27]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:03:25 PM
+[2015.10.29-14.03.25:112][ 27]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.03.25:112][ 27]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-14.03.25:112][ 27]LogMainFrame: MainFrame: Module compiling took 2.691 seconds
+[2015.10.29-14.03.27:811][338]LogEditor: Attempting to add actor of class 'WorldCamera' to level at -1240.00,110.00,640.00
+[2015.10.29-14.03.29:580][500]LogEditor: Attempting to add actor of class 'WorldCamera' to level at -860.00,40.00,640.00
+[2015.10.29-14.04.08:912][ 55]LogSavePackage: Save=20.724056ms
+[2015.10.29-14.04.08:912][ 55]LogSavePackage: Moving '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/SimonE2AED7D942CA4B3E7767FFAE449343E7.tmp' to '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap'
+[2015.10.29-14.04.08:923][ 55]LogSavePackage: Total save time: 33.374026ms
+[2015.10.29-14.04.08:923][ 55]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap
+[2015.10.29-14.04.11:032][ 55]LogFileHelpers: Saving map 'Simon' took 2.194
+[2015.10.29-14.04.31:228][440]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera)
+[2015.10.29-14.09.52:992][850]Recompiling UnrealProject...
+[2015.10.29-14.09.52:992][850]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 9618 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.09.52:993][850]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.10.09:599][823]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:10:09 PM
+[2015.10.29-14.10.09:599][823]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.10.09:599][823]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.10.09:599][823]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.10.09:599][823]CompilerResultsLog:Error: Error C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h(17)  : Missing '*' in Expected a pointer type
+[2015.10.29-14.10.09:599][823]CompilerResultsLog:Error: Error Error: Failed to generate code for UnrealProjectEditor - error code: OtherCompilationError (5) 
+[2015.10.29-14.10.09:599][823]CompilerResultsLog: Info UnrealHeaderTool failed for target 'UnrealProjectEditor' (platform: Win64, module info: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest).
+[2015.10.29-14.10.09:599][823]LogMainFrame: MainFrame: Module compiling took 16.610 seconds
+[2015.10.29-14.10.09:599][823]Warning: HotReload failed, recompile failed
+[2015.10.29-14.10.32:117][377]Recompiling UnrealProject...
+[2015.10.29-14.10.32:117][377]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6612 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.10.32:118][377]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.10.41:788][508]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:10:41 PM
+[2015.10.29-14.10.41:788][508]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.10.41:788][508]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.10.41:788][508]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.10.41:788][508]CompilerResultsLog:Error: Error C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h(17)  : Missing '*' in Expected a pointer type
+[2015.10.29-14.10.41:788][508]CompilerResultsLog:Error: Error Error: Failed to generate code for UnrealProjectEditor - error code: OtherCompilationError (5) 
+[2015.10.29-14.10.41:788][508]CompilerResultsLog: Info UnrealHeaderTool failed for target 'UnrealProjectEditor' (platform: Win64, module info: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest).
+[2015.10.29-14.10.41:788][508]LogMainFrame: MainFrame: Module compiling took 9.674 seconds
+[2015.10.29-14.10.41:788][508]Warning: HotReload failed, recompile failed
+[2015.10.29-14.11.16:620][633]Recompiling UnrealProject...
+[2015.10.29-14.11.16:620][633]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 3138 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.11.16:621][633]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.11.25:329][955]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:11:25 PM
+[2015.10.29-14.11.25:329][955]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.11.25:329][955]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.11.25:329][955]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.11.25:329][955]CompilerResultsLog:Error: Error C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h(17)  : Missing '*' in Expected a pointer type
+[2015.10.29-14.11.25:329][955]CompilerResultsLog:Error: Error Error: Failed to generate code for UnrealProjectEditor - error code: OtherCompilationError (5) 
+[2015.10.29-14.11.25:329][955]CompilerResultsLog: Info UnrealHeaderTool failed for target 'UnrealProjectEditor' (platform: Win64, module info: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest).
+[2015.10.29-14.11.25:329][955]LogMainFrame: MainFrame: Module compiling took 8.711 seconds
+[2015.10.29-14.11.25:329][955]Warning: HotReload failed, recompile failed
+[2015.10.29-14.12.09:223][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.12.09:242][205]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:12:09 PM)
+[2015.10.29-14.12.09:261][205]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.12.09:339][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078396s)
+[2015.10.29-14.12.09:355][205]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.12.09:355][205]LogPlayLevel: PIE: World Init took: (0.016275s)
+[2015.10.29-14.12.09:362][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.101893s)
+[2015.10.29-14.12.09:449][205]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.12.09:455][205]LogInit: FAudioDevice initialized.
+[2015.10.29-14.12.09:607][205]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.12.09:826][205]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.12.09
+[2015.10.29-14.12.09:826][205]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.12.09:842][205]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.12.09:852][205]LogWorld: Bringing up level for play took: 0.027313
+[2015.10.29-14.12.10:502][205]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 1.279
+[2015.10.29-14.12.13:444][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004906E77560
+[2015.10.29-14.12.25:091][860]Recompiling UnrealProject...
+[2015.10.29-14.12.25:092][860]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6653 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.12.25:093][860]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.12.41:149][763]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:12:41 PM
+[2015.10.29-14.12.41:149][763]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.12.41:149][763]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.12.41:149][763]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.12.41:149][763]CompilerResultsLog:Error: Error C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h(17)  : Missing '*' in Expected a pointer type
+[2015.10.29-14.12.41:149][763]CompilerResultsLog:Error: Error Error: Failed to generate code for UnrealProjectEditor - error code: OtherCompilationError (5) 
+[2015.10.29-14.12.41:149][763]CompilerResultsLog: Info UnrealHeaderTool failed for target 'UnrealProjectEditor' (platform: Win64, module info: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest).
+[2015.10.29-14.12.41:149][763]LogMainFrame: MainFrame: Module compiling took 16.060 seconds
+[2015.10.29-14.12.41:149][763]Warning: HotReload failed, recompile failed
+[2015.10.29-14.12.59:462][538]Recompiling UnrealProject...
+[2015.10.29-14.12.59:462][538]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 4858 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.12.59:463][538]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.13.16:733][379]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:13:16 PM
+[2015.10.29-14.13.16:733][379]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.13.16:733][379]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.13.16:733][379]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.13.16:733][379]CompilerResultsLog:Error: Error C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h(17)  : Inappropriate '*' on variable of type 'TArray', cannot have an exposed pointer to this type.
+[2015.10.29-14.13.16:733][379]CompilerResultsLog:Error: Error Error: Failed to generate code for UnrealProjectEditor - error code: OtherCompilationError (5) 
+[2015.10.29-14.13.16:733][379]CompilerResultsLog: Info UnrealHeaderTool failed for target 'UnrealProjectEditor' (platform: Win64, module info: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest).
+[2015.10.29-14.13.16:733][379]LogMainFrame: MainFrame: Module compiling took 17.273 seconds
+[2015.10.29-14.13.16:733][379]Warning: HotReload failed, recompile failed
+[2015.10.29-14.13.58:194][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.13.58:194][352]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:13:58 PM)
+[2015.10.29-14.13.58:195][352]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.13.58:197][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002851s)
+[2015.10.29-14.13.58:198][352]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.13.58:198][352]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2015.10.29-14.13.58:198][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003830s)
+[2015.10.29-14.13.58:236][352]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.13.58:242][352]LogInit: FAudioDevice initialized.
+[2015.10.29-14.13.58:272][352]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.13.58:274][352]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.13.58
+[2015.10.29-14.13.58:274][352]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.13.58:274][352]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.13.58:274][352]LogWorld: Bringing up level for play took: 0.001530
+[2015.10.29-14.13.58:276][352]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 1.06
+[2015.10.29-14.14.03:720][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000495DB1B1A0
+[2015.10.29-14.14.07:325][411]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2015.10.29-14.14.07:332][411]LogEditorActor: No worlds found in edactSelectMatchingStaticMesh
+[2015.10.29-14.14.10:383][767]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.29-14.14.18:807][767]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.29-14.14.19:505][850]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.10.29-14.14.23:643][337]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.29-14.14.25:550][563]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.29-14.14.27:221][763]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.29-14.14.31:411][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.14.31:411][256]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:14:31 PM)
+[2015.10.29-14.14.31:411][256]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.14.31:414][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002888s)
+[2015.10.29-14.14.31:414][256]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.14.31:414][256]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2015.10.29-14.14.31:414][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003684s)
+[2015.10.29-14.14.31:430][256]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.14.31:436][256]LogInit: FAudioDevice initialized.
+[2015.10.29-14.14.31:467][256]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.14.31:469][256]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.14.31
+[2015.10.29-14.14.31:469][256]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.14.31:469][256]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.14.31:470][256]LogWorld: Bringing up level for play took: 0.001612
+[2015.10.29-14.14.31:471][256]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.255
+[2015.10.29-14.14.34:424][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004907215A80
+[2015.10.29-14.14.58:980][523]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera)
+[2015.10.29-14.15.50:620][102]Recompiling UnrealProject...
+[2015.10.29-14.15.50:620][102]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 5093 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.15.50:621][102]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.15.59:811][180]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:15:59 PM
+[2015.10.29-14.15.59:811][180]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.15.59:811][180]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.15.59:811][180]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.15.59:811][180]CompilerResultsLog:Error: Error C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h(17)  : Inappropriate '*' on variable of type 'TArray', cannot have an exposed pointer to this type.
+[2015.10.29-14.15.59:811][180]CompilerResultsLog:Error: Error Error: Failed to generate code for UnrealProjectEditor - error code: OtherCompilationError (5) 
+[2015.10.29-14.15.59:811][180]CompilerResultsLog: Info UnrealHeaderTool failed for target 'UnrealProjectEditor' (platform: Win64, module info: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest).
+[2015.10.29-14.15.59:811][180]LogMainFrame: MainFrame: Module compiling took 9.194 seconds
+[2015.10.29-14.15.59:811][180]Warning: HotReload failed, recompile failed
+[2015.10.29-14.16.08:096][548]Recompiling UnrealProject...
+[2015.10.29-14.16.08:096][548]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 3202 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.16.08:098][548]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.16.17:582][649]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:16:17 PM
+[2015.10.29-14.16.17:582][649]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.16.17:583][649]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.16.17:583][649]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.16.17:583][649]CompilerResultsLog:Error: Error C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h(17)  : Inappropriate '*' on variable of type 'TArray', cannot have an exposed pointer to this type.
+[2015.10.29-14.16.17:583][649]CompilerResultsLog:Error: Error Error: Failed to generate code for UnrealProjectEditor - error code: OtherCompilationError (5) 
+[2015.10.29-14.16.17:583][649]CompilerResultsLog: Info UnrealHeaderTool failed for target 'UnrealProjectEditor' (platform: Win64, module info: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest).
+[2015.10.29-14.16.17:583][649]LogMainFrame: MainFrame: Module compiling took 9.489 seconds
+[2015.10.29-14.16.17:583][649]Warning: HotReload failed, recompile failed
+[2015.10.29-14.17.00:336][970]Recompiling UnrealProject...
+[2015.10.29-14.17.00:336][970]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 5250 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.17.00:337][970]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.17.13:630][543]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:17:13 PM
+[2015.10.29-14.17.13:630][543]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.17.13:630][543]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.17.13:630][543]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 7,9006425 seconds
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info UnrealProject.generated.cpp
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info [3/3] Link UE4Editor-UnrealProject-5250.dll
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info    Creating library C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5250.lib and object C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5250.exp
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-14.17.13:631][543]CompilerResultsLog: Info Total build time: 13,14 seconds
+[2015.10.29-14.17.13:631][543]LogMainFrame: MainFrame: Module compiling took 13.297 seconds
+[2015.10.29-14.17.13:698][543]LogClass: Could not find existing class WorldCamera in package /Script/UnrealProject for HotReload, assuming new class
+[2015.10.29-14.17.13:717][543]LogHotReload: Re-instancing WorldCamera after hot-reload.
+[2015.10.29-14.17.13:963][543]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/StarterContent/Maps/Simon.Simon:PersistentLevel.WorldCamera_1.CameraComponent and CameraComponent /Game/StarterContent/Maps/Simon.Simon:PersistentLevel.WorldCamera_0.CameraComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.29-14.17.14:092][543]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0013 seconds. Added 4 classes and 3 folders.
+[2015.10.29-14.17.14:093][543]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-14.17.14:133][543]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 1872 classes and 338 folders.
+[2015.10.29-14.17.16:519][805]LogSavePackage: Save=17.827421ms
+[2015.10.29-14.17.16:519][805]LogSavePackage: Moving '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon_Auto157FFA11647F4C82AE16D638D7AA4455D.tmp' to '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Simon_Auto1.umap'
+[2015.10.29-14.17.16:520][805]LogSavePackage: Total save time: 22.288978ms
+[2015.10.29-14.17.16:520][805]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Simon_Auto1.umap
+[2015.10.29-14.17.16:522][805]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Simon' took 0.042
+[2015.10.29-14.17.16:522][805]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.042
+[2015.10.29-14.17.28:332][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.17.28:332][213]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:17:28 PM)
+[2015.10.29-14.17.28:332][213]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.17.28:334][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002100s)
+[2015.10.29-14.17.28:335][213]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.17.28:335][213]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2015.10.29-14.17.28:335][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003068s)
+[2015.10.29-14.17.28:380][213]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.17.28:386][213]LogInit: FAudioDevice initialized.
+[2015.10.29-14.17.28:416][213]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.17.28:418][213]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.17.28
+[2015.10.29-14.17.28:418][213]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.17.28:419][213]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.17.28:419][213]LogWorld: Bringing up level for play took: 0.001536
+[2015.10.29-14.17.28:420][213]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon -0.795
+[2015.10.29-14.17.37:484][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000491CA75620
+[2015.10.29-14.17.39:955][577]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.10.29-14.17.42:028][820]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera)
+[2015.10.29-14.18.36:131][624]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera)
+[2015.10.29-14.18.43:673][511]LogSavePackage: Save=18.259636ms
+[2015.10.29-14.18.43:673][511]LogSavePackage: Moving '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon109B5AE3425BBC33F2C164B2407E1B80.tmp' to '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap'
+[2015.10.29-14.18.43:686][511]LogSavePackage: Total save time: 32.475386ms
+[2015.10.29-14.18.43:686][511]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap
+[2015.10.29-14.18.43:752][511]LogFileHelpers: Saving map 'Simon' took 0.146
+[2015.10.29-14.18.44:728][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.18.44:728][626]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:18:44 PM)
+[2015.10.29-14.18.44:728][626]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.18.44:731][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002685s)
+[2015.10.29-14.18.44:731][626]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.18.44:731][626]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2015.10.29-14.18.44:732][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003644s)
+[2015.10.29-14.18.44:768][626]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.18.44:773][626]LogInit: FAudioDevice initialized.
+[2015.10.29-14.18.44:804][626]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.18.44:806][626]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.18.44
+[2015.10.29-14.18.44:806][626]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.18.44:806][626]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.18.44:806][626]LogWorld: Bringing up level for play took: 0.001531
+[2015.10.29-14.18.44:808][626]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon -0.408
+[2015.10.29-14.18.47:936][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004906E74E00
+[2015.10.29-14.18.49:136][134]Recompiling UnrealProject...
+[2015.10.29-14.18.49:137][134]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 3071 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.18.49:160][134]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.18.51:501][396]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:18:51 PM
+[2015.10.29-14.18.51:501][396]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.18.51:502][396]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-14.18.51:502][396]LogMainFrame: MainFrame: Module compiling took 2.367 seconds
+[2015.10.29-14.18.56:731][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.18.56:731][ 22]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:18:56 PM)
+[2015.10.29-14.18.56:731][ 22]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.18.56:734][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002779s)
+[2015.10.29-14.18.56:735][ 22]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.18.56:735][ 22]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2015.10.29-14.18.56:735][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003725s)
+[2015.10.29-14.18.56:773][ 22]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.18.56:778][ 22]LogInit: FAudioDevice initialized.
+[2015.10.29-14.18.56:808][ 22]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.18.56:810][ 22]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.18.56
+[2015.10.29-14.18.56:810][ 22]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.18.56:811][ 22]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.18.56:811][ 22]LogWorld: Bringing up level for play took: 0.001594
+[2015.10.29-14.18.56:812][ 22]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon -0.403
+[2015.10.29-14.18.59:371][321]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004952502DE0
+[2015.10.29-14.19.03:406][801]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor2)
+[2015.10.29-14.19.04:276][901]Cmd: DELETE
+[2015.10.29-14.19.04:276][901]Cmd: ACTOR DELETE
+[2015.10.29-14.19.07:077][901]LogEditorActor: Deleted Actor: Actor
+[2015.10.29-14.19.07:103][901]LogEditorActor: Deleted 1 Actors (2.826 secs)
+[2015.10.29-14.19.08:074][ 16]LogActorFactory: Actor Factory created Cube
+[2015.10.29-14.19.09:206][144]LogActorFactory: Actor Factory created Cube
+[2015.10.29-14.19.11:558][413]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera)
+[2015.10.29-14.19.15:371][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.19.15:371][856]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:19:15 PM)
+[2015.10.29-14.19.15:371][856]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.19.15:374][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002647s)
+[2015.10.29-14.19.15:374][856]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.19.15:375][856]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2015.10.29-14.19.15:375][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003559s)
+[2015.10.29-14.19.15:414][856]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.19.15:418][856]LogInit: FAudioDevice initialized.
+[2015.10.29-14.19.15:452][856]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.19.15:454][856]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.19.15
+[2015.10.29-14.19.15:454][856]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.19.15:454][856]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.19.15:454][856]LogWorld: Bringing up level for play took: 0.001679
+[2015.10.29-14.19.15:456][856]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.24
+[2015.10.29-14.19.33:633][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000491CB5D440
+[2015.10.29-14.23.40:567][110]Recompiling UnrealProject...
+[2015.10.29-14.23.40:567][110]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 9029 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.23.40:568][110]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:23:59 PM
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 13,3342523 seconds
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info UnrealProject.generated.cpp
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info [3/3] Link UE4Editor-UnrealProject-9029.dll
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info    Creating library C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-9029.lib and object C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-9029.exp
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-14.23.59:384][568]CompilerResultsLog: Info Total build time: 18,59 seconds
+[2015.10.29-14.23.59:384][568]LogMainFrame: MainFrame: Module compiling took 18.819 seconds
+[2015.10.29-14.23.59:413][568]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0014 seconds. Added 4 classes and 3 folders.
+[2015.10.29-14.23.59:414][568]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-14.23.59:473][568]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 1872 classes and 338 folders.
+[2015.10.29-14.24.26:581][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.24.26:581][808]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:24:26 PM)
+[2015.10.29-14.24.26:581][808]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.24.26:583][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002360s)
+[2015.10.29-14.24.26:584][808]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.24.26:584][808]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2015.10.29-14.24.26:584][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003287s)
+[2015.10.29-14.24.26:621][808]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.24.26:627][808]LogInit: FAudioDevice initialized.
+[2015.10.29-14.24.26:659][808]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.24.26:662][808]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.24.26
+[2015.10.29-14.24.26:662][808]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.24.26:662][808]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.24.26:662][808]LogWorld: Bringing up level for play took: 0.001735
+[2015.10.29-14.24.26:663][808]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon -0.552
+[2015.10.29-14.24.28:555][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000490A546340
+[2015.10.29-14.24.28:931][ 68]Recompiling UnrealProject...
+[2015.10.29-14.24.28:931][ 68]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 7636 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.24.28:932][ 68]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:24:33 PM
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-14.24.33:045][542]CompilerResultsLog:Error: Error C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProject\Actors\WorldCamera.cpp(11)  : error C2228: left of '.GetActorPosition' must have class/struct/union
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info         type is 'AActor *'
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info         did you intend to use '->' instead?
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Binaries\Win64\UE4Editor-UnrealProject-7636.dll
+[2015.10.29-14.24.33:045][542]CompilerResultsLog: Info Total build time: 3,98 seconds
+[2015.10.29-14.24.33:045][542]LogMainFrame: MainFrame: Module compiling took 4.116 seconds
+[2015.10.29-14.24.33:045][542]Warning: HotReload failed, recompile failed
+[2015.10.29-14.26.37:831][373]Recompiling UnrealProject...
+[2015.10.29-14.26.37:831][373]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 7978 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.26.37:832][373]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:26:42 PM
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-7978.dll
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: Info    Creating library C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7978.lib and object C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7978.exp
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-14.26.42:658][933]CompilerResultsLog: Info Total build time: 4,68 seconds
+[2015.10.29-14.26.42:658][933]LogMainFrame: MainFrame: Module compiling took 4.830 seconds
+[2015.10.29-14.26.42:709][933]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0014 seconds. Added 4 classes and 3 folders.
+[2015.10.29-14.26.42:710][933]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-14.26.42:757][933]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1872 classes and 338 folders.
+[2015.10.29-14.29.10:138][590]LogSavePackage: Save=16.739187ms
+[2015.10.29-14.29.10:138][590]LogSavePackage: Moving '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon_Auto260E2199F4DB44428F28C3B8A8CD32626.tmp' to '../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Simon_Auto2.umap'
+[2015.10.29-14.29.10:139][590]LogSavePackage: Total save time: 21.385491ms
+[2015.10.29-14.29.10:139][590]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Simon_Auto2.umap
+[2015.10.29-14.29.10:141][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Simon' took 0.042
+[2015.10.29-14.29.10:141][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.042
+[2015.10.29-14.34.36:555][680]Recompiling UnrealProject...
+[2015.10.29-14.34.36:555][680]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 9079 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.34.36:556][680]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.34.40:765][165]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:34:40 PM
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-14.34.40:766][165]CompilerResultsLog:Error: Error C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProject\Actors\WorldCamera.cpp(14)  : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': function call missing argument list; use '&TArray<AActor *,FDefaultAllocator>::Num' to create a pointer to member
+[2015.10.29-14.34.40:766][165]CompilerResultsLog:Error: Error C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProject\Actors\WorldCamera.cpp(14)  : error C2679: binary '/=' : no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info          c:\program files\epic games\4.9\engine\source\runtime\core\public\math\Vector.h(307) : could be 'FVector FVector::operator /=(const FVector &)'
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info          c:\program files\epic games\4.9\engine\source\runtime\core\public\math\Vector.h(291) : or       'FVector FVector::operator /=(float)'
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info         while trying to match the argument list '(FVector, overloaded-function)'
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Binaries\Win64\UE4Editor-UnrealProject-9079.dll
+[2015.10.29-14.34.40:766][165]CompilerResultsLog: Info Total build time: 4,07 seconds
+[2015.10.29-14.34.40:766][165]LogMainFrame: MainFrame: Module compiling took 4.213 seconds
+[2015.10.29-14.34.40:766][165]Warning: HotReload failed, recompile failed
+[2015.10.29-14.35.25:853][128]Recompiling UnrealProject...
+[2015.10.29-14.35.25:853][128]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 4420 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.35.25:854][128]Warning: Starting HotReload took  0.0s.
+[2015.10.29-14.35.30:611][679]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:35:30 PM
+[2015.10.29-14.35.30:611][679]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.35.30:611][679]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.10.29-14.35.30:612][679]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-14.35.30:612][679]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-4420.dll
+[2015.10.29-14.35.30:612][679]CompilerResultsLog: Info    Creating library C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4420.lib and object C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4420.exp
+[2015.10.29-14.35.30:612][679]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-14.35.30:612][679]CompilerResultsLog: Info Total build time: 4,62 seconds
+[2015.10.29-14.35.30:612][679]LogMainFrame: MainFrame: Module compiling took 4.760 seconds
+[2015.10.29-14.35.30:672][679]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0015 seconds. Added 4 classes and 3 folders.
+[2015.10.29-14.35.30:673][679]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-14.35.30:720][679]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1872 classes and 338 folders.
+[2015.10.29-14.35.38:649][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.35.38:649][628]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:35:38 PM)
+[2015.10.29-14.35.38:649][628]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.35.38:651][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002572s)
+[2015.10.29-14.35.38:652][628]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.35.38:652][628]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2015.10.29-14.35.38:652][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003543s)
+[2015.10.29-14.35.38:687][628]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.35.38:693][628]LogInit: FAudioDevice initialized.
+[2015.10.29-14.35.38:724][628]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.35.38:726][628]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.35.38
+[2015.10.29-14.35.38:726][628]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.35.38:726][628]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.35.38:726][628]LogWorld: Bringing up level for play took: 0.001650
+[2015.10.29-14.35.38:728][628]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon -0.488
+[2015.10.29-14.35.58:191][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000490A793880
+[2015.10.29-14.36.25:986][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.36.25:987][264]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:36:25 PM)
+[2015.10.29-14.36.25:987][264]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.36.25:989][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2015.10.29-14.36.25:990][264]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.36.25:990][264]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2015.10.29-14.36.25:990][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003603s)
+[2015.10.29-14.36.26:034][264]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.36.26:040][264]LogInit: FAudioDevice initialized.
+[2015.10.29-14.36.26:070][264]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.36.26:072][264]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.36.26
+[2015.10.29-14.36.26:072][264]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.36.26:072][264]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.36.26:072][264]LogWorld: Bringing up level for play took: 0.001694
+[2015.10.29-14.36.26:074][264]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.858
+[2015.10.29-14.36.50:399][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000491C351440
+[2015.10.29-14.37.00:303][809]Cmd: POLY SELECT ALL
+[2015.10.29-14.37.01:062][896]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2015.10.29-14.37.01:062][896]LogEditorActor: No worlds found in edactSelectMatchingStaticMesh
+[2015.10.29-14.37.01:806][985]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2015.10.29-14.37.01:806][985]LogEditorActor: No worlds found in edactSelectMatchingStaticMesh
+[2015.10.29-14.37.04:610][321]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2015.10.29-14.37.04:610][321]LogEditorActor: No worlds found in edactSelectMatchingStaticMesh
+[2015.10.29-14.37.05:482][425]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2015.10.29-14.37.05:482][425]LogEditorActor: No worlds found in edactSelectMatchingStaticMesh
+[2015.10.29-14.37.11:304][110]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera)
+[2015.10.29-14.37.25:070][729]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.10.29-14.37.26:850][937]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera)
+[2015.10.29-14.37.29:714][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-14.37.29:714][272]PIE: New page: PIE session: Simon (Oct 29, 2015, 4:37:29 PM)
+[2015.10.29-14.37.29:714][272]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.10.29-14.37.29:720][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006203s)
+[2015.10.29-14.37.29:721][272]LogAIModule: Creating AISystem for world Simon
+[2015.10.29-14.37.29:721][272]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2015.10.29-14.37.29:721][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.007029s)
+[2015.10.29-14.37.29:759][272]LogInit: XAudio2 using 'Högtalare (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-14.37.29:765][272]LogInit: FAudioDevice initialized.
+[2015.10.29-14.37.29:795][272]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-14.37.29:798][272]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.10.29-15.37.29
+[2015.10.29-14.37.29:798][272]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.37.29:798][272]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-14.37.29:798][272]LogWorld: Bringing up level for play took: 0.002470
+[2015.10.29-14.37.29:800][272]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.584
+[2015.10.29-14.37.33:096][661]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000491CFC51C0
+[2015.10.29-14.37.33:565][712]Recompiling UnrealProject...
+[2015.10.29-14.37.33:565][712]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 8898 Win64 Development -editorrecompile -canskiplink "C:/Users/timpe/Documents/Git/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-14.37.33:631][712]Warning: Starting HotReload took  0.1s.
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 4:37:39 PM
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: Info WorldCamera.cpp
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-8898.dll
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: Info    Creating library C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-8898.lib and object C:\Users\timpe\Documents\Git\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-8898.exp
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-14.37.39:500][382]CompilerResultsLog: Info Total build time: 5,54 seconds
+[2015.10.29-14.37.39:500][382

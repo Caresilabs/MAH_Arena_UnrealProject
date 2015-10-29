@@ -14,3 +14,6 @@
 #ifndef UNREALPROJECT_UnrealProjectGameMode_generated_h
 	#include "UnrealProjectGameMode.h"
 #endif
+#ifndef UNREALPROJECT_WorldCamera_generated_h
+	#include "Actors/WorldCamera.h"
+#endif
