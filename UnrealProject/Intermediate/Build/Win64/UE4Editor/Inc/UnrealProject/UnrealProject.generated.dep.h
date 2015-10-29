@@ -5,6 +5,12 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
+#ifndef UNREALPROJECT_CarController_generated_h
+	#include "CarController.h"
+#endif
+#ifndef UNREALPROJECT_PawnCar_generated_h
+	#include "PawnCar.h"
+#endif
 #ifndef UNREALPROJECT_UnrealProjectGameMode_generated_h
 	#include "UnrealProjectGameMode.h"
 #endif

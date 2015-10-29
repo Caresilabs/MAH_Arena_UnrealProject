@@ -1,46 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\UnrealProject.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{883A14F2-1709-4071-A6D6-11BC3EBE922B}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\UnrealProject.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\UnrealProjectEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{0BF193E9-0647-48FA-A78E-24D7A9C1A58F}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\UnrealProject">
-			<UniqueIdentifier>{16CF0A0D-6B4E-47FF-B165-100DE85E57B3}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\UnrealProject\UnrealProject.Build.cs">
-			<Filter>Source\UnrealProject</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\UnrealProject\UnrealProject.cpp">
-			<Filter>Source\UnrealProject</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UnrealProject\UnrealProject.h">
-			<Filter>Source\UnrealProject</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\UnrealProject\UnrealProjectGameMode.cpp">
-			<Filter>Source\UnrealProject</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UnrealProject\UnrealProjectGameMode.h">
-			<Filter>Source\UnrealProject</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\UnrealProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{883A14F2-1709-4071-A6D6-11BC3EBE922B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0BF193E9-0647-48FA-A78E-24D7A9C1A58F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealProject">
+      <UniqueIdentifier>{16CF0A0D-6B4E-47FF-B165-100DE85E57B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject\UnrealProject.Build.cs">
+      <Filter>Source\UnrealProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealProject\UnrealProject.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject\UnrealProject.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealProject\UnrealProjectGameMode.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject\UnrealProjectGameMode.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnrealProject\PawnCar.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealProject\CarController.h">
+      <Filter>Source\UnrealProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnrealProject\PawnCar.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealProject\CarController.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

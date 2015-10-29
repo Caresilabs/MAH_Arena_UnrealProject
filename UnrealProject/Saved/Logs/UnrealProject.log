@@ -819,4 +819,96 @@ Current X=0.000000 Y=0.000000 Z=1500.000000 Cached X=0.000000 Y=0.000000 Z=1500.
 [2015.10.29-12.20.09:479][327]LogInit: FAudioDevice initialized.
 [2015.10.29-12.20.09:509][327]LogWorld: Game class is 'UnrealProjectGameMode'
 [2015.10.29-12.20.09:511][327]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard up for play (max tick rate 0) at 2015.10.29-13.20.09
-[2015.10.29-12.20.09:511][327]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard:PersistentLevel.GameSess
+[2015.10.29-12.20.09:511][327]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-12.20.09:511][327]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Bernhard.Bernhard:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-12.20.09:511][327]LogWorld: Bringing up level for play took: 0.001551
+[2015.10.29-12.20.09:513][327]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Bernhard -0.689
+[2015.10.29-12.20.10:330][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008563CBA480
+[2015.10.29-12.20.12:723][704]LogAIModule: Creating AISystem for world Joakim
+[2015.10.29-12.20.12:736][704]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Joakim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-12.20.12:736][704]LightingResults: New page: Lighting Build
+[2015.10.29-12.20.12:748][704]LoadErrors: New page: Loading map: Joakim.umap
+[2015.10.29-12.20.12:748][704]MapCheck: New page: Map Check
+[2015.10.29-12.20.12:748][704]LightingResults: New page: Lighting Build
+[2015.10.29-12.20.12:757][704]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085084602C0
+[2015.10.29-12.20.13:133][704]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.29-12.20.13:157][704]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-12.20.13:228][704]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.102ms to complete.
+[2015.10.29-12.20.13:228][704]LogFileHelpers: Loading map 'Joakim' took 0.493
+[2015.10.29-12.20.13:835][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-12.20.13:835][775]PIE: New page: PIE session: Joakim (Oct 29, 2015, 2:20:13 PM)
+[2015.10.29-12.20.13:835][775]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Joakim
+[2015.10.29-12.20.13:837][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002154s)
+[2015.10.29-12.20.13:838][775]LogAIModule: Creating AISystem for world Joakim
+[2015.10.29-12.20.13:838][775]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2015.10.29-12.20.13:838][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Joakim.Joakim to /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim (0.002872s)
+[2015.10.29-12.20.13:851][775]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-12.20.13:858][775]LogInit: FAudioDevice initialized.
+[2015.10.29-12.20.13:888][775]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-12.20.13:890][775]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim up for play (max tick rate 0) at 2015.10.29-13.20.13
+[2015.10.29-12.20.13:890][775]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-12.20.13:890][775]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Joakim.Joakim:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-12.20.13:890][775]LogWorld: Bringing up level for play took: 0.001541
+[2015.10.29-12.20.13:892][775]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Joakim -0.31
+[2015.10.29-12.20.14:717][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850831E660
+[2015.10.29-12.24.28:203][403]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-12.24.28:218][403]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-12.24.28:218][403]LightingResults: New page: Lighting Build
+[2015.10.29-12.24.28:231][403]LoadErrors: New page: Loading map: Patrik.umap
+[2015.10.29-12.24.28:231][403]MapCheck: New page: Map Check
+[2015.10.29-12.24.28:231][403]LightingResults: New page: Lighting Build
+[2015.10.29-12.24.28:241][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000850745ACA0
+[2015.10.29-12.24.28:612][403]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.29-12.24.28:640][403]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-12.24.28:709][403]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.626ms to complete.
+[2015.10.29-12.24.28:709][403]LogFileHelpers: Loading map 'Patrik' took 0.492
+[2015.10.29-12.24.51:823][ 68]Running C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject Win64 Development -editorrecompile "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -invalidatemakefilesonly -rocket
+[2015.10.29-12.24.52:128][ 68]Invalidating makefiles only in this run.
+[2015.10.29-12.24.52:237][ 68]Recompiling UnrealProject...
+[2015.10.29-12.24.52:237][ 68]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2630 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 2:25:04 PM
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (no existing makefile)
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 6,1977268 seconds
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info UnrealProject.generated.cpp
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info PawnCar.cpp
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info [3/3] Link UE4Editor-UnrealProject-2630.dll
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2630.lib and object C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2630.exp
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-12.25.04:196][ 68]CompilerResultsLog: Info Total build time: 11,93 seconds
+[2015.10.29-12.25.04:196][ 68]LogMainFrame: MainFrame: Module compiling took 11.961 seconds
+[2015.10.29-12.25.04:227][ 68]LogClass: Could not find existing class PawnCar in package /Script/UnrealProject for HotReload, assuming new class
+[2015.10.29-12.25.04:229][ 68]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0010 seconds. Added 2 classes and 2 folders.
+[2015.10.29-12.25.04:230][ 68]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-12.25.04:268][ 68]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1870 classes and 337 folders.
+[2015.10.29-12.25.04:275][ 68]Warning: HotReload operation took 12.0s.
+[2015.10.29-12.25.06:112][ 68]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.h'
+[2015.10.29-12.25.06:373][ 68]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.cpp'
+[2015.10.29-12.25.06:381][ 68]LogHotReload: New module detected: UE4Editor-UnrealProject-2630.dll
+[2015.10.29-12.25.06:407][ 69]LogHotReload: Starting Hot-Reload from IDE
+[2015.10.29-12.25.06:448][ 69]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0009 seconds. Added 2 classes and 2 folders.
+[2015.10.29-12.25.06:449][ 69]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-12.25.06:456][ 69]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1870 classes and 337 folders.
+[2015.10.29-12.25.55:499][662]Running C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject Win64 Development -editorrecompile "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -invalidatemakefilesonly -rocket
+[2015.10.29-12.25.55:801][662]Invalidating makefiles only in this run.
+[2015.10.29-12.25.55:948][662]Recompiling UnrealProject...
+[2015.10.29-12.25.55:948][662]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6527 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-12.26.08:086][662]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 2:26:08 PM
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (no existing makefile)
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 6,4121547 seconds
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info UnrealProject.generated.cpp
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info CarController.cpp
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info [3/3] Link UE4Editor-UnrealProject-6527.dll
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6527.lib and object C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6527.exp
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-12.26.08:087][662]CompilerResultsLog: Info Total build time: 12,11 seconds
+[2015.10.29-12.26.08:087][662]LogMainFrame: MainFrame: Module compiling took 12.141 seconds
+[2015.10.29-12.26.08:118][662]LogClass: Could not find existing class CarController in package /Script/UnrealProject for HotReload, assuming new class
+[2015.10.29-12.26.08:122][662]LogContentBrowser: Native class hierarchy

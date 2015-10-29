@@ -9,17 +9,96 @@
 #include "UnrealProject.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
+	void ACarController::StaticRegisterNativesACarController()
+	{
+	}
+	IMPLEMENT_CLASS(ACarController, 805937689);
+	void APawnCar::StaticRegisterNativesAPawnCar()
+	{
+	}
+	IMPLEMENT_CLASS(APawnCar, 3468809145);
 	void AUnrealProjectGameMode::StaticRegisterNativesAUnrealProjectGameMode()
 	{
 	}
 	IMPLEMENT_CLASS(AUnrealProjectGameMode, 1049404836);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
+	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController_NoRegister();
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController();
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar_NoRegister();
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode();
 	UNREALPROJECT_API class UPackage* Z_Construct_UPackage_UnrealProject();
+	UClass* Z_Construct_UClass_ACarController_NoRegister()
+	{
+		return ACarController::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ACarController()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APlayerController();
+			Z_Construct_UPackage_UnrealProject();
+			OuterClass = ACarController::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900284;
+
+
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Collision Rendering Utilities|Transformation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("CarController.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("CarController.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ACarController(Z_Construct_UClass_ACarController, TEXT("ACarController"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ACarController);
+	UClass* Z_Construct_UClass_APawnCar_NoRegister()
+	{
+		return APawnCar::StaticClass();
+	}
+	UClass* Z_Construct_UClass_APawnCar()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APawn();
+			Z_Construct_UPackage_UnrealProject();
+			OuterClass = APawnCar::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PawnCar.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_APawnCar(Z_Construct_UClass_APawnCar, TEXT("APawnCar"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(APawnCar);
 	UClass* Z_Construct_UClass_AUnrealProjectGameMode_NoRegister()
 	{
 		return AUnrealProjectGameMode::StaticClass();
@@ -62,8 +141,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xAE482EAE;
-			Guid.B = 0x03C5E3DA;
+			Guid.A = 0x0D621C59;
+			Guid.B = 0xC54E95A2;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
