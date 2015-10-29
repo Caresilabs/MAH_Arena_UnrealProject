@@ -1,638 +1,547 @@
-﻿[2015.10.29-13.49.46:501][  0]Log file open, 10/29/15 14:49:46
-[2015.10.29-13.49.46:501][  0]LogInit:Display: Running engine for game: UnrealProject
-[2015.10.29-13.49.46:501][  0]LogInit:Display: RandInit(878006945) SRandInit(878006945).
-[2015.10.29-13.49.46:501][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.10.29-13.49.46:501][  0]LogStats: Stats thread started at 0.121051
-[2015.10.29-13.49.46:501][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-UnrealProject.dll
-[2015.10.29-13.49.52:118][  0]Running D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject Development Win64 -project="D:/Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket -editorrecompile -progress -noubtmakefiles
-[2015.10.29-13.50.11:718][  0]@progress push 5%
-[2015.10.29-13.50.12:420][  0]Parsing headers for UnrealProjectEditor
-[2015.10.29-13.50.12:521][  0]  Running UnrealHeaderTool "D:/Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "D:\Users\Tim\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2015.10.29-13.50.24:446][  0]Reflection code generated for UnrealProjectEditor in 11,9411373 seconds
-[2015.10.29-13.50.24:547][  0]@progress pop
-[2015.10.29-13.50.29:355][  0]Performing 9 actions (2 in parallel)
-[2015.10.29-13.50.29:355][  0][2/9] Resource PCLaunch.rc
-[2015.10.29-13.50.29:456][  0]PCH.UnrealProject.h.cpp
-[2015.10.29-13.50.29:556][  0][3/9] Resource ModuleVersionResource.rc.inl
-[2015.10.29-13.51.06:108][  0]UnrealProject.generated.cpp
-[2015.10.29-13.51.06:108][  0]CarController.cpp
-[2015.10.29-13.51.06:409][  0]PawnCar.cpp
-[2015.10.29-13.51.06:610][  0]UnrealProjectGameMode.cpp
-[2015.10.29-13.51.06:811][  0]UnrealProject.cpp
-[2015.10.29-13.51.07:514][  0][9/9] Link UE4Editor-UnrealProject.dll
-[2015.10.29-13.51.08:215][  0]   Creating library D:\Users\Tim\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject.lib and object D:\Users\Tim\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject.exp
-[2015.10.29-13.51.09:417][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
-[2015.10.29-13.51.09:518][  0]Total build time: 77,17 seconds
-[2015.10.29-13.51.10:050][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.29-13.51.10:050][  0]LogInit: API Version: 2672455
-[2015.10.29-13.51.10:050][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.10.29-13.51.10:050][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.10.29-13.51.10:050][  0]LogInit: Build Configuration: Development
-[2015.10.29-13.51.10:050][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.10.29-13.51.10:050][  0]LogInit: Command line:  
-[2015.10.29-13.51.10:050][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.10.29-13.51.10:050][  0]LogInit: Rocket: 1
-[2015.10.29-13.51.10:088][  0]LogInit: Using libcurl 7.41.0
-[2015.10.29-13.51.10:088][  0]LogInit:  - built for x86_64-pc-win32
-[2015.10.29-13.51.10:088][  0]LogInit:  - supports SSL with WinSSL
-[2015.10.29-13.51.10:088][  0]LogInit:  - other features:
-[2015.10.29-13.51.10:088][  0]LogInit:      CURL_VERSION_SSL
-[2015.10.29-13.51.10:089][  0]LogInit:      CURL_VERSION_IPV6
-[2015.10.29-13.51.10:089][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.10.29-13.51.10:089][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.10.29-13.51.10:089][  0]LogInit:      CURL_VERSION_IDN
-[2015.10.29-13.51.10:090][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.10.29-13.51.10:090][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.10.29-13.51.10:090][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.10.29-13.51.10:090][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.10.29-13.51.10:090][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.10.29-13.51.10:196][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.29-13.51.10:246][  0]LogInit: Object subsystem initialized
-[2015.10.29-13.51.10:265][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.29-13.51.10:265][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.29-13.51.10:322][  0]LogInit: Computer: TIMS-DATOR
-[2015.10.29-13.51.10:322][  0]LogInit: User: Tim
-[2015.10.29-13.51.10:322][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.10.29-13.51.10:322][  0]LogInit: High frequency timer resolution =2.338341 MHz
-[2015.10.29-13.51.10:324][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2015.10.29-13.51.10:325][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.29-13.51.10:325][  0]LogMemory: Process Physical Memory: 59.58 MB used, 59.58 MB peak
-[2015.10.29-13.51.10:325][  0]LogMemory: Process Virtual Memory: 57.96 MB used, 57.96 MB peak
-[2015.10.29-13.51.10:325][  0]LogMemory: Physical Memory: 5515.92 MB used, 8094.46 MB total
-[2015.10.29-13.51.10:325][  0]LogMemory: Virtual Memory: 405.18 MB used, 134217728.00 MB total
-[2015.10.29-13.51.11:098][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
-[2015.10.29-13.51.12:725][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 940M   (Feature Level 11_0)
-[2015.10.29-13.51.12:725][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 4047MB of shared system memory, 1 output[s]
-[2015.10.29-13.51.12:732][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 5500 (Feature Level 11_0)
-[2015.10.29-13.51.12:732][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4047MB of shared system memory, 0 output[s]
-[2015.10.29-13.51.12:734][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.10.29-13.51.12:734][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4047MB of shared system memory, 0 output[s]
-[2015.10.29-13.51.12:734][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.29-13.51.12:751][  0]LogD3D11RHI: !Direct3DDevice
-[2015.10.29-13.51.12:751][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.10.29-13.51.12:770][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.29-13.51.12:806][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/49316/).
-[2015.10.29-13.51.12:806][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/EAD61EFB4F3C08A2B3E4168442AB4653/'.
-[2015.10.29-13.51.12:806][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.10.29-13.51.14:809][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.10.29-13.51.14:814][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.10.29-13.51.14:818][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.10.29-13.51.14:823][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.10.29-13.51.14:828][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.10.29-13.51.14:833][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.10.29-13.51.14:837][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.10.29-13.51.14:840][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.10.29-13.51.14:844][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.10.29-13.51.14:847][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.10.29-13.51.14:851][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.10.29-13.51.14:854][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.10.29-13.51.14:855][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.10.29-13.51.14:902][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.10.29-13.51.14:906][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.10.29-13.51.14:910][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.10.29-13.51.14:916][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.10.29-13.51.14:916][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.29-13.51.15:222][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.29-13.51.15:451][  0]LogDerivedDataCache: Loaded boot cache 0.23s 41MB C:/Users/Tim/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.29-13.51.15:451][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tim/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.10.29-13.51.15:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.29-13.51.15:451][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.29-13.51.15:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.10.29-13.51.15:451][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.10.29-13.51.15:608][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.29-13.51.15:621][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.29-13.51.18:508][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.29-13.51.18:517][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.29-13.51.18:757][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.29-13.51.18:757][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.29-13.51.19:408][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.29-13.51.21:848][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.29-13.51.22:019][  0]LogAssetRegistry: FAssetRegistry took 0.0129 seconds to start up
-[2015.10.29-13.51.22:382][  0]SourceControl: Info Source control is disabled
-[2015.10.29-13.51.22:400][  0]SourceControl: Info Source control is disabled
-[2015.10.29-13.51.22:416][  0]SourceControl: Info Source control is disabled
-[2015.10.29-13.51.22:427][  0]SourceControl: Info Source control is disabled
-[2015.10.29-13.51.22:635][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.29-13.51.22:757][  0]LogObj: 28370 objects as part of root set at end of initial load.
-[2015.10.29-13.51.22:757][  0]LogUObjectAllocator: 6044960 out of 0 bytes used by permanent object pool.
-[2015.10.29-13.51.22:878][  0]LogEngine: Initializing Engine...
-[2015.10.29-13.51.22:883][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.10.29-13.51.22:896][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.10.29-13.51.23:167][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.29-13.51.23:184][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.29-13.51.23:283][  0]LogInit: FAudioDevice initialized.
-[2015.10.29-13.51.23:309][  0]LogDerivedDataCache: Saved boot cache 0.03s 44MB C:/Users/Tim/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.29-13.51.23:316][  0]LogInit: Texture streaming: Enabled
-[2015.10.29-13.51.23:325][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.29-13.51.23:326][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.29-13.51.23:326][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b62f53434c0b82edd9906fb3b3756150|a52f7d62b5914d13b7110ccf331056a2|b3312637-65e8-4fd5-8bd6-6cd8b4ccec00
-[2015.10.29-13.51.23:326][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.10.29-13.51.23:371][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.29-13.51.23:372][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.29-13.51.23:449][  0]LogInit: Transaction tracking system initialized
-[2015.10.29-13.51.23:511][  0]BlueprintLog: New page: Editor Load
-[2015.10.29-13.51.23:763][  0]LocalizationService: Info Localization service is disabled
-[2015.10.29-13.51.23:949][  0]LogConsoleResponse:Display: 
-[2015.10.29-13.51.24:169][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.02s
-[2015.10.29-13.51.24:169][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.29-13.51.24:287][  0]SourceControl: Info Source control is disabled
-[2015.10.29-13.51.24:289][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-13.51.24:290][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap'
-[2015.10.29-13.51.24:290][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-13.51.24:349][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.962ms to complete.
-[2015.10.29-13.51.24:350][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.062
-[2015.10.29-13.51.24:637][  0]LogCollectionManager: Loaded 0 collections in 0.002628 seconds
-[2015.10.29-13.51.24:692][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.01s
-[2015.10.29-13.51.24:692][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Tim/Collections/' took 0.01s
-[2015.10.29-13.51.24:692][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
-[2015.10.29-13.51.24:692][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 1870 classes and 335 folders.
-[2015.10.29-13.51.24:708][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2015.10.29-13.51.24:723][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2015.10.29-13.51.25:116][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2015.10.29-13.51.25:128][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
-[2015.10.29-13.51.25:214][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.29-13.51.25:234][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.29-13.51.25:261][  0]LogLoad: Full Startup: 100.26 seconds (BP compile: 0.05 seconds)
-[2015.10.29-13.51.25:407][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.10.29-13.51.25:577][  0]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:2).
-[2015.10.29-13.51.30:204][331]LogAssetRegistry: Asset discovery search completed in 8.1959 seconds
-[2015.10.29-13.51.30:204][331]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2015.10.29-13.51.30:204][331]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000621 seconds (updated 0 objects)
-[2015.10.29-13.51.39:865][ 20]LogAIModule: Creating AISystem for world Tim
-[2015.10.29-13.51.39:966][ 20]Cmd: MAP LOAD FILE="../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.29-13.51.39:967][ 20]LightingResults: New page: Lighting Build
-[2015.10.29-13.51.39:972][ 20]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0012 seconds. Added 5 classes and 0 folders.
-[2015.10.29-13.51.39:990][ 20]LoadErrors: New page: Loading map: Tim.umap
-[2015.10.29-13.51.39:995][ 20]MapCheck: New page: Map Check
-[2015.10.29-13.51.39:995][ 20]LightingResults: New page: Lighting Build
-[2015.10.29-13.51.40:036][ 20]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D46F001A80
-[2015.10.29-13.51.40:063][ 20]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.29-13.51.40:102][ 20]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.29-13.51.40:151][ 20]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.722ms to complete.
-[2015.10.29-13.51.40:151][ 20]LogFileHelpers: Loading map 'Tim' took 0.187
-[2015.10.29-13.51.46:571][432]LogRenderer: Reallocating scene render targets to support 1004x512 (Frame:1247).
-[2015.10.29-13.51.52:332][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.10.29-13.52.04:276][233]Cmd: TRANSACTION UNDO
-[2015.10.29-13.52.04:278][233]LogEditorTransaction: Undo Scale Actors
-[2015.10.29-13.52.37:556][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.10.29-13.52.52:322][765]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.53.47:796][347]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.53.52:907][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.10.29-13.54.22:170][862]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2015.10.29-13.54.31:512][655]Cmd: DELETE
-[2015.10.29-13.54.31:512][655]Cmd: ACTOR DELETE
-[2015.10.29-13.54.31:521][655]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.10.29-13.54.31:553][655]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2015.10.29-13.54.34:087][774]LogActorFactory: Actor Factory created Cube
-[2015.10.29-13.54.34:384][786]LogActorFactory: Actor Factory created Cube
-[2015.10.29-13.54.43:410][191]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.54.44:196][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2015.10.29-13.54.47:284][390]Cmd: DELETE
-[2015.10.29-13.54.47:284][390]Cmd: ACTOR DELETE
-[2015.10.29-13.54.47:285][390]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.10.29-13.54.47:310][390]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2015.10.29-13.54.51:279][577]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-13.55.28:346][249]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.55.34:252][521]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.55.48:345][127]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.55.52:121][299]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-13.57.04:109][554]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.57.05:438][613]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.57.14:760][ 24]Cmd: TRANSACTION UNDO
-[2015.10.29-13.57.14:760][ 24]LogEditorTransaction: Undo Rotate Actors
-[2015.10.29-13.57.15:211][ 29]Cmd: TRANSACTION UNDO
-[2015.10.29-13.57.15:211][ 29]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-13.57.49:563][606]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.57.50:313][638]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.17:462][857]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.30:846][474]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.31:428][500]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.33:036][573]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.35:352][686]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.35:809][707]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.36:294][729]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.36:531][739]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.38:258][815]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.38:695][833]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.38:945][843]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.58.47:899][263]Cmd: EDIT COPY
-[2015.10.29-13.58.48:802][305]Cmd: EDIT PASTE
-[2015.10.29-13.58.53:037][471]Cmd: EDIT COPY
-[2015.10.29-13.58.53:244][480]Cmd: EDIT PASTE
-[2015.10.29-13.58.57:486][649]Cmd: EDIT COPY
-[2015.10.29-13.58.57:715][657]Cmd: EDIT PASTE
-[2015.10.29-13.59.01:485][805]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.18:563][721]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.22:915][906]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.26:984][ 79]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.33:992][387]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.35:092][433]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.35:446][447]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.36:532][491]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.46:724][962]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.51:541][175]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.51:909][190]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.52:232][203]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-13.59.58:159][473]Cmd: POLY SELECT ALL
-[2015.10.29-14.00.03:626][700]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.00.18:796][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.00.20:175][451]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.00.53:708][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.01.17:722][977]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-14.02.18:618][615]Cmd: EDIT COPY
-[2015.10.29-14.02.19:264][641]Cmd: EDIT PASTE
-[2015.10.29-14.03.32:289][751]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.03.46:019][352]Cmd: EDIT COPY
-[2015.10.29-14.03.47:153][403]Cmd: EDIT PASTE
-[2015.10.29-14.03.53:173][648]Cmd: POLY SELECT ADJACENT WALLS
-[2015.10.29-14.04.33:262][348]Cmd: EDIT COPY
-[2015.10.29-14.04.33:544][360]Cmd: EDIT PASTE
-[2015.10.29-14.04.36:015][448]Cmd: EDIT COPY
-[2015.10.29-14.04.36:344][462]Cmd: EDIT PASTE
-[2015.10.29-14.05.02:800][581]Cmd: EDIT COPY
-[2015.10.29-14.05.03:031][591]Cmd: EDIT PASTE
-[2015.10.29-14.05.12:638][987]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.05.50:363][612]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.05.55:473][823]Cmd: POLY SELECT ALL
-[2015.10.29-14.05.57:278][891]Cmd: EDIT COPY
-[2015.10.29-14.05.57:568][902]Cmd: EDIT PASTE
-[2015.10.29-14.06.15:861][649]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.06.16:195][665]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.06.17:366][715]Cmd: EDIT COPY
-[2015.10.29-14.06.17:609][726]Cmd: EDIT PASTE
-[2015.10.29-14.06.30:626][236]Cmd: EDIT COPY
-[2015.10.29-14.06.30:952][252]Cmd: EDIT PASTE
-[2015.10.29-14.06.37:140][496]Cmd: POLY SELECT ADJACENT WALLS
-[2015.10.29-14.06.38:619][553]Cmd: POLY SELECT MEMORY UNION
-[2015.10.29-14.06.42:587][726]Cmd: POLY SELECT ADJACENT WALLS
-[2015.10.29-14.06.48:528][963]Cmd: EDIT COPY
-[2015.10.29-14.06.48:780][974]Cmd: EDIT PASTE
-[2015.10.29-14.07.04:943][683]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.07.20:757][315]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush15)
-[2015.10.29-14.07.21:344][339]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush15)
-[2015.10.29-14.07.30:685][688]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush15)
-[2015.10.29-14.08.31:485][306]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.08.35:340][459]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.08.48:444][ 36]Cmd: EDIT COPY
-[2015.10.29-14.08.48:743][ 49]Cmd: EDIT PASTE
-[2015.10.29-14.08.55:731][324]Cmd: TRANSACTION UNDO
-[2015.10.29-14.08.55:731][324]LogEditorTransaction: Undo Rotate Actors
-[2015.10.29-14.08.55:757][324]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
-[2015.10.29-14.08.55:757][324]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
-[2015.10.29-14.08.55:853][324]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
-[2015.10.29-14.08.55:853][324]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
-[2015.10.29-14.08.55:854][324]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
-[2015.10.29-14.09.02:220][584]Cmd: EDIT COPY
-[2015.10.29-14.09.02:472][595]Cmd: EDIT PASTE
-[2015.10.29-14.10.10:345][400]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.10.16:932][658]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.10.24:620][987]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.29-14.12.35:040][ 40]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.29-14.12.36:270][ 40]LogSavePackage: Save=613.811646ms
-[2015.10.29-14.12.36:270][ 40]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Tim_Auto1149AA09C4337928C9C53CFA1A9FA5FCD.tmp' to '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Tim_Auto1.umap'
-[2015.10.29-14.12.36:274][ 40]LogSavePackage: Total save time: 624.690324ms
-[2015.10.29-14.12.36:274][ 40]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Tim_Auto1.umap
-[2015.10.29-14.12.36:299][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Tim' took 0.779
-[2015.10.29-14.12.36:299][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.779
-[2015.10.29-14.12.43:210][ 61]LogRenderer: Reallocating scene render targets to support 1004x540 (Frame:51404).
-[2015.10.29-14.12.50:451][163]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.13.09:799][982]Cmd: POLY SELECT MEMORY UNION
-[2015.10.29-14.13.17:754][307]Cmd: TRANSACTION UNDO
-[2015.10.29-14.13.17:754][307]LogEditorTransaction: Undo Rotate Actors
-[2015.10.29-14.13.22:134][471]Cmd: POLY SELECT ALL
-[2015.10.29-14.14.16:591][896]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush11)
-[2015.10.29-14.15.10:148][113]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.15.10:806][140]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.15.11:414][165]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.15.15:084][320]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.15.16:704][383]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.15.17:368][410]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.15.18:649][462]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.16.04:042][432]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.17.11:992][362]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.11:992][362]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.12:397][375]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.12:397][375]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.17.13:260][402]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.13:260][402]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.17.45:188][761]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.45:188][761]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.45:666][775]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.45:666][775]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.46:121][793]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.46:121][793]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.46:566][812]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.46:566][812]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.47:152][837]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.47:152][837]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.17.48:302][878]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.48:302][878]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.50:315][959]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.17.50:909][983]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.17.54:487][133]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.54:487][133]LogEditorTransaction: Undo Clicking on Actors
-[2015.10.29-14.17.54:683][140]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.54:683][140]LogEditorTransaction: Undo Clicking on Actors
-[2015.10.29-14.17.54:849][143]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.54:849][143]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.55:014][147]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.55:014][147]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.55:185][154]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.55:185][154]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.55:392][163]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.55:392][163]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.17.55:633][164]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.55:633][164]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.55:891][175]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.55:891][175]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.56:248][190]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.56:248][190]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.56:639][207]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.56:640][207]LogEditorTransaction: Undo Edit Y
-[2015.10.29-14.17.56:793][207]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
-[2015.10.29-14.17.56:793][207]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
-[2015.10.29-14.17.56:793][207]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
-[2015.10.29-14.17.56:918][211]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.56:918][211]LogEditorTransaction: Undo Edit Y
-[2015.10.29-14.17.57:091][211]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:091][211]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:092][211]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:203][215]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.57:203][215]LogEditorTransaction: Undo Edit Y
-[2015.10.29-14.17.57:351][215]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:351][215]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:351][215]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:523][222]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.57:523][222]LogEditorTransaction: Undo Edit Y
-[2015.10.29-14.17.57:674][222]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:674][222]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:674][222]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Tim.Tim:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
-[2015.10.29-14.17.57:803][227]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.57:803][227]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.17.58:035][228]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.58:035][228]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.17.58:192][235]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.58:192][235]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.17.58:480][246]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.58:480][246]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.17.58:695][247]Cmd: TRANSACTION UNDO
-[2015.10.29-14.17.58:695][247]LogEditorTransaction: Undo Move Actors
-[2015.10.29-14.18.05:100][512]Cmd: TRANSACTION UNDO
-[2015.10.29-14.18.05:100][512]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.18.05:293][520]Cmd: TRANSACTION UNDO
-[2015.10.29-14.18.05:293][520]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.18.07:614][609]Cmd: TRANSACTION UNDO
-[2015.10.29-14.18.07:614][609]LogEditorTransaction: Undo Select Brush Surface
-[2015.10.29-14.18.09:282][679]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.18.12:967][824]Cmd: DELETE
-[2015.10.29-14.18.12:968][824]Cmd: ACTOR DELETE
-[2015.10.29-14.18.12:971][824]LogEditorActor: Deleted Actor: Brush
-[2015.10.29-14.18.13:184][824]LogEditorActor: Deleted 1 Actors (0.216 secs)
-[2015.10.29-14.18.15:066][895]Cmd: DELETE
-[2015.10.29-14.18.15:066][895]Cmd: ACTOR DELETE
-[2015.10.29-14.18.15:068][895]LogEditorActor: Deleted Actor: Brush
-[2015.10.29-14.18.15:231][895]LogEditorActor: Deleted 1 Actors (0.166 secs)
-[2015.10.29-14.18.17:807][998]Cmd: DELETE
-[2015.10.29-14.18.17:807][998]Cmd: ACTOR DELETE
-[2015.10.29-14.18.17:810][998]LogEditorActor: Deleted Actor: Brush
-[2015.10.29-14.18.18:028][998]LogEditorActor: Deleted 1 Actors (0.221 secs)
-[2015.10.29-14.20.11:628][753]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.20.33:921][665]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.21.04:672][977]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.21.15:271][421]Cmd: DELETE
-[2015.10.29-14.21.15:271][421]Cmd: ACTOR DELETE
-[2015.10.29-14.21.15:273][421]LogEditorActor: Deleted Actor: Brush
-[2015.10.29-14.21.15:475][421]LogEditorActor: Deleted 1 Actors (0.203 secs)
-[2015.10.29-14.22.00:905][772]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.22.36:567][575]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.23.05:029][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.23.50:625][682]LogSavePackage: Save=238.654236ms
-[2015.10.29-14.23.50:625][682]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Tim_Auto2930CFCD64CC04C65A8860EB6AB272F83.tmp' to '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Tim_Auto2.umap'
-[2015.10.29-14.23.50:626][682]LogSavePackage: Total save time: 246.164694ms
-[2015.10.29-14.23.50:626][682]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/StarterContent/Maps/Tim_Auto2.umap
-[2015.10.29-14.23.50:628][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Tim' took 0.283
-[2015.10.29-14.23.50:628][682]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
-[2015.10.29-14.26.06:990][179]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.26.34:385][730]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.26.47:637][290]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.29-14.27.27:981][884]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.27.37:338][276]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.29-14.27.41:161][427]LogSavePackage: Save=279.794952ms
-[2015.10.29-14.27.41:162][427]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/TimBBA8C9FE4E8C308337270EA95C795ED5.tmp' to '../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap'
-[2015.10.29-14.27.41:165][427]LogSavePackage: Total save time: 284.782674ms
-[2015.10.29-14.27.41:165][427]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Tim/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Tim.umap
-[2015.10.29-14.27.43:334][517]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.29-14.27.43:334][517]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.29-14.27.43:821][518]Cmd: QUIT_EDITOR
-[2015.10.29-14.27.44:189][518]LogExit: Preparing to exit.
-[2015.10.29-14.27.45:375][518]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2015.10.29-14.27.45:375][518]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2015.10.29-14.27.45:487][518]LogExit: Editor shut down
-[2015.10.29-14.27.45:489][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D410A0E840
-[2015.10.29-14.27.45:489][518]LogExit: Transaction tracking system shut down
-[2015.10.29-14.27.45:490][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D4641A71A0
-[2015.10.29-14.27.45:491][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D410A0E5C0
-[2015.10.29-14.27.45:504][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D472C45260
-[2015.10.29-14.27.45:796][518]LogExit: Object subsystem successfully closed.
-[2015.10.29-14.27.45:836][518]LogD3D11RHI: Shutdown
-[2015.10.29-14.27.45:836][518]LogD3D11RHI: CleanupD3DDevice
-[2015.10.29-14.27.45:937][518]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.10.29-14.27.45:982][518]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2015.10.29-14.27.45:983][518]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2015.10.29-14.27.45:983][518]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
-[2015.10.29-14.27.45:983][518]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
-[2015.10.29-14.27.45:983][518]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
-[2015.10.29-14.27.45:983][518]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
-[2015.10.29-14.27.45:993][518]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
-[2015.10.29-14.27.45:993][518]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
-[2015.10.29-14.27.45:994][518]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
-[2015.10.29-14.27.45:994][518]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
-[2015.10.29-14.27.45:996][518]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
-[2015.10.29-14.27.45:996][518]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
-[2015.10.29-14.27.45:996][518]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
-[2015.10.29-14.27.45:996][518]LogModuleManager: Shutting down and abandoning module BspMode (185)
-[2015.10.29-14.27.45:996][518]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
-[2015.10.29-14.27.45:996][518]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
-[2015.10.29-14.27.45:997][518]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
-[2015.10.29-14.27.45:997][518]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
-[2015.10.29-14.27.45:997][518]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
-[2015.10.29-14.27.45:997][518]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
-[2015.10.29-14.27.45:998][518]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
-[2015.10.29-14.27.45:998][518]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
-[2015.10.29-14.27.46:000][518]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
-[2015.10.29-14.27.46:000][518]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
-[2015.10.29-14.27.46:001][518]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
-[2015.10.29-14.27.46:001][518]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
-[2015.10.29-14.27.46:270][518]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
-[2015.10.29-14.27.46:270][518]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
-[2015.10.29-14.27.46:270][518]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
-[2015.10.29-14.27.46:270][518]LogModuleManager: Shutting down and abandoning module MergeActors (169)
-[2015.10.29-14.27.46:271][518]LogModuleManager: Shutting down and abandoning module SizeMap (168)
-[2015.10.29-14.27.46:271][518]LogModuleManager: Shutting down and abandoning module TreeMap (167)
-[2015.10.29-14.27.46:271][518]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
-[2015.10.29-14.27.46:271][518]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
-[2015.10.29-14.27.46:272][518]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
-[2015.10.29-14.27.46:272][518]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
-[2015.10.29-14.27.46:272][518]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module XmlParser (158)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module Blutility (157)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
-[2015.10.29-14.27.46:273][518]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
-[2015.10.29-14.27.46:274][518]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
-[2015.10.29-14.27.46:274][518]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
-[2015.10.29-14.27.46:275][518]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
-[2015.10.29-14.27.46:276][518]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
-[2015.10.29-14.27.46:276][518]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
-[2015.10.29-14.27.46:277][518]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
-[2015.10.29-14.27.46:277][518]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
-[2015.10.29-14.27.46:278][518]LogModuleManager: Shutting down and abandoning module AutomationController (146)
-[2015.10.29-14.27.46:279][518]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
-[2015.10.29-14.27.46:279][518]LogModuleManager: Shutting down and abandoning module Layers (144)
-[2015.10.29-14.27.46:282][518]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
-[2015.10.29-14.27.46:282][518]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
-[2015.10.29-14.27.46:283][518]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
-[2015.10.29-14.27.46:284][518]LogModuleManager: Shutting down and abandoning module Persona (140)
-[2015.10.29-14.27.46:285][518]LogModuleManager: Shutting down and abandoning module Kismet (139)
-[2015.10.29-14.27.46:286][518]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
-[2015.10.29-14.27.46:289][518]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
-[2015.10.29-14.27.46:289][518]LogModuleManager: Shutting down and abandoning module Toolbox (136)
-[2015.10.29-14.27.46:290][518]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
-[2015.10.29-14.27.46:290][518]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
-[2015.10.29-14.27.46:290][518]LogModuleManager: Shutting down and abandoning module OutputLog (133)
-[2015.10.29-14.27.46:291][518]LogModuleManager: Shutting down and abandoning module GammaUI (132)
-[2015.10.29-14.27.46:291][518]LogModuleManager: Shutting down and abandoning module Documentation (131)
-[2015.10.29-14.27.46:291][518]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
-[2015.10.29-14.27.46:292][518]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
-[2015.10.29-14.27.46:292][518]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
-[2015.10.29-14.27.46:292][518]LogModuleManager: Shutting down and abandoning module Analytics (127)
-[2015.10.29-14.27.46:292][518]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
-[2015.10.29-14.27.46:293][518]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
-[2015.10.29-14.27.46:293][518]LogModuleManager: Shutting down and abandoning module AIModule (124)
-[2015.10.29-14.27.46:293][518]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
-[2015.10.29-14.27.46:390][518]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
-[2015.10.29-14.27.46:391][518]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
-[2015.10.29-14.27.46:391][518]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
-[2015.10.29-14.27.46:391][518]LogModuleManager: Shutting down and abandoning module SteamVR (119)
-[2015.10.29-14.27.46:391][518]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
-[2015.10.29-14.27.46:391][518]LogModuleManager: Shutting down and abandoning module OculusRift (117)
-[2015.10.29-14.27.46:392][518]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
-[2015.10.29-14.27.46:392][518]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
-[2015.10.29-14.27.46:451][518]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
-[2015.10.29-14.27.46:451][518]LogModuleManager: Shutting down and abandoning module CableComponent (113)
-[2015.10.29-14.27.46:451][518]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
-[2015.10.29-14.27.46:451][518]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
-[2015.10.29-14.27.46:452][518]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
-[2015.10.29-14.27.46:453][518]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
-[2015.10.29-14.27.46:453][518]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
-[2015.10.29-14.27.46:454][518]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
-[2015.10.29-14.27.46:454][518]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
-[2015.10.29-14.27.46:454][518]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
-[2015.10.29-14.27.46:455][518]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
-[2015.10.29-14.27.46:455][518]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
-[2015.10.29-14.27.46:456][518]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
-[2015.10.29-14.27.46:459][518]LogModuleManager: Shutting down and abandoning module SourceControl (101)
-[2015.10.29-14.27.46:460][518]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
-[2015.10.29-14.27.46:461][518]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
-[2015.10.29-14.27.46:461][518]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
-[2015.10.29-14.27.46:462][518]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
-[2015.10.29-14.27.46:462][518]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
-[2015.10.29-14.27.46:462][518]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
-[2015.10.29-14.27.46:463][518]LogModuleManager: Shutting down and abandoning module HotReload (94)
-[2015.10.29-14.27.46:463][518]LogModuleManager: Shutting down and abandoning module MainFrame (93)
-[2015.10.29-14.27.46:463][518]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
-[2015.10.29-14.27.46:467][518]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
-[2015.10.29-14.27.46:475][518]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
-[2015.10.29-14.27.46:715][518]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
-[2015.10.29-14.27.46:718][518]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
-[2015.10.29-14.27.46:721][518]LogModuleManager: Shutting down and abandoning module UnrealProject (87)
-[2015.10.29-14.27.46:721][518]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
-[2015.10.29-14.27.46:822][518]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
-[2015.10.29-14.27.46:822][518]LogModuleManager: Shutting down and abandoning module Paper2D (84)
-[2015.10.29-14.27.46:823][518]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
-[2015.10.29-14.27.46:828][518]LogModuleManager: Shutting down and abandoning module Media (82)
-[2015.10.29-14.27.46:828][518]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
-[2015.10.29-14.27.46:828][518]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2015.10.29-14.27.46:828][518]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
-[2015.10.29-14.27.46:828][518]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
-[2015.10.29-14.27.46:828][518]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
-[2015.10.29-14.27.46:830][518]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
-[2015.10.29-14.27.46:830][518]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
-[2015.10.29-14.27.46:831][518]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
-[2015.10.29-14.27.46:831][518]LogModuleManager: Shutting down and abandoning module MessageLog (73)
-[2015.10.29-14.27.46:831][518]LogModuleManager: Shutting down and abandoning module Sequencer (72)
-[2015.10.29-14.27.46:832][518]LogModuleManager: Shutting down and abandoning module AssetTools (71)
-[2015.10.29-14.27.46:833][518]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
-[2015.10.29-14.27.46:834][518]LogModuleManager: Shutting down and abandoning module UMG (69)
-[2015.10.29-14.27.46:835][518]LogModuleManager: Shutting down and abandoning module Slate (68)
-[2015.10.29-14.27.46:835][518]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module SessionServices (66)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module Networking (61)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module Core (60)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
-[2015.10.29-14.27.46:837][518]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
-[2015.10.29-14.27.46:838][518]LogModuleManager: Shutting down and abandoning module CookingStats (56)
-[2015.10.29-14.27.46:864][518]LogModuleManager: Shutting down and abandoning module DerivedDataCache (55)
-[2015.10.29-14.27.46:888][518]LogDerivedDataCache: Shutdown
-[2015.10.29-14.27.46:888][518]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (54)
-[2015.10.29-14.27.46:890][518]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (53)
-[2015.10.29-14.27.46:890][518]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (52)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (51)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (50)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (49)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (48)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module ImageWrapper (47)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (46)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (45)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (44)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (43)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (42)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (41)
-[2015.10.29-14.27.46:891][518]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (40)
-[2015.10.29-14.27.46:892][518]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (39)
-[2015.10.29-14.27.46:892][518]LogModuleManager: Shutting down and abandoning module Messaging (38)
-[2015.10.29-14.27.46:892][518]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (37)
-[2015.10.29-14.27.46:892][518]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (36)
-[2015.10.29-14.27.46:892][518]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (35)
-[2015.10.29-14.27.46:893][518]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2015.10.29-14.27.46:893][518]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2015.10.29-14.27.46:893][518]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2015.10.29-14.27.46:894][518]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2015.10.29-14.27.46:894][518]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2015.10.29-14.27.46:894][518]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2015.10.29-14.27.46:894][518]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2015.10.29-14.27.46:895][518]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2015.10.29-14.27.46:895][518]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2015.10.29-14.27.46:895][518]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2015.10.29-14.27.46:895][518]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2015.10.29-14.27.46:895][518]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2015.10.29-14.27.46:895][518]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2015.10.29-14.27.46:895][518]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2015.10.29-14.27.46:896][518]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2015.10.29-14.27.46:896][518]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2015.10.29-14.27.47:897][518]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2015.10.29-14.27.47:902][518]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (16)
-[2015.10.29-14.27.47:902][518]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
-[2015.10.29-14.27.47:903][518]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2015.10.29-14.27.47:903][518]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2015.10.29-14.27.47:903][518]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2015.10.29-14.27.47:903][518]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2015.10.29-14.27.47:932][518]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2015.10.29-14.27.47:932][518]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2015.10.29-14.27.47:932][518]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2015.10.29-14.27.47:933][518]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.10.29-14.27.47:933][518]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.10.29-14.27.47:933][518]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.10.29-14.27.47:933][518]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.10.29-14.27.47:933][518]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.10.29-14.27.47:933][518]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.10.29-14.27.47:934][518]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.10.29-14.27.47:935][518]LogExit: Exiting.
-[2015.10.29-14.27.47:957][518]Log file closed, 10/29/15 15:27:47
+﻿[2015.10.29-13.04.14:149][  0]Log file open, 10/29/15 14:04:14
+[2015.10.29-13.04.14:149][  0]LogInit:Display: Running engine for game: UnrealProject
+[2015.10.29-13.04.14:149][  0]LogInit:Display: RandInit(914772272) SRandInit(914772272).
+[2015.10.29-13.04.14:149][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.29-13.04.14:149][  0]LogStats: Stats thread started at 0.071296
+[2015.10.29-13.04.14:149][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.29-13.04.14:149][  0]LogInit: API Version: 2672455
+[2015.10.29-13.04.14:149][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.29-13.04.14:149][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.29-13.04.14:149][  0]LogInit: Build Configuration: Development
+[2015.10.29-13.04.14:149][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.29-13.04.14:149][  0]LogInit: Command line: 
+[2015.10.29-13.04.14:149][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.29-13.04.14:149][  0]LogInit: Rocket: 1
+[2015.10.29-13.04.14:156][  0]LogInit: Using libcurl 7.41.0
+[2015.10.29-13.04.14:156][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.29-13.04.14:156][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.29-13.04.14:156][  0]LogInit:  - other features:
+[2015.10.29-13.04.14:156][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.29-13.04.14:156][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.29-13.04.14:156][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.29-13.04.14:156][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.29-13.04.14:156][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.29-13.04.14:156][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.29-13.04.14:156][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.29-13.04.14:156][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.29-13.04.14:156][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.29-13.04.14:156][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.29-13.04.14:162][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.29-13.04.14:167][  0]LogInit: Object subsystem initialized
+[2015.10.29-13.04.14:169][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.29-13.04.14:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.29-13.04.14:177][  0]LogInit: Computer: PATTES
+[2015.10.29-13.04.14:177][  0]LogInit: User: Patte
+[2015.10.29-13.04.14:177][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.29-13.04.14:177][  0]LogInit: High frequency timer resolution =3.507520 MHz
+[2015.10.29-13.04.14:177][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.29-13.04.14:177][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.29-13.04.14:177][  0]LogMemory: Process Physical Memory: 54.27 MB used, 54.27 MB peak
+[2015.10.29-13.04.14:177][  0]LogMemory: Process Virtual Memory: 57.53 MB used, 57.53 MB peak
+[2015.10.29-13.04.14:177][  0]LogMemory: Physical Memory: 4719.86 MB used, 16324.34 MB total
+[2015.10.29-13.04.14:177][  0]LogMemory: Virtual Memory: 367.66 MB used, 134217728.00 MB total
+[2015.10.29-13.04.14:200][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.29-13.04.14:827][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.10.29-13.04.14:827][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2015.10.29-13.04.14:828][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.29-13.04.14:828][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2015.10.29-13.04.14:828][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.29-13.04.14:830][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.29-13.04.14:831][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.29-13.04.14:840][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.29-13.04.14:850][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/7824/).
+[2015.10.29-13.04.14:850][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/7F832950464183E12586DBA66BA58E6C/'.
+[2015.10.29-13.04.14:850][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.29-13.04.15:681][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.29-13.04.15:685][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.29-13.04.15:689][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.29-13.04.15:693][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.29-13.04.15:697][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.29-13.04.15:700][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.29-13.04.15:702][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.29-13.04.15:705][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.29-13.04.15:708][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.29-13.04.15:710][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.29-13.04.15:713][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.29-13.04.15:716][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.29-13.04.15:716][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.29-13.04.15:732][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.29-13.04.15:734][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.29-13.04.15:737][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.29-13.04.15:740][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.29-13.04.15:740][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.29-13.04.15:802][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.29-13.04.15:835][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.29-13.04.15:835][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.29-13.04.15:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.29-13.04.15:835][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.29-13.04.15:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.29-13.04.15:835][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.29-13.04.15:943][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.29-13.04.15:956][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Patte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.29-13.04.16:090][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.29-13.04.16:092][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.29-13.04.16:189][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.29-13.04.16:189][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.29-13.04.16:374][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.29-13.04.16:909][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.29-13.04.17:006][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.10.29-13.04.17:125][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.04.17:132][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.04.17:140][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.04.17:147][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.04.17:248][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-13.04.17:304][  0]LogObj: 28376 objects as part of root set at end of initial load.
+[2015.10.29-13.04.17:304][  0]LogUObjectAllocator: 6048736 out of 0 bytes used by permanent object pool.
+[2015.10.29-13.04.17:350][  0]LogEngine: Initializing Engine...
+[2015.10.29-13.04.17:352][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.29-13.04.17:352][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.29-13.04.17:447][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.29-13.04.17:450][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.04.17:469][  0]LogInit: FAudioDevice initialized.
+[2015.10.29-13.04.17:486][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.29-13.04.17:490][  0]LogInit: Texture streaming: Enabled
+[2015.10.29-13.04.17:494][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.29-13.04.17:494][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.29-13.04.17:495][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d64b8b5483bfedc8d998f82f4192655|13486bde023f4a2ab96e5809842d42e4|71295755-6037-4172-8870-b93479030fdb
+[2015.10.29-13.04.17:495][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.29-13.04.17:516][  0]LogInit: Transaction tracking system initialized
+[2015.10.29-13.04.17:539][  0]BlueprintLog: New page: Editor Load
+[2015.10.29-13.04.17:612][  0]LocalizationService: Info Localization service is disabled
+[2015.10.29-13.04.17:685][  0]LogConsoleResponse:Display: 
+[2015.10.29-13.04.17:770][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.29-13.04.17:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.01s
+[2015.10.29-13.04.17:813][  0]SourceControl: Info Source control is disabled
+[2015.10.29-13.04.17:813][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-13.04.17:813][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.10.29-13.04.17:813][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-13.04.17:842][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.752ms to complete.
+[2015.10.29-13.04.17:842][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.029
+[2015.10.29-13.04.17:925][  0]LogCollectionManager: Loaded 0 collections in 0.001601 seconds
+[2015.10.29-13.04.17:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.01s
+[2015.10.29-13.04.17:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Patte/Collections/' took 0.01s
+[2015.10.29-13.04.17:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
+[2015.10.29-13.04.17:965][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1870 classes and 335 folders.
+[2015.10.29-13.04.17:969][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.29-13.04.17:974][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.10.29-13.04.18:003][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.10.29-13.04.18:007][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.10.29-13.04.18:024][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.29-13.04.18:028][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.29-13.04.18:049][  0]LogLoad: Full Startup: 4.56 seconds (BP compile: 0.00 seconds)
+[2015.10.29-13.04.18:091][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.29-13.04.18:202][  0]LogRenderer: Reallocating scene render targets to support 1056x576 (Frame:2).
+[2015.10.29-13.04.18:276][  1]LogAssetRegistry: Asset discovery search completed in 1.2810 seconds
+[2015.10.29-13.04.18:276][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.29-13.04.18:276][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2015.10.29-13.04.23:969][656]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.04.23:992][656]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.29-13.04.23:992][656]LightingResults: New page: Lighting Build
+[2015.10.29-13.04.23:995][656]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0008 seconds. Added 5 classes and 0 folders.
+[2015.10.29-13.04.24:007][656]LoadErrors: New page: Loading map: Patrik.umap
+[2015.10.29-13.04.24:007][656]MapCheck: New page: Map Check
+[2015.10.29-13.04.24:007][656]LightingResults: New page: Lighting Build
+[2015.10.29-13.04.24:016][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000321A9DA80
+[2015.10.29-13.04.24:019][656]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.29-13.04.24:042][656]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.29-13.04.24:082][656]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.445ms to complete.
+[2015.10.29-13.04.24:082][656]LogFileHelpers: Loading map 'Patrik' took 0.091
+[2015.10.29-13.04.27:722][ 90]LogEditor: Attempting to add actor of class 'PawnCar' to level at -410.00,-200.00,52.00
+[2015.10.29-13.04.28:281][153]LogEditor: Attempting to add actor of class 'PawnCar' to level at -100.00,170.00,52.00
+[2015.10.29-13.04.33:164][718]Recompiling UnrealProject...
+[2015.10.29-13.04.33:164][718]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2180 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.04.33:166][718]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:04:35 PM
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: Info PawnCar.cpp
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-2180.dll
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2180.lib and object C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2180.exp
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-13.04.35:709][  4]CompilerResultsLog: Info Total build time: 2,51 seconds
+[2015.10.29-13.04.35:709][  4]LogMainFrame: MainFrame: Module compiling took 2.548 seconds
+[2015.10.29-13.04.35:737][  4]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2015.10.29-13.04.35:738][  4]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-13.04.35:779][  4]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1871 classes and 337 folders.
+[2015.10.29-13.04.36:536][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.04.36:536][ 93]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:04:36 PM)
+[2015.10.29-13.04.36:536][ 93]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.04.36:539][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002622s)
+[2015.10.29-13.04.36:540][ 93]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.04.36:540][ 93]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2015.10.29-13.04.36:540][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003359s)
+[2015.10.29-13.04.36:555][ 93]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.04.36:566][ 93]LogInit: FAudioDevice initialized.
+[2015.10.29-13.04.36:607][ 93]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.04.36:609][ 93]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.04.36
+[2015.10.29-13.04.36:609][ 93]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.04.36:609][ 93]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.04.36:610][ 93]LogWorld: Bringing up level for play took: 0.001781
+[2015.10.29-13.04.36:610][ 93]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik 0.408
+[2015.10.29-13.05.16:799][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000342A1DE40
+[2015.10.29-13.05.58:380][801]Recompiling UnrealProject...
+[2015.10.29-13.05.58:380][801]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 1600 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.05.58:381][801]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.05.59:029][859]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:05:59 PM
+[2015.10.29-13.05.59:029][859]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.05.59:029][859]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.05.59:029][859]LogMainFrame: MainFrame: Module compiling took 0.651 seconds
+[2015.10.29-13.05.59:476][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.05.59:476][911]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:05:59 PM)
+[2015.10.29-13.05.59:476][911]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.05.59:479][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002525s)
+[2015.10.29-13.05.59:479][911]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.05.59:480][911]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2015.10.29-13.05.59:480][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003397s)
+[2015.10.29-13.05.59:480][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.10.29-13.05.59:518][911]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.05.59:526][911]LogInit: FAudioDevice initialized.
+[2015.10.29-13.05.59:563][911]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.05.59:565][911]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.05.59
+[2015.10.29-13.05.59:566][911]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.05.59:566][911]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.05.59:566][911]LogWorld: Bringing up level for play took: 0.001737
+[2015.10.29-13.05.59:567][911]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik -0.635
+[2015.10.29-13.06.09:674][113]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000031281AD40
+[2015.10.29-13.06.43:655][154]Recompiling UnrealProject...
+[2015.10.29-13.06.43:656][154]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2743 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.06.43:657][154]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.06.44:106][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.06.44:106][192]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:06:44 PM)
+[2015.10.29-13.06.44:106][192]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.06.44:109][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002399s)
+[2015.10.29-13.06.44:109][192]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.06.44:110][192]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2015.10.29-13.06.44:110][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003224s)
+[2015.10.29-13.06.44:149][192]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.06.44:158][192]LogInit: FAudioDevice initialized.
+[2015.10.29-13.06.44:196][192]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.06.44:199][192]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.06.44
+[2015.10.29-13.06.44:199][192]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.06.44:200][192]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.06.44:200][192]LogWorld: Bringing up level for play took: 0.002846
+[2015.10.29-13.06.44:201][192]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik -0
+[2015.10.29-13.06.44:316][205]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:06:44 PM
+[2015.10.29-13.06.44:316][205]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.06.44:316][205]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.06.44:316][205]LogMainFrame: MainFrame: Module compiling took 0.663 seconds
+[2015.10.29-13.06.48:905][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000034CE67420
+[2015.10.29-13.06.51:477][ 47]LogEditorViewport: Clicking on Actor (LMB): PawnCar (PawnCar1)
+[2015.10.29-13.06.55:521][505]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.10.29-13.08.15:162][167]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.29-13.08.15:661][167]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2015.10.29-13.10.43:059][  3]Recompiling UnrealProject...
+[2015.10.29-13.10.43:059][  3]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 1001 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.10.43:060][  3]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:10:45 PM
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: Info CarController.cpp
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-1001.dll
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-1001.lib and object C:\Users\Patte\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-1001.exp
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.10.29-13.10.45:895][297]CompilerResultsLog: Info Total build time: 2,80 seconds
+[2015.10.29-13.10.45:895][297]LogMainFrame: MainFrame: Module compiling took 2.837 seconds
+[2015.10.29-13.10.45:945][297]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2015.10.29-13.10.45:948][297]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.10.29-13.10.46:286][297]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1871 classes and 337 folders.
+[2015.10.29-13.10.46:705][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.10.46:705][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.10.46:705][339]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:10:46 PM)
+[2015.10.29-13.10.46:705][339]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.10.46:708][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002725s)
+[2015.10.29-13.10.46:708][339]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.10.46:708][339]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2015.10.29-13.10.46:708][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003595s)
+[2015.10.29-13.10.46:772][339]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.10.46:780][339]LogInit: FAudioDevice initialized.
+[2015.10.29-13.10.46:816][339]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.10.46:819][339]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.10.46
+[2015.10.29-13.10.46:819][339]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.10.46:819][339]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.10.46:819][339]LogWorld: Bringing up level for play took: 0.001904
+[2015.10.29-13.10.46:820][339]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik 0.618
+[2015.10.29-13.10.46:820][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.10.49:977][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.10.50:023][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.10.50:051][694]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000322D322A0
+[2015.10.29-13.11.00:511][929]Cmd: SELECT NONE
+[2015.10.29-13.14.13:145][918]BlueprintLog: New page: Compile Patrik
+[2015.10.29-13.14.13:210][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000032262C680
+[2015.10.29-13.14.13:224][918]BlueprintEditorCompileResults: Info [0599.73] Compile of Patrik successful! [in 78 ms]
+[2015.10.29-13.14.44:818][241]LogSavePackage: Save=55.269249ms
+[2015.10.29-13.14.44:818][241]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Patrik38054E9747539DF2B941F88185CAED1E.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap'
+[2015.10.29-13.14.44:821][241]LogSavePackage: Total save time: 62.034998ms
+[2015.10.29-13.14.44:821][241]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap
+[2015.10.29-13.14.44:847][241]LogFileHelpers: Saving map 'Patrik' took 0.150
+[2015.10.29-13.15.02:750][ 27]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000034CE66F20
+[2015.10.29-13.15.03:930][168]Recompiling UnrealProject...
+[2015.10.29-13.15.03:930][168]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2205 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.15.03:931][168]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.15.04:583][228]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:15:04 PM
+[2015.10.29-13.15.04:583][228]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.15.04:583][228]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.15.04:583][228]LogMainFrame: MainFrame: Module compiling took 0.655 seconds
+[2015.10.29-13.15.05:132][292]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.05:132][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.15.05:132][292]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:15:05 PM)
+[2015.10.29-13.15.05:132][292]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.15.05:135][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003083s)
+[2015.10.29-13.15.05:136][292]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.15.05:136][292]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2015.10.29-13.15.05:136][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003942s)
+[2015.10.29-13.15.05:156][292]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.15.05:164][292]LogInit: FAudioDevice initialized.
+[2015.10.29-13.15.05:195][292]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.15.05:198][292]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.15.05
+[2015.10.29-13.15.05:198][292]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.15.05:198][292]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.15.05:198][292]LogWorld: Bringing up level for play took: 0.002038
+[2015.10.29-13.15.05:199][292]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik 0.997
+[2015.10.29-13.15.05:199][292]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.07:018][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.07:048][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.07:080][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000342A1FB00
+[2015.10.29-13.15.13:482][276]LogEditorViewport: Clicking on Actor (LMB): PawnCar (PawnCar1)
+[2015.10.29-13.15.23:672][483]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.29-13.15.25:259][670]LogEditorViewport: Clicking on Actor (LMB): PawnCar (PawnCar1)
+[2015.10.29-13.15.31:667][396]LogSavePackage: Save=58.916843ms
+[2015.10.29-13.15.31:667][396]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Patrik01C47BB54652A6DE3AFAE0A387192524.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap'
+[2015.10.29-13.15.31:670][396]LogSavePackage: Total save time: 62.416177ms
+[2015.10.29-13.15.31:670][396]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap
+[2015.10.29-13.15.31:693][396]LogFileHelpers: Saving map 'Patrik' took 0.159
+[2015.10.29-13.15.32:110][445]Recompiling UnrealProject...
+[2015.10.29-13.15.32:110][445]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 313 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.15.32:111][445]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.15.32:752][502]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:15:32 PM
+[2015.10.29-13.15.32:752][502]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.15.32:752][502]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.15.32:752][502]LogMainFrame: MainFrame: Module compiling took 0.645 seconds
+[2015.10.29-13.15.33:266][562]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.33:266][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.15.33:266][562]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:15:33 PM)
+[2015.10.29-13.15.33:266][562]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.15.33:269][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002994s)
+[2015.10.29-13.15.33:269][562]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.15.33:269][562]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2015.10.29-13.15.33:270][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003722s)
+[2015.10.29-13.15.33:289][562]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.15.33:297][562]LogInit: FAudioDevice initialized.
+[2015.10.29-13.15.33:333][562]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.15.33:335][562]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.15.33:335][562]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.15.33:335][562]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.15.33
+[2015.10.29-13.15.33:335][562]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.15.33:336][562]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.15.33:336][562]LogWorld: Bringing up level for play took: 0.001870
+[2015.10.29-13.15.33:336][562]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik -0.865
+[2015.10.29-13.15.33:336][562]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.38:618][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.38:677][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.38:696][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000033FDF87C0
+[2015.10.29-13.15.39:522][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.39:523][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.15.39:523][284]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:15:39 PM)
+[2015.10.29-13.15.39:523][284]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.15.39:526][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002808s)
+[2015.10.29-13.15.39:526][284]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.15.39:526][284]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2015.10.29-13.15.39:526][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003425s)
+[2015.10.29-13.15.39:547][284]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.15.39:554][284]LogInit: FAudioDevice initialized.
+[2015.10.29-13.15.39:591][284]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.15.39:594][284]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.15.39:594][284]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.15.39:594][284]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.15.39
+[2015.10.29-13.15.39:594][284]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.15.39:594][284]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.15.39:594][284]LogWorld: Bringing up level for play took: 0.001982
+[2015.10.29-13.15.39:595][284]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik -0.607
+[2015.10.29-13.15.39:595][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.50:732][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.50:787][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.15.50:828][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000346AB5080
+[2015.10.29-13.16.02:451][987]LogSavePackage: Save=53.676388ms
+[2015.10.29-13.16.02:452][987]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Patrik52F8DC0B49B0A7CF7D300DA43738953D.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap'
+[2015.10.29-13.16.02:454][987]LogSavePackage: Total save time: 56.975011ms
+[2015.10.29-13.16.02:454][987]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap
+[2015.10.29-13.16.02:485][987]LogFileHelpers: Saving map 'Patrik' took 0.151
+[2015.10.29-13.16.03:512][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.03:512][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.16.03:512][108]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:16:03 PM)
+[2015.10.29-13.16.03:512][108]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.16.03:515][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002709s)
+[2015.10.29-13.16.03:516][108]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.16.03:516][108]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2015.10.29-13.16.03:516][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003640s)
+[2015.10.29-13.16.03:537][108]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.16.03:544][108]LogInit: FAudioDevice initialized.
+[2015.10.29-13.16.03:583][108]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.16.03:585][108]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.16.03
+[2015.10.29-13.16.03:585][108]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.16.03:585][108]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.16.03:586][108]LogWorld: Bringing up level for play took: 0.001987
+[2015.10.29-13.16.03:586][108]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik -0.616
+[2015.10.29-13.16.03:587][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.08:014][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.08:069][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.08:088][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000035EFC1440
+[2015.10.29-13.16.37:608][160]Recompiling UnrealProject...
+[2015.10.29-13.16.37:608][160]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 103 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.16.37:609][160]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.16.38:187][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.38:187][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.16.38:187][208]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:16:38 PM)
+[2015.10.29-13.16.38:187][208]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.16.38:190][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003629s)
+[2015.10.29-13.16.38:191][208]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.16.38:191][208]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2015.10.29-13.16.38:191][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.004523s)
+[2015.10.29-13.16.38:250][208]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.16.38:258][208]LogInit: FAudioDevice initialized.
+[2015.10.29-13.16.38:299][208]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.16.38:301][208]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.16.38
+[2015.10.29-13.16.38:301][208]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.16.38:301][208]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.16.38:301][208]LogWorld: Bringing up level for play took: 0.001912
+[2015.10.29-13.16.38:302][208]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik 0.101
+[2015.10.29-13.16.38:302][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.38:314][209]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:16:38 PM
+[2015.10.29-13.16.38:314][209]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.16.38:314][209]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.16.38:314][209]LogMainFrame: MainFrame: Module compiling took 0.708 seconds
+[2015.10.29-13.16.47:300][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.47:342][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.47:361][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000035F2BD080
+[2015.10.29-13.16.51:594][782]Recompiling UnrealProject...
+[2015.10.29-13.16.51:594][782]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6832 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.16.51:595][782]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.16.52:224][838]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:16:52 PM
+[2015.10.29-13.16.52:224][838]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.16.52:224][838]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.16.52:224][838]LogMainFrame: MainFrame: Module compiling took 0.632 seconds
+[2015.10.29-13.16.52:707][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.16.52:707][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.16.52:707][894]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:16:52 PM)
+[2015.10.29-13.16.52:707][894]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.16.52:710][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002853s)
+[2015.10.29-13.16.52:710][894]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.16.52:710][894]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2015.10.29-13.16.52:711][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003632s)
+[2015.10.29-13.16.52:757][894]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.16.52:765][894]LogInit: FAudioDevice initialized.
+[2015.10.29-13.16.52:807][894]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.16.52:809][894]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.16.52
+[2015.10.29-13.16.52:809][894]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.16.52:809][894]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.16.52:810][894]LogWorld: Bringing up level for play took: 0.001800
+[2015.10.29-13.16.52:810][894]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik 0.609
+[2015.10.29-13.16.52:810][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.02:798][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.02:841][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.02:873][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000034793C860
+[2015.10.29-13.17.08:744][779]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.08:745][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.17.08:745][779]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:17:08 PM)
+[2015.10.29-13.17.08:745][779]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.17.08:748][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003063s)
+[2015.10.29-13.17.08:748][779]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.17.08:748][779]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2015.10.29-13.17.08:749][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003843s)
+[2015.10.29-13.17.08:791][779]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.17.08:799][779]LogInit: FAudioDevice initialized.
+[2015.10.29-13.17.08:836][779]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.17.08:838][779]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.17.08
+[2015.10.29-13.17.08:838][779]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.17.08:839][779]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.17.08:839][779]LogWorld: Bringing up level for play took: 0.001809
+[2015.10.29-13.17.08:839][779]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik 0.638
+[2015.10.29-13.17.08:840][779]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.17:835][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.17:879][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.17:911][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000003476F96C0
+[2015.10.29-13.17.21:298][257]LogEditorViewport: Clicking on Actor (LMB): PawnCar (PawnCar1)
+[2015.10.29-13.17.26:564][871]Recompiling UnrealProject...
+[2015.10.29-13.17.26:564][871]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2903 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.17.26:566][871]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.17.27:206][928]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:17:27 PM
+[2015.10.29-13.17.27:206][928]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.17.27:206][928]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.17.27:206][928]LogMainFrame: MainFrame: Module compiling took 0.643 seconds
+[2015.10.29-13.17.27:687][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.27:687][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.17.27:687][984]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:17:27 PM)
+[2015.10.29-13.17.27:687][984]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.17.27:690][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002734s)
+[2015.10.29-13.17.27:690][984]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.17.27:690][984]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2015.10.29-13.17.27:690][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003413s)
+[2015.10.29-13.17.27:710][984]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.17.27:718][984]LogInit: FAudioDevice initialized.
+[2015.10.29-13.17.27:754][984]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.17.27:757][984]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.17.27:757][984]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.17.27:757][984]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.17.27
+[2015.10.29-13.17.27:757][984]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.17.27:757][984]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.17.27:757][984]LogWorld: Bringing up level for play took: 0.001949
+[2015.10.29-13.17.27:758][984]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik -0.444
+[2015.10.29-13.17.27:758][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.31:461][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.31:521][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.31:564][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000326B618A0
+[2015.10.29-13.17.33:338][640]Recompiling UnrealProject...
+[2015.10.29-13.17.33:338][640]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2638 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.17.33:339][640]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.17.33:947][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.33:947][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.17.33:947][692]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:17:33 PM)
+[2015.10.29-13.17.33:947][692]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.17.33:950][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003200s)
+[2015.10.29-13.17.33:951][692]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.17.33:951][692]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2015.10.29-13.17.33:951][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003963s)
+[2015.10.29-13.17.33:975][692]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.17.33:982][692]LogInit: FAudioDevice initialized.
+[2015.10.29-13.17.34:015][692]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.17.34:017][692]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.17.34:018][692]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.10.29-13.17.34:018][692]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.17.34
+[2015.10.29-13.17.34:018][692]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.17.34:018][692]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.17.34:018][692]LogWorld: Bringing up level for play took: 0.001861
+[2015.10.29-13.17.34:019][692]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Patrik -0.183
+[2015.10.29-13.17.34:019][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.34:028][693]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:17:34 PM
+[2015.10.29-13.17.34:028][693]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.17.34:028][693]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.17.34:028][693]LogMainFrame: MainFrame: Module compiling took 0.692 seconds
+[2015.10.29-13.17.38:623][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.38:679][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.38:722][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000347853BA0
+[2015.10.29-13.17.47:726][286]LogSavePackage: Save=55.294910ms
+[2015.10.29-13.17.47:726][286]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/PatrikE073F5CF4D04771B427AAE86F31F397E.tmp' to '../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap'
+[2015.10.29-13.17.47:728][286]LogSavePackage: Total save time: 58.550201ms
+[2015.10.29-13.17.47:728][286]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Patrik.umap
+[2015.10.29-13.17.47:751][286]LogFileHelpers: Saving map 'Patrik' took 0.143
+[2015.10.29-13.17.48:558][381]Recompiling UnrealProject...
+[2015.10.29-13.17.48:558][381]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 1380 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.10.29-13.17.48:559][381]Warning: Starting HotReload took  0.0s.
+[2015.10.29-13.17.49:184][437]CompilerResultsLog: New page: Compilation - Oct 29, 2015, 3:17:49 PM
+[2015.10.29-13.17.49:184][437]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.29-13.17.49:184][437]CompilerResultsLog: Info Target is up to date.
+[2015.10.29-13.17.49:184][437]LogMainFrame: MainFrame: Module compiling took 0.628 seconds
+[2015.10.29-13.17.49:608][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/StarterContent/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.10.29-13.17.49:608][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.29-13.17.49:609][486]PIE: New page: PIE session: Patrik (Oct 29, 2015, 3:17:49 PM)
+[2015.10.29-13.17.49:609][486]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Patrik
+[2015.10.29-13.17.49:612][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002934s)
+[2015.10.29-13.17.49:612][486]LogAIModule: Creating AISystem for world Patrik
+[2015.10.29-13.17.49:612][486]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2015.10.29-13.17.49:612][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Patrik.Patrik to /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik (0.003697s)
+[2015.10.29-13.17.49:635][486]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.29-13.17.49:643][486]LogInit: FAudioDevice initialized.
+[2015.10.29-13.17.49:681][486]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.10.29-13.17.49:684][486]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.10.29-14.17.49
+[2015.10.29-13.17.49:684][486]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.29-13.17.49:684][486]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but 
