@@ -1,0 +1,412 @@
+﻿[2015.11.05-12.05.39:553][  0]Log file open, 11/05/15 13:05:39
+[2015.11.05-12.05.39:553][  0]LogInit:Display: Running engine for game: UnrealProject
+[2015.11.05-12.05.39:553][  0]LogInit:Display: RandInit(2122339886) SRandInit(2122339886).
+[2015.11.05-12.05.39:553][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.05-12.05.39:553][  0]LogStats: Stats thread started at 0.058264
+[2015.11.05-12.05.39:553][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-UnrealProject.dll
+[2015.11.05-12.05.42:482][  0]Running D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject Development Win64 -project="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket -editorrecompile -progress -noubtmakefiles
+[2015.11.05-12.06.04:612][  0]@progress push 5%
+[2015.11.05-12.06.05:312][  0]Parsing headers for UnrealProjectEditor
+[2015.11.05-12.06.05:312][  0]  Running UnrealHeaderTool "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.11.05-12.06.15:925][  0]Reflection code generated for UnrealProjectEditor in 10.6217646 seconds
+[2015.11.05-12.06.16:126][  0]@progress pop
+[2015.11.05-12.06.20:538][  0]Performing 10 actions (2 in parallel)
+[2015.11.05-12.06.20:538][  0][2/10] Resource PCLaunch.rc
+[2015.11.05-12.06.20:639][  0]PCH.UnrealProject.h.cpp
+[2015.11.05-12.06.20:739][  0][3/10] Resource ModuleVersionResource.rc.inl
+[2015.11.05-12.06.56:486][  0]CarController.cpp
+[2015.11.05-12.06.56:486][  0]UnrealProject.generated.cpp
+[2015.11.05-12.06.57:088][  0]UnrealProjectGameMode.cpp
+[2015.11.05-12.06.57:189][  0]PawnCar.cpp
+[2015.11.05-12.06.57:491][  0]WorldCamera.cpp
+[2015.11.05-12.06.57:491][  0]UnrealProject.cpp
+[2015.11.05-12.06.57:893][  0][10/10] Link UE4Editor-UnrealProject.dll
+[2015.11.05-12.06.58:294][  0]   Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject.exp
+[2015.11.05-12.06.59:096][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.05-12.06.59:196][  0]Total build time: 76.63 seconds
+[2015.11.05-12.06.59:746][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.05-12.06.59:746][  0]LogInit: API Version: 2672455
+[2015.11.05-12.06.59:746][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.05-12.06.59:746][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.05-12.06.59:746][  0]LogInit: Build Configuration: Development
+[2015.11.05-12.06.59:746][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.05-12.06.59:746][  0]LogInit: Command line: 
+[2015.11.05-12.06.59:746][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.05-12.06.59:746][  0]LogInit: Rocket: 1
+[2015.11.05-12.06.59:757][  0]LogInit: Using libcurl 7.41.0
+[2015.11.05-12.06.59:757][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.05-12.06.59:757][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.05-12.06.59:757][  0]LogInit:  - other features:
+[2015.11.05-12.06.59:757][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.05-12.06.59:757][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.05-12.06.59:757][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.05-12.06.59:757][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.05-12.06.59:757][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.05-12.06.59:757][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.05-12.06.59:757][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.05-12.06.59:757][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.05-12.06.59:757][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.05-12.06.59:757][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.05-12.06.59:769][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.05-12.06.59:777][  0]LogInit: Object subsystem initialized
+[2015.11.05-12.06.59:778][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-12.06.59:779][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.05-12.06.59:797][  0]LogInit: Computer: SIMONLAPTOP
+[2015.11.05-12.06.59:797][  0]LogInit: User: Simon
+[2015.11.05-12.06.59:797][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.05-12.06.59:797][  0]LogInit: High frequency timer resolution =2.533198 MHz
+[2015.11.05-12.06.59:797][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.05-12.06.59:797][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-12.06.59:797][  0]LogMemory: Process Physical Memory: 59.59 MB used, 59.59 MB peak
+[2015.11.05-12.06.59:797][  0]LogMemory: Process Virtual Memory: 58.06 MB used, 58.06 MB peak
+[2015.11.05-12.06.59:797][  0]LogMemory: Physical Memory: 4770.32 MB used, 8080.91 MB total
+[2015.11.05-12.06.59:797][  0]LogMemory: Virtual Memory: 405.98 MB used, 134217728.00 MB total
+[2015.11.05-12.06.59:869][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.05-12.07.00:997][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M            (Feature Level 11_0)
+[2015.11.05-12.07.00:997][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 1 output[s]
+[2015.11.05-12.07.01:007][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.11.05-12.07.01:007][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 0 output[s]
+[2015.11.05-12.07.01:018][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.05-12.07.01:018][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 0 output[s]
+[2015.11.05-12.07.01:018][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.05-12.07.01:024][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.05-12.07.01:024][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.05-12.07.01:040][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.05-12.07.01:056][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/11900/).
+[2015.11.05-12.07.01:057][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/85F8FAF24DEC3A191E61F0BF8A608325/'.
+[2015.11.05-12.07.01:057][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.05-12.07.03:077][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.05-12.07.03:084][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.05-12.07.03:091][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.05-12.07.03:097][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.05-12.07.03:104][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.05-12.07.03:113][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.05-12.07.03:117][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.05-12.07.03:121][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.05-12.07.03:126][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.05-12.07.03:130][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.05-12.07.03:136][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.05-12.07.03:141][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.05-12.07.03:142][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.05-12.07.03:165][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.05-12.07.03:170][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.05-12.07.03:175][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.05-12.07.03:183][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.05-12.07.03:183][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.05-12.07.03:293][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.05-12.07.03:489][  0]LogDerivedDataCache: Loaded boot cache 0.20s 41MB C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-12.07.03:489][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.05-12.07.03:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.05-12.07.03:489][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.05-12.07.03:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.05-12.07.03:489][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.05-12.07.03:688][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.05-12.07.03:700][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.05-12.07.05:388][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-12.07.05:391][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.05-12.07.05:549][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.05-12.07.05:549][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.05-12.07.05:875][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.05-12.07.08:668][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.05-12.07.08:839][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2015.11.05-12.07.09:207][  0]SourceControl: Info Source control is disabled
+[2015.11.05-12.07.09:240][  0]SourceControl: Info Source control is disabled
+[2015.11.05-12.07.09:253][  0]SourceControl: Info Source control is disabled
+[2015.11.05-12.07.09:269][  0]SourceControl: Info Source control is disabled
+[2015.11.05-12.07.09:583][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-12.07.09:733][  0]LogObj: 28381 objects as part of root set at end of initial load.
+[2015.11.05-12.07.09:734][  0]LogUObjectAllocator: 6052896 out of 0 bytes used by permanent object pool.
+[2015.11.05-12.07.09:848][  0]LogEngine: Initializing Engine...
+[2015.11.05-12.07.09:854][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.05-12.07.10:121][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.11.05-12.07.10:417][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.05-12.07.10:564][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.07.10:925][  0]LogInit: FAudioDevice initialized.
+[2015.11.05-12.07.10:957][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-12.07.10:967][  0]LogInit: Texture streaming: Enabled
+[2015.11.05-12.07.10:983][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.05-12.07.10:983][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.05-12.07.10:983][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6513f12644b2a44aef06b6b2b101a60b|0986fcf50a56434a9f04b1f02afeed0b|3549f2f7-93b8-499b-b80b-3e19a3b9ffc4
+[2015.11.05-12.07.10:983][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.05-12.07.11:026][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.05-12.07.11:027][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.05-12.07.11:066][  0]LogInit: Transaction tracking system initialized
+[2015.11.05-12.07.11:199][  0]BlueprintLog: New page: Editor Load
+[2015.11.05-12.07.11:428][  0]LocalizationService: Info Localization service is disabled
+[2015.11.05-12.07.11:838][  0]LogConsoleResponse:Display: 
+[2015.11.05-12.07.12:064][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.05-12.07.12:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.02s
+[2015.11.05-12.07.12:157][  0]SourceControl: Info Source control is disabled
+[2015.11.05-12.07.12:158][  0]Cmd: MAP LOAD FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-12.07.12:158][  0]LogEditorServer:Warning: Can't find file 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.05-12.07.12:158][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-12.07.12:218][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.921ms to complete.
+[2015.11.05-12.07.12:218][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.061
+[2015.11.05-12.07.12:486][  0]LogCollectionManager: Loaded 0 collections in 0.002433 seconds
+[2015.11.05-12.07.12:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.01s
+[2015.11.05-12.07.12:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Simon/Collections/' took 0.01s
+[2015.11.05-12.07.12:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
+[2015.11.05-12.07.12:555][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 1871 classes and 336 folders.
+[2015.11.05-12.07.12:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.11.05-12.07.12:601][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2015.11.05-12.07.13:030][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2015.11.05-12.07.13:046][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2015.11.05-12.07.13:142][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.05-12.07.13:173][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.05-12.07.13:200][  0]LogLoad: Full Startup: 94.35 seconds (BP compile: 0.02 seconds)
+[2015.11.05-12.07.13:350][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.05-12.07.13:540][  0]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:2).
+[2015.11.05-12.07.16:263][290]LogAssetRegistry: Asset discovery search completed in 7.4365 seconds
+[2015.11.05-12.07.16:263][290]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.05-12.07.16:264][290]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2015.11.05-12.08.04:368][577]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.h'
+[2015.11.05-12.08.04:599][577]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.cpp'
+[2015.11.05-12.23.50:113][672]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h'
+[2015.11.05-12.23.50:561][672]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.cpp'
+[2015.11.05-12.25.43:454][294]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2015.11.05-12.25.44:315][295]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h'
+[2015.11.05-12.25.44:394][295]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.cpp'
+[2015.11.05-12.27.31:608][316]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.h'
+[2015.11.05-12.27.31:717][316]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/PawnCar.cpp'
+[2015.11.05-12.29.06:601][827]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.h'
+[2015.11.05-12.29.06:667][827]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Source/UnrealProject/Actors/WorldCamera.cpp'
+[2015.11.05-12.29.11:066][281]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.29.11:119][281]Cmd: MAP LOAD FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-12.29.11:120][281]LightingResults: New page: Lighting Build
+[2015.11.05-12.29.11:124][281]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0025 seconds. Added 5 classes and 0 folders.
+[2015.11.05-12.29.11:148][281]LoadErrors: New page: Loading map: Simon.umap
+[2015.11.05-12.29.11:149][281]MapCheck: New page: Map Check
+[2015.11.05-12.29.11:149][281]LightingResults: New page: Lighting Build
+[2015.11.05-12.29.11:173][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9B5CECB80
+[2015.11.05-12.29.11:192][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.05-12.29.11:223][281]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-12.29.11:270][281]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.579ms to complete.
+[2015.11.05-12.29.11:270][281]LogFileHelpers: Loading map 'Simon' took 0.156
+[2015.11.05-12.29.33:143][734]Recompiling UnrealProject...
+[2015.11.05-12.29.33:143][734]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 7699 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.05-12.29.33:145][734]Warning: Starting HotReload took  0.0s.
+[2015.11.05-12.29.56:415][117]CompilerResultsLog: New page: Compilation - Nov 5, 2015, 2:29:56 PM
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (.uproject file is newer)
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 13.2233414 seconds
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-7699.dll
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7699.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7699.exp
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.05-12.29.56:416][117]CompilerResultsLog: Info Total build time: 23.19 seconds
+[2015.11.05-12.29.56:416][117]LogMainFrame: MainFrame: Module compiling took 23.282 seconds
+[2015.11.05-12.29.56:493][117]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0021 seconds. Added 4 classes and 3 folders.
+[2015.11.05-12.29.56:495][117]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.05-12.29.56:587][117]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 1872 classes and 338 folders.
+[2015.11.05-12.29.57:871][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-12.29.57:872][189]PIE: New page: PIE session: Simon (Nov 5, 2015, 2:29:57 PM)
+[2015.11.05-12.29.57:873][189]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.11.05-12.29.57:877][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003770s)
+[2015.11.05-12.29.57:878][189]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.29.57:878][189]LogPlayLevel: PIE: World Init took: (0.001781s)
+[2015.11.05-12.29.57:879][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.006437s)
+[2015.11.05-12.29.57:909][189]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.29.57:920][189]LogInit: FAudioDevice initialized.
+[2015.11.05-12.29.57:980][189]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.05-12.29.57:998][189]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.29.57:998][189]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.29.57:998][189]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.11.05-13.29.57
+[2015.11.05-12.29.57:999][189]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.29.58:000][189]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.29.58:005][189]LogWorld: Bringing up level for play took: 0.010925
+[2015.11.05-12.29.58:026][189]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.872
+[2015.11.05-12.30.04:112][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9A379C680
+[2015.11.05-12.30.31:395][725]Recompiling UnrealProject...
+[2015.11.05-12.30.31:395][725]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 7453 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.05-12.30.31:397][725]Warning: Starting HotReload took  0.0s.
+[2015.11.05-12.30.35:023][932]CompilerResultsLog: New page: Compilation - Nov 5, 2015, 2:30:35 PM
+[2015.11.05-12.30.35:023][932]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.05-12.30.35:023][932]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.05-12.30.35:024][932]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.05-12.30.35:024][932]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-7453.dll
+[2015.11.05-12.30.35:024][932]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7453.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7453.exp
+[2015.11.05-12.30.35:024][932]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.05-12.30.35:024][932]CompilerResultsLog: Info Total build time: 3.56 seconds
+[2015.11.05-12.30.35:024][932]LogMainFrame: MainFrame: Module compiling took 3.633 seconds
+[2015.11.05-12.30.35:096][932]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0024 seconds. Added 4 classes and 3 folders.
+[2015.11.05-12.30.35:097][932]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.05-12.30.35:162][932]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 1872 classes and 338 folders.
+[2015.11.05-12.30.38:017][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-12.30.38:018][ 98]PIE: New page: PIE session: Simon (Nov 5, 2015, 2:30:38 PM)
+[2015.11.05-12.30.38:018][ 98]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.11.05-12.30.38:020][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001780s)
+[2015.11.05-12.30.38:021][ 98]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.30.38:021][ 98]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2015.11.05-12.30.38:021][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003027s)
+[2015.11.05-12.30.38:051][ 98]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.30.38:063][ 98]LogInit: FAudioDevice initialized.
+[2015.11.05-12.30.38:097][ 98]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.05-12.30.38:100][ 98]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.30.38:100][ 98]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.30.38:101][ 98]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.11.05-13.30.38
+[2015.11.05-12.30.38:101][ 98]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.30.38:101][ 98]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.30.38:101][ 98]LogWorld: Bringing up level for play took: 0.003380
+[2015.11.05-12.30.38:103][ 98]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.949
+[2015.11.05-12.30.43:252][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9A37BD3A0
+[2015.11.05-12.31.02:709][542]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.05-12.31.04:785][659]Cmd: POLY SELECT MEMORY UNION
+[2015.11.05-12.31.09:427][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-12.31.10:083][969]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera1)
+[2015.11.05-12.31.18:860][470]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.11.05-12.31.19:963][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-12.31.21:873][633]Cmd: DELETE
+[2015.11.05-12.31.21:873][633]Cmd: ACTOR DELETE
+[2015.11.05-12.31.21:885][633]LogEditorActor: Deleted Actor: Brush
+[2015.11.05-12.31.21:915][633]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2015.11.05-12.31.29:558][ 76]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera1)
+[2015.11.05-12.31.35:095][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-12.31.35:095][398]PIE: New page: PIE session: Simon (Nov 5, 2015, 2:31:35 PM)
+[2015.11.05-12.31.35:095][398]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.11.05-12.31.35:103][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007804s)
+[2015.11.05-12.31.35:103][398]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.31.35:103][398]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2015.11.05-12.31.35:103][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.008592s)
+[2015.11.05-12.31.35:152][398]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.31.35:162][398]LogInit: FAudioDevice initialized.
+[2015.11.05-12.31.35:196][398]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.05-12.31.35:199][398]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.31.35:199][398]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.31.35:199][398]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.11.05-13.31.35
+[2015.11.05-12.31.35:199][398]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.31.35:200][398]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.31.35:200][398]LogWorld: Bringing up level for play took: 0.002709
+[2015.11.05-12.31.35:201][398]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.048
+[2015.11.05-12.31.42:194][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9C662B6A0
+[2015.11.05-12.31.43:083][863]Recompiling UnrealProject...
+[2015.11.05-12.31.43:083][863]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 9695 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.05-12.31.43:085][863]Warning: Starting HotReload took  0.0s.
+[2015.11.05-12.31.44:001][908]CompilerResultsLog: New page: Compilation - Nov 5, 2015, 2:31:44 PM
+[2015.11.05-12.31.44:001][908]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.05-12.31.44:001][908]CompilerResultsLog: Info Target is up to date.
+[2015.11.05-12.31.44:001][908]LogMainFrame: MainFrame: Module compiling took 0.923 seconds
+[2015.11.05-12.32.05:646][ 28]Recompiling UnrealProject...
+[2015.11.05-12.32.05:647][ 28]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 4139 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.05-12.32.05:649][ 28]Warning: Starting HotReload took  0.0s.
+[2015.11.05-12.32.08:864][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-12.32.08:864][206]PIE: New page: PIE session: Simon (Nov 5, 2015, 2:32:08 PM)
+[2015.11.05-12.32.08:864][206]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.11.05-12.32.08:866][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002198s)
+[2015.11.05-12.32.08:867][206]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.32.08:867][206]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2015.11.05-12.32.08:868][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003374s)
+[2015.11.05-12.32.08:916][206]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.32.08:927][206]LogInit: FAudioDevice initialized.
+[2015.11.05-12.32.08:967][206]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.05-12.32.08:969][206]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.32.08:969][206]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.32.08:970][206]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.11.05-13.32.08
+[2015.11.05-12.32.08:970][206]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.32.08:970][206]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.32.08:970][206]LogWorld: Bringing up level for play took: 0.002614
+[2015.11.05-12.32.08:971][206]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon -0.182
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: New page: Compilation - Nov 5, 2015, 2:32:09 PM
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-4139.dll
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4139.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4139.exp
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.05-12.32.09:422][233]CompilerResultsLog: Info Total build time: 3.70 seconds
+[2015.11.05-12.32.09:422][233]LogMainFrame: MainFrame: Module compiling took 3.778 seconds
+[2015.11.05-12.32.09:480][233]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0020 seconds. Added 4 classes and 3 folders.
+[2015.11.05-12.32.09:481][233]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.05-12.32.09:548][233]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 1872 classes and 338 folders.
+[2015.11.05-12.32.24:245][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9C7C040E0
+[2015.11.05-12.32.28:001][327]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.11.05-12.32.41:902][151]LogEditorViewport: Clicking on Actor (LMB): PawnCar (PawnCar1)
+[2015.11.05-12.32.51:451][713]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.11.05-12.33.17:862][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-12.33.17:862][250]PIE: New page: PIE session: Simon (Nov 5, 2015, 2:33:17 PM)
+[2015.11.05-12.33.17:862][250]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.11.05-12.33.17:864][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002123s)
+[2015.11.05-12.33.17:865][250]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.33.17:865][250]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2015.11.05-12.33.17:866][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003380s)
+[2015.11.05-12.33.17:888][250]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.33.17:897][250]LogInit: FAudioDevice initialized.
+[2015.11.05-12.33.17:931][250]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.05-12.33.17:933][250]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.33.17:933][250]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.33.17:933][250]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.11.05-13.33.17
+[2015.11.05-12.33.17:933][250]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.33.17:934][250]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.33.17:934][250]LogWorld: Bringing up level for play took: 0.002607
+[2015.11.05-12.33.17:935][250]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.782
+[2015.11.05-12.33.26:508][764]LogSelection:Warning: PIE object was selected: "HUD /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.HUD_4"
+[2015.11.05-12.33.29:500][943]LogSelection:Warning: PIE object was selected: "UnrealProjectGameMode /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.UnrealProjectGameMode_13"
+[2015.11.05-12.33.30:191][983]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.SkySphere"
+[2015.11.05-12.33.31:663][ 70]LogSelection:Warning: PIE object was selected: "PlayerState /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.PlayerState_8"
+[2015.11.05-12.33.34:763][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9C7C04720
+[2015.11.05-12.33.37:928][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-12.33.37:928][436]PIE: New page: PIE session: Simon (Nov 5, 2015, 2:33:37 PM)
+[2015.11.05-12.33.37:928][436]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.11.05-12.33.37:931][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002548s)
+[2015.11.05-12.33.37:932][436]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.33.37:932][436]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2015.11.05-12.33.37:932][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003935s)
+[2015.11.05-12.33.37:957][436]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.33.37:968][436]LogInit: FAudioDevice initialized.
+[2015.11.05-12.33.38:001][436]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.05-12.33.38:003][436]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.33.38:003][436]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.33.38:003][436]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.11.05-13.33.38
+[2015.11.05-12.33.38:003][436]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.33.38:004][436]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.33.38:004][436]LogWorld: Bringing up level for play took: 0.002588
+[2015.11.05-12.33.38:005][436]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.852
+[2015.11.05-12.33.39:119][503]LogSelection:Warning: PIE object was selected: "Actor /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.Actor_1"
+[2015.11.05-12.33.41:539][646]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.05-12.33.54:098][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9B67496C0
+[2015.11.05-12.33.57:233][574]Cmd: POLY SELECT ALL
+[2015.11.05-12.34.05:095][ 39]LogActorFactory: Actor Factory created Cube
+[2015.11.05-12.34.06:350][113]LogActorFactory: Actor Factory created Cube
+[2015.11.05-12.34.10:040][332]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2015.11.05-12.34.10:726][368]Cmd: DELETE
+[2015.11.05-12.34.10:726][368]Cmd: ACTOR DELETE
+[2015.11.05-12.34.12:563][368]LogEditorActor: Deleted Actor: Actor
+[2015.11.05-12.34.12:587][368]LogEditorActor: Deleted 1 Actors (1.860 secs)
+[2015.11.05-12.34.13:666][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-12.34.13:666][429]PIE: New page: PIE session: Simon (Nov 5, 2015, 2:34:13 PM)
+[2015.11.05-12.34.13:666][429]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Simon
+[2015.11.05-12.34.13:668][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001920s)
+[2015.11.05-12.34.13:669][429]LogAIModule: Creating AISystem for world Simon
+[2015.11.05-12.34.13:669][429]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2015.11.05-12.34.13:669][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Simon.Simon to /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon (0.003004s)
+[2015.11.05-12.34.13:690][429]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-12.34.13:702][429]LogInit: FAudioDevice initialized.
+[2015.11.05-12.34.13:736][429]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.05-12.34.13:738][429]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.34.13:738][429]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.11.05-12.34.13:739][429]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.11.05-13.34.13
+[2015.11.05-12.34.13:739][429]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.34.13:739][429]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-12.34.13:739][429]LogWorld: Bringing up level for play took: 0.002472
+[2015.11.05-12.34.13:740][429]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Simon 0.587
+[2015.11.05-12.34.14:616][429]LogCrashTracker: 
+
+
+[2015.11.05-12.34.14:618][429]LogCrashTracker: 
+
+
+[2015.11.05-12.34.14:618][429]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2015.11.05-12.34.14:758][429]LogExit: Executing StaticShutdownAfterError
+[2015.11.05-12.34.14:766][429]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.05-12.34.14:766][429]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.05-12.34.14:766][429]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.05-12.34.14:766][429]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.05-12.34.14:766][429]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.11.05-12.34.14:766][429]Log file closed, 11/05/15 13:34:14
