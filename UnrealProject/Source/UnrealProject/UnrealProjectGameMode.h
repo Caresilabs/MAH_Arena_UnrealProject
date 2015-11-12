@@ -12,9 +12,8 @@ UCLASS()
 class UNREALPROJECT_API AUnrealProjectGameMode : public AGameMode
 {
 	GENERATED_BODY()
-
-	AUnrealProjectGameMode();
 	
+	AUnrealProjectGameMode();
 	
 	
 };
