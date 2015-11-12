@@ -5,12 +5,16 @@
 
 
 void AWorldCamera::Tick(float delta) {
+	float maxDistance = 0;
 	FVector average(0,0,0);
 	
-
+	
 	for (AActor* act : Actors)
 	{
-		average =  average + act->GetActorLocation();
+		average = average + act->GetActorLocation();
+		if (maxDistance < (act->GetActorLocation() - GetActorLocation()).Size()) {
+			maxDistance = (act->GetActorLocation() - GetActorLocation()).Size();
+		}
 	}
 	average =  average / (float)Actors.Num();
 
@@ -19,7 +23,7 @@ void AWorldCamera::Tick(float delta) {
 	FRotator Rot = FRotationMatrix::MakeFromX(average - GetActorLocation()).Rotator(); //Actors[0]->GetActorLocation()
 	SetActorRelativeRotation(Rot);
 	
-	SetActorLocation(average + -GetActorForwardVector() * 500);
+	SetActorLocation(average + -GetActorForwardVector() * maxDistance);
 
 }
 
