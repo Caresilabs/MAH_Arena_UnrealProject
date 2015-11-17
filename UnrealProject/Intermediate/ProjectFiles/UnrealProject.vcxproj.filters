@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\UnrealProject.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{0C53571B-C1F9-4588-BA84-3D284D91C0F1}</UniqueIdentifier>
+			<UniqueIdentifier>{BB8F0E88-E9C2-4558-81C2-36694F0211AC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UnrealProject.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{47702601-B619-4FF3-B9A2-2836FBA63BBA}</UniqueIdentifier>
+			<UniqueIdentifier>{B8E5C970-D65E-42FD-8EC3-CEF8E6E5A9BF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,8 +25,20 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\UnrealProject">
-			<UniqueIdentifier>{C783972A-D111-4D2B-BBE0-2E84196CB086}</UniqueIdentifier>
+			<UniqueIdentifier>{8FDE349C-99AD-4E32-B9EE-DBC2741A8643}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\UnrealProject\CarController.cpp">
+			<Filter>Source\UnrealProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealProject\CarController.h">
+			<Filter>Source\UnrealProject</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealProject\PawnCar.cpp">
+			<Filter>Source\UnrealProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealProject\PawnCar.h">
+			<Filter>Source\UnrealProject</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\UnrealProject\UnrealProject.Build.cs">
 			<Filter>Source\UnrealProject</Filter>
 		</None >
@@ -41,6 +53,15 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\UnrealProject\UnrealProjectGameMode.h">
 			<Filter>Source\UnrealProject</Filter>
+		</ClInclude >
+		<Filter Include="Source\UnrealProject\Actors">
+			<UniqueIdentifier>{3247A34B-D007-4CF6-BE50-5B2EDFB811D1}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\UnrealProject\Actors\WorldCamera.cpp">
+			<Filter>Source\UnrealProject\Actors</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealProject\Actors\WorldCamera.h">
+			<Filter>Source\UnrealProject\Actors</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>
