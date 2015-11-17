@@ -15,13 +15,14 @@ public:
 	APawnCar();
 
 	UPROPERTY(EditAnywhere)
+	USceneComponent* SceneComponent;
+
+	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* StaticMesh;
 
 	UPROPERTY(EditAnywhere)
 	UFloatingPawnMovement* Movement;
 
-	UPROPERTY(EditAnywhere)
-	UBoxComponent* CollisionBox;
 
 
 	float speed;

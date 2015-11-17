@@ -13,10 +13,8 @@ APawnCar::APawnCar()
 	speed = 100;
 	direction = FVector(0.0f, 0.0f, 0.0f);
 
-	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
-	CollisionBox->SetCollisionObjectType(ECollisionChannel::ECC_Pawn);
-	CollisionBox->SetCollisionProfileName(TEXT("Pawn"));
-	RootComponent = CollisionBox;
+	SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	RootComponent = SceneComponent;
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->AttachTo(RootComponent);
