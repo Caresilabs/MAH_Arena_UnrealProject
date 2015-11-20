@@ -12,6 +12,8 @@ APawnCar::APawnCar()
 
 	speed = 100;
 	turnSpeed = 100;
+	count = 0;
+	IsOnGround = true;
 
 	//Use c++ to create the basic car, use BP to fill the components!
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
@@ -46,13 +48,13 @@ void APawnCar::Tick( float DeltaTime )
 
 	Movement->AddInputVector(velocity);
 
-	TArray<AActor*> arr = TArray<AActor*>();
-	BoxComponent->GetOverlappingActors(arr);
-	UE_LOG(LogTemp, Warning, TEXT("MyCharacter's Health is %d"), arr.Num());
-	if (BoxComponent->GetOverlapInfos().Num() > 0)
-		IsOnGround = true;
-	else
-		IsOnGround = false;
+	TArray<UPrimitiveComponent*> arr = TArray<UPrimitiveComponent*>();
+	BoxComponent->GetOverlappingComponents(arr);
+	UE_LOG(LogTemp, Warning, TEXT("Colliding amount: %d"), BoxComponent->GetOverlapInfos().Num());
+	//if (count > 0)
+	//	IsOnGround = true;
+	//else
+	//	IsOnGround = false;
 
 }
 

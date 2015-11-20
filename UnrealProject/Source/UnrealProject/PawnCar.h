@@ -33,6 +33,8 @@ public:
 	float turn;
 	bool IsOnGround;
 
+	int32 count;
+
 	virtual void BeginPlay() override;
 	
 	virtual void Tick( float DeltaSeconds ) override;
@@ -40,6 +42,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
+
+
 
 	
 	
