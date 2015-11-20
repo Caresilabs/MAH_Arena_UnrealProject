@@ -11,27 +11,27 @@ ACarController::ACarController()
 void ACarController::Tick(float deltaTime)
 {
 	Super::Tick(deltaTime);	
-	Cast<APawnCar>(GetPawn())->AddDirection(direction);
 }
 
 void ACarController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
-	InputComponent->BindAxis("MoveX", this, &ACarController::MoveX);
-	InputComponent->BindAxis("MoveY", this, &ACarController::MoveY);
+	InputComponent->BindAxis("MoveForward", this, &ACarController::MoveForward);
+	InputComponent->BindAxis("Turn", this, &ACarController::Turn);
 }
 
-void ACarController::MoveX(float axisValue)
+void ACarController::MoveForward(float axisValue)
 {
-	FMath::Clamp(axisValue, -1.0f, 1.0f);
-	direction.X = axisValue;
+	direction.Y = FMath::Clamp(axisValue, -1.0f, 1.0f);
+	Cast<APawnCar>(GetPawn())->SetDirection(direction);
 
 }
-void ACarController::MoveY(float axisValue)
+void ACarController::Turn(float axisValue)
 {
-	FMath::Clamp(axisValue, -1.0f, 1.0f);
-	direction.Y = axisValue;
+	turn = FMath::Clamp(axisValue, -1.0f, 1.0f);
+	Cast<APawnCar>(GetPawn())->SetTurn(turn);
+
 }
 
 

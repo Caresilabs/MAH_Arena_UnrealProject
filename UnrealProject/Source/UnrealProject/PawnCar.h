@@ -15,29 +15,29 @@ public:
 	APawnCar();
 
 	UPROPERTY(EditAnywhere)
-	USceneComponent* SceneComponent;
+	UStaticMeshComponent* StaticMesh;
 
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* StaticMesh;
+	UBoxComponent* BoxComponent;
 
 	UPROPERTY(EditAnywhere)
 	UFloatingPawnMovement* Movement;
 
+	void SetDirection(FVector direction);
+	void SetTurn(float turn);
 
-
-	float speed;
 	FVector direction;
 
-	// Called when the game starts or when spawned
+	float speed;
+	float turnSpeed;
+	float turn;
+	bool IsOnGround;
+
 	virtual void BeginPlay() override;
 	
-	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
-
-	void AddDirection(FVector direction);
 
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
 

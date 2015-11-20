@@ -16,7 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	void APawnCar::StaticRegisterNativesAPawnCar()
 	{
 	}
-	IMPLEMENT_CLASS(APawnCar, 3271112452);
+	IMPLEMENT_CLASS(APawnCar, 6334552);
 	void AUnrealProjectGameMode::StaticRegisterNativesAUnrealProjectGameMode()
 	{
 	}
@@ -30,8 +30,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	ENGINE_API class UClass* Z_Construct_UClass_ACameraActor();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
@@ -98,8 +98,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_Movement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Movement"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Movement, APawnCar), 0x0000000000080009, Z_Construct_UClass_UFloatingPawnMovement_NoRegister());
+				UProperty* NewProp_BoxComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoxComponent"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(BoxComponent, APawnCar), 0x0000000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
 				UProperty* NewProp_StaticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("StaticMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(StaticMesh, APawnCar), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-				UProperty* NewProp_SceneComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("SceneComponent"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(SceneComponent, APawnCar), 0x0000000000080009, Z_Construct_UClass_USceneComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -110,12 +110,12 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_Movement, TEXT("Category"), TEXT("PawnCar"));
 				MetaData->SetValue(NewProp_Movement, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_Movement, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+				MetaData->SetValue(NewProp_BoxComponent, TEXT("Category"), TEXT("PawnCar"));
+				MetaData->SetValue(NewProp_BoxComponent, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BoxComponent, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(NewProp_StaticMesh, TEXT("Category"), TEXT("PawnCar"));
 				MetaData->SetValue(NewProp_StaticMesh, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_StaticMesh, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
-				MetaData->SetValue(NewProp_SceneComponent, TEXT("Category"), TEXT("PawnCar"));
-				MetaData->SetValue(NewProp_SceneComponent, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_SceneComponent, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 #endif
 			}
 		}
@@ -205,7 +205,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x67DF20EF;
+			Guid.A = 0x2987604F;
 			Guid.B = 0x8EC62A35;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

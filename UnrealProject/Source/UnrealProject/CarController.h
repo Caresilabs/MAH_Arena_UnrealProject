@@ -14,12 +14,12 @@ class UNREALPROJECT_API ACarController : public APlayerController
 	GENERATED_BODY()
 
 	ACarController();
-
 	FVector direction;
+	float turn;
 
 	void Tick(float deltaTime) override;
 	void SetupInputComponent() override;
 
-	void MoveX(float axisValue);
-	void MoveY(float axisValue);
+	void MoveForward(float axisValue);
+	void Turn(float axisValue);
 };
