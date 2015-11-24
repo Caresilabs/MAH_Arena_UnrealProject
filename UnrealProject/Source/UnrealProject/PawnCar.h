@@ -31,6 +31,8 @@ public:
 	float speed;
 	float turnSpeed;
 	float turn;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsOnGround;
 
 	int32 count;

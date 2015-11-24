@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\UnrealProject.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{BB8F0E88-E9C2-4558-81C2-36694F0211AC}</UniqueIdentifier>
+			<UniqueIdentifier>{F67C3094-5C88-4AF3-8236-01A180E2AE35}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UnrealProject.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{B8E5C970-D65E-42FD-8EC3-CEF8E6E5A9BF}</UniqueIdentifier>
+			<UniqueIdentifier>{1DF8535D-1103-48E3-A144-8C9ECE676830}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -24,8 +24,11 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Source\UnrealProject">
-			<UniqueIdentifier>{8FDE349C-99AD-4E32-B9EE-DBC2741A8643}</UniqueIdentifier>
+			<UniqueIdentifier>{8B0B0A2B-FAE9-4070-ADD3-F68DD7707089}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\UnrealProject\CarController.cpp">
 			<Filter>Source\UnrealProject</Filter>
@@ -55,7 +58,7 @@
 			<Filter>Source\UnrealProject</Filter>
 		</ClInclude >
 		<Filter Include="Source\UnrealProject\Actors">
-			<UniqueIdentifier>{3247A34B-D007-4CF6-BE50-5B2EDFB811D1}</UniqueIdentifier>
+			<UniqueIdentifier>{60184DA6-A03B-4411-BBC7-3B227362E5C4}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\UnrealProject\Actors\WorldCamera.cpp">
 			<Filter>Source\UnrealProject\Actors</Filter>

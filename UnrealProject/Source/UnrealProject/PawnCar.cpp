@@ -47,26 +47,28 @@ void APawnCar::Tick( float DeltaTime )
 	FVector velocity = matrix.TransformVector(direction * speed *DeltaTime);
 
 	Movement->AddInputVector(velocity);
-
-	TArray<UPrimitiveComponent*> arr = TArray<UPrimitiveComponent*>();
-	BoxComponent->GetOverlappingComponents(arr);
-	UE_LOG(LogTemp, Warning, TEXT("Colliding amount: %d"), BoxComponent->GetOverlapInfos().Num());
-	//if (count > 0)
-	//	IsOnGround = true;
-	//else
-	//	IsOnGround = false;
-
+	if (IsOnGround)
+		Movement->Deceleration = 2000;
+	else
+		Movement->Deceleration = 500;
 }
 
 void APawnCar::SetDirection(FVector direction)
 {
 	if (IsOnGround)
+	{
 		this->direction = direction;
+
+	}
+	else
+		this->direction = FVector(0, 0, 0);
 }
 void APawnCar::SetTurn(float turn)
 {
 	if (IsOnGround)
 		this->turn = turn;
+	else
+		this->turn = 0;
 }
 
 // Called to bind functionality to input
