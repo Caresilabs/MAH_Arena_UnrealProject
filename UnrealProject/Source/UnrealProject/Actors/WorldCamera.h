@@ -13,9 +13,6 @@ class UNREALPROJECT_API AWorldCamera : public ACameraActor
 {
 	GENERATED_BODY()
 
-		UPROPERTY(EDITANYWHERE)
-		TArray<AActor*> Actors;
-
 	virtual void Tick(float delta) override;
 
 

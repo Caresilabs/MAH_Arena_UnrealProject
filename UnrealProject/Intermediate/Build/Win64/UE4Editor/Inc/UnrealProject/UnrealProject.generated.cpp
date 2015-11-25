@@ -24,7 +24,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	void AWorldCamera::StaticRegisterNativesAWorldCamera()
 	{
 	}
-	IMPLEMENT_CLASS(AWorldCamera, 3999884295);
+	IMPLEMENT_CLASS(AWorldCamera, 4042760998);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
@@ -34,7 +34,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	ENGINE_API class UClass* Z_Construct_UClass_ACameraActor();
-	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
 
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController();
@@ -180,10 +179,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->ClassFlags |= 0x20900080;
 
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-				UProperty* NewProp_Actors = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Actors"), RF_Public|RF_Transient|RF_Native) UArrayProperty(CPP_PROPERTY_BASE(Actors, AWorldCamera), 0x0000000000000001);
-				UProperty* NewProp_Actors_Inner = new(EC_InternalUseOnlyConstructor, NewProp_Actors, TEXT("Actors"), RF_Public|RF_Transient|RF_Native) UObjectProperty(FObjectInitializer(), EC_CppProperty, 0, 0x0000000000000000, Z_Construct_UClass_AActor_NoRegister());
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -191,8 +186,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Actors/WorldCamera.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Actors/WorldCamera.h"));
 				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
-				MetaData->SetValue(NewProp_Actors, TEXT("Category"), TEXT("WorldCamera"));
-				MetaData->SetValue(NewProp_Actors, TEXT("ModuleRelativePath"), TEXT("Actors/WorldCamera.h"));
 #endif
 			}
 		}
@@ -209,7 +202,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x21069A81;
+			Guid.A = 0x6C3CBD5B;
 			Guid.B = 0x8EC62A35;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

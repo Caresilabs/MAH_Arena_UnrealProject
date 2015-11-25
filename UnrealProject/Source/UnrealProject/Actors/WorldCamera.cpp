@@ -4,33 +4,33 @@
 #include "WorldCamera.h"
 
 
-void AWorldCamera::Tick(float delta) {
-	float maxDistance = 1;
-	FVector average(0,0,0);
+void AWorldCamera::Tick( float delta ) {
 	
-	for (AActor* act : Actors)
-	{
-		average = average + act->GetActorLocation();
-		
-		for (AActor* act2 : Actors)
-		{
-			if (maxDistance < (act->GetActorLocation() - act2->GetActorLocation()).Size()) {
-				maxDistance = (act->GetActorLocation() - act2->GetActorLocation()).Size();
+	float MaxDistance = 700;
+	FVector Average( 0, 0, 0 );
+	TArray<AActor*> Actors;
+
+	for ( TActorIterator<AActor> ActorItr( GetWorld() ); ActorItr; ++ActorItr ) {
+		if ( ActorItr->ActorHasTag( FName( "POI" ) ) ) {
+			Actors.Push( *ActorItr );
+		}
+	}
+
+	for ( AActor* Act : Actors ) {
+		Average = Average + Act->GetActorLocation();
+
+		for ( AActor* Act2 : Actors ) {
+			if ( MaxDistance < ( Act->GetActorLocation() - Act2->GetActorLocation() ).Size() ) {
+				MaxDistance = ( Act->GetActorLocation() - Act2->GetActorLocation() ).Size();
 			}
 		}
-
-		//if (maxDistance < (act->GetActorLocation() - GetActorLocation()).Size()) {
-		//	maxDistance = (act->GetActorLocation() - GetActorLocation()).Size();
-		//}
 	}
-	average =  average / (float)Actors.Num();
 
-	//average.Z = 0;
+	Average = Average / (float)Actors.Num();
 
-	FRotator Rot = FRotationMatrix::MakeFromX(average - GetActorLocation()).Rotator(); //Actors[0]->GetActorLocation()
-	//SetActorRelativeRotation(Rot);
-	
-	SetActorLocation(average + (-GetActorForwardVector() * maxDistance*1.7f));
+	//const FRotator Rot = FRotationMatrix::MakeFromX( Average - GetActorLocation() ).Rotator();
+
+	SetActorLocation( Average + ( GetActorForwardVector() * -MaxDistance* 1.15f ) );
 
 }
 
