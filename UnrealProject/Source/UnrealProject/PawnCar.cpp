@@ -11,7 +11,7 @@ APawnCar::APawnCar()
 	PrimaryActorTick.bCanEverTick = true;
 
 	speed = 100;
-	turnSpeed = 100;
+	turnSpeed = 200;
 	count = 0;
 	IsOnGround = true;
 
