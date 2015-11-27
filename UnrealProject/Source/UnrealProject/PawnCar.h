@@ -14,6 +14,9 @@ public:
 	// Sets default values for this pawn's properties
 	APawnCar();
 
+	UFUNCTION(BlueprintCallable, Category = YourCategory)
+	void AddImpulse(FVector impuls);
+
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* StaticMesh;
 

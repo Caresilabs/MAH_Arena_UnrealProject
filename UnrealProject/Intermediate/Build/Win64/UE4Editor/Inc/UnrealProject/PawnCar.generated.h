@@ -8,13 +8,32 @@
 #include "ObjectBase.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef UNREALPROJECT_PawnCar_generated_h
 #error "PawnCar.generated.h already included, missing '#pragma once' in PawnCar.h"
 #endif
 #define UNREALPROJECT_PawnCar_generated_h
 
-#define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS
-#define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddImpulse) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_impuls); \
+		P_FINISH; \
+		this->AddImpulse(Z_Param_impuls); \
+	}
+
+
+#define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddImpulse) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_impuls); \
+		P_FINISH; \
+		this->AddImpulse(Z_Param_impuls); \
+	}
+
+
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAPawnCar(); \

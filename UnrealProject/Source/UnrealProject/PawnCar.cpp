@@ -36,6 +36,11 @@ void APawnCar::BeginPlay()
 	
 }
 
+void APawnCar::AddImpulse(FVector impuls)
+{
+	BoxComponent->AddImpulse(impuls);
+}
+
 // Called every frame
 void APawnCar::Tick( float DeltaTime )
 {
