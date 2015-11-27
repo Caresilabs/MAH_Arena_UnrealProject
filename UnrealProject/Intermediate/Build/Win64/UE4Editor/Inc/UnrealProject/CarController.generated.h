@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALPROJECT_CarController_generated_h
 
-#define UnrealProject_Source_UnrealProject_CarController_h_14_RPC_WRAPPERS
-#define UnrealProject_Source_UnrealProject_CarController_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealProject_Source_UnrealProject_CarController_h_14_INCLASS_NO_PURE_DECLS \
+#define UnrealProject_Source_UnrealProject_CarController_h_15_RPC_WRAPPERS
+#define UnrealProject_Source_UnrealProject_CarController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealProject_Source_UnrealProject_CarController_h_15_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesACarController(); \
 	friend UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController(); \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<ACarController*>(this); }
 
 
-#define UnrealProject_Source_UnrealProject_CarController_h_14_INCLASS \
+#define UnrealProject_Source_UnrealProject_CarController_h_15_INCLASS \
 	private: \
 	static void StaticRegisterNativesACarController(); \
 	friend UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController(); \
@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<ACarController*>(this); }
 
 
-#define UnrealProject_Source_UnrealProject_CarController_h_14_STANDARD_CONSTRUCTORS \
+#define UnrealProject_Source_UnrealProject_CarController_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACarController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACarController) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define UnrealProject_Source_UnrealProject_CarController_h_14_ENHANCED_CONSTRUCTORS \
+#define UnrealProject_Source_UnrealProject_CarController_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private copy-constructor, should never be used */ \
 	NO_API ACarController(const ACarController& InCopy); \
@@ -59,23 +59,23 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACarController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACarController)
 
 
-#define UnrealProject_Source_UnrealProject_CarController_h_11_PROLOG
-#define UnrealProject_Source_UnrealProject_CarController_h_14_GENERATED_BODY_LEGACY \
+#define UnrealProject_Source_UnrealProject_CarController_h_12_PROLOG
+#define UnrealProject_Source_UnrealProject_CarController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealProject_Source_UnrealProject_CarController_h_14_RPC_WRAPPERS \
-	UnrealProject_Source_UnrealProject_CarController_h_14_INCLASS \
-	UnrealProject_Source_UnrealProject_CarController_h_14_STANDARD_CONSTRUCTORS \
+	UnrealProject_Source_UnrealProject_CarController_h_15_RPC_WRAPPERS \
+	UnrealProject_Source_UnrealProject_CarController_h_15_INCLASS \
+	UnrealProject_Source_UnrealProject_CarController_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealProject_Source_UnrealProject_CarController_h_14_GENERATED_BODY \
+#define UnrealProject_Source_UnrealProject_CarController_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealProject_Source_UnrealProject_CarController_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealProject_Source_UnrealProject_CarController_h_14_INCLASS_NO_PURE_DECLS \
-	UnrealProject_Source_UnrealProject_CarController_h_14_ENHANCED_CONSTRUCTORS \
+	UnrealProject_Source_UnrealProject_CarController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealProject_Source_UnrealProject_CarController_h_15_INCLASS_NO_PURE_DECLS \
+	UnrealProject_Source_UnrealProject_CarController_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

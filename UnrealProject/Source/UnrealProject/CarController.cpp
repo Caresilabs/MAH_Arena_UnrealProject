@@ -24,13 +24,16 @@ void ACarController::SetupInputComponent()
 void ACarController::MoveForward(float axisValue)
 {
 	direction.Y = FMath::Clamp(axisValue, -1.0f, 1.0f);
+	//if (Car != nullptr)
 	Cast<APawnCar>(GetPawn())->SetDirection(direction);
 
 }
 void ACarController::Turn(float axisValue)
 {
 	turn = FMath::Clamp(axisValue, -1.0f, 1.0f);
+	//if (Car != nullptr)
 	Cast<APawnCar>(GetPawn())->SetTurn(turn);
+
 
 }
 

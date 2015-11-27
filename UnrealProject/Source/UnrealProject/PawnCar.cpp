@@ -17,7 +17,10 @@ APawnCar::APawnCar()
 
 	//Use c++ to create the basic car, use BP to fill the components!
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
+	BoxComponent->SetSimulatePhysics(true);
 	RootComponent = BoxComponent;
+
+	Tags.Add(FName("POI"));
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->AttachTo(RootComponent);
