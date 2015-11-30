@@ -11,13 +11,16 @@ APawnCar::APawnCar()
 	PrimaryActorTick.bCanEverTick = true;
 
 	speed = 100;
-	turnSpeed = 100;
+	turnSpeed = 200;
 	count = 0;
 	IsOnGround = true;
 
 	//Use c++ to create the basic car, use BP to fill the components!
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
+	BoxComponent->SetSimulatePhysics(true);
 	RootComponent = BoxComponent;
+
+	Tags.Add(FName("POI"));
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->AttachTo(RootComponent);
@@ -31,6 +34,11 @@ void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+void APawnCar::AddImpulse(FVector impuls)
+{
+	BoxComponent->AddImpulse(impuls);
 }
 
 // Called every frame
