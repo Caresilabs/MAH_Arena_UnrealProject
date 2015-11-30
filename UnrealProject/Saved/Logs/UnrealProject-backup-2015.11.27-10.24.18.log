@@ -1,0 +1,975 @@
+﻿[2015.11.25-19.07.41:956][  0]Log file open, 11/25/15 20:07:41
+[2015.11.25-19.07.41:956][  0]LogInit:Display: Running engine for game: UnrealProject
+[2015.11.25-19.07.41:956][  0]LogInit:Display: RandInit(727912455) SRandInit(727912476).
+[2015.11.25-19.07.41:956][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.25-19.07.41:956][  0]LogStats: Stats thread started at 0.091716
+[2015.11.25-19.07.41:956][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.25-19.07.41:956][  0]LogInit: API Version: 2672455
+[2015.11.25-19.07.41:956][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.25-19.07.41:956][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.25-19.07.41:956][  0]LogInit: Build Configuration: Development
+[2015.11.25-19.07.41:956][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.25-19.07.41:956][  0]LogInit: Command line:  
+[2015.11.25-19.07.41:956][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.25-19.07.41:956][  0]LogInit: Rocket: 1
+[2015.11.25-19.07.41:976][  0]LogInit: Using libcurl 7.41.0
+[2015.11.25-19.07.41:976][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.25-19.07.41:976][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.25-19.07.41:976][  0]LogInit:  - other features:
+[2015.11.25-19.07.41:976][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.25-19.07.41:976][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.25-19.07.41:976][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.25-19.07.41:976][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.25-19.07.41:976][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.25-19.07.41:976][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.25-19.07.41:976][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.25-19.07.41:976][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.25-19.07.41:976][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.25-19.07.41:976][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.25-19.07.41:990][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.25-19.07.42:002][  0]LogInit: Object subsystem initialized
+[2015.11.25-19.07.42:005][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.25-19.07.42:005][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.25-19.07.42:024][  0]LogInit: Computer: SIMON-AMD
+[2015.11.25-19.07.42:024][  0]LogInit: User: Simon
+[2015.11.25-19.07.42:024][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.25-19.07.42:024][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.11.25-19.07.42:025][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.11.25-19.07.42:025][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.25-19.07.42:025][  0]LogMemory: Process Physical Memory: 53.84 MB used, 53.84 MB peak
+[2015.11.25-19.07.42:025][  0]LogMemory: Process Virtual Memory: 57.19 MB used, 57.19 MB peak
+[2015.11.25-19.07.42:025][  0]LogMemory: Physical Memory: 4646.07 MB used, 8174.11 MB total
+[2015.11.25-19.07.42:025][  0]LogMemory: Virtual Memory: 365.56 MB used, 134217728.00 MB total
+[2015.11.25-19.07.42:072][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.25-19.07.43:238][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6700 Series (Feature Level 11_0)
+[2015.11.25-19.07.43:238][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.11.25-19.07.43:240][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.25-19.07.43:240][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 0 output[s]
+[2015.11.25-19.07.43:240][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.25-19.07.43:247][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.25-19.07.43:247][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.11.25-19.07.43:258][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.25-19.07.43:270][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/10368/).
+[2015.11.25-19.07.43:271][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/BAC895B7418F0C549E6E5B8A5F4DB1C6/'.
+[2015.11.25-19.07.43:271][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.25-19.07.45:470][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.25-19.07.45:479][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.25-19.07.45:487][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.25-19.07.45:496][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.25-19.07.45:505][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.25-19.07.45:514][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.25-19.07.45:520][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.25-19.07.45:526][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.25-19.07.45:532][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.25-19.07.45:538][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.25-19.07.45:545][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.25-19.07.45:551][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.25-19.07.45:552][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.25-19.07.45:578][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.25-19.07.45:585][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.25-19.07.45:590][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.25-19.07.45:597][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.25-19.07.45:597][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.25-19.07.45:746][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.25-19.07.47:170][  0]LogDerivedDataCache: Loaded boot cache 1.42s 41MB C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.25-19.07.47:170][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.25-19.07.47:170][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.25-19.07.47:170][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.25-19.07.47:170][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.25-19.07.47:170][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.25-19.07.47:401][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.25-19.07.47:413][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.25-19.07.47:722][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.25-19.07.47:727][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.25-19.07.47:909][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.25-19.07.47:909][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.25-19.07.48:385][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.25-19.08.20:006][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.25-19.08.20:340][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.11.25-19.08.21:515][  0]SourceControl: Info Source control is disabled
+[2015.11.25-19.08.21:655][  0]SourceControl: Info Source control is disabled
+[2015.11.25-19.08.21:676][  0]SourceControl: Info Source control is disabled
+[2015.11.25-19.08.21:696][  0]SourceControl: Info Source control is disabled
+[2015.11.25-19.08.22:536][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.25-19.08.22:754][  0]LogObj: 28380 objects as part of root set at end of initial load.
+[2015.11.25-19.08.22:754][  0]LogUObjectAllocator: 6052760 out of 0 bytes used by permanent object pool.
+[2015.11.25-19.08.22:921][  0]LogEngine: Initializing Engine...
+[2015.11.25-19.08.22:927][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.25-19.08.22:937][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.11.25-19.08.23:974][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.25-19.08.23:997][  0]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.08.24:026][  0]LogInit: FAudioDevice initialized.
+[2015.11.25-19.08.24:088][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.25-19.08.24:100][  0]LogInit: Texture streaming: Enabled
+[2015.11.25-19.08.24:112][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.25-19.08.24:112][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.25-19.08.24:113][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ff3a80b046c63b92d7e2daba576543b8|0986fcf50a56434a9f04b1f02afeed0b|6ab55ba0-8639-40be-b839-10e95090a944
+[2015.11.25-19.08.24:113][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.25-19.08.24:305][  0]LogInit: Transaction tracking system initialized
+[2015.11.25-19.08.24:370][  0]BlueprintLog: New page: Editor Load
+[2015.11.25-19.08.24:632][  0]LocalizationService: Info Localization service is disabled
+[2015.11.25-19.08.25:294][  0]LogConsoleResponse:Display: 
+[2015.11.25-19.08.27:395][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.25-19.08.27:957][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.02s
+[2015.11.25-19.08.28:014][  0]SourceControl: Info Source control is disabled
+[2015.11.25-19.08.28:015][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.25-19.08.28:016][  0]LightingResults: New page: Lighting Build
+[2015.11.25-19.08.28:032][  0]MapCheck: New page: Map Check
+[2015.11.25-19.08.28:032][  0]LightingResults: New page: Lighting Build
+[2015.11.25-19.08.28:062][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000723CA15A80
+[2015.11.25-19.08.29:040][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.25-19.08.29:138][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.25-19.08.29:139][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.25-19.08.29:230][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.084ms to complete.
+[2015.11.25-19.08.29:230][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.215
+[2015.11.25-19.08.29:543][  0]LogCollectionManager: Loaded 0 collections in 0.004487 seconds
+[2015.11.25-19.08.29:604][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.02s
+[2015.11.25-19.08.29:604][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Simon/Collections/' took 0.01s
+[2015.11.25-19.08.29:604][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
+[2015.11.25-19.08.29:604][  0]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 1871 classes and 336 folders.
+[2015.11.25-19.08.29:627][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.11.25-19.08.29:647][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2015.11.25-19.08.31:112][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0068 seconds. Added 0 classes and 0 folders.
+[2015.11.25-19.08.31:153][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0028 seconds. Added 1 classes and 2 folders.
+[2015.11.25-19.08.31:196][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.25-19.08.31:215][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.25-19.08.31:243][  0]LogLoad: Full Startup: 50.90 seconds (BP compile: 0.22 seconds)
+[2015.11.25-19.08.32:262][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.25-19.08.33:279][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.11.25-19.08.34:476][  4]LogAssetRegistry: Asset discovery search completed in 14.1478 seconds
+[2015.11.25-19.08.34:476][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.11.25-19.08.34:476][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2015.11.25-19.08.40:417][530]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.08.40:466][530]Cmd: MAP LOAD FILE="../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.25-19.08.40:466][530]LightingResults: New page: Lighting Build
+[2015.11.25-19.08.40:493][530]LoadErrors: New page: Loading map: Simon.umap
+[2015.11.25-19.08.40:493][530]MapCheck: New page: Map Check
+[2015.11.25-19.08.40:493][530]LightingResults: New page: Lighting Build
+[2015.11.25-19.08.40:517][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722F047060
+[2015.11.25-19.08.40:555][530]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.25-19.08.40:615][530]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.25-19.08.40:695][530]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.864ms to complete.
+[2015.11.25-19.08.40:697][530]LogFileHelpers: Loading map 'Simon' took 0.232
+[2015.11.25-19.09.07:459][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.25-19.09.08:169][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.08:169][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.09.08:169][118]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:09:08 PM)
+[2015.11.25-19.09.08:169][118]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.09.08:180][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010673s)
+[2015.11.25-19.09.08:181][118]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.09.08:181][118]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2015.11.25-19.09.08:181][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.012152s)
+[2015.11.25-19.09.08:181][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.09.08:229][118]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.09.08:240][118]LogInit: FAudioDevice initialized.
+[2015.11.25-19.09.08:333][118]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.09.08:339][118]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.09.08
+[2015.11.25-19.09.08:339][118]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.09.08:339][118]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.09.08:339][118]LogWorld: Bringing up level for play took: 0.005272
+[2015.11.25-19.09.08:341][118]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.374
+[2015.11.25-19.09.08:341][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.15:184][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.15:296][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.15:323][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722A9D9580
+[2015.11.25-19.09.18:042][799]Recompiling UnrealProject...
+[2015.11.25-19.09.18:043][799]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 8697 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.09.18:045][799]Warning: Starting HotReload took  0.0s.
+[2015.11.25-19.09.20:294][983]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:09:20 PM
+[2015.11.25-19.09.20:295][983]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.09.20:295][983]CompilerResultsLog: Info Target is up to date.
+[2015.11.25-19.09.20:295][983]LogMainFrame: MainFrame: Module compiling took 2.256 seconds
+[2015.11.25-19.09.24:413][392]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.25-19.09.28:512][771]LogEditor: Attempting to add actor of class 'WorldCamera' to level at -140.00,-40.00,-200.00
+[2015.11.25-19.09.30:386][875]LogEditor: Attempting to add actor of class 'WorldCamera' to level at 120.00,320.00,170.00
+[2015.11.25-19.09.47:181][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.09.47:448][516]LogSavePackage: Save=90.897659ms
+[2015.11.25-19.09.47:448][516]LogSavePackage: Moving '../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon4E2D35C842B71D65EE7C4FA513D4DF4F.tmp' to '../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap'
+[2015.11.25-19.09.47:454][516]LogSavePackage: Total save time: 106.078148ms
+[2015.11.25-19.09.47:454][516]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap
+[2015.11.25-19.09.52:738][516]LogFileHelpers: Saving map 'Simon' took 5.499
+[2015.11.25-19.09.54:117][661]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.54:118][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.09.54:118][661]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:09:54 PM)
+[2015.11.25-19.09.54:118][661]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.09.54:127][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009278s)
+[2015.11.25-19.09.54:128][661]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.09.54:128][661]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2015.11.25-19.09.54:128][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010700s)
+[2015.11.25-19.09.54:196][661]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.09.54:206][661]LogInit: FAudioDevice initialized.
+[2015.11.25-19.09.54:246][661]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.09.54:251][661]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.09.54
+[2015.11.25-19.09.54:252][661]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.09.54:252][661]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.09.54:252][661]LogWorld: Bringing up level for play took: 0.005649
+[2015.11.25-19.09.54:254][661]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.286
+[2015.11.25-19.09.54:254][661]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.55:799][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.55:867][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.09.55:895][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000723934CA40
+[2015.11.25-19.09.58:690][ 26]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera1)
+[2015.11.25-19.10.03:338][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.03:338][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.10.03:338][523]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:10:03 PM)
+[2015.11.25-19.10.03:338][523]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.10.03:348][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009927s)
+[2015.11.25-19.10.03:349][523]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.10.03:349][523]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2015.11.25-19.10.03:349][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.011174s)
+[2015.11.25-19.10.03:418][523]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.10.03:429][523]LogInit: FAudioDevice initialized.
+[2015.11.25-19.10.03:473][523]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.10.03:478][523]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.10.03
+[2015.11.25-19.10.03:478][523]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.10.03:479][523]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.10.03:479][523]LogWorld: Bringing up level for play took: 0.005456
+[2015.11.25-19.10.03:480][523]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.487
+[2015.11.25-19.10.03:481][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.05:651][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.05:713][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.05:752][670]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000726B3C58A0
+[2015.11.25-19.10.07:124][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.07:124][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.10.07:124][811]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:10:07 PM)
+[2015.11.25-19.10.07:124][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.10.07:133][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008840s)
+[2015.11.25-19.10.07:134][811]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.10.07:134][811]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2015.11.25-19.10.07:134][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010106s)
+[2015.11.25-19.10.07:199][811]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.10.07:209][811]LogInit: FAudioDevice initialized.
+[2015.11.25-19.10.07:249][811]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.10.07:254][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.10.07
+[2015.11.25-19.10.07:254][811]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.10.07:254][811]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.10.07:255][811]LogWorld: Bringing up level for play took: 0.004992
+[2015.11.25-19.10.07:256][811]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.711
+[2015.11.25-19.10.07:256][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.10:301][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.10:362][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.10:407][ 19]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000725922CD60
+[2015.11.25-19.10.13:907][401]LogEditorViewport: Clicking on Actor (LMB): PawnCarBP_C (PawnCarBP)
+[2015.11.25-19.10.15:058][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.15:058][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.10.15:058][498]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:10:15 PM)
+[2015.11.25-19.10.15:058][498]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.10.15:067][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008601s)
+[2015.11.25-19.10.15:068][498]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.10.15:068][498]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2015.11.25-19.10.15:068][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.009927s)
+[2015.11.25-19.10.15:111][498]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.10.15:122][498]LogInit: FAudioDevice initialized.
+[2015.11.25-19.10.15:166][498]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.10.15:171][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.10.15
+[2015.11.25-19.10.15:172][498]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.10.15:172][498]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.10.15:172][498]LogWorld: Bringing up level for play took: 0.005778
+[2015.11.25-19.10.15:174][498]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.794
+[2015.11.25-19.10.15:174][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.35:005][903]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.35:101][903]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.10.35:160][904]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722A9D8B80
+[2015.11.25-19.11.03:587][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.03:587][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.11.03:587][ 33]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:11:03 PM)
+[2015.11.25-19.11.03:587][ 33]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.11.03:596][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008732s)
+[2015.11.25-19.11.03:597][ 33]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.11.03:597][ 33]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2015.11.25-19.11.03:597][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010123s)
+[2015.11.25-19.11.03:634][ 33]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.11.03:645][ 33]LogInit: FAudioDevice initialized.
+[2015.11.25-19.11.03:684][ 33]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.11.03:688][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.11.03
+[2015.11.25-19.11.03:688][ 33]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.11.03:688][ 33]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.11.03:688][ 33]LogWorld: Bringing up level for play took: 0.004906
+[2015.11.25-19.11.03:690][ 33]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.277
+[2015.11.25-19.11.03:690][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.09:168][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.09:255][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.09:281][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000072643EB380
+[2015.11.25-19.11.10:185][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.10:185][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.11.10:186][496]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:11:10 PM)
+[2015.11.25-19.11.10:186][496]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.11.10:195][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009513s)
+[2015.11.25-19.11.10:197][496]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.11.10:197][496]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2015.11.25-19.11.10:197][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.011176s)
+[2015.11.25-19.11.10:236][496]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.11.10:247][496]LogInit: FAudioDevice initialized.
+[2015.11.25-19.11.10:289][496]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.11.10:294][496]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.11.10
+[2015.11.25-19.11.10:294][496]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.11.10:295][496]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.11.10:295][496]LogWorld: Bringing up level for play took: 0.004891
+[2015.11.25-19.11.10:296][496]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.329
+[2015.11.25-19.11.10:296][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.13:953][727]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.14:043][727]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.14:108][728]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007235EB9C60
+[2015.11.25-19.11.24:112][511]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.24:112][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.11.24:112][511]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:11:24 PM)
+[2015.11.25-19.11.24:112][511]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.11.24:121][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009298s)
+[2015.11.25-19.11.24:122][511]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.11.24:122][511]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2015.11.25-19.11.24:122][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010574s)
+[2015.11.25-19.11.24:165][511]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.11.24:177][511]LogInit: FAudioDevice initialized.
+[2015.11.25-19.11.24:219][511]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.11.24:225][511]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.11.24
+[2015.11.25-19.11.24:225][511]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.11.24:225][511]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.11.24:226][511]LogWorld: Bringing up level for play took: 0.006125
+[2015.11.25-19.11.24:227][511]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.259
+[2015.11.25-19.11.24:227][511]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.26:880][657]LogSelection:Warning: PIE object was selected: "PawnCarBP_C /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.PawnCarBP_668"
+[2015.11.25-19.11.29:522][787]LogSelection:Warning: PIE object was selected: "WorldCamera /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.WorldCamera_1"
+[2015.11.25-19.11.30:471][821]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.25-19.11.33:191][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.33:688][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.11.33:746][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000072643E8B80
+[2015.11.25-19.11.55:906][108]Recompiling UnrealProject...
+[2015.11.25-19.11.55:906][108]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 5549 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.11.55:908][108]Warning: Starting HotReload took  0.0s.
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:12:03 PM
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-5549.dll
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5549.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5549.exp
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.25-19.12.03:791][655]CompilerResultsLog: Info Total build time: 7.32 seconds
+[2015.11.25-19.12.03:791][655]LogMainFrame: MainFrame: Module compiling took 7.889 seconds
+[2015.11.25-19.12.03:869][655]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0029 seconds. Added 4 classes and 3 folders.
+[2015.11.25-19.12.03:870][655]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.25-19.12.03:970][655]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 1872 classes and 338 folders.
+[2015.11.25-19.12.05:445][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.05:445][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.12.05:445][780]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:12:05 PM)
+[2015.11.25-19.12.05:446][780]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.12.05:455][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009280s)
+[2015.11.25-19.12.05:456][780]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.12.05:456][780]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2015.11.25-19.12.05:456][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010648s)
+[2015.11.25-19.12.05:503][780]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.12.05:514][780]LogInit: FAudioDevice initialized.
+[2015.11.25-19.12.05:553][780]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.12.05:559][780]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.12.05
+[2015.11.25-19.12.05:559][780]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.05:559][780]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.05:559][780]LogWorld: Bringing up level for play took: 0.005410
+[2015.11.25-19.12.05:560][780]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.407
+[2015.11.25-19.12.05:561][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.14:170][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.14:262][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.14:292][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007245AA5B20
+[2015.11.25-19.12.16:253][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.25-19.12.35:105][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.35:105][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.12.35:106][182]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:12:35 PM)
+[2015.11.25-19.12.35:106][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.12.35:117][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011310s)
+[2015.11.25-19.12.35:118][182]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.12.35:119][182]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2015.11.25-19.12.35:119][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.013076s)
+[2015.11.25-19.12.35:119][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.12.35:179][182]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.12.35:192][182]LogInit: FAudioDevice initialized.
+[2015.11.25-19.12.35:233][182]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.12.35:240][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.12.35
+[2015.11.25-19.12.35:240][182]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.35:240][182]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.35:241][182]LogWorld: Bringing up level for play took: 0.006946
+[2015.11.25-19.12.35:242][182]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.726
+[2015.11.25-19.12.35:242][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.42:435][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.42:606][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.42:634][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000721E998AE0
+[2015.11.25-19.12.43:930][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.43:930][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.12.43:930][780]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:12:43 PM)
+[2015.11.25-19.12.43:931][780]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.12.43:942][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011210s)
+[2015.11.25-19.12.43:943][780]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.12.43:943][780]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2015.11.25-19.12.43:943][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.012405s)
+[2015.11.25-19.12.43:985][780]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.12.43:997][780]LogInit: FAudioDevice initialized.
+[2015.11.25-19.12.44:037][780]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.12.44:044][780]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.12.44
+[2015.11.25-19.12.44:044][780]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.44:044][780]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.44:045][780]LogWorld: Bringing up level for play took: 0.006569
+[2015.11.25-19.12.44:047][780]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.079
+[2015.11.25-19.12.44:047][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.47:354][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.47:442][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.47:501][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000724063DDA0
+[2015.11.25-19.12.48:106][ 55]LogEditorViewport: Clicking on Actor (LMB): PawnCarBP_C (PawnCarBP)
+[2015.11.25-19.12.49:980][216]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.49:980][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.12.49:980][216]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:12:49 PM)
+[2015.11.25-19.12.49:980][216]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.12.49:991][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010481s)
+[2015.11.25-19.12.49:991][216]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.12.49:992][216]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2015.11.25-19.12.49:992][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.012050s)
+[2015.11.25-19.12.50:039][216]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.12.50:050][216]LogInit: FAudioDevice initialized.
+[2015.11.25-19.12.50:094][216]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.12.50:100][216]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.12.50
+[2015.11.25-19.12.50:100][216]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.50:100][216]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.50:101][216]LogWorld: Bringing up level for play took: 0.006782
+[2015.11.25-19.12.50:102][216]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.135
+[2015.11.25-19.12.50:103][216]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.51:998][336]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.52:086][336]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.52:115][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000726B3C72E0
+[2015.11.25-19.12.55:115][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.55:115][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.12.55:115][609]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:12:55 PM)
+[2015.11.25-19.12.55:115][609]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.12.55:125][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010146s)
+[2015.11.25-19.12.55:126][609]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.12.55:127][609]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2015.11.25-19.12.55:127][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.011946s)
+[2015.11.25-19.12.55:170][609]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.12.55:181][609]LogInit: FAudioDevice initialized.
+[2015.11.25-19.12.55:221][609]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.12.55:227][609]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.12.55
+[2015.11.25-19.12.55:228][609]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.55:228][609]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.55:229][609]LogWorld: Bringing up level for play took: 0.006507
+[2015.11.25-19.12.55:230][609]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.738
+[2015.11.25-19.12.55:230][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.56:751][702]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.56:839][702]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.56:870][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722A7C9120
+[2015.11.25-19.12.59:241][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.12.59:241][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.12.59:242][930]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:12:59 PM)
+[2015.11.25-19.12.59:242][930]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.12.59:251][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008832s)
+[2015.11.25-19.12.59:251][930]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.12.59:252][930]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2015.11.25-19.12.59:252][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010253s)
+[2015.11.25-19.12.59:296][930]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.12.59:307][930]LogInit: FAudioDevice initialized.
+[2015.11.25-19.12.59:349][930]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.12.59:356][930]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.12.59
+[2015.11.25-19.12.59:356][930]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.59:356][930]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.12.59:357][930]LogWorld: Bringing up level for play took: 0.006687
+[2015.11.25-19.12.59:358][930]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.609
+[2015.11.25-19.12.59:358][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.13.32:222][ 64]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.13.32:309][ 64]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.13.32:335][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722CECD260
+[2015.11.25-19.13.35:928][418]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.11.25-19.13.36:467][469]LogEditorViewport: Clicking on Actor (LMB): WorldCamera (WorldCamera1)
+[2015.11.25-19.13.51:495][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.13.51:495][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.13.51:495][871]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:13:51 PM)
+[2015.11.25-19.13.51:495][871]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.13.51:505][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009893s)
+[2015.11.25-19.13.51:506][871]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.13.51:506][871]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2015.11.25-19.13.51:506][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.011271s)
+[2015.11.25-19.13.51:575][871]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.13.51:585][871]LogInit: FAudioDevice initialized.
+[2015.11.25-19.13.51:627][871]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.13.51:633][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.13.51
+[2015.11.25-19.13.51:633][871]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.13.51:633][871]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.13.51:634][871]LogWorld: Bringing up level for play took: 0.006285
+[2015.11.25-19.13.51:635][871]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.332
+[2015.11.25-19.13.51:636][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.13.55:947][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.13.56:018][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.13.56:059][145]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722A9C4680
+[2015.11.25-19.13.58:765][419]Cmd: TRANSACTION UNDO
+[2015.11.25-19.13.58:835][419]LogEditorTransaction: Undo Rotate Actors
+[2015.11.25-19.14.00:712][588]Cmd: TRANSACTION UNDO
+[2015.11.25-19.14.00:712][588]LogEditorTransaction: Undo Rotate Actors
+[2015.11.25-19.14.01:485][670]Cmd: TRANSACTION UNDO
+[2015.11.25-19.14.01:485][670]LogEditorTransaction: Undo Move Actors
+[2015.11.25-19.14.03:825][915]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.03:825][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.14.03:825][915]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:14:03 PM)
+[2015.11.25-19.14.03:825][915]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.14.03:835][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009368s)
+[2015.11.25-19.14.03:836][915]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.14.03:836][915]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2015.11.25-19.14.03:836][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010743s)
+[2015.11.25-19.14.03:924][915]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.14.03:936][915]LogInit: FAudioDevice initialized.
+[2015.11.25-19.14.03:982][915]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.14.03:989][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.14.03
+[2015.11.25-19.14.03:989][915]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.14.03:989][915]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.14.03:990][915]LogWorld: Bringing up level for play took: 0.007452
+[2015.11.25-19.14.03:992][915]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.025
+[2015.11.25-19.14.03:992][915]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.06:369][ 62]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.06:443][ 62]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.06:496][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007242D5ED40
+[2015.11.25-19.14.07:377][149]LogEditorViewport: Clicking on Actor (LMB): PawnCarBP_C (PawnCarBP2)
+[2015.11.25-19.14.18:771][340]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.18:771][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.14.18:771][340]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:14:18 PM)
+[2015.11.25-19.14.18:771][340]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.14.18:780][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009152s)
+[2015.11.25-19.14.18:781][340]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.14.18:781][340]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2015.11.25-19.14.18:782][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010369s)
+[2015.11.25-19.14.18:821][340]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.14.18:832][340]LogInit: FAudioDevice initialized.
+[2015.11.25-19.14.18:875][340]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.14.18:881][340]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.14.18
+[2015.11.25-19.14.18:881][340]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.14.18:881][340]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.14.18:882][340]LogWorld: Bringing up level for play took: 0.006652
+[2015.11.25-19.14.18:883][340]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.916
+[2015.11.25-19.14.18:884][340]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.50:893][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.50:979][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.14.51:008][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000072647125C0
+[2015.11.25-19.15.06:385][637]Recompiling UnrealProject...
+[2015.11.25-19.15.06:385][637]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 5204 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.15.06:387][637]Warning: Starting HotReload took  0.0s.
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:15:14 PM
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-5204.dll
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5204.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5204.exp
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.25-19.15.14:181][370]CompilerResultsLog: Info Total build time: 7.26 seconds
+[2015.11.25-19.15.14:181][370]LogMainFrame: MainFrame: Module compiling took 7.800 seconds
+[2015.11.25-19.15.14:181][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.15.14:257][370]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0029 seconds. Added 4 classes and 3 folders.
+[2015.11.25-19.15.14:258][370]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.25-19.15.14:358][370]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 1872 classes and 338 folders.
+[2015.11.25-19.15.15:671][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.15.15:671][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.15.15:671][502]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:15:15 PM)
+[2015.11.25-19.15.15:671][502]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.15.15:679][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008096s)
+[2015.11.25-19.15.15:680][502]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.15.15:681][502]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2015.11.25-19.15.15:681][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.009536s)
+[2015.11.25-19.15.15:724][502]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.15.15:736][502]LogInit: FAudioDevice initialized.
+[2015.11.25-19.15.15:775][502]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.15.15:781][502]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.15.15
+[2015.11.25-19.15.15:781][502]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.15.15:782][502]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.15.15:782][502]LogWorld: Bringing up level for play took: 0.006952
+[2015.11.25-19.15.15:784][502]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.184
+[2015.11.25-19.15.15:784][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.15.59:088][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.15.59:181][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.15.59:215][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722C2D0F40
+[2015.11.25-19.16.48:009][696]Recompiling UnrealProject...
+[2015.11.25-19.16.48:009][696]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 6270 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.16.48:011][696]Warning: Starting HotReload took  0.0s.
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:16:54 PM
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-6270.dll
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6270.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-6270.exp
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.25-19.16.54:772][192]CompilerResultsLog: Info Total build time: 6.70 seconds
+[2015.11.25-19.16.54:772][192]LogMainFrame: MainFrame: Module compiling took 6.767 seconds
+[2015.11.25-19.16.54:772][192]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.16.54:834][192]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0025 seconds. Added 4 classes and 3 folders.
+[2015.11.25-19.16.54:836][192]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.25-19.16.54:931][192]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 1872 classes and 338 folders.
+[2015.11.25-19.16.57:080][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.16.57:080][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.16.57:080][359]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:16:57 PM)
+[2015.11.25-19.16.57:080][359]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.16.57:090][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009509s)
+[2015.11.25-19.16.57:091][359]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.16.57:091][359]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2015.11.25-19.16.57:091][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.011119s)
+[2015.11.25-19.16.57:130][359]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.16.57:142][359]LogInit: FAudioDevice initialized.
+[2015.11.25-19.16.57:186][359]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.16.57:194][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.16.57
+[2015.11.25-19.16.57:194][359]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.16.57:194][359]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.16.57:195][359]LogWorld: Bringing up level for play took: 0.007696
+[2015.11.25-19.16.57:197][359]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.77
+[2015.11.25-19.16.57:197][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.17.24:632][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.17.24:720][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.17.24:748][630]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722C2D2020
+[2015.11.25-19.17.25:354][687]Recompiling UnrealProject...
+[2015.11.25-19.17.25:354][687]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 865 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.17.25:356][687]Warning: Starting HotReload took  0.0s.
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:17:31 PM
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-865.dll
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-865.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-865.exp
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.25-19.17.31:562][234]CompilerResultsLog: Info Total build time: 6.13 seconds
+[2015.11.25-19.17.31:562][234]LogMainFrame: MainFrame: Module compiling took 6.213 seconds
+[2015.11.25-19.17.31:630][234]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0025 seconds. Added 4 classes and 3 folders.
+[2015.11.25-19.17.31:631][234]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.25-19.17.31:735][234]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 1872 classes and 338 folders.
+[2015.11.25-19.17.33:717][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.17.33:717][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.17.33:717][445]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:17:33 PM)
+[2015.11.25-19.17.33:717][445]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.17.33:727][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009274s)
+[2015.11.25-19.17.33:728][445]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.17.33:728][445]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2015.11.25-19.17.33:728][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010690s)
+[2015.11.25-19.17.33:765][445]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.17.33:776][445]LogInit: FAudioDevice initialized.
+[2015.11.25-19.17.33:814][445]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.17.33:821][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.17.33
+[2015.11.25-19.17.33:821][445]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.17.33:821][445]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.17.33:822][445]LogWorld: Bringing up level for play took: 0.006779
+[2015.11.25-19.17.33:823][445]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.145
+[2015.11.25-19.17.33:823][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.18.29:661][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.18.29:750][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.18.29:778][  2]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007240590F40
+[2015.11.25-19.18.39:291][210]Recompiling UnrealProject...
+[2015.11.25-19.18.39:291][210]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 1032 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.18.39:294][210]Warning: Starting HotReload took  0.0s.
+[2015.11.25-19.18.45:489][794]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:18:45 PM
+[2015.11.25-19.18.45:489][794]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.18.45:489][794]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.25-19.18.45:489][794]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.25-19.18.45:489][794]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-1032.dll
+[2015.11.25-19.18.45:490][794]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-1032.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-1032.exp
+[2015.11.25-19.18.45:490][794]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.25-19.18.45:490][794]CompilerResultsLog: Info Total build time: 6.13 seconds
+[2015.11.25-19.18.45:490][794]LogMainFrame: MainFrame: Module compiling took 6.203 seconds
+[2015.11.25-19.18.45:490][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.18.45:566][794]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0026 seconds. Added 4 classes and 3 folders.
+[2015.11.25-19.18.45:568][794]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.25-19.18.45:664][794]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 1872 classes and 338 folders.
+[2015.11.25-19.18.49:458][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.18.49:458][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.18.49:458][213]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:18:49 PM)
+[2015.11.25-19.18.49:458][213]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.18.49:467][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009446s)
+[2015.11.25-19.18.49:469][213]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.18.49:469][213]LogPlayLevel: PIE: World Init took: (0.001564s)
+[2015.11.25-19.18.49:469][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.011259s)
+[2015.11.25-19.18.49:505][213]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.18.49:516][213]LogInit: FAudioDevice initialized.
+[2015.11.25-19.18.49:563][213]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.18.49:569][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.18.49
+[2015.11.25-19.18.49:569][213]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.18.49:570][213]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.18.49:570][213]LogWorld: Bringing up level for play took: 0.006779
+[2015.11.25-19.18.49:572][213]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.395
+[2015.11.25-19.18.49:572][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.19.19:479][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.19.19:567][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.19.19:595][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007262088F40
+[2015.11.25-19.19.28:146][619]Recompiling UnrealProject...
+[2015.11.25-19.19.28:146][619]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 296 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.19.28:148][619]Warning: Starting HotReload took  0.0s.
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:19:34 PM
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-296.dll
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-296.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-296.exp
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.25-19.19.34:336][206]CompilerResultsLog: Info Total build time: 6.12 seconds
+[2015.11.25-19.19.34:336][206]LogMainFrame: MainFrame: Module compiling took 6.196 seconds
+[2015.11.25-19.19.34:336][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.19.34:429][206]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0030 seconds. Added 4 classes and 3 folders.
+[2015.11.25-19.19.34:430][206]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.25-19.19.34:529][206]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 1872 classes and 338 folders.
+[2015.11.25-19.19.36:458][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.19.36:458][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.19.36:458][415]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:19:36 PM)
+[2015.11.25-19.19.36:458][415]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.19.36:466][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008305s)
+[2015.11.25-19.19.36:467][415]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.19.36:467][415]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2015.11.25-19.19.36:467][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.009547s)
+[2015.11.25-19.19.36:506][415]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.19.36:517][415]LogInit: FAudioDevice initialized.
+[2015.11.25-19.19.36:558][415]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.19.36:564][415]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.19.36
+[2015.11.25-19.19.36:564][415]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.19.36:564][415]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.19.36:565][415]LogWorld: Bringing up level for play took: 0.006650
+[2015.11.25-19.19.36:567][415]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.599
+[2015.11.25-19.19.36:567][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.19.57:414][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.19.57:504][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.19.57:531][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000723F2C8F40
+[2015.11.25-19.23.03:815][177]Recompiling UnrealProject...
+[2015.11.25-19.23.03:815][177]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 8196 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.11.25-19.23.03:900][177]Warning: Starting HotReload took  0.1s.
+[2015.11.25-19.23.12:399][889]CompilerResultsLog: New page: Compilation - Nov 25, 2015, 9:23:12 PM
+[2015.11.25-19.23.12:400][889]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.25-19.23.12:400][889]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2015.11.25-19.23.12:400][889]CompilerResultsLog: Info WorldCamera.cpp
+[2015.11.25-19.23.12:400][889]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-8196.dll
+[2015.11.25-19.23.12:400][889]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-8196.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-8196.exp
+[2015.11.25-19.23.12:400][889]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.25-19.23.12:400][889]CompilerResultsLog: Info Total build time: 8.14 seconds
+[2015.11.25-19.23.12:400][889]LogMainFrame: MainFrame: Module compiling took 8.590 seconds
+[2015.11.25-19.23.12:400][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.11.25-19.23.12:469][889]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0026 seconds. Added 4 classes and 3 folders.
+[2015.11.25-19.23.12:470][889]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2015.11.25-19.23.12:569][889]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 1872 classes and 338 folders.
+[2015.11.25-19.23.13:169][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.23.13:169][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-19.23.13:169][949]PIE: New page: PIE session: Simon (Nov 25, 2015, 9:23:13 PM)
+[2015.11.25-19.23.13:169][949]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.11.25-19.23.13:186][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017151s)
+[2015.11.25-19.23.13:187][949]LogAIModule: Creating AISystem for world Simon
+[2015.11.25-19.23.13:188][949]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2015.11.25-19.23.13:188][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.018477s)
+[2015.11.25-19.23.13:237][949]LogInit: XAudio2 using 'Högtalare (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-19.23.13:250][949]LogInit: FAudioDevice initialized.
+[2015.11.25-19.23.13:292][949]LogWorld: Game class is 'UnrealProjectGameMode'
+[2015.11.25-19.23.13:298][949]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2015.11.25-20.23.13
+[2015.11.25-19.23.13:298][949]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.23.13:298][949]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-19.23.13:299][949]LogWorld: Bringing up level for play took: 0.006827
+[2015.11.25-19.23.13:301][949]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.667
+[2015.11.25-19.23.13:301][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.23.58:182][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.23.58:275][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.11.25-19.23.58:303][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007262084F40
+[2015.11.25-19.24.07:585][703]LogSavePackage: Save=100.439789ms
+[2015.11.25-19.24.07:585][703]LogSavePackage: Moving '../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon6EE50B704D6BF122BB4974AB9DD234A2.tmp' to '../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap'
+[2015.11.25-19.24.07:589][703]LogSavePackage: Total save time: 123.762239ms
+[2015.11.25-19.24.07:589][703]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap
+[2015.11.25-19.24.07:653][703]LogFileHelpers: Saving map 'Simon' took 1.373
+[2015.11.25-19.24.08:857][798]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.25-19.24.09:653][799]Cmd: QUIT_EDITOR
+[2015.11.25-19.24.10:302][799]LogExit: Preparing to exit.
+[2015.11.25-19.24.11:344][799]LogExit: Editor shut down
+[2015.11.25-19.24.11:344][799]LogExit: Transaction tracking system shut down
+[2015.11.25-19.24.11:346][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722A7C8180
+[2015.11.25-19.24.11:346][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722A9D8180
+[2015.11.25-19.24.11:347][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722CDBB880
+[2015.11.25-19.24.11:348][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000072592B74C0
+[2015.11.25-19.24.11:348][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000722F047240
+[2015.11.25-19.24.11:791][799]LogExit: Object subsystem successfully closed.
+[2015.11.25-19.24.11:804][799]LogD3D11RHI: Shutdown
+[2015.11.25-19.24.11:804][799]LogD3D11RHI: CleanupD3DDevice
+[2015.11.25-19.24.11:884][799]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.25-19.24.11:972][799]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.11.25-19.24.11:972][799]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.11.25-19.24.11:972][799]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.11.25-19.24.11:972][799]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.11.25-19.24.11:972][799]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.11.25-19.24.11:995][799]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.11.25-19.24.11:995][799]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.11.25-19.24.11:995][799]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.11.25-19.24.11:995][799]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.25-19.24.11:995][799]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.25-19.24.12:014][799]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.25-19.24.12:015][799]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.25-19.24.12:015][799]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.25-19.24.12:015][799]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.25-19.24.12:015][799]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.25-19.24.12:015][799]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.25-19.24.12:015][799]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.25-19.24.12:246][799]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.25-19.24.12:247][799]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.25-19.24.12:297][799]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.25-19.24.12:402][799]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.25-19.24.12:438][799]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.25-19.24.12:439][799]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.25-19.24.12:439][799]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.25-19.24.12:440][799]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.25-19.24.12:442][799]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.25-19.24.12:607][799]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.25-19.24.12:609][799]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.25-19.24.12:609][799]LogModuleManager: Shutting down and abandoning module UnrealProject (86)
+[2015.11.25-19.24.12:609][799]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.25-19.24.12:710][799]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.25-19.24.12:710][799]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.25-19.24.12:710][799]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.25-19.24.12:716][799]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.25-19.24.12:717][799]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.25-19.24.12:717][799]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.25-19.24.12:717][799]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.25-19.24.12:721][799]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.25-19.24.12:722][799]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.25-19.24.12:726][799]LogDerivedDataCache: Shutdown
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.25-19.24.12:726][799]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.25-19.24.13:732][799]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.25-19.24.13:732][799]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.25-19.24.13:732][799]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.25-19.24.13:732][799]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.25-19.24.13:732][799]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.25-19.24.13:732][799]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.25-19.24.13:734][799]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.25-19.24.13:736][799]LogExit: Exiting.
+[2015.11.25-19.24.13:773][799]Log file closed, 11/25/15 20:24:13
