@@ -28,8 +28,10 @@ public:
 
 	void SetDirection(FVector direction);
 	void SetTurn(float turn);
+	void SetRotationDirection(FRotator rotationDirection);
 
 	FVector direction;
+	FRotator rotationDirection;
 
 	float speed;
 	float turnSpeed;

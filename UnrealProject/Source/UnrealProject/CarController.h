@@ -17,6 +17,7 @@ class UNREALPROJECT_API ACarController : public APlayerController
 	ACarController();
 	FVector direction;
 	float turn;
+	FRotator rotation;
 
 	void Tick(float deltaTime) override;
 	void SetupInputComponent() override;

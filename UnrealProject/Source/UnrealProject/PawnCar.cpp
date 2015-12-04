@@ -54,6 +54,11 @@ void APawnCar::Tick( float DeltaTime )
 	FRotator transform = BoxComponent->GetRelativeTransform().GetRotation().Rotator();
 
 	transform += FRotator(0, turn, 0) * direction.Y * turnSpeed * DeltaTime;
+
+	//Test
+	if (!IsOnGround)
+		transform += rotationDirection * 300 * DeltaTime;
+
 	BoxComponent->SetRelativeRotation(transform);
 
 	FRotationMatrix matrix = FRotationMatrix(FRotator(transform.Pitch, transform.Yaw, transform.Roll));
@@ -66,9 +71,15 @@ void APawnCar::Tick( float DeltaTime )
 	else
 	{
 		Movement->Deceleration = 500;
-		//Add roation
 			
 	}
+}
+
+void APawnCar::SetRotationDirection(FRotator rotationDirection)
+{
+	//this->rotationDirection = rotationDirection;
+	
+	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(rotationDirection.Roll * 18000000, - rotationDirection.Pitch * 7000000, rotationDirection.Yaw)));
 }
 
 void APawnCar::SetDirection(FVector direction)

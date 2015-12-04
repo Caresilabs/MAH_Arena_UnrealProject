@@ -19,6 +19,8 @@ void ACarController::SetupInputComponent()
 
 	InputComponent->BindAxis("MoveForward", this, &ACarController::MoveForward);
 	InputComponent->BindAxis("Turn", this, &ACarController::Turn);
+	InputComponent->BindAxis("RotateY", this, &ACarController::RotateY);
+	InputComponent->BindAxis("RotateX", this, &ACarController::RotateX);
 }
 
 void ACarController::MoveForward(float axisValue)
@@ -39,12 +41,14 @@ void ACarController::Turn(float axisValue)
 
 void ACarController::RotateX(float axisValue)
 {
-
+	rotation.Pitch = FMath::Clamp(axisValue, -1.0f, 1.0f);
+	//Cast<APawnCar>(GetPawn())->SetRotationDirection(rotation);
 }
 
 void ACarController::RotateY(float axisValue)
 {
-
+	rotation.Roll = FMath::Clamp(axisValue, -1.0f, 1.0f);
+	Cast<APawnCar>(GetPawn())->SetRotationDirection(rotation);
 }
 
 
