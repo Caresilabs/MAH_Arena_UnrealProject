@@ -41,6 +41,12 @@ void APawnCar::AddImpulse(FVector impuls)
 	BoxComponent->AddImpulse(impuls);
 }
 
+void APawnCar::AddImpulseCOM(FVector force)
+{
+	BoxComponent->AddTorque(force);
+}
+
+
 // Called every frame
 void APawnCar::Tick( float DeltaTime )
 {
@@ -58,7 +64,11 @@ void APawnCar::Tick( float DeltaTime )
 	if (IsOnGround)
 		Movement->Deceleration = 2000;
 	else
+	{
 		Movement->Deceleration = 500;
+		//Add roation
+			
+	}
 }
 
 void APawnCar::SetDirection(FVector direction)

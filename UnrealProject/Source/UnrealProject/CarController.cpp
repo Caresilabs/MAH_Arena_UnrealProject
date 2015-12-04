@@ -37,6 +37,16 @@ void ACarController::Turn(float axisValue)
 
 }
 
+void ACarController::RotateX(float axisValue)
+{
+
+}
+
+void ACarController::RotateY(float axisValue)
+{
+
+}
+
 
 
 

@@ -48,7 +48,8 @@ public:
 
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
-
+private:
+	void AddImpulseCOM(FVector force);
 
 	
 	

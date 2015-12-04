@@ -24,6 +24,9 @@ class UNREALPROJECT_API ACarController : public APlayerController
 	void MoveForward(float axisValue);
 	void Turn(float axisValue);
 
+	void RotateX(float axisValue);
+	void RotateY(float axisValue);
+
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
