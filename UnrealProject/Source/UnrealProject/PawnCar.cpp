@@ -70,15 +70,22 @@ void APawnCar::Tick( float DeltaTime )
 		Movement->Deceleration = 2000;
 	else
 	{
-		Movement->Deceleration = 500;
-			
+		Movement->Deceleration = 500;			
+	}
+
+	if (BoxComponent->GetRelativeTransform().GetLocation().Z < -300)
+	{
+		for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr) {
+			if (ActorItr->ActorHasTag(FName("Respawn"))) {
+				TeleportTo(ActorItr->GetActorLocation() + FVector(0, 0, 400), FRotator(0, 0, 0));
+				break;
+			}
+		}
 	}
 }
 
 void APawnCar::SetRotationDirection(FRotator rotationDirection)
 {
-	//this->rotationDirection = rotationDirection;
-	
 	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(rotationDirection.Roll * 18000000, - rotationDirection.Pitch * 7000000, rotationDirection.Yaw)));
 }
 

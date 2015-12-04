@@ -1,24 +1,24 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 11/27/2015, 08:27:41
-             Machine name: PATTES
-         Operating System: Windows 10 Home 64-bit (10.0, Build 10240) (10240.th1_st1.151104-1714)
+      Time of this report: 12/4/2015, 17:24:35
+             Machine name: 2FAST2COMPUTER
+         Operating System: Windows 10 Pro 64-bit (10.0, Build 10240) (10240.th1.150930-1750)
                  Language: Swedish (Regional Setting: Swedish)
-      System Manufacturer: Hewlett-Packard
-             System Model: HP EliteDesk 800 G1 TWR
-                     BIOS: Default System BIOS
-                Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
+      System Manufacturer: To Be Filled By O.E.M.
+             System Model: To Be Filled By O.E.M.
+                     BIOS: BIOS Date: 11/28/12 16:12:31 Ver: 04.06.05
+                Processor: Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz (4 CPUs), ~3.4GHz
                    Memory: 16384MB RAM
-      Available OS Memory: 16324MB RAM
-                Page File: 3475MB used, 15280MB available
+      Available OS Memory: 16268MB RAM
+                Page File: 5484MB used, 13214MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: 12
       DX Setup Parameters: Not found
          User DPI Setting: Using System DPI
        System DPI Setting: 96 DPI (100 percent)
           DWM DPI Scaling: Disabled
-                 Miracast: Available, with HDCP
+                 Miracast: Not Available
 Microsoft Graphics Hybrid: Not Supported
            DxDiag Version: 10.00.10240.16384 64bit Unicode
 
@@ -26,7 +26,11 @@ Microsoft Graphics Hybrid: Not Supported
 DxDiag Notes
 ------------
       Display Tab 1: No problems found.
+      Display Tab 2: No problems found.
+      Display Tab 3: No problems found.
         Sound Tab 1: No problems found.
+        Sound Tab 2: No problems found.
+        Sound Tab 3: No problems found.
           Input Tab: No problems found.
 
 --------------------
@@ -43,26 +47,26 @@ DirectShow:  0/6 (retail)
 ---------------
 Display Devices
 ---------------
-          Card name: NVIDIA GeForce GTX 960
+          Card name: NVIDIA GeForce GTX 660 Ti
        Manufacturer: NVIDIA
-          Chip type: GeForce GTX 960
+          Chip type: GeForce GTX 660 Ti
            DAC type: Integrated RAMDAC
         Device Type: Full Device
-         Device Key: Enum\PCI\VEN_10DE&DEV_1401&SUBSYS_85201043&REV_A1
-     Display Memory: 10131 MB
-   Dedicated Memory: 1969 MB
-      Shared Memory: 8162 MB
+         Device Key: Enum\PCI\VEN_10DE&DEV_1183&SUBSYS_841E1043&REV_A1
+     Display Memory: 10122 MB
+   Dedicated Memory: 1988 MB
+      Shared Memory: 8133 MB
        Current Mode: 1920 x 1080 (32 bit) (60Hz)
-       Monitor Name: Generic PnP Monitor
-      Monitor Model: HP Z23i
-         Monitor Id: HWP308F
+       Monitor Name: BenQ GL2450H
+      Monitor Model: BenQ GL2450H
+         Monitor Id: BNQ78A7
         Native Mode: 1920 x 1080(p) (60.000Hz)
-        Output Type: Displayport External
+        Output Type: DVI
         Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um,nvwgf2um
-Driver File Version: 10.18.0013.5354 (English)
-     Driver Version: 10.18.13.5354
+Driver File Version: 10.18.0013.5582 (English)
+     Driver Version: 10.18.13.5582
         DDI Version: 12
-     Feature Levels: 12.1,12.0,11.1,11.0,10.1,10.0,9.3,9.2,9.1
+     Feature Levels: 11.0,10.1,10.0,9.3,9.2,9.1
        Driver Model: WDDM 2.0
 Graphics Preemption: DMA
  Compute Preemption: DMA
@@ -70,18 +74,188 @@ Graphics Preemption: DMA
 Hybrid Graphics GPU: Not Supported
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: 10/14/2015 09:11:13, 16009800 bytes
+   Driver Date/Size: 8/25/2015 19:38:05, 15630616 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
-  Device Identifier: {D7B71E3E-5741-11CF-1967-2DA51CC2C735}
+  Device Identifier: {D7B71E3E-52C3-11CF-3D66-13A41CC2C735}
           Vendor ID: 0x10DE
-          Device ID: 0x1401
-          SubSys ID: 0x85201043
+          Device ID: 0x1183
+          SubSys ID: 0x841E1043
         Revision ID: 0x00A1
- Driver Strong Name: oem9.inf:0f066de3d2368449:Section044:10.18.13.5354:pci\ven_10de&dev_1401
+ Driver Strong Name: oem2.inf:0f066de34a948e92:Section009:10.18.13.5582:pci\ven_10de&dev_1183
      Rank Of Driver: 00D12001
-        Video Accel: 
-        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+        DXVA2 Modes: DXVA2_ModeMPEG2_IDCT  DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeVC1_IDCT  DXVA2_ModeWMV9_IDCT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+       D3D9 Overlay: Supported
+            DXVA-HD: Supported
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+
+          Card name: NVIDIA GeForce GTX 660 Ti
+       Manufacturer: NVIDIA
+          Chip type: GeForce GTX 660 Ti
+           DAC type: Integrated RAMDAC
+        Device Type: Full Device
+         Device Key: Enum\PCI\VEN_10DE&DEV_1183&SUBSYS_841E1043&REV_A1
+     Display Memory: 10122 MB
+   Dedicated Memory: 1988 MB
+      Shared Memory: 8133 MB
+       Current Mode: 1360 x 768 (32 bit) (60Hz)
+       Monitor Name: Generic PnP Monitor
+      Monitor Model: PHILIPS FTV
+         Monitor Id: PHL0000
+        Native Mode: 1360 x 768(p) (59.799Hz)
+        Output Type: HDMI
+        Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um,nvwgf2um
+Driver File Version: 10.18.0013.5582 (English)
+     Driver Version: 10.18.13.5582
+        DDI Version: 12
+     Feature Levels: 11.0,10.1,10.0,9.3,9.2,9.1
+       Driver Model: WDDM 2.0
+Graphics Preemption: DMA
+ Compute Preemption: DMA
+           Miracast: Not Supported
+Hybrid Graphics GPU: Not Supported
+     Power P-states: Not Supported
+  Driver Attributes: Final Retail
+   Driver Date/Size: 8/25/2015 19:38:05, 15630616 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: 
+  Device Identifier: {D7B71E3E-52C3-11CF-3D66-13A41CC2C735}
+          Vendor ID: 0x10DE
+          Device ID: 0x1183
+          SubSys ID: 0x841E1043
+        Revision ID: 0x00A1
+ Driver Strong Name: oem2.inf:0f066de34a948e92:Section009:10.18.13.5582:pci\ven_10de&dev_1183
+     Rank Of Driver: 00D12001
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+        DXVA2 Modes: DXVA2_ModeMPEG2_IDCT  DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeVC1_IDCT  DXVA2_ModeWMV9_IDCT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+       D3D9 Overlay: Supported
+            DXVA-HD: Supported
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+
+          Card name: NVIDIA GeForce GTX 660 Ti
+       Manufacturer: NVIDIA
+          Chip type: GeForce GTX 660 Ti
+           DAC type: Integrated RAMDAC
+        Device Type: Full Device
+         Device Key: Enum\PCI\VEN_10DE&DEV_1183&SUBSYS_841E1043&REV_A1
+     Display Memory: 10122 MB
+   Dedicated Memory: 1988 MB
+      Shared Memory: 8133 MB
+       Current Mode: 1920 x 1080 (32 bit) (60Hz)
+       Monitor Name: Generic PnP Monitor
+      Monitor Model: HP2159
+         Monitor Id: HWP282A
+        Native Mode: 1920 x 1080(p) (60.000Hz)
+        Output Type: HD15
+        Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um,nvwgf2um
+Driver File Version: 10.18.0013.5582 (English)
+     Driver Version: 10.18.13.5582
+        DDI Version: 12
+     Feature Levels: 11.0,10.1,10.0,9.3,9.2,9.1
+       Driver Model: WDDM 2.0
+Graphics Preemption: DMA
+ Compute Preemption: DMA
+           Miracast: Not Supported
+Hybrid Graphics GPU: Not Supported
+     Power P-states: Not Supported
+  Driver Attributes: Final Retail
+   Driver Date/Size: 8/25/2015 19:38:05, 15630616 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: 
+  Device Identifier: {D7B71E3E-52C3-11CF-3D66-13A41CC2C735}
+          Vendor ID: 0x10DE
+          Device ID: 0x1183
+          SubSys ID: 0x841E1043
+        Revision ID: 0x00A1
+ Driver Strong Name: oem2.inf:0f066de34a948e92:Section009:10.18.13.5582:pci\ven_10de&dev_1183
+     Rank Of Driver: 00D12001
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+        DXVA2 Modes: DXVA2_ModeMPEG2_IDCT  DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeVC1_IDCT  DXVA2_ModeWMV9_IDCT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
    Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
                      {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
                      {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
@@ -131,20 +305,70 @@ Hybrid Graphics GPU: Not Supported
 -------------
 Sound Devices
 -------------
-            Description: Högtalare (Realtek High Definition Audio)
+            Description: PHILIPS FTV-4 (NVIDIA High Definition Audio)
  Default Sound Playback: Yes
- Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0221&SUBSYS_103C18E4&REV_1000
+ Default Voice Playback: No
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0040&SUBSYS_1043841E&REV_1001
         Manufacturer ID: 1
              Product ID: 100
                    Type: WDM
-            Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.7548 (English)
+            Driver Name: nvhda64v.sys
+         Driver Version: 1.03.0034.0003 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
-          Date and Size: 10/14/2015 09:19:55, 4525800 bytes
+          Date and Size: 8/25/2015 19:38:05, 204648 bytes
             Other Files: 
-        Driver Provider: Realtek Semiconductor Corp.
+        Driver Provider: NVIDIA Corporation
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Headset (Logitech G35 Headset)
+ Default Sound Playback: No
+ Default Voice Playback: Yes
+            Hardware ID: USB\VID_046D&PID_0A15&REV_0303&MI_00
+        Manufacturer ID: 65535
+             Product ID: 65535
+                   Type: WDM
+            Driver Name: USBAUDIO.sys
+         Driver Version: 10.00.10240.16384 (Swedish)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 7/10/2015 11:59:36, 131584 bytes
+            Other Files: 
+        Driver Provider: Microsoft
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Digitalt ljud (S/PDIF) (High Definition Audio Device)
+ Default Sound Playback: No
+ Default Voice Playback: No
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_18491898&REV_1000
+        Manufacturer ID: 1
+             Product ID: 65535
+                   Type: WDM
+            Driver Name: HdAudio.sys
+         Driver Version: 10.00.10240.16384 (Swedish)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 7/10/2015 11:59:36, 379392 bytes
+            Other Files: 
+        Driver Provider: Microsoft
          HW Accel Level: Basic
               Cap Flags: 0xF1F
     Min/Max Sample Rate: 100, 200000
@@ -159,6 +383,16 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
+            Description: Mikrofon (Logitech G35 Headset)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: USBAUDIO.sys
+         Driver Version: 10.00.10240.16384 (Swedish)
+      Driver Attributes: Final Retail
+          Date and Size: 7/10/2015 11:59:36, 131584 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
 ---------------------
 Video Capture Devices
 Number of Devices: 0
@@ -178,16 +412,34 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
-      Device Name: HP Elite USB Keyboard
+      Device Name: Razer DeathAdder Chroma
          Attached: 1
     Controller ID: 0x0
-Vendor/Product ID: 0x03F0, 0x034A
+Vendor/Product ID: 0x1532, 0x0043
         FF Driver: n/a
 
-      Device Name: HP Elite USB Keyboard
+      Device Name: Logitech G35 Headset
          Attached: 1
     Controller ID: 0x0
-Vendor/Product ID: 0x03F0, 0x034A
+Vendor/Product ID: 0x046D, 0x0A15
+        FF Driver: n/a
+
+      Device Name: Razer DeathAdder Chroma
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1532, 0x0043
+        FF Driver: n/a
+
+      Device Name: Razer DeathAdder Chroma
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1532, 0x0043
+        FF Driver: n/a
+
+      Device Name: Razer DeathAdder Chroma
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1532, 0x0043
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -196,49 +448,105 @@ Poll w/ Interrupt: No
 USB Devices
 -----------
 + USB-rotnav (xHCI)
-| Vendor/Product ID: 0x8086, 0x8C31
+| Vendor/Product ID: 0x8086, 0x1E31
 | Matching Device ID: USB\ROOT_HUB30
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 9/17/2015 07:48:22, 516448 bytes
 | 
-+-+ USB-enhet (sammansatt)
-| | Vendor/Product ID: 0x03F0, 0x034A
-| | Location: Port_#0002.Hub_#0003
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 7/10/2015 06:07:34, 159072 bytes
-| | 
-| +-+ USB-enhet
-| | | Vendor/Product ID: 0x03F0, 0x034A
-| | | Location: 0000.0014.0000.002.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 7/10/2015 04:21:00, 38400 bytes
-| | | Driver: hidclass.sys, 7/10/2015 04:21:05, 153088 bytes
-| | | Driver: hidparse.sys, 7/10/2015 04:20:56, 39936 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x03F0, 0x034A
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 7/10/2015 04:20:49, 36864 bytes
-| | | | Driver: kbdclass.sys, 7/10/2015 06:07:46, 62304 bytes
-| | 
 +-+ USB-enhet
-| | Vendor/Product ID: 0x03F0, 0x134A
-| | Location: Port_#0007.Hub_#0003
+| | Vendor/Product ID: 0x03F0, 0x0024
+| | Location: Port_#0002.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
-| | Driver: hidusb.sys, 7/10/2015 04:21:00, 38400 bytes
-| | Driver: hidclass.sys, 7/10/2015 04:21:05, 153088 bytes
-| | Driver: hidparse.sys, 7/10/2015 04:20:56, 39936 bytes
+| | Driver: hidusb.sys, 7/10/2015 11:59:38, 38400 bytes
+| | Driver: hidclass.sys, 7/10/2015 11:59:38, 153088 bytes
+| | Driver: hidparse.sys, 7/10/2015 11:59:38, 39936 bytes
 | | 
-| +-+ HID-kompatibel mus
-| | | Vendor/Product ID: 0x03F0, 0x134A
-| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | Service: mouhid
-| | | Driver: mouhid.sys, 7/10/2015 04:20:52, 32256 bytes
-| | | Driver: mouclass.sys, 7/10/2015 06:07:41, 59232 bytes
+| +-+ HID Keyboard Device
+| | | Vendor/Product ID: 0x03F0, 0x0024
+| | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | Service: kbdhid
+| | | Driver: kbdhid.sys, 7/10/2015 11:59:38, 36864 bytes
+| | | Driver: kbdclass.sys, 7/10/2015 11:59:38, 62304 bytes
+| 
++ USB-rotnav (hub)
+| Vendor/Product ID: 0x8086, 0x1E26
+| Matching Device ID: USB\ROOT_HUB20
+| Service: usbhub
+| Driver: usbhub.sys, 9/25/2015 05:01:05, 498016 bytes
+| Driver: usbd.sys, 7/10/2015 11:59:39, 29536 bytes
+| 
++-+ Generic USB Hub
+| | Vendor/Product ID: 0x8087, 0x0024
+| | Location: Port_#0001.Hub_#0002
+| | Matching Device ID: USB\Class_09
+| | Service: usbhub
+| | Driver: usbhub.sys, 9/25/2015 05:01:05, 498016 bytes
+| | Driver: usbd.sys, 7/10/2015 11:59:39, 29536 bytes
+| | 
+| +-+ USB-enhet (sammansatt)
+| | | Vendor/Product ID: 0x1532, 0x0043
+| | | Location: Port_#0006.Hub_#0006
+| | | Matching Device ID: USB\COMPOSITE
+| | | Service: usbccgp
+| | | Driver: usbccgp.sys, 7/10/2015 11:59:39, 159072 bytes
+| | | 
+| | +-+ USB-enhet
+| | | | Vendor/Product ID: 0x1532, 0x0043
+| | | | Location: 0000.001d.0000.001.006.000.000.000.000
+| | | | Matching Device ID: USB\Class_03&SubClass_01
+| | | | Service: HidUsb
+| | | | Driver: hidusb.sys, 7/10/2015 11:59:38, 38400 bytes
+| | | | Driver: hidclass.sys, 7/10/2015 11:59:38, 153088 bytes
+| | | | Driver: hidparse.sys, 7/10/2015 11:59:38, 39936 bytes
+| | | | 
+| | | +-+ Razer DeathAdder Chroma
+| | | | | Vendor/Product ID: 0x1532, 0x0043
+| | | | | Matching Device ID: HID\VID_1532&PID_0043&MI_00
+| | | | | Upper Filters: rzudd
+| | | | | Service: mouhid
+| | | | | Driver: rzudd.sys, 9/9/2015 18:02:30, 202952 bytes
+| | | | | Driver: mouhid.sys, 7/10/2015 11:59:39, 32256 bytes
+| | | | | Driver: mouclass.sys, 7/10/2015 11:59:39, 59232 bytes
+| | | | | Driver: WdfCoInstaller01009.dll, 7/8/2015 23:14:16, 1721576 bytes
+| | | | 
+| | +-+ Razer DeathAdder Chroma
+| | | | Vendor/Product ID: 0x1532, 0x0043
+| | | | Location: 0000.001d.0000.001.006.000.000.000.000
+| | | | Matching Device ID: USB\VID_1532&PID_0043&MI_01
+| | | | Lower Filters: rzendpt
+| | | | Service: HidUsb
+| | | | Driver: rzendpt.sys, 8/13/2015 16:36:50, 50392 bytes
+| | | | Driver: hidusb.sys, 7/10/2015 11:59:38, 38400 bytes
+| | | | Driver: hidclass.sys, 7/10/2015 11:59:38, 153088 bytes
+| | | | Driver: hidparse.sys, 7/10/2015 11:59:38, 39936 bytes
+| | | | Driver: WdfCoInstaller01009.dll, 7/8/2015 23:14:16, 1721576 bytes
+| | | | 
+| | | +-+ HID Keyboard Device
+| | | | | Vendor/Product ID: 0x1532, 0x0043
+| | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | | Service: kbdhid
+| | | | | Driver: kbdhid.sys, 7/10/2015 11:59:38, 36864 bytes
+| | | | | Driver: kbdclass.sys, 7/10/2015 11:59:38, 62304 bytes
+| | | | 
+| | +-+ USB-enhet
+| | | | Vendor/Product ID: 0x1532, 0x0043
+| | | | Location: 0000.001d.0000.001.006.000.000.000.000
+| | | | Matching Device ID: USB\Class_03&SubClass_01
+| | | | Service: HidUsb
+| | | | Driver: hidusb.sys, 7/10/2015 11:59:38, 38400 bytes
+| | | | Driver: hidclass.sys, 7/10/2015 11:59:38, 153088 bytes
+| | | | Driver: hidparse.sys, 7/10/2015 11:59:38, 39936 bytes
+| | | | 
+| | | +-+ Razer DeathAdder Chroma
+| | | | | Vendor/Product ID: 0x1532, 0x0043
+| | | | | Matching Device ID: HID\VID_1532&PID_0043&MI_02
+| | | | | Upper Filters: rzudd
+| | | | | Service: kbdhid
+| | | | | Driver: rzudd.sys, 9/9/2015 18:02:30, 202952 bytes
+| | | | | Driver: kbdhid.sys, 7/10/2015 11:59:38, 36864 bytes
+| | | | | Driver: kbdclass.sys, 7/10/2015 11:59:38, 62304 bytes
+| | | | | Driver: WdfCoInstaller01009.dll, 7/8/2015 23:14:16, 1721576 bytes
 
 ----------------
 Gameport Devices
@@ -252,141 +560,365 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 508.1 GB
-Total Space: 609.7 GB
+ Free Space: 137.4 GB
+Total Space: 228.5 GB
 File System: NTFS
-      Model: WDC WD6400BEVT-22A0RT0 ATA Device
+      Model: OCZ-ARC100
+
+      Drive: D:
+ Free Space: 1468.4 GB
+Total Space: 1907.7 GB
+File System: NTFS
+      Model: ST2000DM001-1CH164
+
+      Drive: E:
+ Free Space: 150.1 GB
+Total Space: 476.9 GB
+File System: NTFS
+      Model: ST3500418AS
+
+      Drive: K:
+      Model: hp DVD-RAM GH40L
+     Driver: c:\windows\system32\drivers\cdrom.sys, 10.00.10240.16384 (Swedish), 7/10/2015 11:59:39, 174080 bytes
 
 --------------
 System Devices
 --------------
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_10DE&DEV_0FBA&SUBSYS_85201043&REV_A1\4&5232420&0&0108
-   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.10240.16384 (Swedish), 7/10/2015 04:21:59, 80896 bytes
-   Driver: C:\WINDOWS\system32\drivers\drmk.sys, 10.00.10240.16384 (English), 7/10/2015 04:21:35, 96768 bytes
-   Driver: C:\WINDOWS\system32\drivers\portcls.sys, 10.00.10240.16515 (Swedish), 9/17/2015 06:50:33, 320000 bytes
-
-     Name: Intel(R) Active Management Technology - SOL (COM3)
-Device ID: PCI\VEN_8086&DEV_8C3D&SUBSYS_18E4103C&REV_04\3&11583659&0&B3
-   Driver: n/a
-
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_8086&DEV_8C20&SUBSYS_18E4103C&REV_04\3&11583659&0&D8
-   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.10240.16384 (Swedish), 7/10/2015 04:21:59, 80896 bytes
-   Driver: C:\WINDOWS\system32\drivers\drmk.sys, 10.00.10240.16384 (English), 7/10/2015 04:21:35, 96768 bytes
-   Driver: C:\WINDOWS\system32\drivers\portcls.sys, 10.00.10240.16515 (Swedish), 9/17/2015 06:50:33, 320000 bytes
-
-     Name: Intel(R) 8 Series/C220 Series USB EHCI #1 - 8C26
-Device ID: PCI\VEN_8086&DEV_8C26&SUBSYS_18E4103C&REV_04\3&11583659&0&E8
-   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.10240.16384 (Swedish), 7/10/2015 06:10:08, 95584 bytes
-   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.10240.16384 (Swedish), 7/10/2015 06:08:01, 457056 bytes
+     Name: Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E2D
+Device ID: PCI\VEN_8086&DEV_1E2D&SUBSYS_1E2D1849&REV_04\3&11583659&0&D0
+   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.10240.16384 (Swedish), 7/10/2015 11:59:39, 95584 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.10240.16384 (Swedish), 7/10/2015 11:59:39, 457056 bytes
    Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.10240.16542 (Swedish), 9/25/2015 05:01:05, 498016 bytes
+
+     Name: Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E26
+Device ID: PCI\VEN_8086&DEV_1E26&SUBSYS_1E261849&REV_04\3&11583659&0&E8
+   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.10240.16384 (Swedish), 7/10/2015 11:59:39, 95584 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.10240.16384 (Swedish), 7/10/2015 11:59:39, 457056 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.10240.16542 (Swedish), 9/25/2015 05:01:05, 498016 bytes
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_1E20&SUBSYS_18981849&REV_04\3&11583659&0&D8
+   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.10240.16384 (Swedish), 7/10/2015 11:59:36, 80896 bytes
+   Driver: C:\WINDOWS\system32\drivers\drmk.sys, 10.00.10240.16384 (English), 7/10/2015 11:59:36, 96768 bytes
+   Driver: C:\WINDOWS\system32\drivers\portcls.sys, 10.00.10240.16515 (Swedish), 9/17/2015 06:50:33, 320000 bytes
+
+     Name: SM Bus Controller
+Device ID: PCI\VEN_8086&DEV_1E22&SUBSYS_1E221849&REV_04\3&11583659&0&FB
+   Driver: n/a
 
      Name: PCI-to-PCI Bridge
-Device ID: PCI\VEN_8086&DEV_0C01&SUBSYS_18E4103C&REV_06\3&11583659&0&08
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 9/10/2015 06:08:27, 325984 bytes
+Device ID: PCI\VEN_8086&DEV_1E18&SUBSYS_1E181849&REV_C4\3&11583659&0&E4
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 7/15/2015 03:49:52, 325984 bytes
 
-     Name: Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
-Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_18E4103C&REV_04\3&11583659&0&D0
-   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.10240.16384 (Swedish), 7/10/2015 06:10:08, 95584 bytes
-   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.10240.16384 (Swedish), 7/10/2015 06:08:01, 457056 bytes
-   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.10240.16542 (Swedish), 9/25/2015 05:01:05, 498016 bytes
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_8086&DEV_1E16&SUBSYS_1E161849&REV_C4\3&11583659&0&E3
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 7/15/2015 03:49:52, 325984 bytes
 
-     Name: Intel(R) 8 Series/C220 Series SMBus Controller - 8C22
-Device ID: PCI\VEN_8086&DEV_8C22&SUBSYS_18E4103C&REV_04\3&11583659&0&FB
-   Driver: n/a
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_8086&DEV_1E10&SUBSYS_1E101849&REV_C4\3&11583659&0&E0
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 7/15/2015 03:49:52, 325984 bytes
 
-     Name: NVIDIA GeForce GTX 960
-Device ID: PCI\VEN_10DE&DEV_1401&SUBSYS_85201043&REV_A1\4&5232420&0&0008
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 10.18.0013.5354 (English), 10/14/2015 09:11:11, 448144 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 10/14/2015 09:11:13, 1299756 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispiwu.inf_amd64_91e875a418f2d452\NvCplSetupInt.exe, 1.00.0005.0000 (Swedish), 10/14/2015 09:11:13, 95305888 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 10/14/2015 09:11:13, 11920 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvd3d9wrap.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 155768 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 105328 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 10/14/2015 09:11:13, 11920 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvd3d9wrapx.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 185656 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 125392 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 10/14/2015 09:11:12, 21910 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (Swedish), 10/14/2015 09:11:12, 841544 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.5354 (English), 10/14/2015 09:11:13, 227984 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 10/14/2015 09:11:14, 72727 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.5354 (English), 10/14/2015 09:11:14, 415376 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.5354 (English), 10/14/2015 09:11:15, 1193616 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.02.0011.0000 (English), 10/14/2015 09:11:28, 105104 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.02.0011.0000 (English), 10/14/2015 09:11:28, 112784 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\nvlddmkm.sys, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 11139216 bytes
-   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0013.5354 (English), 10/14/2015 09:11:13, 1052488 bytes
-   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0013.5354 (English), 10/14/2015 09:11:15, 1061192 bytes
-   Driver: C:\WINDOWS\system32\NvIFROpenGL.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 408208 bytes
-   Driver: C:\WINDOWS\system32\nvDecMFTMjpeg.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 374416 bytes
-   Driver: C:\WINDOWS\system32\nvEncMFTH264.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 787200 bytes
-   Driver: C:\WINDOWS\system32\nvEncMFThevc.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 785152 bytes
-   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 6.14.0013.5354 (English), 10/14/2015 09:11:13, 384464 bytes
-   Driver: C:\WINDOWS\system32\nvapi64.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:12, 3344672 bytes
-   Driver: C:\WINDOWS\system32\nvcompiler.dll, 10/14/2015 09:11:13, 42730128 bytes
-   Driver: C:\WINDOWS\system32\nvcuda.dll, 8.17.0013.5354 (English), 10/14/2015 09:11:13, 14510584 bytes
-   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0013.5354 (English), 10/14/2015 09:11:13, 2360976 bytes
-   Driver: C:\WINDOWS\system32\nvd3dumx.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 16009800 bytes
-   Driver: C:\WINDOWS\system32\nvinfo.pb, 10/14/2015 09:11:15, 31976 bytes
-   Driver: C:\WINDOWS\system32\nvinitx.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 177088 bytes
-   Driver: C:\WINDOWS\system32\nvmcumd.dll, 10/14/2015 09:11:15, 602264 bytes
-   Driver: C:\WINDOWS\system32\nvoglshim64.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 150832 bytes
-   Driver: C:\WINDOWS\system32\nvoglv64.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 30518928 bytes
-   Driver: C:\WINDOWS\system32\nvopencl.dll, 8.17.0013.5354 (English), 10/14/2015 09:11:15, 16159608 bytes
-   Driver: C:\WINDOWS\system32\nvumdshimx.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:20, 1165192 bytes
-   Driver: C:\WINDOWS\system32\nvwgf2umx.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:23, 18514616 bytes
-   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0013.5354 (English), 10/14/2015 09:11:13, 976528 bytes
-   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0013.5354 (English), 10/14/2015 09:11:14, 983368 bytes
-   Driver: C:\WINDOWS\SysWow64\NvIFROpenGL.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 364176 bytes
-   Driver: C:\WINDOWS\SysWow64\nvDecMFTMjpeg.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 340624 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncMFTH264.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 632848 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncMFThevc.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 631128 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 6.14.0013.5354 (English), 10/14/2015 09:11:13, 314936 bytes
-   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:12, 2955832 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcompiler.dll, 10/14/2015 09:11:12, 37748880 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 8.17.0013.5354 (English), 10/14/2015 09:11:13, 11842680 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0013.5354 (English), 10/14/2015 09:11:13, 2163856 bytes
-   Driver: C:\WINDOWS\SysWow64\nvd3dum.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:13, 12972336 bytes
-   Driver: C:\WINDOWS\SysWow64\nvinit.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 155280 bytes
-   Driver: C:\WINDOWS\SysWow64\nvoglshim32.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 128512 bytes
-   Driver: C:\WINDOWS\SysWow64\nvoglv32.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:15, 22972560 bytes
-   Driver: C:\WINDOWS\SysWow64\nvopencl.dll, 8.17.0013.5354 (English), 10/14/2015 09:11:15, 13274560 bytes
-   Driver: C:\WINDOWS\SysWow64\nvumdshim.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:20, 991336 bytes
-   Driver: C:\WINDOWS\SysWow64\nvwgf2um.dll, 10.18.0013.5354 (English), 10/14/2015 09:11:22, 15892904 bytes
-   Driver: C:\WINDOWS\system32\nvdispco6435354.dll, 2.00.0043.0004 (English), 10/14/2015 09:11:13, 1898312 bytes
-   Driver: C:\WINDOWS\system32\nvdispgenco6435354.dll, 2.00.0020.0002 (English), 10/14/2015 09:11:13, 1557648 bytes
+     Name: Intel(R) HD Graphics 4000
+Device ID: PCI\VEN_8086&DEV_0162&SUBSYS_01621849&REV_09\3&11583659&0&10
+   Driver: C:\WINDOWS\system32\DRIVERS\igdkmd64.sys, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 3797424 bytes
+   Driver: C:\WINDOWS\system32\igd10iumd64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 12335600 bytes
+   Driver: C:\WINDOWS\system32\igdusc64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:02, 4637640 bytes
+   Driver: C:\WINDOWS\system32\igdmd64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 469216 bytes
+   Driver: C:\WINDOWS\system32\igfxcmrt64.dll, 3.00.0000.1284 (English), 10/14/2015 16:08:02, 199088 bytes
+   Driver: C:\WINDOWS\system32\igfx11cmrt64.dll, 3.00.0000.1284 (English), 10/14/2015 16:08:02, 193536 bytes
+   Driver: C:\WINDOWS\system32\igfxcmjit64.dll, 3.00.0000.1284 (English), 10/14/2015 16:08:02, 2037232 bytes
+   Driver: C:\WINDOWS\system32\IccLibDll_x64.dll, 10/14/2015 16:07:58, 102912 bytes
+   Driver: C:\WINDOWS\system32\igdde64.dll, 10/14/2015 16:08:01, 232960 bytes
+   Driver: C:\WINDOWS\SysWow64\igdde32.dll, 10/14/2015 16:08:01, 194560 bytes
+   Driver: C:\WINDOWS\system32\iglhxs64.vp, 10/14/2015 16:08:02, 2560 bytes
+   Driver: C:\WINDOWS\system32\iglhxo64.vp, 9/9/2015 18:02:46, 44025 bytes
+   Driver: C:\WINDOWS\system32\iglhxc64.vp, 9/9/2015 18:02:46, 43494 bytes
+   Driver: C:\WINDOWS\system32\iglhxg64.vp, 9/9/2015 18:02:46, 43256 bytes
+   Driver: C:\WINDOWS\system32\iglhxo64_dev.vp, 9/9/2015 18:02:46, 42079 bytes
+   Driver: C:\WINDOWS\system32\iglhxc64_dev.vp, 9/9/2015 18:02:46, 43816 bytes
+   Driver: C:\WINDOWS\system32\iglhxg64_dev.vp, 9/9/2015 18:02:46, 43298 bytes
+   Driver: C:\WINDOWS\system32\iglhxa64.vp, 9/9/2015 18:02:46, 1125 bytes
+   Driver: C:\WINDOWS\system32\iglhxa64.cpa, 9/9/2015 18:02:46, 2813952 bytes
+   Driver: C:\WINDOWS\system32\iglhcp64.dll, 9.00.0020.9000 (English), 10/14/2015 16:08:02, 229664 bytes
+   Driver: C:\WINDOWS\system32\iglhsip64.dll, 9.00.0020.9000 (English), 10/14/2015 16:08:02, 1156000 bytes
+   Driver: C:\WINDOWS\SysWow64\igdusc32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:02, 3672344 bytes
+   Driver: C:\WINDOWS\SysWow64\igdmd32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 378824 bytes
+   Driver: C:\WINDOWS\SysWow64\igd10iumd32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 11905432 bytes
+   Driver: C:\WINDOWS\SysWow64\igdumdim32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 10574992 bytes
+   Driver: C:\WINDOWS\SysWow64\igdail32.dll, 10/14/2015 16:08:01, 154096 bytes
+   Driver: C:\WINDOWS\SysWow64\iglhcp32.dll, 9.00.0020.9000 (English), 10/14/2015 16:08:02, 194368 bytes
+   Driver: C:\WINDOWS\SysWow64\iglhsip32.dll, 9.00.0020.9000 (English), 10/14/2015 16:08:02, 1151840 bytes
+   Driver: C:\WINDOWS\SysWow64\IntelCpHeciSvc.exe, 9.00.0020.9000 (English), 10/14/2015 16:08:02, 291744 bytes
+   Driver: C:\WINDOWS\SysWow64\igfxcmrt32.dll, 3.00.0000.1284 (English), 10/14/2015 16:08:02, 169368 bytes
+   Driver: C:\WINDOWS\SysWow64\igfx11cmrt32.dll, 3.00.0000.1284 (English), 10/14/2015 16:08:02, 163840 bytes
+   Driver: C:\WINDOWS\SysWow64\igfxcmjit32.dll, 3.00.0000.1284 (English), 10/14/2015 16:08:02, 1768432 bytes
+   Driver: C:\WINDOWS\system32\difx64.exe, 1.04.0003.0000 (English), 10/14/2015 16:07:58, 165808 bytes
+   Driver: C:\WINDOWS\system32\igfxDH.dll, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 680432 bytes
+   Driver: C:\WINDOWS\system32\igfxDHLib.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 69616 bytes
+   Driver: C:\WINDOWS\system32\igfxDHLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 78336 bytes
+   Driver: C:\WINDOWS\system32\igfxDI.dll, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 285184 bytes
+   Driver: C:\WINDOWS\system32\igfxDILib.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 20976 bytes
+   Driver: C:\WINDOWS\system32\igfxDILibv2_0.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 18944 bytes
+   Driver: C:\WINDOWS\system32\igfxLHM.dll, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 262640 bytes
+   Driver: C:\WINDOWS\system32\igfxLHMLib.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 13824 bytes
+   Driver: C:\WINDOWS\system32\igfxLHMLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 15344 bytes
+   Driver: C:\WINDOWS\system32\igfxEM.exe, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 541600 bytes
+   Driver: C:\WINDOWS\system32\igfxEMLib.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 18944 bytes
+   Driver: C:\WINDOWS\system32\igfxEMLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 10/14/2015 16:08:02, 18944 bytes
+   Driver: C:\WINDOWS\system32\GfxUIEx.exe, 6.15.0010.4276 (English), 10/14/2015 16:07:58, 970656 bytes
+   Driver: C:\WINDOWS\system32\Gfxv4_0.exe, 8.15.0010.4276 (Swedish), 10/14/2015 16:07:58, 4371888 bytes
+   Driver: C:\WINDOWS\system32\Gfxv4_0.exe.config, 9/9/2015 18:02:41, 889 bytes
+   Driver: C:\WINDOWS\system32\Gfxv2_0.exe, 8.15.0010.4276 (Swedish), 10/14/2015 16:07:58, 4369816 bytes
+   Driver: C:\WINDOWS\system32\Gfxv2_0.exe.config, 9/9/2015 18:02:41, 895 bytes
+   Driver: C:\WINDOWS\system32\MetroIntelGenericUIFramework.dll, 1.00.0000.0000 (Swedish), 10/14/2015 16:08:03, 618992 bytes
+   Driver: C:\WINDOWS\system32\igfxCUIServicePS.dll, 10/14/2015 16:08:02, 96752 bytes
+   Driver: C:\WINDOWS\system32\igfxCUIService.exe, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 330136 bytes
+   Driver: C:\WINDOWS\system32\igfxCPL.cpl, 10/14/2015 16:08:02, 265712 bytes
+   Driver: C:\WINDOWS\system32\igfxTray.exe, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 395168 bytes
+   Driver: C:\WINDOWS\system32\igfxDTCM.dll, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 230384 bytes
+   Driver: C:\WINDOWS\system32\igfxHK.exe, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 258456 bytes
+   Driver: C:\WINDOWS\system32\igfxOSP.dll, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 394224 bytes
+   Driver: C:\WINDOWS\system32\DPTopologyApp.exe, 8.15.0010.4276 (Swedish), 10/14/2015 16:07:58, 556960 bytes
+   Driver: C:\WINDOWS\system32\DPTopologyApp.exe.config, 9/9/2015 18:02:41, 889 bytes
+   Driver: C:\WINDOWS\system32\CustomModeApp.exe, 8.15.0010.4276 (Swedish), 10/14/2015 16:07:58, 409520 bytes
+   Driver: C:\WINDOWS\system32\CustomModeApp.exe.config, 9/9/2015 18:02:41, 889 bytes
+   Driver: C:\WINDOWS\system32\DPTopologyAppv2_0.exe, 8.15.0010.4276 (Swedish), 10/14/2015 16:07:58, 554928 bytes
+   Driver: C:\WINDOWS\system32\DPTopologyAppv2_0.exe.config, 9/9/2015 18:02:41, 895 bytes
+   Driver: C:\WINDOWS\system32\CustomModeAppv2_0.exe, 8.15.0010.4276 (Swedish), 10/14/2015 16:07:58, 410528 bytes
+   Driver: C:\WINDOWS\system32\CustomModeAppv2_0.exe.config, 9/9/2015 18:02:41, 895 bytes
+   Driver: C:\WINDOWS\system32\igfxext.exe, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 205728 bytes
+   Driver: C:\WINDOWS\system32\igfxexps.dll, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 42232 bytes
+   Driver: C:\WINDOWS\SysWow64\igfxexps32.dll, 6.15.0010.4276 (English), 10/14/2015 16:08:02, 39424 bytes
+   Driver: C:\WINDOWS\system32\resARA.cui, 10/14/2015 16:08:05, 163044 bytes
+   Driver: C:\WINDOWS\system32\resCHS.cui, 10/14/2015 16:08:05, 147188 bytes
+   Driver: C:\WINDOWS\system32\resCHT.cui, 10/14/2015 16:08:05, 148052 bytes
+   Driver: C:\WINDOWS\system32\resCSY.cui, 10/14/2015 16:08:05, 154212 bytes
+   Driver: C:\WINDOWS\system32\resDAN.cui, 10/14/2015 16:08:05, 151156 bytes
+   Driver: C:\WINDOWS\system32\resDEU.cui, 10/14/2015 16:08:05, 156020 bytes
+   Driver: C:\WINDOWS\system32\resELL.cui, 10/14/2015 16:08:05, 181524 bytes
+   Driver: C:\WINDOWS\system32\resENU.cui, 10/14/2015 16:08:05, 149812 bytes
+   Driver: C:\WINDOWS\system32\resESN.cui, 10/14/2015 16:08:05, 155716 bytes
+   Driver: C:\WINDOWS\system32\resFIN.cui, 10/14/2015 16:08:05, 153620 bytes
+   Driver: C:\WINDOWS\system32\resFRA.cui, 10/14/2015 16:08:05, 157844 bytes
+   Driver: C:\WINDOWS\system32\resHEB.cui, 10/14/2015 16:08:05, 162500 bytes
+   Driver: C:\WINDOWS\system32\resHRV.cui, 10/14/2015 16:08:05, 153236 bytes
+   Driver: C:\WINDOWS\system32\resHUN.cui, 10/14/2015 16:08:05, 157860 bytes
+   Driver: C:\WINDOWS\system32\resITA.cui, 10/14/2015 16:08:05, 155988 bytes
+   Driver: C:\WINDOWS\system32\resJPN.cui, 10/14/2015 16:08:05, 162484 bytes
+   Driver: C:\WINDOWS\system32\resKOR.cui, 10/14/2015 16:08:05, 156100 bytes
+   Driver: C:\WINDOWS\system32\resNLD.cui, 10/14/2015 16:08:05, 154980 bytes
+   Driver: C:\WINDOWS\system32\resNOR.cui, 10/14/2015 16:08:05, 151668 bytes
+   Driver: C:\WINDOWS\system32\resPLK.cui, 10/14/2015 16:08:05, 155268 bytes
+   Driver: C:\WINDOWS\system32\resPTB.cui, 10/14/2015 16:08:05, 154372 bytes
+   Driver: C:\WINDOWS\system32\resPTG.cui, 10/14/2015 16:08:05, 154084 bytes
+   Driver: C:\WINDOWS\system32\resROM.cui, 10/14/2015 16:08:05, 155828 bytes
+   Driver: C:\WINDOWS\system32\resRUS.cui, 10/14/2015 16:08:05, 177300 bytes
+   Driver: C:\WINDOWS\system32\resSKY.cui, 10/14/2015 16:08:05, 155172 bytes
+   Driver: C:\WINDOWS\system32\resSLV.cui, 10/14/2015 16:08:05, 152644 bytes
+   Driver: C:\WINDOWS\system32\resSVE.cui, 10/14/2015 16:08:05, 152772 bytes
+   Driver: C:\WINDOWS\system32\resTHA.cui, 10/14/2015 16:08:05, 188884 bytes
+   Driver: C:\WINDOWS\system32\resTRK.cui, 10/14/2015 16:08:05, 154260 bytes
+   Driver: C:\WINDOWS\system32\ig7icd64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 8528896 bytes
+   Driver: C:\WINDOWS\SysWow64\ig7icd32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 6513648 bytes
+   Driver: C:\WINDOWS\system32\igdumdim64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:02, 11053048 bytes
+   Driver: C:\WINDOWS\system32\igdail64.dll, 10/14/2015 16:08:01, 172528 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\llvm_release_license.txt, 9/9/2015 18:02:48, 1981 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\readme.txt, 9/9/2015 18:02:48, 9788 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\version.ini, 9/9/2015 18:02:48, 32 bytes
+   Driver: C:\WINDOWS\SysWow64\Intel_OpenCL_ICD32.dll, 1.02.0011.0000 (English), 10/14/2015 16:08:03, 69120 bytes
+   Driver: C:\WINDOWS\SysWow64\IntelOpenCL32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:02, 296944 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\task_executor32.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:05, 216576 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\OclCpuBackend32.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:05, 6769136 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\intelocl32.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:04, 636912 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\cpu_device32.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:04, 318960 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfnn8.rtl, 9/9/2015 18:02:47, 2986764 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfnn8_img_cbk.o, 9/9/2015 18:02:47, 240244 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfnn8_img_cbk.rtl, 9/9/2015 18:02:47, 375380 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfng9.rtl, 9/9/2015 18:02:47, 2930216 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfng9_img_cbk.o, 9/9/2015 18:02:47, 234396 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfng9_img_cbk.rtl, 9/9/2015 18:02:47, 374552 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfns9.rtl, 9/9/2015 18:02:47, 2408580 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfns9_img_cbk.o, 9/9/2015 18:02:47, 197272 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfns9_img_cbk.rtl, 9/9/2015 18:02:47, 329372 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clang_compiler32.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:04, 14899696 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_n8.dll, 2.00.0000.0000 (English), 10/14/2015 16:08:05, 5904368 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_g9.dll, 2.00.0000.0000 (English), 10/14/2015 16:08:05, 5173760 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_s9.dll, 2.00.0000.0000 (English), 10/14/2015 16:08:05, 4686336 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbbmalloc.dll, 4.00.2012.0408 (), 10/14/2015 16:08:05, 176064 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbb.dll, 4.00.2012.0408 (), 10/14/2015 16:08:05, 343488 bytes
+   Driver: C:\WINDOWS\system32\Intel_OpenCL_ICD64.dll, 1.02.0011.0000 (English), 10/14/2015 16:08:03, 72704 bytes
+   Driver: C:\WINDOWS\system32\IntelOpenCL64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:03, 387056 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\task_executor64.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:05, 256488 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\OclCpuBackend64.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:05, 9170432 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\intelocl64.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:05, 805376 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\cpu_device64.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:04, 382952 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnh8.rtl, 9/9/2015 18:02:47, 2941464 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnh8_img_cbk.o, 9/9/2015 18:02:47, 295744 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnh8_img_cbk.rtl, 9/9/2015 18:02:47, 388464 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfne9.rtl, 9/9/2015 18:02:47, 2884992 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfne9_img_cbk.o, 9/9/2015 18:02:47, 284840 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfne9_img_cbk.rtl, 9/9/2015 18:02:47, 387724 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnl9.rtl, 9/9/2015 18:02:47, 2365892 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnl9_img_cbk.o, 9/9/2015 18:02:47, 228328 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnl9_img_cbk.rtl, 9/9/2015 18:02:47, 342372 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clang_compiler64.dll, 3.00.0001.10891 (English), 10/14/2015 16:08:04, 19585024 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_h8.dll, 2.00.0000.0000 (English), 10/14/2015 16:08:05, 6099456 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_e9.dll, 2.00.0000.0000 (English), 10/14/2015 16:08:05, 5520896 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_l9.dll, 2.00.0000.0000 (English), 10/14/2015 16:08:05, 5067776 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbbmalloc.dll, 4.00.2012.0408 (), 10/14/2015 16:08:05, 208320 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbb.dll, 4.00.2012.0408 (), 10/14/2015 16:08:05, 417232 bytes
+   Driver: C:\WINDOWS\SysWow64\IntelOpenCL32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:02, 296944 bytes
+   Driver: C:\WINDOWS\SysWow64\igdbcl32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 329216 bytes
+   Driver: C:\WINDOWS\SysWow64\igdrcl32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 1793024 bytes
+   Driver: C:\WINDOWS\SysWow64\igdfcl32.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 17846272 bytes
+   Driver: C:\WINDOWS\system32\IntelOpenCL64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:03, 387056 bytes
+   Driver: C:\WINDOWS\system32\igdbcl64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 374272 bytes
+   Driver: C:\WINDOWS\system32\igdrcl64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 1995760 bytes
+   Driver: C:\WINDOWS\system32\igdfcl64.dll, 10.18.0010.4276 (English), 10/14/2015 16:08:01, 22915568 bytes
+   Driver: C:\Program Files\Intel\Media SDK\libmfxhw32.dll, 5.15.0005.0029 (English), 10/14/2015 16:08:03, 8392968 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mfxplugin32_hw.dll, 3.11.0005.0020 (English), 10/14/2015 16:08:03, 590600 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_h264ve_32.dll, 6.15.0006.0002 (English), 10/14/2015 16:08:04, 812224 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_mjpgvd_32.dll, 6.15.0006.0002 (English), 10/14/2015 16:08:04, 754880 bytes
+   Driver: C:\Program Files\Intel\Media SDK\he_32.vp, 9/9/2015 18:02:41, 28553 bytes
+   Driver: C:\Program Files\Intel\Media SDK\c_32.cpa, 9/9/2015 18:02:41, 846855 bytes
+   Driver: C:\Program Files\Intel\Media SDK\cpa_32.vp, 9/9/2015 18:02:41, 993 bytes
+   Driver: C:\Program Files\Intel\Media SDK\dev_32.vp, 9/9/2015 18:02:41, 21523 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mj_32.vp, 9/9/2015 18:02:47, 26945 bytes
+   Driver: C:\Program Files\Intel\Media SDK\libmfxhw64.dll, 5.15.0005.0029 (English), 10/14/2015 16:08:03, 9302264 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mfxplugin64_hw.dll, 3.11.0005.0020 (English), 10/14/2015 16:08:03, 688888 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_h264ve_64.dll, 6.15.0006.0002 (English), 10/14/2015 16:08:04, 1004736 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_mjpgvd_64.dll, 6.15.0006.0002 (English), 10/14/2015 16:08:04, 935600 bytes
+   Driver: C:\Program Files\Intel\Media SDK\he_64.vp, 9/9/2015 18:02:41, 6533 bytes
+   Driver: C:\Program Files\Intel\Media SDK\c_64.cpa, 9/9/2015 18:02:41, 1519616 bytes
+   Driver: C:\Program Files\Intel\Media SDK\cpa_64.vp, 9/9/2015 18:02:41, 993 bytes
+   Driver: C:\Program Files\Intel\Media SDK\dev_64.vp, 9/9/2015 18:02:41, 21523 bytes
+   Driver: C:\Program Files\Intel\Media SDK\mj_64.vp, 9/9/2015 18:02:47, 6321 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiMCUMD64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 143368 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiSecureSourceFilter64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 1470472 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiAAC64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 4025864 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiMux64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 617992 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiDDEAgent64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 192520 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiAudioFilter64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 661000 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiUtils64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 225288 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiLogServer64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 109064 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiWinNextAgent64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 866824 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiSilenceFilter64.dll, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 357912 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiVAD64.exe, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 2506960 bytes
+   Driver: C:\WINDOWS\system32\IntelWiDiUMS64.exe, 4.05.0065.0000 (English), 10/14/2015 16:08:03, 444832 bytes
+   Driver: C:\WINDOWS\system32\igfxCoIn_v4276.dll, 1.03.0005.0000 (English), 10/14/2015 16:08:02, 216552 bytes
+   Driver: C:\WINDOWS\system32\DisplayAudiox64.cab, 10/14/2015 16:07:58, 316245 bytes
 
-     Name: Intel(R) Ethernet Connection I217-LM
-Device ID: PCI\VEN_8086&DEV_153A&SUBSYS_18E4103C&REV_04\3&11583659&0&C8
-   Driver: C:\WINDOWS\system32\DRIVERS\e1d65x64.sys, 12.13.0017.0004 (Swedish), 10/14/2015 09:14:14, 547840 bytes
-   Driver: C:\WINDOWS\system32\e1d65x64.din, 10/14/2015 09:14:14, 3130 bytes
-   Driver: C:\WINDOWS\system32\NicCo4.dll, 4.02.0003.0000 (English), 10/14/2015 09:14:14, 144680 bytes
-   Driver: C:\WINDOWS\system32\NicInstD.dll, 9.12.0013.0000 (English), 10/14/2015 09:14:14, 109560 bytes
-   Driver: C:\WINDOWS\system32\e1dmsg.dll, 10.00.0417.0000 (English), 10/14/2015 09:14:14, 94240 bytes
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0E0A&SUBSYS_841E1043&REV_A1\4&15001D53&0&0108
+   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.10240.16384 (Swedish), 7/10/2015 11:59:36, 80896 bytes
+   Driver: C:\WINDOWS\system32\drivers\drmk.sys, 10.00.10240.16384 (English), 7/10/2015 11:59:36, 96768 bytes
+   Driver: C:\WINDOWS\system32\drivers\portcls.sys, 10.00.10240.16515 (Swedish), 9/17/2015 06:50:33, 320000 bytes
 
-     Name: Standard-Dual Channel PCI IDE-styrenhet
-Device ID: PCI\VEN_8086&DEV_8C00&SUBSYS_18E4103C&REV_04\3&11583659&0&FA
-   Driver: C:\WINDOWS\system32\DRIVERS\pciide.sys, 10.00.10240.16384 (English), 7/10/2015 06:05:02, 15712 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\pciidex.sys, 10.00.10240.16384 (Swedish), 7/10/2015 06:07:35, 51552 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\atapi.sys, 10.00.10240.16384 (English), 7/10/2015 05:31:51, 28512 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\ataport.sys, 10.00.10240.16384 (Swedish), 7/10/2015 05:34:44, 192864 bytes
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_8086&DEV_0151&SUBSYS_01511849&REV_09\3&11583659&0&08
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 7/15/2015 03:49:52, 325984 bytes
 
-     Name: PCI standard host CPU bridge
-Device ID: PCI\VEN_8086&DEV_0C00&SUBSYS_18E4103C&REV_06\3&11583659&0&00
-   Driver: n/a
+     Name: Standard SATA AHCI-styrenhet
+Device ID: PCI\VEN_8086&DEV_1E02&SUBSYS_1E021849&REV_04\3&11583659&0&FA
+   Driver: C:\WINDOWS\system32\DRIVERS\storahci.sys, 10.00.10240.16384 (English), 7/10/2015 11:59:39, 133984 bytes
+
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_1B21&DEV_1080&SUBSYS_10801849&REV_03\4&C7A4F95&0&00E5
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 7/15/2015 03:49:52, 325984 bytes
+
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_8086&DEV_1E1E&SUBSYS_1E1E1849&REV_C4\3&11583659&0&E7
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 7/15/2015 03:49:52, 325984 bytes
+
+     Name: Broadcom NetLink (TM) Gigabit Ethernet
+Device ID: PCI\VEN_14E4&DEV_16B1&SUBSYS_96B11849&REV_10\4&2B8260C3&0&00E4
+   Driver: C:\WINDOWS\system32\DRIVERS\k57nd60a.sys, 15.06.0000.0014 (English), 10/8/2015 07:45:01, 469192 bytes
+
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_8086&DEV_1E1A&SUBSYS_1E1A1849&REV_C4\3&11583659&0&E5
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10240.16390 (Swedish), 7/15/2015 03:49:52, 325984 bytes
+
+     Name: LPC Controller
+Device ID: PCI\VEN_8086&DEV_1E44&SUBSYS_1E441849&REV_04\3&11583659&0&F8
+   Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.10240.16384 (English), 7/10/2015 11:59:38, 19296 bytes
+
+     Name: NVIDIA GeForce GTX 660 Ti
+Device ID: PCI\VEN_10DE&DEV_1183&SUBSYS_841E1043&REV_A1\4&15001D53&0&0008
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 448120 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 8/25/2015 19:38:05, 1304624 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_16204fff079f6f7a\NvCplSetupInt.exe, 1.00.0005.0000 (Swedish), 8/25/2015 19:38:05, 95391120 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 8/25/2015 19:38:05, 11896 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvd3d9wrap.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 158048 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 105512 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 8/25/2015 19:38:05, 11896 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvd3d9wrapx.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 187216 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 126088 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 8/25/2015 19:38:05, 21910 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (Swedish), 8/25/2015 19:38:05, 841520 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.5582 (English), 8/25/2015 19:38:05, 228144 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 8/25/2015 19:38:05, 72643 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.5582 (English), 8/25/2015 19:38:05, 415536 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.5582 (English), 8/25/2015 19:38:05, 1195640 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.02.0011.0000 (English), 8/25/2015 19:38:05, 105080 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.02.0011.0000 (English), 8/25/2015 19:38:05, 112760 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\nvlddmkm.sys, 10.18.0013.5582 (English), 8/30/2015 23:47:38, 11188880 bytes
+   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0013.5582 (English), 8/25/2015 19:38:05, 1075320 bytes
+   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0013.5582 (English), 8/25/2015 19:38:05, 1064752 bytes
+   Driver: C:\WINDOWS\system32\NvIFROpenGL.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 408368 bytes
+   Driver: C:\WINDOWS\system32\nvDecMFTMjpeg.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 376440 bytes
+   Driver: C:\WINDOWS\system32\nvEncMFTH264.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 787200 bytes
+   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 6.14.0013.5582 (English), 8/25/2015 19:38:05, 387536 bytes
+   Driver: C:\WINDOWS\system32\nvapi64.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 3480792 bytes
+   Driver: C:\WINDOWS\system32\nvcompiler.dll, 8/25/2015 19:38:05, 42840184 bytes
+   Driver: C:\WINDOWS\system32\nvcuda.dll, 8.17.0013.5582 (English), 8/25/2015 19:38:05, 14945552 bytes
+   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0013.5582 (English), 8/25/2015 19:38:05, 2354808 bytes
+   Driver: C:\WINDOWS\system32\nvd3dumx.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 15630616 bytes
+   Driver: C:\WINDOWS\system32\nvinfo.pb, 8/25/2015 19:38:05, 34044 bytes
+   Driver: C:\WINDOWS\system32\nvinitx.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 176904 bytes
+   Driver: C:\WINDOWS\system32\nvoglshim64.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 150648 bytes
+   Driver: C:\WINDOWS\system32\nvoglv64.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 22559352 bytes
+   Driver: C:\WINDOWS\system32\nvopencl.dll, 8.17.0013.5582 (English), 8/25/2015 19:38:05, 16646624 bytes
+   Driver: C:\WINDOWS\system32\nvumdshimx.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 1178576 bytes
+   Driver: C:\WINDOWS\system32\nvwgf2umx.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 17932648 bytes
+   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0013.5582 (English), 8/25/2015 19:38:05, 945272 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0013.5582 (English), 8/25/2015 19:38:05, 986232 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFROpenGL.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 364152 bytes
+   Driver: C:\WINDOWS\SysWow64\nvDecMFTMjpeg.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 339576 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncMFTH264.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 632848 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 6.14.0013.5582 (English), 8/25/2015 19:38:05, 316120 bytes
+   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 3074776 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcompiler.dll, 8/25/2015 19:38:05, 37819184 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 8.17.0013.5582 (English), 8/25/2015 19:38:05, 12192048 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0013.5582 (English), 8/25/2015 19:38:05, 2105976 bytes
+   Driver: C:\WINDOWS\SysWow64\nvd3dum.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 12611824 bytes
+   Driver: C:\WINDOWS\SysWow64\nvinit.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 155976 bytes
+   Driver: C:\WINDOWS\SysWow64\nvoglshim32.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 128512 bytes
+   Driver: C:\WINDOWS\SysWow64\nvoglv32.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 18569336 bytes
+   Driver: C:\WINDOWS\SysWow64\nvopencl.dll, 8.17.0013.5582 (English), 8/25/2015 19:38:05, 13667032 bytes
+   Driver: C:\WINDOWS\SysWow64\nvumdshim.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 1001440 bytes
+   Driver: C:\WINDOWS\SysWow64\nvwgf2um.dll, 10.18.0013.5582 (English), 8/25/2015 19:38:05, 15334976 bytes
+   Driver: C:\WINDOWS\system32\nvdispco6435582.dll, 2.00.0043.0004 (English), 8/25/2015 19:38:05, 1898104 bytes
+   Driver: C:\WINDOWS\system32\nvdispgenco6435582.dll, 2.00.0021.0002 (English), 8/25/2015 19:38:05, 1558648 bytes
+
+     Name: ASMedia USB 3.0 eXtensible Host Controller - 0.96 (Microsoft)
+Device ID: PCI\VEN_1B21&DEV_1042&SUBSYS_10421849&REV_00\4&37A73C8A&0&00E7
+   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.10240.16461 (Swedish), 8/18/2015 08:55:45, 373072 bytes
+
+     Name: Standard SATA AHCI-styrenhet
+Device ID: PCI\VEN_1B21&DEV_0612&SUBSYS_06121849&REV_01\4&33B94F4C&0&00E3
+   Driver: C:\WINDOWS\system32\DRIVERS\storahci.sys, 10.00.10240.16384 (English), 7/10/2015 11:59:39, 133984 bytes
 
      Name: Intel(R) Management Engine Interface 
-Device ID: PCI\VEN_8086&DEV_8C3A&SUBSYS_18E4103C&REV_04\3&11583659&0&B0
-   Driver: C:\WINDOWS\system32\DRIVERS\TeeDriverW8x64.sys, 11.00.0000.1157 (English), 10/14/2015 09:09:55, 193336 bytes
-
-     Name: PCI standard ISA bridge
-Device ID: PCI\VEN_8086&DEV_8C4E&SUBSYS_18E4103C&REV_04\3&11583659&0&F8
-   Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.10240.16384 (English), 7/10/2015 06:06:13, 19296 bytes
+Device ID: PCI\VEN_8086&DEV_1E3A&SUBSYS_1E3A1849&REV_04\3&11583659&0&B0
+   Driver: C:\WINDOWS\system32\DRIVERS\TeeDriverW8x64.sys, 11.00.0000.1157 (English), 9/9/2015 18:04:18, 193336 bytes
 
      Name: Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
-Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_18E4103C&REV_04\3&11583659&0&A0
-   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.10240.16461 (Swedish), 9/10/2015 06:08:27, 373072 bytes
+Device ID: PCI\VEN_8086&DEV_1E31&SUBSYS_1E311849&REV_04\3&11583659&0&A0
+   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.10240.16461 (Swedish), 8/18/2015 08:55:45, 373072 bytes
+
+     Name: Memory Controller
+Device ID: PCI\VEN_8086&DEV_0150&SUBSYS_01501849&REV_09\3&11583659&0&00
+   Driver: n/a
 
 ------------------
 DirectShow Filters
@@ -449,6 +981,7 @@ Smart Tee,0x00200000,1,2,qcap.dll,10.00.10240.16384
 Overlay Mixer,0x00200000,0,0,,
 AVI Decompressor,0x00600000,1,1,quartz.dll,10.00.10240.16384
 AVI/WAV File Source,0x00400000,0,2,quartz.dll,10.00.10240.16384
+Dump,0x00200000,1,0,DvFileWriter.prm,
 Wave Parser,0x00400000,1,1,quartz.dll,10.00.10240.16384
 MIDI Parser,0x00400000,1,1,quartz.dll,10.00.10240.16384
 Multi-file Parser,0x00400000,1,1,quartz.dll,10.00.10240.16384
@@ -485,6 +1018,9 @@ CCITT A-Law,0x00200000,1,1,quartz.dll,10.00.10240.16384
 CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.10240.16384
 MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.10240.16384
 
+Audio Capture Sources:
+Mikrofon (Logitech G35 Headset),0x00200000,0,0,qcap.dll,10.00.10240.16384
+
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.10240.16384
 PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.10240.16384
@@ -495,12 +1031,13 @@ Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.10240.16384
 Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,10.00.10240.16384
 
 WDM Streaming Capture Devices:
-Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.10240.16384
-Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.10240.16384
-Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.10240.16384
+,0x00000000,0,0,,
+USB Audio Device,0x00200000,2,2,ksproxy.ax,10.00.10240.16384
 
 WDM Streaming Rendering Devices:
-Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.10240.16384
+USB Audio Device,0x00200000,2,2,ksproxy.ax,10.00.10240.16384
+HD Audio SPDIF out,0x00200000,1,1,ksproxy.ax,10.00.10240.16384
+,0x00000000,0,0,,
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.10240.16384
@@ -526,10 +1063,14 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.10240.16384
 
 Audio Renderers:
-Högtalare (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.10240.16384
+PHILIPS FTV-4 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.10240.16384
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.10240.16384
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.10240.16384
-DirectSound: Högtalare (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.10240.16384
+DirectSound: PHILIPS FTV-4 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.10240.16384
+DirectSound: Headset (Logitech G35 Headset),0x00200000,1,0,quartz.dll,10.00.10240.16384
+DirectSound: Digitalt ljud (S/PDIF) (High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.10240.16384
+Headset (Logitech G35 Headset),0x00200000,1,0,quartz.dll,10.00.10240.16384
+Digitalt ljud (S/PDIF) (High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.10240.16384
 
 
 ----------------------------
@@ -602,7 +1143,8 @@ Media Foundation Transforms
   <transform friendly name>, <transform CLSID>, <flags>, [<merit>, ]<file name>, <file version>
 
 Video Decoders:
-  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 10.18.0013.5354
+  Intel® Hardware M-JPEG Decoder MFT, {00C69F81-0524-48C0-A353-4DD9D54F9A6E}, 0x6, 7, mfx_mft_mjpgvd_64.dll, 6.15.0006.0002
+  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 10.18.0013.5582
   Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 12.00.10255.0000
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.10240.16384
   Microsoft H265 Video Decoder MFT, {420A51A3-D605-430C-B4FC-45274FA6C562}, 0x1, hevcdecoder.dll, 10.00.10240.16515
@@ -614,8 +1156,8 @@ Video Decoders:
   Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.10240.16384
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.10240.16384
 Video Encoders:
-  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 10.18.0013.5354
-  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 10.18.0013.5354
+  Intel® Quick Sync Video H.264 Encoder MFT, {4BE8D3C0-0515-4A37-AD55-E4BAE19AF471}, 0x4, 7, mfx_mft_h264ve_64.dll, 6.15.0006.0002
+  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 10.18.0013.5582
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.10240.16384
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.10240.16384
   H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.10240.16384
@@ -672,9 +1214,9 @@ Media Foundation Enabled Hardware Categories
 
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Media Foundation\HardwareMFT]
 
-EnableDecoders = 1
-EnableEncoders = 1
 EnableVideoProcessors = 1
+EnableEncoders = 1
+EnableDecoders = 1
 
 
 -------------------------------------
@@ -920,36 +1462,6 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fel-bucket 124592401011, typ 5
-Händelsenamn: MpTelemetry
-Svar: Inte tillgänglig
-Kabinett-ID: 0
-
-Problemsignatur:
-P1: 2152759308
-P2: unspecified
-P3: ScanFile
-P4: 4.8.10240.16384
-P5: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
-P6: unspecified
-P7: unspecified
-P8: 
-P9: 
-P10: 
-
-Bifogade filer:
-C:\Windows\Temp\MPInstrumentation\client_manifest.txt
-C:\Windows\Temp\WER9BA5.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_2152759308_2982744fc149d25567726ab1cb256b98343c2275_00000000_cab_0aa49bb5
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 3deea6c3-94d8-11e5-8260-6451065a031d
-Rapportstatus: 0
-Hash-bucket: 477f1ca17dae9a54a4deb41f44405c29
-+++ WER1 +++:
 Fel-bucket , typ 0
 Händelsenamn: APPCRASH
 Svar: Inte tillgänglig
@@ -957,28 +1469,60 @@ Kabinett-ID: 0
 
 Problemsignatur:
 P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094ebc
-P4: UE4Editor-UnrealProject-8898.dll
-P5: 4.9.2
-P6: 564f08dd
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-UnrealProject-4651.dll
+P5: 4.9.1
+P6: 565428b0
 P7: c0000005
-P8: 0000000000005429
-P9: !"C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject"!AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
+P8: 00000000000040B4
+P9: !"D:\Documents and projects\Github\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-D06027964DC95BBC8E5A95BE57B7A3A5/CrashContext.runtime-xml
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-D06027964DC95BBC8E5A95BE57B7A3A5/UE4Minidump.dmp
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
-C:\Users\Patte\AppData\Local\Temp\WERC7C9.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-FFB1FF004058E23B3ADF518DF381A6D3/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-FFB1FF004058E23B3ADF518DF381A6D3/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
+C:\Users\Patrik\AppData\Local\Temp\WER2BAB.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_9316866b8e4c9df92c06d974b5651ac09984ee_00000000_cab_2372c7c9
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_fa7ec55064bada35589c2b4fb414b7381dd1a44e_00000000_cab_2cb72bab
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: 0cb75107-8f7f-11e5-825d-6451065a031d
+Rapport-ID: 10d7f7a9-9782-11e5-8262-d81773faecb3
+Rapportstatus: 0
+Hash-bucket: 
++++ WER1 +++:
+Fel-bucket , typ 0
+Händelsenamn: APPCRASH
+Svar: Inte tillgänglig
+Kabinett-ID: 0
+
+Problemsignatur:
+P1: UE4-TestCar
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-Engine.dll
+P5: 4.9.1
+P6: 55f681dd
+P7: c0000005
+P8: 0000000000E0D897
+P9: !"D:/Documents and projects/Github/StarWing_Unreal/TestCar/TestCar.uproject"!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
+
+Bifogade filer:
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-D5614DCD4D730F3602FB48AC5CEB26A4/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-D5614DCD4D730F3602FB48AC5CEB26A4/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/TestCar.log
+C:\Users\Patrik\AppData\Local\Temp\WER55B7.tmp.WERInternalMetadata.xml
+
+Filerna kan vara tillgängligahär:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TestCar_171e136bea239b7e73705a7a6a44142fcf5a5060_00000000_cab_da6e55c7
+
+Analyssymbol: 
+Kontrollerar lösning igen: 0
+Rapport-ID: 7dc5beff-8ea0-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER2 +++:
@@ -988,29 +1532,29 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094ebc
-P4: KERNELBASE.dll
-P5: 10.0.10240
-P6: 559f38c3
-P7: 00000001
-P8: 000000000002A1C8
-P9: !"C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog="Assertion failed: ((UObject*)ContainerPtr)->IsA((UClass*)GetOuter()) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\CoreUObjec
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
+P1: UE4-TestCar
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-Engine.dll
+P5: 4.9.1
+P6: 55f681dd
+P7: c0000005
+P8: 0000000000E0D897
+P9: !"D:/Documents and projects/Github/StarWing_Unreal/TestCar/TestCar.uproject"!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-BD693C844A983F81FC89B2A2508DFC74/CrashContext.runtime-xml
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-BD693C844A983F81FC89B2A2508DFC74/UE4Minidump.dmp
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
-C:\Users\Patte\AppData\Local\Temp\WER55B9.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-DE58E00C4311461E616B6391F55F7AA1/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-DE58E00C4311461E616B6391F55F7AA1/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/TestCar.log
+C:\Users\Patrik\AppData\Local\Temp\WERC300.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_804f6d47772c6a2ff47f153fa3d457b06c1d2f3e_00000000_cab_13dc55b9
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TestCar_171e136bea239b7e73705a7a6a44142fcf5a5060_00000000_cab_c649c300
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: 58fff02d-8f77-11e5-825d-6451065a031d
+Rapport-ID: cb21d248-8e9f-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER3 +++:
@@ -1020,29 +1564,29 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094ebc
-P4: UE4Editor-UnrealProject-296.dll
-P5: 4.9.2
-P6: 564ed298
+P1: UE4-TestCar
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-Engine.dll
+P5: 4.9.1
+P6: 55f681dd
 P7: c0000005
-P8: 0000000000004160
-P9: !"C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
+P8: 0000000000E0D897
+P9: !"D:/Documents and projects/Github/StarWing_Unreal/TestCar/TestCar.uproject"!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-F44BB82544DFB981B1393C89F2BCDE97/CrashContext.runtime-xml
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-F44BB82544DFB981B1393C89F2BCDE97/UE4Minidump.dmp
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
-C:\Users\Patte\AppData\Local\Temp\WER5982.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-654D997C4B7EBFE16FE48BABBFC34627/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-654D997C4B7EBFE16FE48BABBFC34627/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/TestCar.log
+C:\Users\Patrik\AppData\Local\Temp\WERABC.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_9a3b64cc89f554287e665dd1d59f517db9255e_00000000_cab_15b25992
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TestCar_171e136bea239b7e73705a7a6a44142fcf5a5060_00000000_cab_fee90acc
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: 3ee9e2e5-8f5f-11e5-825d-6451065a031d
+Rapport-ID: af04ce29-8e9f-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER4 +++:
@@ -1052,29 +1596,29 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094ebc
-P4: UE4Editor-UnrealProject-296.dll
-P5: 4.9.2
-P6: 564ed298
+P1: UE4-TestCar
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-Engine.dll
+P5: 4.9.1
+P6: 55f681dd
 P7: c0000005
-P8: 0000000000004160
-P9: !"C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
+P8: 0000000000E0D897
+P9: !"D:\Documents and projects\Github\StarWing_Unreal\TestCar\TestCar.uproject"!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-518896FC4341FE7327DC06AB209A6AD1/CrashContext.runtime-xml
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-518896FC4341FE7327DC06AB209A6AD1/UE4Minidump.dmp
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
-C:\Users\Patte\AppData\Local\Temp\WER786D.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-A9E4FC10457C096203665EAF9DBFD2E4/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-A9E4FC10457C096203665EAF9DBFD2E4/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/TestCar.log
+C:\Users\Patrik\AppData\Local\Temp\WER46F2.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_9a3b64cc89f554287e665dd1d59f517db9255e_00000000_cab_03e5787c
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TestCar_5d86f0f0a97a81fe4655e137358c83470497a_00000000_cab_bedf46f2
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: 77dcafed-8f5e-11e5-825d-6451065a031d
+Rapport-ID: f91ad896-8e9c-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER5 +++:
@@ -1084,29 +1628,29 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094ebc
-P4: UE4Editor-UnrealProject-2201.dll
-P5: 4.9.2
-P6: 564b168f
+P1: UE4-TestCar
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-Engine.dll
+P5: 4.9.1
+P6: 55f681dd
 P7: c0000005
-P8: 0000000000003964
-P9: !"C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject"!AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
+P8: 0000000000E0D897
+P9: !"D:\Documents and projects\Github\StarWing_Unreal\TestCar\TestCar.uproject"!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-B16A92F6448B0824473BB89A98A95500/CrashContext.runtime-xml
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-B16A92F6448B0824473BB89A98A95500/UE4Minidump.dmp
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
-C:\Users\Patte\AppData\Local\Temp\WER1E3E.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-6A6C4E0A4ECF2AC515A5D794D1F6FE6E/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-6A6C4E0A4ECF2AC515A5D794D1F6FE6E/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/TestCar.log
+C:\Users\Patrik\AppData\Local\Temp\WER2B8F.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_d9c2e1b95a512491e865422fb391b10316bf11f_00000000_cab_1ef01e4e
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TestCar_5d86f0f0a97a81fe4655e137358c83470497a_00000000_cab_d5762b9f
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: 017f2661-8d23-11e5-825d-6451065a031d
+Rapport-ID: cdcc3452-8e9c-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER6 +++:
@@ -1116,29 +1660,29 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094ebc
+P1: UE4-TestCar
+P2: 4.9.1
+P3: 55f681ee
 P4: KERNELBASE.dll
 P5: 10.0.10240
 P6: 559f38c3
 P7: 00000001
 P8: 000000000002A1C8
-P9: !"C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog="Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Core\Public\Containers\Arra
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
+P9: !"D:\Documents and projects\Github\StarWing_Unreal\TestCar\TestCar.uproject"!AssertLog="Assertion failed: !IsRooted() [File:d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\public\uobject\UObjectBaseUtility.h] [Line: 83] ##
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-190D184147EF4B1E00870C9BF59E9D4D/CrashContext.runtime-xml
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-190D184147EF4B1E00870C9BF59E9D4D/UE4Minidump.dmp
-../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
-C:\Users\Patte\AppData\Local\Temp\WERC3A5.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-3900CC0B4B292481057CFB9536770BCA/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/UE4CC-Windows-3900CC0B4B292481057CFB9536770BCA/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/TestCar/Saved/Logs/TestCar.log
+C:\Users\Patrik\AppData\Local\Temp\WER394.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_5e99e2c991f3a5d4afd0c8c3e5edc6e79783e8_00000000_cab_0e85c3b4
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-TestCar_e6833838b16f2ac77588c7763459622f34a2f2_00000000_cab_230203a4
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: a4493836-8d22-11e5-825d-6451065a031d
+Rapport-ID: 4966549d-8e97-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER7 +++:
@@ -1148,28 +1692,29 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094f81
-P4: UE4Game-Win64-Shipping.exe
-P5: 4.9.2
-P6: 56094f81
+P1: UE4-StarWing
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-SlateCore.dll
+P5: 4.9.1
+P6: 55f6808f
 P7: c0000005
-P8: 000000000140FC96
-P9: !"C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject"!AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Game!2707645
+P8: 00000000000D70BA
+P9: !"D:\Documents and projects\Github\StarWing_Unreal\StarWing\StarWing.uproject" -game!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Game!2689999
 
 Bifogade filer:
-C:/Users/Patte/AppData/Local/UnrealProject/Saved/Logs/UE4CC-Windows-A9A9A4E34C3EC284B68BDFBDB782F78F/CrashContext.runtime-xml
-C:/Users/Patte/AppData/Local/UnrealProject/Saved/Logs/UE4CC-Windows-A9A9A4E34C3EC284B68BDFBDB782F78F/UE4Minidump.dmp
-C:\Users\Patte\AppData\Local\Temp\WERD94E.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/UE4CC-Windows-5DDA79574555351ABF9F9E99B9F399CE/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/UE4CC-Windows-5DDA79574555351ABF9F9E99B9F399CE/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/StarWing.log
+C:\Users\Patrik\AppData\Local\Temp\WERC30A.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_129ff16f278db86c68e9fcff6992e2c18861dbc_00000000_cab_0985da95
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-StarWing_be595e4d4ed9392854a755763803189a5113f5_00000000_cab_a43ec31a
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: b5bfe689-8d1a-11e5-825d-6451065a031d
+Rapport-ID: dd5863e8-8e01-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER8 +++:
@@ -1179,28 +1724,29 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094f81
-P4: UE4Game-Win64-Shipping.exe
-P5: 4.9.2
-P6: 56094f81
+P1: UE4-StarWing
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-StarWing-1457.dll
+P5: 4.9.1
+P6: 5649afc3
 P7: c0000005
-P8: 000000000140FC96
-P9: !"C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject"!AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Game!2707645
+P8: 0000000000009CD4
+P9: !"D:/Documents and projects/Github/StarWing_Unreal/StarWing/StarWing.uproject"!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-C:/Users/Patte/AppData/Local/UnrealProject/Saved/Logs/UE4CC-Windows-D7F37EDF4BC569EDBB9997A4A9D80692/CrashContext.runtime-xml
-C:/Users/Patte/AppData/Local/UnrealProject/Saved/Logs/UE4CC-Windows-D7F37EDF4BC569EDBB9997A4A9D80692/UE4Minidump.dmp
-C:\Users\Patte\AppData\Local\Temp\WERD94D.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/UE4CC-Windows-0BEEDF95465E75F1DA9174A85E8DDD29/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/UE4CC-Windows-0BEEDF95465E75F1DA9174A85E8DDD29/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/StarWing.log
+C:\Users\Patrik\AppData\Local\Temp\WERA617.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_129ff16f278db86c68e9fcff6992e2c18861dbc_00000000_cab_166dda95
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-StarWing_19be9878e41f511d15535f62fd9cc9b877a01683_00000000_cab_a224a627
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: b4f90994-8d1a-11e5-825d-6451065a031d
+Rapport-ID: 51e5fbe7-8d4f-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
 +++ WER9 +++:
@@ -1210,28 +1756,28 @@ Svar: Inte tillgänglig
 Kabinett-ID: 0
 
 Problemsignatur:
-P1: UE4-UnrealProject
-P2: 4.9.2
-P3: 56094ebc
-P4: UE4Editor-UnrealProject-2107.dll
-P5: 4.9.2
-P6: 5632191a
+P1: UE4-StarWing
+P2: 4.9.1
+P3: 55f681ee
+P4: UE4Editor-StarWing-1457.dll
+P5: 4.9.1
+P6: 5649afc3
 P7: c0000005
-P8: 0000000000003904
-P9: !"C:/Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject"!AssertLog=""
-P10: ++depot+UE4-Releases+4.9!C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
+P8: 0000000000009CD4
+P9: !"D:/Documents and projects/Github/StarWing_Unreal/StarWing/StarWing.uproject"!AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2689999
 
 Bifogade filer:
-../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-9FCD1EA24E974FE92BA01CBD281BAD78/CrashContext.runtime-xml
-../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UE4CC-Windows-9FCD1EA24E974FE92BA01CBD281BAD78/UE4Minidump.dmp
-../../../../../../Users/Patte/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Logs/UnrealProject.log
-C:\Users\Patte\AppData\Local\Temp\WERA564.tmp.WERInternalMetadata.xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/UE4CC-Windows-C7F9EF1E40146F972980F4B9D883DBB2/CrashContext.runtime-xml
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/UE4CC-Windows-C7F9EF1E40146F972980F4B9D883DBB2/UE4Minidump.dmp
+../../../../../../../Documents and projects/Github/StarWing_Unreal/StarWing/Saved/Logs/StarWing.log
+C:\Users\Patrik\AppData\Local\Temp\WER29D7.tmp.WERInternalMetadata.xml
 
 Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-UnrealProjec_deabd2dc8c0e4a391fe2a4ffdcccdce3ae5_00000000_cab_05f8a564
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_UE4-StarWing_19be9878e41f511d15535f62fd9cc9b877a01683_00000000_cab_be1329d7
 
 Analyssymbol: 
 Kontrollerar lösning igen: 0
-Rapport-ID: 6f4fa5f7-7e3d-11e5-8257-6451065a4232
+Rapport-ID: 17d21672-8d4f-11e5-8262-d81773faecb3
 Rapportstatus: 0
 Hash-bucket: 
