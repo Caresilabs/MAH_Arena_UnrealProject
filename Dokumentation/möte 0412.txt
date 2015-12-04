@@ -1,0 +1,27 @@
+Powerups [JOAKIM] 
+-> block (destructable)
+-> (powerups)
+
+Collisionsrotation [Bernhard]
+-> Collisionbox/hitbox
+-> Center of mass
+
+Impuls [Simon] 
+-> physicshit formal
+-> percentage
+
+UI [Vänta]
+-> Percentage
+-> stock/life
+-> en för varje spelare
+-> (powerup) en enkel ikon
+
+Reset/Gameover [Patrik]
+-> utanför -> flygger upp till "reset point" 3sec.
+-> En spelare kvar. Win!
+
+Hazards [TIM(TOMMY)]
+-> springboard
+-> boost
+-> skada + impuls (fliper bumper)
+-> block försviner / (respawn?)
