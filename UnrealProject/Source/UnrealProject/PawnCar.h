@@ -23,6 +23,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	UFloatingPawnMovement* Movement;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsOnGround;
+
 	UFUNCTION(BlueprintCallable, Category = Force)
 	void ApplyImpulse(FVector Impulse, bool bUtilizeHealth = true);
 
@@ -35,8 +38,9 @@ public:
 
 	void SetRotationDirection(FRotator RotationDirection);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool IsOnGround;
+	
+	UFUNCTION()
+	virtual void NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float BoostSpeed;
