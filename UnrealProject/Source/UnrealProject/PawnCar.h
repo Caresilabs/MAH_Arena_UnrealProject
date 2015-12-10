@@ -39,6 +39,12 @@ public:
 	UFUNCTION()
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float BoostSpeed;
+
+	UFUNCTION(BlueprintCallable, Category = Speed)
+	void Boost();
+
 	virtual void BeginPlay() override;
 	
 	virtual void Tick( float DeltaSeconds ) override;
@@ -61,6 +67,10 @@ private:
 	float TurnSpeed;
 
 	float Turn;
+
+	bool isBoosting;
+
+	float BoostTime;
 
 	
 };
