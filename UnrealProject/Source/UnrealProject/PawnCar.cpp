@@ -134,7 +134,7 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 	Super::NotifyHit(MyComp, Other, OtherComp, bSelfMoved, HitLocation, HitNormal, NormalImpulse, Hit);
 
 	auto OtherCar = Cast<APawnCar>(Other);
-	//if (OtherCar) {
+	if (OtherCar) {
 		//FVector Impulse = FVector(- FVector::DotProduct(GetMovementComponent()->Velocity, HitNormal) * GetMovementComponent()->Velocity * 1000.0f);
 		
 		FVector RelativeVelocity = GetMovementComponent()->Velocity - OtherCar->GetMovementComponent()->Velocity;
@@ -150,7 +150,7 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 		ApplyImpulse(Impulse * 100000.0f, false);
 
 		//OtherCar->GetMovementComponent();
-	//}
+	}
 }
 
 void APawnCar::SetRotationDirection(FRotator RotationDirection)
