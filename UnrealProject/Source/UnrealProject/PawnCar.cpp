@@ -14,6 +14,9 @@ APawnCar::APawnCar()
 	TurnSpeed = 200;
 	IsOnGround = true;
 
+	isBoosting = false;
+	BoostTime = 3;
+
 	//Use c++ to create the basic car, use BP to fill the components!
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
 	BoxComponent->SetSimulatePhysics(true);
@@ -32,6 +35,17 @@ APawnCar::APawnCar()
 void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
+}
+
+
+void APawnCar::Boost()
+{
+	if (isBoosting == false)
+	{
+		isBoosting = true;
+	}
+
+
 }
 
 void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
@@ -80,6 +94,28 @@ void APawnCar::Tick( float DeltaTime )
 			}
 		}
 	}
+
+
+	if (isBoosting == false)
+	{
+		BoostTime = 3;
+	}
+
+	if (isBoosting == true)
+	{
+		Movement->MaxSpeed = BoostSpeed;
+
+		BoostTime -= DeltaTime;
+
+		if (BoostTime <= 0.f)
+		{
+			Movement->MaxSpeed = 1500;
+			isBoosting = false;
+
+		}
+	}
+
+
 }
 
 void APawnCar::SetRotationDirection(FRotator RotationDirection)

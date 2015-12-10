@@ -12,8 +12,9 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	void APawnCar::StaticRegisterNativesAPawnCar()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"ApplyImpulse",(Native)&APawnCar::execApplyImpulse);
+		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"Boost",(Native)&APawnCar::execBoost);
 	}
-	IMPLEMENT_CLASS(APawnCar, 3938722536);
+	IMPLEMENT_CLASS(APawnCar, 3560475285);
 	void ACarController::StaticRegisterNativesACarController()
 	{
 	}
@@ -38,6 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	ENGINE_API class UClass* Z_Construct_UClass_ACameraActor();
 
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_ApplyImpulse();
+	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_Boost();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController_NoRegister();
@@ -73,6 +75,23 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_APawnCar_Boost()
+	{
+		UObject* Outer=Z_Construct_UClass_APawnCar();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Boost"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Speed"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APawnCar_NoRegister()
 	{
 		return APawnCar::StaticClass();
@@ -91,8 +110,10 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 				OuterClass->ClassFlags |= 0x20900080;
 
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_ApplyImpulse());
+				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_Boost());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_BoostSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoostSpeed"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(BoostSpeed, APawnCar), 0x0000000000000005);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(IsOnGround, APawnCar, bool);
 				UProperty* NewProp_IsOnGround = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("IsOnGround"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(IsOnGround, APawnCar), 0x0000000000000005, CPP_BOOL_PROPERTY_BITMASK(IsOnGround, APawnCar), sizeof(bool), true);
 				UProperty* NewProp_Movement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Movement"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Movement, APawnCar), 0x0000000000080009, Z_Construct_UClass_UFloatingPawnMovement_NoRegister());
@@ -100,12 +121,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_StaticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("StaticMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(StaticMesh, APawnCar), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_ApplyImpulse()); // 484391370
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_Boost()); // 3566689241
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+				MetaData->SetValue(NewProp_BoostSpeed, TEXT("Category"), TEXT("PawnCar"));
+				MetaData->SetValue(NewProp_BoostSpeed, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(NewProp_IsOnGround, TEXT("Category"), TEXT("PawnCar"));
 				MetaData->SetValue(NewProp_IsOnGround, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(NewProp_Movement, TEXT("Category"), TEXT("PawnCar"));
@@ -238,8 +262,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x8ABBB994;
-			Guid.B = 0xE8B3F1DF;
+			Guid.A = 0x56E79C74;
+			Guid.B = 0x99712FA2;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
