@@ -17,12 +17,16 @@ class UNREALPROJECT_API ACarController : public APlayerController
 	ACarController();
 	FVector direction;
 	float turn;
+	FRotator rotation;
 
 	void Tick(float deltaTime) override;
 	void SetupInputComponent() override;
 
 	void MoveForward(float axisValue);
 	void Turn(float axisValue);
+
+	void RotateX(float axisValue);
+	void RotateY(float axisValue);
 
 
 public:
