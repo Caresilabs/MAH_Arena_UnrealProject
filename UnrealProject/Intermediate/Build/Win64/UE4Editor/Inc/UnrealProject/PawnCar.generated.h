@@ -8,13 +8,30 @@
 #include "ObjectBase.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
 struct FVector;
+struct FHitResult;
 #ifdef UNREALPROJECT_PawnCar_generated_h
 #error "PawnCar.generated.h already included, missing '#pragma once' in PawnCar.h"
 #endif
 #define UNREALPROJECT_PawnCar_generated_h
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execNotifyHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_MyComp); \
+		P_GET_OBJECT(AActor,Z_Param_Other); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_UBOOL(Z_Param_bSelfMoved); \
+		P_GET_STRUCT(FVector,Z_Param_HitLocation); \
+		P_GET_STRUCT(FVector,Z_Param_HitNormal); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+	} \
  \
 	DECLARE_FUNCTION(execApplyImpulse) \
 	{ \
@@ -26,6 +43,20 @@ struct FVector;
 
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execNotifyHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_MyComp); \
+		P_GET_OBJECT(AActor,Z_Param_Other); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_UBOOL(Z_Param_bSelfMoved); \
+		P_GET_STRUCT(FVector,Z_Param_HitLocation); \
+		P_GET_STRUCT(FVector,Z_Param_HitNormal); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+	} \
  \
 	DECLARE_FUNCTION(execApplyImpulse) \
 	{ \
