@@ -19,6 +19,12 @@ struct FHitResult;
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execBoost) \
+	{ \
+		P_FINISH; \
+		this->Boost(); \
+	} \
+ \
 	DECLARE_FUNCTION(execNotifyHit) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_MyComp); \
@@ -43,6 +49,12 @@ struct FHitResult;
 
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execBoost) \
+	{ \
+		P_FINISH; \
+		this->Boost(); \
+	} \
  \
 	DECLARE_FUNCTION(execNotifyHit) \
 	{ \
