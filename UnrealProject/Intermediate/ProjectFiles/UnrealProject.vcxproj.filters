@@ -61,18 +61,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Source\UnrealProject\GameModes">
-      <UniqueIdentifier>{bce3e24a-00e8-4291-80d4-a339655189fc}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="..\..\Source\UnrealProject\UnrealProjectGameMode.cpp">
+      <Filter>Source\UnrealProject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\UnrealProject\UnrealProjectGameMode.h">
-      <Filter>Source\UnrealProject\GameModes</Filter>
+      <Filter>Source\UnrealProject</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\UnrealProject\UnrealProjectGameMode.cpp">
-      <Filter>Source\UnrealProject\GameModes</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
