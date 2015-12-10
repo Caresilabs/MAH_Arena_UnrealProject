@@ -16,21 +16,23 @@ struct FVector;
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execAddImpulse) \
+	DECLARE_FUNCTION(execApplyImpulse) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_Impulse); \
+		P_GET_UBOOL(Z_Param_bUtilizeHealth); \
 		P_FINISH; \
-		this->AddImpulse(Z_Param_Impulse); \
+		this->ApplyImpulse(Z_Param_Impulse,Z_Param_bUtilizeHealth); \
 	}
 
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execAddImpulse) \
+	DECLARE_FUNCTION(execApplyImpulse) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_Impulse); \
+		P_GET_UBOOL(Z_Param_bUtilizeHealth); \
 		P_FINISH; \
-		this->AddImpulse(Z_Param_Impulse); \
+		this->ApplyImpulse(Z_Param_Impulse,Z_Param_bUtilizeHealth); \
 	}
 
 

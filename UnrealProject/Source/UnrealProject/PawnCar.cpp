@@ -34,8 +34,9 @@ void APawnCar::BeginPlay()
 	Super::BeginPlay();
 }
 
-void APawnCar::AddImpulse(FVector Impulse)
+void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 {
+	//Impulse *= 
 	BoxComponent->AddImpulse(Impulse);
 }
 

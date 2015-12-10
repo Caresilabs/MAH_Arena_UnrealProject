@@ -14,9 +14,6 @@ public:
 	// Sets default values for this pawn's properties
 	APawnCar();
 
-	UFUNCTION(BlueprintCallable, Category = YourCategory)
-	void AddImpulse(FVector Impulse);
-
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* StaticMesh;
 
@@ -25,6 +22,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	UFloatingPawnMovement* Movement;
+
+	UFUNCTION(BlueprintCallable, Category = Force)
+	void ApplyImpulse(FVector Impulse, bool bUtilizeHealth = true);
 
 	void SetDirection(FVector Direction);
 

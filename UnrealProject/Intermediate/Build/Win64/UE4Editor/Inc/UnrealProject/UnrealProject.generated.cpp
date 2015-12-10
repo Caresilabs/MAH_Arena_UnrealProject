@@ -11,9 +11,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	void APawnCar::StaticRegisterNativesAPawnCar()
 	{
-		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"AddImpulse",(Native)&APawnCar::execAddImpulse);
+		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"ApplyImpulse",(Native)&APawnCar::execApplyImpulse);
 	}
-	IMPLEMENT_CLASS(APawnCar, 1568072360);
+	IMPLEMENT_CLASS(APawnCar, 3938722536);
 	void ACarController::StaticRegisterNativesACarController()
 	{
 	}
@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	ENGINE_API class UClass* Z_Construct_UClass_ACameraActor();
 
-	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_AddImpulse();
+	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_ApplyImpulse();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController_NoRegister();
@@ -47,23 +47,27 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AWorldCamera_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AWorldCamera();
 	UNREALPROJECT_API class UPackage* Z_Construct_UPackage_UnrealProject();
-	UFunction* Z_Construct_UFunction_APawnCar_AddImpulse()
+	UFunction* Z_Construct_UFunction_APawnCar_ApplyImpulse()
 	{
-		struct PawnCar_eventAddImpulse_Parms
+		struct PawnCar_eventApplyImpulse_Parms
 		{
 			FVector Impulse;
+			bool bUtilizeHealth;
 		};
 		UObject* Outer=Z_Construct_UClass_APawnCar();
 		static UFunction* ReturnFunction = NULL;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("AddImpulse"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04820401, 65535, sizeof(PawnCar_eventAddImpulse_Parms));
-			UProperty* NewProp_Impulse = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Impulse"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(Impulse, PawnCar_eventAddImpulse_Parms), 0x0000000000000080, Z_Construct_UScriptStruct_FVector());
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("ApplyImpulse"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04820401, 65535, sizeof(PawnCar_eventApplyImpulse_Parms));
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bUtilizeHealth, PawnCar_eventApplyImpulse_Parms, bool);
+			UProperty* NewProp_bUtilizeHealth = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bUtilizeHealth"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bUtilizeHealth, PawnCar_eventApplyImpulse_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bUtilizeHealth, PawnCar_eventApplyImpulse_Parms), sizeof(bool), true);
+			UProperty* NewProp_Impulse = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Impulse"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(Impulse, PawnCar_eventApplyImpulse_Parms), 0x0000000000000080, Z_Construct_UScriptStruct_FVector());
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
 #if WITH_METADATA
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
-			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("YourCategory"));
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Force"));
+			MetaData->SetValue(ReturnFunction, TEXT("CPP_Default_bUtilizeHealth"), TEXT("true"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 #endif
 		}
@@ -86,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900080;
 
-				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_AddImpulse());
+				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_ApplyImpulse());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(IsOnGround, APawnCar, bool);
@@ -95,7 +99,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_BoxComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoxComponent"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(BoxComponent, APawnCar), 0x0000000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
 				UProperty* NewProp_StaticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("StaticMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(StaticMesh, APawnCar), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
-				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_AddImpulse()); // 1344569916
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_ApplyImpulse()); // 484391370
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -234,8 +238,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xE45C90DE;
-			Guid.B = 0xA9FC68F0;
+			Guid.A = 0x8ABBB994;
+			Guid.B = 0xE8B3F1DF;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
