@@ -17,9 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	{
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"ApplyImpulse",(Native)&APawnCar::execApplyImpulse);
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"Boost",(Native)&APawnCar::execBoost);
+		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"Damage",(Native)&APawnCar::execDamage);
+		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"GetHealth",(Native)&APawnCar::execGetHealth);
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"NotifyHit",(Native)&APawnCar::execNotifyHit);
 	}
-	IMPLEMENT_CLASS(APawnCar, 48845603);
+	IMPLEMENT_CLASS(APawnCar, 2285972253);
 	void ACarController::StaticRegisterNativesACarController()
 	{
 	}
@@ -50,6 +52,8 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_ApplyImpulse();
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_Boost();
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_CallInvincible();
+	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_Damage();
+	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_GetHealth();
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_NotifyHit();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
@@ -120,6 +124,50 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_APawnCar_Damage()
+	{
+		struct PawnCar_eventDamage_Parms
+		{
+			float amount;
+		};
+		UObject* Outer=Z_Construct_UClass_APawnCar();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("Damage"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535, sizeof(PawnCar_eventDamage_Parms));
+			UProperty* NewProp_amount = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("amount"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(amount, PawnCar_eventDamage_Parms), 0x0000000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Health"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_APawnCar_GetHealth()
+	{
+		struct PawnCar_eventGetHealth_Parms
+		{
+			float ReturnValue;
+		};
+		UObject* Outer=Z_Construct_UClass_APawnCar();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetHealth"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535, sizeof(PawnCar_eventGetHealth_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(ReturnValue, PawnCar_eventGetHealth_Parms), 0x0000000000000580);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Health"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UFunction_APawnCar_NotifyHit()
 	{
 		struct PawnCar_eventNotifyHit_Parms
@@ -178,6 +226,8 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_ApplyImpulse());
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_Boost());
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_CallInvincible());
+				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_Damage());
+				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_GetHealth());
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_NotifyHit());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
@@ -193,6 +243,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_ApplyImpulse()); // 484391370
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_Boost()); // 3566689241
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_CallInvincible()); // 2176260549
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_Damage()); // 3329980359
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_GetHealth()); // 2391039533
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_NotifyHit()); // 3743499161
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -336,8 +388,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x0493F826;
-			Guid.B = 0x8CF09409;
+			Guid.A = 0xE13EFFE6;
+			Guid.B = 0x4EB35BED;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

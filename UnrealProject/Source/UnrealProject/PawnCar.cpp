@@ -54,11 +54,19 @@ void APawnCar::Boost()
 void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 {
 	if (bUtilizeHealth) {
-		Impulse *= (Health + 1.0f);
-		Impulse.Z *= 2.0f;
+		Impulse = Impulse * (1 + ((Health + 1.0f) / 10000.0f));
+		//Impulse.Z *= 2.0f;
 	}
 
 	BoxComponent->AddImpulse(Impulse);
+}
+
+void APawnCar::Damage(float amount) {
+	Health += amount;
+}
+
+float APawnCar::GetHealth() {
+	return Health;
 }
 
 void APawnCar::AddImpulseCOM(FVector Force)
@@ -136,18 +144,20 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 	auto OtherCar = Cast<APawnCar>(Other);
 	if (OtherCar) {
 		//FVector Impulse = FVector(- FVector::DotProduct(GetMovementComponent()->Velocity, HitNormal) * GetMovementComponent()->Velocity * 1000.0f);
-		
+
 		FVector RelativeVelocity = GetMovementComponent()->Velocity - OtherCar->GetMovementComponent()->Velocity;
-		
+
 		float VelAlongNormal = FVector::DotProduct(RelativeVelocity, HitNormal);
 
 		float J = -(1 + 1) * VelAlongNormal;
 
 		FVector Impulse = J * HitNormal;
 
-		SetActorLocation(FVector(0,0,0));
-		
-		ApplyImpulse(Impulse * 100000.0f, false);
+		//SetActorLocation(FVector(0,0,0));
+
+		ApplyImpulse(Impulse * 12.0f, true);
+
+		Damage(FMath::Abs(J));
 
 		//OtherCar->GetMovementComponent();
 	}

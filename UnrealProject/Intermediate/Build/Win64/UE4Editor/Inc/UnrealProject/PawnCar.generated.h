@@ -39,6 +39,19 @@ struct FHitResult;
 		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
 	} \
  \
+	DECLARE_FUNCTION(execGetHealth) \
+	{ \
+		P_FINISH; \
+		*(float*)Z_Param__Result=this->GetHealth(); \
+	} \
+ \
+	DECLARE_FUNCTION(execDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_amount); \
+		P_FINISH; \
+		this->Damage(Z_Param_amount); \
+	} \
+ \
 	DECLARE_FUNCTION(execApplyImpulse) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_Impulse); \
@@ -68,6 +81,19 @@ struct FHitResult;
 		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
 		P_FINISH; \
 		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+	} \
+ \
+	DECLARE_FUNCTION(execGetHealth) \
+	{ \
+		P_FINISH; \
+		*(float*)Z_Param__Result=this->GetHealth(); \
+	} \
+ \
+	DECLARE_FUNCTION(execDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_amount); \
+		P_FINISH; \
+		this->Damage(Z_Param_amount); \
 	} \
  \
 	DECLARE_FUNCTION(execApplyImpulse) \

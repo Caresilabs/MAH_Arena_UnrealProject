@@ -29,6 +29,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Force)
 	void ApplyImpulse(FVector Impulse, bool bUtilizeHealth = true);
 
+	UFUNCTION(BlueprintCallable, Category = Health)
+	void Damage(float amount);
+
+	UFUNCTION(BlueprintCallable, Category = Health)
+	float GetHealth();
+
 	UFUNCTION(BlueprintImplementableEvent, Category = "Invincibility")
 	void CallInvincible();
 
