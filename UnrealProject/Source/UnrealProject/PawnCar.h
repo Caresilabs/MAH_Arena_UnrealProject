@@ -38,6 +38,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsOnGround;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float BoostSpeed;
+
+	UFUNCTION(BlueprintCallable, Category = Speed)
+	void Boost();
+
 	virtual void BeginPlay() override;
 	
 	virtual void Tick( float DeltaSeconds ) override;
@@ -67,4 +73,8 @@ private:
 	float InvincibleCurrent;
 
 	float InvincibleMax;
+
+	bool isBoosting;
+
+	float BoostTime;
 };

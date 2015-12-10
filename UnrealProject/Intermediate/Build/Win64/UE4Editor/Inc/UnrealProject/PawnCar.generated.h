@@ -16,6 +16,12 @@ struct FVector;
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execBoost) \
+	{ \
+		P_FINISH; \
+		this->Boost(); \
+	} \
+ \
 	DECLARE_FUNCTION(execApplyImpulse) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_Impulse); \
@@ -26,6 +32,12 @@ struct FVector;
 
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execBoost) \
+	{ \
+		P_FINISH; \
+		this->Boost(); \
+	} \
  \
 	DECLARE_FUNCTION(execApplyImpulse) \
 	{ \
