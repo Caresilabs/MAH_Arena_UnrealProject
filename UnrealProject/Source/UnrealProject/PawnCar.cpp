@@ -99,7 +99,7 @@ void APawnCar::Tick(float DeltaTime)
 	{
 		for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr) {
 			if (ActorItr->ActorHasTag(FName("Respawn"))) {
-				TeleportTo(ActorItr->GetActorLocation() + FVector(0, 0, 400), FRotator(0, 0, 0));
+				TeleportTo(ActorItr->GetActorLocation() + FVector(0, 0, 200), FRotator(0, 0, 0));
 				BoxComponent->AddTorque(FVector(0, 0, 0));
 				InvincibleCurrent = 0;
 				bInvincible = true;
