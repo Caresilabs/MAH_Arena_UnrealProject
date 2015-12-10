@@ -23,8 +23,14 @@ public:
 	UPROPERTY(EditAnywhere)
 	UFloatingPawnMovement* Movement;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsOnGround;
+
 	UFUNCTION(BlueprintCallable, Category = Force)
 	void ApplyImpulse(FVector Impulse, bool bUtilizeHealth = true);
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Invincibility")
+	void CallInvincible();
 
 	void SetDirection(FVector Direction);
 
@@ -32,8 +38,9 @@ public:
 
 	void SetRotationDirection(FRotator RotationDirection);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool IsOnGround;
+	
+	UFUNCTION()
+	virtual void NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float BoostSpeed;
@@ -48,6 +55,9 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bInvincible;
 
 private:
 	void AddImpulseCOM(FVector Force);
@@ -64,9 +74,11 @@ private:
 
 	float Turn;
 
+	float InvincibleCurrent;
+
+	float InvincibleMax;
+
 	bool isBoosting;
 
 	float BoostTime;
-
-	
 };

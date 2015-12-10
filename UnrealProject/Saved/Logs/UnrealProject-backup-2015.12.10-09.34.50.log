@@ -1,0 +1,244 @@
+﻿[2015.12.10-08.34.01:142][  0]Log file open, 12/10/15 09:34:01
+[2015.12.10-08.34.01:142][  0]LogInit:Display: Running engine for game: UnrealProject
+[2015.12.10-08.34.01:142][  0]LogInit:Display: RandInit(-635479748) SRandInit(-635479747).
+[2015.12.10-08.34.01:142][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.12.10-08.34.01:142][  0]LogStats: Stats thread started at 0.069055
+[2015.12.10-08.34.01:142][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.10-08.34.01:142][  0]LogInit: API Version: 2672455
+[2015.12.10-08.34.01:142][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.10-08.34.01:142][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.10-08.34.01:142][  0]LogInit: Build Configuration: Development
+[2015.12.10-08.34.01:142][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.10-08.34.01:142][  0]LogInit: Command line:  
+[2015.12.10-08.34.01:142][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.10-08.34.01:142][  0]LogInit: Rocket: 1
+[2015.12.10-08.34.01:150][  0]LogInit: Using libcurl 7.41.0
+[2015.12.10-08.34.01:150][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.10-08.34.01:150][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.10-08.34.01:150][  0]LogInit:  - other features:
+[2015.12.10-08.34.01:150][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.10-08.34.01:150][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.10-08.34.01:150][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.10-08.34.01:150][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.10-08.34.01:150][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.10-08.34.01:150][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.10-08.34.01:150][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.10-08.34.01:150][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.10-08.34.01:150][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.10-08.34.01:150][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.10-08.34.01:156][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.10-08.34.01:163][  0]LogInit: Object subsystem initialized
+[2015.12.10-08.34.01:165][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.10-08.34.01:165][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.10-08.34.01:176][  0]LogInit: Computer: SIMONLAPTOP
+[2015.12.10-08.34.01:176][  0]LogInit: User: Simon
+[2015.12.10-08.34.01:176][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.12.10-08.34.01:176][  0]LogInit: High frequency timer resolution =2.533198 MHz
+[2015.12.10-08.34.01:176][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.12.10-08.34.01:176][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.10-08.34.01:176][  0]LogMemory: Process Physical Memory: 54.04 MB used, 54.04 MB peak
+[2015.12.10-08.34.01:176][  0]LogMemory: Process Virtual Memory: 57.19 MB used, 57.19 MB peak
+[2015.12.10-08.34.01:176][  0]LogMemory: Physical Memory: 5011.02 MB used, 8080.91 MB total
+[2015.12.10-08.34.01:176][  0]LogMemory: Virtual Memory: 369.49 MB used, 134217728.00 MB total
+[2015.12.10-08.34.01:211][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.10-08.34.02:456][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M            (Feature Level 11_0)
+[2015.12.10-08.34.02:456][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 1 output[s]
+[2015.12.10-08.34.02:580][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.12.10-08.34.02:580][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 0 output[s]
+[2015.12.10-08.34.02:582][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.10-08.34.02:582][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 0 output[s]
+[2015.12.10-08.34.02:582][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.10-08.34.02:590][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.10-08.34.02:590][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.10-08.34.02:637][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.10-08.34.02:686][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/448/).
+[2015.12.10-08.34.02:686][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/BD02A4FE42F79E58B24F5197A3EB0472/'.
+[2015.12.10-08.34.02:686][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.10-08.34.04:875][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.10-08.34.04:884][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.10-08.34.04:894][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.10-08.34.04:903][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.10-08.34.04:912][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.10-08.34.04:918][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.10-08.34.04:925][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.10-08.34.04:931][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.10-08.34.04:936][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.10-08.34.04:943][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.10-08.34.04:949][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.10-08.34.04:955][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.10-08.34.04:957][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.10-08.34.04:976][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.10-08.34.04:981][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.10-08.34.04:985][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.10-08.34.04:989][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.10-08.34.04:989][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.10-08.34.05:078][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.10-08.34.05:135][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.10-08.34.05:135][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.10-08.34.05:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.10-08.34.05:135][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.10-08.34.05:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.10-08.34.05:135][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.10-08.34.05:323][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.10-08.34.05:335][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.10-08.34.05:513][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.10-08.34.05:515][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.10-08.34.05:651][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.10-08.34.05:651][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.10-08.34.06:026][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.10-08.34.07:038][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.10-08.34.07:203][  0]LogAssetRegistry: FAssetRegistry took 0.0130 seconds to start up
+[2015.12.10-08.34.07:592][  0]SourceControl: Info Source control is disabled
+[2015.12.10-08.34.07:619][  0]SourceControl: Info Source control is disabled
+[2015.12.10-08.34.07:649][  0]SourceControl: Info Source control is disabled
+[2015.12.10-08.34.07:671][  0]SourceControl: Info Source control is disabled
+[2015.12.10-08.34.08:072][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-08.34.08:265][  0]LogObj: 28384 objects as part of root set at end of initial load.
+[2015.12.10-08.34.08:265][  0]LogUObjectAllocator: 6053448 out of 0 bytes used by permanent object pool.
+[2015.12.10-08.34.08:365][  0]LogEngine: Initializing Engine...
+[2015.12.10-08.34.08:369][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.10-08.34.08:376][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.12.10-08.34.08:583][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.10-08.34.08:587][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.10-08.34.08:735][  0]LogInit: FAudioDevice initialized.
+[2015.12.10-08.34.08:837][  0]LogDerivedDataCache: Saved boot cache 0.10s 41MB C:/Users/Simon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.10-08.34.08:857][  0]LogInit: Texture streaming: Enabled
+[2015.12.10-08.34.08:883][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.10-08.34.08:883][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.10-08.34.08:883][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6513f12644b2a44aef06b6b2b101a60b|0986fcf50a56434a9f04b1f02afeed0b|3549f2f7-93b8-499b-b80b-3e19a3b9ffc4
+[2015.12.10-08.34.08:883][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.10-08.34.08:948][  0]LogInit: Transaction tracking system initialized
+[2015.12.10-08.34.09:065][  0]BlueprintLog: New page: Editor Load
+[2015.12.10-08.34.09:319][  0]LocalizationService: Info Localization service is disabled
+[2015.12.10-08.34.09:875][  0]LogConsoleResponse:Display: 
+[2015.12.10-08.34.10:129][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.10-08.34.10:283][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.02s
+[2015.12.10-08.34.10:283][  0]SourceControl: Info Source control is disabled
+[2015.12.10-08.34.10:283][  0]Cmd: MAP LOAD FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.10-08.34.10:284][  0]LightingResults: New page: Lighting Build
+[2015.12.10-08.34.10:294][  0]MapCheck: New page: Map Check
+[2015.12.10-08.34.10:294][  0]LightingResults: New page: Lighting Build
+[2015.12.10-08.34.10:327][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024705180400
+[2015.12.10-08.34.11:151][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.10-08.34.11:175][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.10-08.34.11:176][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.10-08.34.11:427][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 250.02ms to complete.
+[2015.12.10-08.34.11:427][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.144
+[2015.12.10-08.34.11:763][  0]LogCollectionManager: Loaded 0 collections in 0.008414 seconds
+[2015.12.10-08.34.11:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.03s
+[2015.12.10-08.34.11:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Simon/Collections/' took 0.02s
+[2015.12.10-08.34.11:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.02s
+[2015.12.10-08.34.11:848][  0]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 1871 classes and 336 folders.
+[2015.12.10-08.34.11:866][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2015.12.10-08.34.11:899][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2015.12.10-08.34.12:017][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0041 seconds. Added 0 classes and 0 folders.
+[2015.12.10-08.34.12:061][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0056 seconds. Added 1 classes and 2 folders.
+[2015.12.10-08.34.12:171][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.10-08.34.12:182][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.10-08.34.12:229][  0]LogLoad: Full Startup: 12.24 seconds (BP compile: 0.11 seconds)
+[2015.12.10-08.34.13:454][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.12.10-08.34.13:720][  0]LogRenderer: Reallocating scene render targets to support 896x444 (Frame:2).
+[2015.12.10-08.34.15:720][  4]LogAssetRegistry: Asset discovery search completed in 8.5298 seconds
+[2015.12.10-08.34.15:720][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.10-08.34.15:720][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2015.12.10-08.34.17:531][ 88]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:6).
+[2015.12.10-08.34.21:861][216]LogAIModule: Creating AISystem for world Simon
+[2015.12.10-08.34.21:931][216]Cmd: MAP LOAD FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.10-08.34.21:931][216]LightingResults: New page: Lighting Build
+[2015.12.10-08.34.21:963][216]LoadErrors: New page: Loading map: Simon.umap
+[2015.12.10-08.34.21:964][216]MapCheck: New page: Map Check
+[2015.12.10-08.34.21:964][216]LightingResults: New page: Lighting Build
+[2015.12.10-08.34.21:988][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024777911440
+[2015.12.10-08.34.21:993][216]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP_668.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.21:993][216]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP_668.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.21:994][216]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_404.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.21:994][216]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_404.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.21:999][216]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.10-08.34.22:051][216]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.10-08.34.22:124][216]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.441ms to complete.
+[2015.12.10-08.34.22:126][216]LogFileHelpers: Loading map 'Simon' took 0.197
+[2015.12.10-08.34.23:326][272]LogEditorViewport: Clicking on Actor (LMB): PawnCarBP_C (PawnCarBP2)
+[2015.12.10-08.34.24:433][319]Cmd: DELETE
+[2015.12.10-08.34.24:433][319]Cmd: ACTOR DELETE
+[2015.12.10-08.34.24:445][319]LogEditorActor: Deleted Actor: PawnCarBP_C
+[2015.12.10-08.34.24:484][319]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.12.10-08.34.26:792][417]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP_C_28.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.26:792][417]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP_C_28.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.26:797][417]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.26:797][417]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.26:799][417]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.26:800][417]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.27:318][442]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP_C_232.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.27:318][442]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP_C_232.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.27:320][442]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.27:320][442]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.27:397][442]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.27:397][442]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.30:651][611]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.30:651][611]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.32:843][735]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.32:843][735]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.37:855][ 24]LogEditorActor: Deleted Actor: PawnCarBP_C
+[2015.12.10-08.34.37:856][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2015.12.10-08.34.37:879][ 24]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.12.10-08.34.42:035][266]LogEditorViewport: Clicking on Actor (LMB): PawnCarBP_C (PawnCarBP2)
+[2015.12.10-08.34.42:356][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Simon" FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-08.34.42:467][273]LogSavePackage: Save=73.676041ms
+[2015.12.10-08.34.42:467][273]LogSavePackage: Moving 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon18AD1412467693D72411BE9FA0AD6B90.tmp' to 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap'
+[2015.12.10-08.34.42:470][273]LogSavePackage: Total save time: 92.327565ms
+[2015.12.10-08.34.42:470][273]LogSavePackage:Warning: Finished SavePackage C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap
+[2015.12.10-08.34.42:527][273]LogFileHelpers: Saving map 'Simon' took 0.218
+[2015.12.10-08.34.43:442][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.12.10-08.34.43:442][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.10-08.34.43:443][324]PIE: New page: PIE session: Simon (Dec 10, 2015, 10:34:43 AM)
+[2015.12.10-08.34.43:443][324]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2015.12.10-08.34.43:452][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008892s)
+[2015.12.10-08.34.43:453][324]LogAIModule: Creating AISystem for world Simon
+[2015.12.10-08.34.43:453][324]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2015.12.10-08.34.43:453][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.010225s)
+[2015.12.10-08.34.43:481][324]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.10-08.34.43:494][324]LogInit: FAudioDevice initialized.
+[2015.12.10-08.34.43:600][324]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2015.12.10-08.34.43:607][324]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.43:607][324]PIE:Warning: Warning Invalid Simulate Options: Body (PawnCarBP2_233.Root) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.10-08.34.43:607][324]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.10-08.34.43:607][324]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.10-08.34.43:609][324]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.10-08.34.43:609][324]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.10-08.34.43:609][324]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.10-08.34.43:610][324]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2015.12.10-09.34.43
+[2015.12.10-08.34.43:610][324]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-08.34.43:611][324]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-08.34.43:612][324]LogWorld: Bringing up level for play took: 0.009496
+[2015.12.10-08.34.43:617][324]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.12.10-08.34.43:617][324]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.UnrealProjectGameModeBP_C_0
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:015C
+[2015.12.10-08.34.43:618][324]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.10-08.34.43:618][324]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.UnrealProjectGameModeBP_C_0
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:017D
+[2015.12.10-08.34.43:618][324]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.10-08.34.43:618][324]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_0] Works
+[2015.12.10-08.34.43:621][324]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_0] Works
+[2015.12.10-08.34.43:676][324]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.119
+[2015.12.10-08.34.43:676][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2015.12.10-08.34.43:679][324]PIE:Warning: Warning PawnCarBP2_233.Root has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddTorque. 
+[2015.12.10-08.34.44:023][324]LogCrashTracker: 
+
+
+[2015.12.10-08.34.44:023][324]LogCrashTracker: 
+
+
+[2015.12.10-08.34.44:023][324]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2015.12.10-08.34.44:245][324]LogExit: Executing StaticShutdownAfterError
+[2015.12.10-08.34.44:249][324]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.10-08.34.44:249][324]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.10-08.34.44:249][324]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.10-08.34.44:250][324]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.10-08.34.44:250][324]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.12.10-08.34.44:250][324]Log file closed, 12/10/15 09:34:44
