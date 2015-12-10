@@ -36,6 +36,9 @@ struct FVector;
 	}
 
 
+#define UnrealProject_Source_UnrealProject_PawnCar_h_11_EVENT_PARMS
+extern UNREALPROJECT_API  FName UNREALPROJECT_CallInvincible;
+#define UnrealProject_Source_UnrealProject_PawnCar_h_11_CALLBACK_WRAPPERS
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAPawnCar(); \
@@ -80,11 +83,15 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnCar); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnCar)
 
 
-#define UnrealProject_Source_UnrealProject_PawnCar_h_8_PROLOG
+#define UnrealProject_Source_UnrealProject_PawnCar_h_8_PROLOG \
+	UnrealProject_Source_UnrealProject_PawnCar_h_11_EVENT_PARMS
+
+
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS \
+	UnrealProject_Source_UnrealProject_PawnCar_h_11_CALLBACK_WRAPPERS \
 	UnrealProject_Source_UnrealProject_PawnCar_h_11_INCLASS \
 	UnrealProject_Source_UnrealProject_PawnCar_h_11_STANDARD_CONSTRUCTORS \
 public: \
@@ -95,6 +102,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealProject_Source_UnrealProject_PawnCar_h_11_CALLBACK_WRAPPERS \
 	UnrealProject_Source_UnrealProject_PawnCar_h_11_INCLASS_NO_PURE_DECLS \
 	UnrealProject_Source_UnrealProject_PawnCar_h_11_ENHANCED_CONSTRUCTORS \
 private: \

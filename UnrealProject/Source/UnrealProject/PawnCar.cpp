@@ -13,6 +13,8 @@ APawnCar::APawnCar()
 	Speed = 100;
 	TurnSpeed = 200;
 	IsOnGround = true;
+	InvincibleMax = 5.0f;
+	InvincibleCurrent = 0.0f;
 
 	//Use c++ to create the basic car, use BP to fill the components!
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
@@ -67,15 +69,22 @@ void APawnCar::Tick( float DeltaTime )
 	if (IsOnGround)
 		Movement->Deceleration = 2000;
 	else
-	{
-		Movement->Deceleration = 500;			
-	}
+		Movement->Deceleration = 500;
+
+	if (InvincibleCurrent < InvincibleMax)
+		InvincibleCurrent += DeltaTime;
+	else
+		bInvincible = false;
 
 	if (BoxComponent->GetRelativeTransform().GetLocation().Z < -300)
 	{
 		for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr) {
 			if (ActorItr->ActorHasTag(FName("Respawn"))) {
 				TeleportTo(ActorItr->GetActorLocation() + FVector(0, 0, 400), FRotator(0, 0, 0));
+				BoxComponent->AddTorque(FVector(0, 0, 0));
+				InvincibleCurrent = 0;
+				bInvincible = true;
+				CallInvincible();
 				break;
 			}
 		}

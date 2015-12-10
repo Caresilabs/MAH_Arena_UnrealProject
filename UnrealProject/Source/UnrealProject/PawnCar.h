@@ -26,6 +26,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Force)
 	void ApplyImpulse(FVector Impulse, bool bUtilizeHealth = true);
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Invincibility")
+	void CallInvincible();
+
 	void SetDirection(FVector Direction);
 
 	void SetTurn(float Turn);
@@ -43,6 +46,9 @@ public:
 
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bInvincible;
+
 private:
 	void AddImpulseCOM(FVector Force);
 
@@ -58,5 +64,7 @@ private:
 
 	float Turn;
 
-	
+	float InvincibleCurrent;
+
+	float InvincibleMax;
 };
