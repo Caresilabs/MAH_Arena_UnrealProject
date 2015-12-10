@@ -15,7 +15,7 @@ public:
 	APawnCar();
 
 	UFUNCTION(BlueprintCallable, Category = YourCategory)
-	void AddImpulse(FVector impuls);
+	void AddImpulse(FVector Impulse);
 
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* StaticMesh;
@@ -26,21 +26,14 @@ public:
 	UPROPERTY(EditAnywhere)
 	UFloatingPawnMovement* Movement;
 
-	void SetDirection(FVector direction);
-	void SetTurn(float turn);
-	void SetRotationDirection(FRotator rotationDirection);
+	void SetDirection(FVector Direction);
 
-	FVector direction;
-	FRotator rotationDirection;
+	void SetTurn(float Turn);
 
-	float speed;
-	float turnSpeed;
-	float turn;
+	void SetRotationDirection(FRotator RotationDirection);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsOnGround;
-
-	int32 count;
 
 	virtual void BeginPlay() override;
 	
@@ -51,8 +44,19 @@ public:
 	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
 private:
-	void AddImpulseCOM(FVector force);
+	void AddImpulseCOM(FVector Force);
 
-	
+	FVector Direction;
+
+	FRotator RotationDirection;
+
+	float Health;
+
+	float Speed;
+
+	float TurnSpeed;
+
+	float Turn;
+
 	
 };

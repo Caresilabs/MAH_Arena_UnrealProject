@@ -18,9 +18,9 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execAddImpulse) \
 	{ \
-		P_GET_STRUCT(FVector,Z_Param_impuls); \
+		P_GET_STRUCT(FVector,Z_Param_Impulse); \
 		P_FINISH; \
-		this->AddImpulse(Z_Param_impuls); \
+		this->AddImpulse(Z_Param_Impulse); \
 	}
 
 
@@ -28,9 +28,9 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execAddImpulse) \
 	{ \
-		P_GET_STRUCT(FVector,Z_Param_impuls); \
+		P_GET_STRUCT(FVector,Z_Param_Impulse); \
 		P_FINISH; \
-		this->AddImpulse(Z_Param_impuls); \
+		this->AddImpulse(Z_Param_Impulse); \
 	}
 
 

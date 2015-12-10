@@ -10,9 +10,8 @@ APawnCar::APawnCar()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	speed = 100;
-	turnSpeed = 200;
-	count = 0;
+	Speed = 100;
+	TurnSpeed = 200;
 	IsOnGround = true;
 
 	//Use c++ to create the basic car, use BP to fill the components!
@@ -33,39 +32,37 @@ APawnCar::APawnCar()
 void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
-void APawnCar::AddImpulse(FVector impuls)
+void APawnCar::AddImpulse(FVector Impulse)
 {
-	BoxComponent->AddImpulse(impuls);
+	BoxComponent->AddImpulse(Impulse);
 }
 
-void APawnCar::AddImpulseCOM(FVector force)
+void APawnCar::AddImpulseCOM(FVector Force)
 {
-	BoxComponent->AddTorque(force);
+	BoxComponent->AddTorque(Force);
 }
-
 
 // Called every frame
 void APawnCar::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
-	FRotator transform = BoxComponent->GetRelativeTransform().GetRotation().Rotator();
+	FRotator Transform = BoxComponent->GetRelativeTransform().GetRotation().Rotator();
 
-	transform += FRotator(0, turn, 0) * direction.Y * turnSpeed * DeltaTime;
+	Transform += FRotator(0, Turn, 0) * Direction.Y * TurnSpeed * DeltaTime;
 
 	//Test
 	if (!IsOnGround)
-		transform += rotationDirection * 300 * DeltaTime;
+		Transform += RotationDirection * 300 * DeltaTime;
 
-	BoxComponent->SetRelativeRotation(transform);
+	BoxComponent->SetRelativeRotation(Transform);
 
-	FRotationMatrix matrix = FRotationMatrix(FRotator(transform.Pitch, transform.Yaw, transform.Roll));
+	FRotationMatrix Matrix = FRotationMatrix(FRotator(Transform.Pitch, Transform.Yaw, Transform.Roll));
 
-	FVector velocity = matrix.TransformVector(direction * speed *DeltaTime);
+	FVector Velocity = Matrix.TransformVector(Direction * Speed *DeltaTime);
 
-	Movement->AddInputVector(velocity);
+	Movement->AddInputVector(Velocity);
 	if (IsOnGround)
 		Movement->Deceleration = 2000;
 	else
@@ -84,27 +81,27 @@ void APawnCar::Tick( float DeltaTime )
 	}
 }
 
-void APawnCar::SetRotationDirection(FRotator rotationDirection)
+void APawnCar::SetRotationDirection(FRotator RotationDirection)
 {
-	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(rotationDirection.Roll * 18000000, - rotationDirection.Pitch * 7000000, rotationDirection.Yaw)));
+	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 18000000, -RotationDirection.Pitch * 7000000, RotationDirection.Yaw)));
 }
 
-void APawnCar::SetDirection(FVector direction)
+void APawnCar::SetDirection(FVector Direction)
 {
 	if (IsOnGround)
 	{
-		this->direction = direction;
+		this->Direction = Direction;
 
 	}
 	else
-		this->direction = FVector(0, 0, 0);
+		this->Direction = FVector(0, 0, 0);
 }
-void APawnCar::SetTurn(float turn)
+void APawnCar::SetTurn(float Turn)
 {
 	if (IsOnGround)
-		this->turn = turn;
+		this->Turn = Turn;
 	else
-		this->turn = 0;
+		this->Turn = 0;
 }
 
 // Called to bind functionality to input

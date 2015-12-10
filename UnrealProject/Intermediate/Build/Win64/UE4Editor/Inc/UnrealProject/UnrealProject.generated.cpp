@@ -13,7 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	{
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"AddImpulse",(Native)&APawnCar::execAddImpulse);
 	}
-	IMPLEMENT_CLASS(APawnCar, 2580518624);
+	IMPLEMENT_CLASS(APawnCar, 1568072360);
 	void ACarController::StaticRegisterNativesACarController()
 	{
 	}
@@ -51,14 +51,14 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	{
 		struct PawnCar_eventAddImpulse_Parms
 		{
-			FVector impuls;
+			FVector Impulse;
 		};
 		UObject* Outer=Z_Construct_UClass_APawnCar();
 		static UFunction* ReturnFunction = NULL;
 		if (!ReturnFunction)
 		{
 			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("AddImpulse"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04820401, 65535, sizeof(PawnCar_eventAddImpulse_Parms));
-			UProperty* NewProp_impuls = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("impuls"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(impuls, PawnCar_eventAddImpulse_Parms), 0x0000000000000080, Z_Construct_UScriptStruct_FVector());
+			UProperty* NewProp_Impulse = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Impulse"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(Impulse, PawnCar_eventAddImpulse_Parms), 0x0000000000000080, Z_Construct_UScriptStruct_FVector());
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
 #if WITH_METADATA
@@ -95,7 +95,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_BoxComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoxComponent"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(BoxComponent, APawnCar), 0x0000000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
 				UProperty* NewProp_StaticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("StaticMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(StaticMesh, APawnCar), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
-				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_AddImpulse()); // 4258755532
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_AddImpulse()); // 1344569916
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -234,7 +234,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x47486719;
+			Guid.A = 0xE45C90DE;
 			Guid.B = 0xA9FC68F0;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
