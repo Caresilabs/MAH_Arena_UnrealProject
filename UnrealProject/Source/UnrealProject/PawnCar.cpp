@@ -54,7 +54,8 @@ void APawnCar::Boost()
 void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 {
 	if (bUtilizeHealth) {
-		Impulse = Impulse * (1 + ((Health + 1.0f) / 10000.0f));
+		Impulse = Impulse * (1 + ((Health + 1.0f) / 25.0f));
+		UE_LOG(LogTemp, Log, TEXT("Actor: %s .. impuse scale %f ... health %f"), *GetActorLabel(), (1 + ((Health + 1.0f) / 25.f)), Health);
 		//Impulse.Z *= 2.0f;
 	}
 
@@ -108,7 +109,9 @@ void APawnCar::Tick(float DeltaTime)
 		for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr) {
 			if (ActorItr->ActorHasTag(FName("Respawn"))) {
 				TeleportTo(ActorItr->GetActorLocation() + FVector(0, 0, 200), FRotator(0, 0, 0));
+				// TODO this line does nothing
 				BoxComponent->AddTorque(FVector(0, 0, 0));
+				Movement->Velocity = FVector(0, 0, 0);
 				InvincibleCurrent = 0;
 				bInvincible = true;
 				CallInvincible();
@@ -143,23 +146,30 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 
 	auto OtherCar = Cast<APawnCar>(Other);
 	if (OtherCar) {
+		
+		// Don't do anything when invincible
+		if (OtherCar->bInvincible)
+			return;
+
 		//FVector Impulse = FVector(- FVector::DotProduct(GetMovementComponent()->Velocity, HitNormal) * GetMovementComponent()->Velocity * 1000.0f);
 
-		FVector RelativeVelocity = GetMovementComponent()->Velocity - OtherCar->GetMovementComponent()->Velocity;
+		//FVector RelativeVelocity = GetMovementComponent()->Velocity - OtherCar->GetMovementComponent()->Velocity;
 
-		float VelAlongNormal = FVector::DotProduct(RelativeVelocity, HitNormal);
+		//float VelAlongNormal = FVector::DotProduct(RelativeVelocity, HitNormal);
 
-		float J = -(1 + 1) * VelAlongNormal;
+		//float J = -(1 + 1) * VelAlongNormal;
 
-		FVector Impulse = J * HitNormal;
+		
 
-		//SetActorLocation(FVector(0,0,0));
+		float DamageToTake = FMath::Abs( FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) / 100.f );
+		OtherCar->Damage(DamageToTake);
+		UE_LOG(LogTemp, Log, TEXT("Actor: %s .. damage taken %f"), *GetActorLabel(), DamageToTake);
 
-		ApplyImpulse(Impulse * 12.0f, true);
 
-		Damage(FMath::Abs(J));
+		FVector Impulse = FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) * GetMovementComponent()->Velocity;	//J * HitNormal;
 
-		//OtherCar->GetMovementComponent();
+		OtherCar->ApplyImpulse(Impulse * -0.05f, true);
+
 	}
 }
 

@@ -27,10 +27,13 @@ void AWorldCamera::Tick( float delta ) {
 	}
 
 	Average = Average / (float)Actors.Num();
+	
 
 	//const FRotator Rot = FRotationMatrix::MakeFromX( Average - GetActorLocation() ).Rotator();
+	
+	auto NewLocation = Average + (GetActorForwardVector() * -MaxDistance* 1.15f);
 
-	SetActorLocation( Average + ( GetActorForwardVector() * -MaxDistance* 1.15f ) );
+	SetActorLocation( FMath::Lerp( GetActorLocation(), NewLocation, delta * 5.f) );
 
 }
 
