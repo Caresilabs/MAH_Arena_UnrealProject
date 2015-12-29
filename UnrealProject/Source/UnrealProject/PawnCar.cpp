@@ -47,8 +47,6 @@ void APawnCar::Boost()
 	{
 		isBoosting = true;
 	}
-
-
 }
 
 void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
@@ -109,8 +107,8 @@ void APawnCar::Tick(float DeltaTime)
 		for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr) {
 			if (ActorItr->ActorHasTag(FName("Respawn"))) {
 				TeleportTo(ActorItr->GetActorLocation() + FVector(0, 0, 200), FRotator(0, 0, 0));
-				// TODO this line does nothing
-				BoxComponent->AddTorque(FVector(0, 0, 0));
+				BoxComponent->SetAllPhysicsAngularVelocity(FVector(0, 0, 0));
+				BoxComponent->SetAllPhysicsLinearVelocity(FVector(0, 0, 0));
 				Movement->Velocity = FVector(0, 0, 0);
 				InvincibleCurrent = 0;
 				bInvincible = true;
