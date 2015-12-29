@@ -1928,4 +1928,206 @@
 [2015.12.29-11.06.09:194][208]LogWorld: Bringing up level for play took: 0.005484
 [2015.12.29-11.06.09:194][208]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
 [2015.12.29-11.06.09:195][208]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
-	UnrealPro
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_29
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0142
+[2015.12.29-11.06.09:195][208]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.06.09:195][208]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_29
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0163
+[2015.12.29-11.06.09:195][208]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.06.09:195][208]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_29] Works
+[2015.12.29-11.06.09:196][208]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_29] Works
+[2015.12.29-11.06.09:197][208]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Patrik -0.569
+[2015.12.29-11.06.09:197][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.06.28:763][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.06.28:772][456]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.06.28:772][456]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.06.28:800][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.06.28:832][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AA685C2F20
+[2015.12.29-11.06.30:204][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.29-11.11.34:952][135]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone)
+[2015.12.29-11.11.36:583][273]Cmd: EDIT COPY
+[2015.12.29-11.11.36:818][284]Cmd: EDIT PASTE
+[2015.12.29-11.11.40:286][636]Cmd: EDIT COPY
+[2015.12.29-11.11.40:519][651]Cmd: EDIT PASTE
+[2015.12.29-11.11.45:162][123]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone)
+[2015.12.29-11.11.48:239][455]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone2)
+[2015.12.29-11.11.49:918][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.29-11.11.50:453][700]Recompiling UnrealProject...
+[2015.12.29-11.11.50:454][700]Launching UnrealBuildTool... [D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 8276 Win64 Development -editorrecompile -canskiplink "D:/Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.12.29-11.11.50:455][700]Warning: Starting HotReload took  0.0s.
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: New page: Compilation - Dec 29, 2015, 1:11:55 PM
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: Info PawnCar.cpp
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-8276.dll
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: Info    Creating library D:\Documents and projects\Github\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-8276.lib and object D:\Documents and projects\Github\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-8276.exp
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.12.29-11.11.55:064][208]CompilerResultsLog: Info Total build time: 4,57 seconds
+[2015.12.29-11.11.55:064][208]LogMainFrame: MainFrame: Module compiling took 4.624 seconds
+[2015.12.29-11.11.55:120][208]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0015 seconds. Added 4 classes and 3 folders.
+[2015.12.29-11.11.55:123][208]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2015.12.29-11.11.55:633][208]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 1872 classes and 338 folders.
+[2015.12.29-11.11.56:475][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.11.56:475][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.29-11.11.56:475][286]PIE: New page: PIE session: Patrik (Dec 29, 2015, 1:11:56 PM)
+[2015.12.29-11.11.56:475][286]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Patrik
+[2015.12.29-11.11.56:492][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017404s)
+[2015.12.29-11.11.56:493][286]LogAIModule: Creating AISystem for world Patrik
+[2015.12.29-11.11.56:493][286]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2015.12.29-11.11.56:493][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Patrik.Patrik to /Game/Maps/UEDPIE_0_Patrik.Patrik (0.018361s)
+[2015.12.29-11.11.56:555][286]LogInit: XAudio2 using 'PHILIPS FTV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.29-11.11.56:572][286]LogInit: FAudioDevice initialized.
+[2015.12.29-11.11.56:609][286]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2015.12.29-11.11.56:613][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:613][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:613][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:613][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:613][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:614][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:614][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:614][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:614][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:614][286]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.11.56:614][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.12.29-12.11.56
+[2015.12.29-11.11.56:614][286]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.29-11.11.56:615][286]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.29-11.11.56:615][286]LogWorld: Bringing up level for play took: 0.005753
+[2015.12.29-11.11.56:616][286]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.12.29-11.11.56:616][286]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_34
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0142
+[2015.12.29-11.11.56:616][286]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.11.56:617][286]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_34
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0163
+[2015.12.29-11.11.56:617][286]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.11.56:617][286]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_34] Works
+[2015.12.29-11.11.56:618][286]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_34] Works
+[2015.12.29-11.11.56:618][286]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Patrik 0.853
+[2015.12.29-11.11.56:618][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.12.13:135][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.12.13:144][183]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.12.13:144][183]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.12.13:196][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.12.13:227][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AA19946AC0
+[2015.12.29-11.12.42:562][354]LogSavePackage: Save=145.136597ms
+[2015.12.29-11.12.42:562][354]LogSavePackage: Moving '../../../../../../../Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/Saved/Patrik_Auto16F442F3645FF1513E9B04082A85AD2AB.tmp' to '../../../../../../../Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/Patrik_Auto1.umap'
+[2015.12.29-11.12.42:563][354]LogSavePackage: Total save time: 162.848074ms
+[2015.12.29-11.12.42:563][354]LogSavePackage:Warning: Finished SavePackage ../../../../../../../Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/Patrik_Auto1.umap
+[2015.12.29-11.12.42:567][354]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Patrik' took 0.206
+[2015.12.29-11.12.42:567][354]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.206
+[2015.12.29-11.18.22:095][461]Recompiling UnrealProject...
+[2015.12.29-11.18.22:095][461]Launching UnrealBuildTool... [D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 9058 Win64 Development -editorrecompile -canskiplink "D:/Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.12.29-11.18.22:097][461]Warning: Starting HotReload took  0.0s.
+[2015.12.29-11.18.25:863][589]CompilerResultsLog: New page: Compilation - Dec 29, 2015, 1:18:25 PM
+[2015.12.29-11.18.25:863][589]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.12.29-11.18.25:863][589]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2015.12.29-11.18.25:863][589]CompilerResultsLog: Info PawnCar.cpp
+[2015.12.29-11.18.25:863][589]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-9058.dll
+[2015.12.29-11.18.25:864][589]CompilerResultsLog: Info    Creating library D:\Documents and projects\Github\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-9058.lib and object D:\Documents and projects\Github\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-9058.exp
+[2015.12.29-11.18.25:864][589]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.12.29-11.18.25:864][589]CompilerResultsLog: Info Total build time: 3,47 seconds
+[2015.12.29-11.18.25:864][589]LogMainFrame: MainFrame: Module compiling took 3.783 seconds
+[2015.12.29-11.18.26:017][589]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0026 seconds. Added 4 classes and 3 folders.
+[2015.12.29-11.18.26:030][589]Warning: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2015.12.29-11.18.26:557][589]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 1872 classes and 338 folders.
+[2015.12.29-11.18.27:951][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.18.27:951][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.29-11.18.27:951][596]PIE: New page: PIE session: Patrik (Dec 29, 2015, 1:18:27 PM)
+[2015.12.29-11.18.27:951][596]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Patrik
+[2015.12.29-11.18.27:976][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024307s)
+[2015.12.29-11.18.27:976][596]LogAIModule: Creating AISystem for world Patrik
+[2015.12.29-11.18.27:976][596]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2015.12.29-11.18.27:977][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Patrik.Patrik to /Game/Maps/UEDPIE_0_Patrik.Patrik (0.025381s)
+[2015.12.29-11.18.28:033][596]LogInit: XAudio2 using 'PHILIPS FTV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.29-11.18.28:037][596]LogInit: FAudioDevice initialized.
+[2015.12.29-11.18.28:067][596]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2015.12.29-11.18.28:072][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:072][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:072][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:072][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:072][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:073][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:073][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:073][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:073][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:073][596]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.18.28:073][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.12.29-12.18.28
+[2015.12.29-11.18.28:073][596]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.29-11.18.28:073][596]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.29-11.18.28:074][596]LogWorld: Bringing up level for play took: 0.005561
+[2015.12.29-11.18.28:075][596]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.12.29-11.18.28:075][596]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_38
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0142
+[2015.12.29-11.18.28:075][596]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.18.28:075][596]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_38
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0163
+[2015.12.29-11.18.28:075][596]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.18.28:075][596]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_38] Works
+[2015.12.29-11.18.28:076][596]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_38] Works
+[2015.12.29-11.18.28:077][596]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Patrik 0.312
+[2015.12.29-11.18.28:077][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.19.02:888][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.19.02:896][686]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.02:896][686]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.02:943][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.19.02:975][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AA5A881D00
+[2015.12.29-11.19.05:374][882]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone)
+[2015.12.29-11.19.10:181][342]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone3)
+[2015.12.29-11.19.14:184][782]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone2)
+[2015.12.29-11.19.17:557][155]LogEditorViewport: Clicking on Actor (LMB): PawnCarBP_C (PawnCarBP)
+[2015.12.29-11.19.19:961][403]LogEditorViewport: Clicking on Actor (LMB): PawnCarBP_C (PawnCarBP2)
+[2015.12.29-11.19.25:875][946]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone)
+[2015.12.29-11.19.28:329][224]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone3)
+[2015.12.29-11.19.29:924][400]LogEditorViewport: Clicking on Actor (LMB): RespawnZone_C (RespawnZone2)
+[2015.12.29-11.19.32:879][726]Cmd: EDIT COPY
+[2015.12.29-11.19.33:081][749]Cmd: EDIT PASTE
+[2015.12.29-11.19.34:641][922]Cmd: EDIT PASTE
+[2015.12.29-11.19.36:454][117]Cmd: EDIT PASTE
+[2015.12.29-11.19.38:876][383]Recompiling UnrealProject...
+[2015.12.29-11.19.38:876][383]Launching UnrealBuildTool... [D:/Programs/UE4/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 1356 Win64 Development -editorrecompile -canskiplink "D:/Documents and projects/Github/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2015.12.29-11.19.38:878][383]Warning: Starting HotReload took  0.0s.
+[2015.12.29-11.19.39:565][445]CompilerResultsLog: New page: Compilation - Dec 29, 2015, 1:19:39 PM
+[2015.12.29-11.19.39:565][445]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.12.29-11.19.39:565][445]CompilerResultsLog: Info Target is up to date.
+[2015.12.29-11.19.39:565][445]LogMainFrame: MainFrame: Module compiling took 0.702 seconds
+[2015.12.29-11.19.40:028][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Patrik.Patrik:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik' with GeneratedClass '/Game/Maps/Patrik.Patrik_C' with ClassGeneratedBy '/Game/Maps/Patrik.Patrik:PersistentLevel.Patrik'
+[2015.12.29-11.19.40:028][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.29-11.19.40:028][498]PIE: New page: PIE session: Patrik (Dec 29, 2015, 1:19:40 PM)
+[2015.12.29-11.19.40:028][498]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Patrik
+[2015.12.29-11.19.40:048][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019714s)
+[2015.12.29-11.19.40:049][498]LogAIModule: Creating AISystem for world Patrik
+[2015.12.29-11.19.40:049][498]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2015.12.29-11.19.40:049][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Patrik.Patrik to /Game/Maps/UEDPIE_0_Patrik.Patrik (0.020577s)
+[2015.12.29-11.19.40:085][498]LogInit: XAudio2 using 'PHILIPS FTV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.29-11.19.40:089][498]LogInit: FAudioDevice initialized.
+[2015.12.29-11.19.40:122][498]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2015.12.29-11.19.40:127][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:127][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:127][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:127][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:127][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:128][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:128][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:128][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:128][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:128][498]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2015.12.29-11.19.40:128][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Patrik.Patrik up for play (max tick rate 0) at 2015.12.29-12.19.40
+[2015.12.29-11.19.40:128][498]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.29-11.19.40:129][498]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.29-11.19.40:129][498]LogWorld: Bringing up level for play took: 0.005941
+[2015.12.29-11.19.40:130][498]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.12.29-11.19.40:130][498]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_39
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0142
+[2015.12.29-11.19.40:130][498]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.19.40:130][498]LogScript:Warning: Accessed None 'CallFunc_CreatePlayer_ReturnValue'
+	UnrealProjectGameModeBP_C /Game/Maps/UEDPIE_0_Patrik.Patrik:PersistentLevel.UnrealProjectGameModeBP_C_39
+	Function /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP_C:ExecuteUbergraph_UnrealProjectGameModeBP:0163
+[2015.12.29-11.19.40:130][498]PIE:Error: Error Accessed None 'CallFunc_CreatePlayer_ReturnValue' from node Possess in graph 'EventGraph' in blueprint UnrealProjectGameModeBP
+[2015.12.29-11.19.40:130][498]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_39] Works
+[2015.12.29-11.19.40:131][498]LogBlueprintUserMessages: [UnrealProjectGameModeBP_C_39] Works
+[2015.12.29-11.19.40:132][498]PIE: Info Play in editor s

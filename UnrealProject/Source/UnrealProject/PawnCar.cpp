@@ -104,18 +104,20 @@ void APawnCar::Tick(float DeltaTime)
 
 	if (BoxComponent->GetRelativeTransform().GetLocation().Z < -300)
 	{
+		TArray<AActor*> respawns;
 		for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr) {
 			if (ActorItr->ActorHasTag(FName("Respawn"))) {
-				TeleportTo(ActorItr->GetActorLocation() + FVector(0, 0, 200), FRotator(0, 0, 0));
-				BoxComponent->SetAllPhysicsAngularVelocity(FVector(0, 0, 0));
-				BoxComponent->SetAllPhysicsLinearVelocity(FVector(0, 0, 0));
-				Movement->Velocity = FVector(0, 0, 0);
-				InvincibleCurrent = 0;
-				bInvincible = true;
-				CallInvincible();
-				break;
+				respawns.Add(*ActorItr);
 			}
 		}
+		int32 random = FMath::Rand();
+		TeleportTo(respawns[random % respawns.Num()]->GetActorLocation() + FVector(0, 0, 200), FRotator(0, 0, 0));
+		BoxComponent->SetAllPhysicsAngularVelocity(FVector(0, 0, 0));
+		BoxComponent->SetAllPhysicsLinearVelocity(FVector(0, 0, 0));
+		Movement->Velocity = FVector(0, 0, 0);
+		InvincibleCurrent = 0;
+		bInvincible = true;
+		CallInvincible();
 	}
 
 
