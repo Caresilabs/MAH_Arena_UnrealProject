@@ -54,6 +54,13 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Speed)
 	void Boost();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float SlowSpeed;
+
+	UFUNCTION(BlueprintCallable, Category = Speed)
+		void Slow();
+
+
 	virtual void BeginPlay() override;
 	
 	virtual void Tick( float DeltaSeconds ) override;
@@ -87,4 +94,8 @@ private:
 	bool isBoosting;
 
 	float BoostTime;
+
+	bool isSlowing;
+
+	float SlowTime;
 };

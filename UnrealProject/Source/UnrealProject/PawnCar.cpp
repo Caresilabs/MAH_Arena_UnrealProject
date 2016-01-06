@@ -49,6 +49,14 @@ void APawnCar::Boost()
 	}
 }
 
+void APawnCar::Slow()
+{
+	if (isSlowing == false)
+	{
+		isSlowing = true;
+	}
+}
+
 void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 {
 	if (bUtilizeHealth) {
@@ -139,6 +147,27 @@ void APawnCar::Tick(float DeltaTime)
 
 		}
 	}
+
+	if (isSlowing == false)
+	{
+		SlowTime = 3;
+	}
+
+	if (isSlowing == true)
+	{
+		Movement->MaxSpeed = SlowSpeed;
+
+		SlowTime -= DeltaTime;
+
+		if (SlowTime <= 0.f)
+		{
+			Movement->MaxSpeed = 1500;
+			isSlowing = false;
+
+		}
+	}
+
+
 }
 
 void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) {
