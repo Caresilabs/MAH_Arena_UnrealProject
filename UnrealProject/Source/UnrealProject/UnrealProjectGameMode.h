@@ -13,11 +13,5 @@ class UNREALPROJECT_API AUnrealProjectGameMode : public AGameMode
 {
 	GENERATED_BODY()
 	
-	AUnrealProjectGameMode();
-
-public:
-	UFUNCTION(BlueprintCallable, Category = Cars)
-	void SetCarController();
-	
 	
 };

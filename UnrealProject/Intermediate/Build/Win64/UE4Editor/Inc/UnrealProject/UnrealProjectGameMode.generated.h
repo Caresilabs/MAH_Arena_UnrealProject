@@ -13,24 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALPROJECT_UnrealProjectGameMode_generated_h
 
-#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execSetCarController) \
-	{ \
-		P_FINISH; \
-		this->SetCarController(); \
-	}
-
-
-#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execSetCarController) \
-	{ \
-		P_FINISH; \
-		this->SetCarController(); \
-	}
-
-
+#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS
+#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
 #define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAUnrealProjectGameMode(); \
@@ -55,7 +39,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AUnrealProjectGameMode(const FObjectInitializer& ObjectInitializer); \
+	NO_API AUnrealProjectGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUnrealProjectGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AUnrealProjectGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUnrealProjectGameMode); \
@@ -66,13 +50,15 @@ public:
 
 
 #define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AUnrealProjectGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private copy-constructor, should never be used */ \
 	NO_API AUnrealProjectGameMode(const AUnrealProjectGameMode& InCopy); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AUnrealProjectGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUnrealProjectGameMode); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AUnrealProjectGameMode)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUnrealProjectGameMode)
 
 
 #define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_11_PROLOG

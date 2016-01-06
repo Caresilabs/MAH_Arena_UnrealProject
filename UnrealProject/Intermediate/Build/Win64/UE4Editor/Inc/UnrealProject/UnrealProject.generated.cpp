@@ -29,9 +29,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 	IMPLEMENT_CLASS(ACarController, 530177351);
 	void AUnrealProjectGameMode::StaticRegisterNativesAUnrealProjectGameMode()
 	{
-		FNativeFunctionRegistrar::RegisterFunction(AUnrealProjectGameMode::StaticClass(),"SetCarController",(Native)&AUnrealProjectGameMode::execSetCarController);
 	}
-	IMPLEMENT_CLASS(AUnrealProjectGameMode, 1837273831);
+	IMPLEMENT_CLASS(AUnrealProjectGameMode, 1049404836);
 	void AWorldCamera::StaticRegisterNativesAWorldCamera()
 	{
 	}
@@ -62,7 +61,6 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController();
-	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_AUnrealProjectGameMode_SetCarController();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AWorldCamera_NoRegister();
@@ -339,23 +337,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACarController(Z_Construct_UClass_ACarController, TEXT("ACarController"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACarController);
-	UFunction* Z_Construct_UFunction_AUnrealProjectGameMode_SetCarController()
-	{
-		UObject* Outer=Z_Construct_UClass_AUnrealProjectGameMode();
-		static UFunction* ReturnFunction = NULL;
-		if (!ReturnFunction)
-		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("SetCarController"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
-			ReturnFunction->Bind();
-			ReturnFunction->StaticLink();
-#if WITH_METADATA
-			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
-			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Cars"));
-			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("UnrealProjectGameMode.h"));
-#endif
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_AUnrealProjectGameMode_NoRegister()
 	{
 		return AUnrealProjectGameMode::StaticClass();
@@ -373,9 +354,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x2090028C;
 
-				OuterClass->LinkChild(Z_Construct_UFunction_AUnrealProjectGameMode_SetCarController());
 
-				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AUnrealProjectGameMode_SetCarController()); // 3570274665
 				OuterClass->ClassConfigName = FName(TEXT("Game"));
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -433,8 +412,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x117B4606;
-			Guid.B = 0xDF396368;
+			Guid.A = 0x8DF9E7D0;
+			Guid.B = 0x7BE87498;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
