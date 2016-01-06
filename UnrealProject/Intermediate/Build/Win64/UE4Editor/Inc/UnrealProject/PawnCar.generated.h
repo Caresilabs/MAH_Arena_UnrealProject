@@ -45,6 +45,13 @@ struct FHitResult;
 		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
 	} \
  \
+	DECLARE_FUNCTION(execSetLives) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_lives); \
+		P_FINISH; \
+		this->SetLives(Z_Param_lives); \
+	} \
+ \
 	DECLARE_FUNCTION(execGetHealth) \
 	{ \
 		P_FINISH; \
@@ -93,6 +100,13 @@ struct FHitResult;
 		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
 		P_FINISH; \
 		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+	} \
+ \
+	DECLARE_FUNCTION(execSetLives) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_lives); \
+		P_FINISH; \
+		this->SetLives(Z_Param_lives); \
 	} \
  \
 	DECLARE_FUNCTION(execGetHealth) \

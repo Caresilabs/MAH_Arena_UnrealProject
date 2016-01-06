@@ -35,6 +35,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Health)
 	float GetHealth();
 
+	UFUNCTION(BlueprintCallable, Category = Lives)
+	void SetLives(int32 lives);
+
 	UFUNCTION(BlueprintImplementableEvent, Category = "Invincibility")
 	void CallInvincible();
 
@@ -55,10 +58,10 @@ public:
 	void Boost();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float SlowSpeed;
+	float SlowSpeed;
 
 	UFUNCTION(BlueprintCallable, Category = Speed)
-		void Slow();
+	void Slow();
 
 
 	virtual void BeginPlay() override;
@@ -71,6 +74,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool bInvincible;
+
+	int32 lives;
 
 private:
 	void AddImpulseCOM(FVector Force);

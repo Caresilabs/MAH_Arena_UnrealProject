@@ -20,9 +20,10 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"Damage",(Native)&APawnCar::execDamage);
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"GetHealth",(Native)&APawnCar::execGetHealth);
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"NotifyHit",(Native)&APawnCar::execNotifyHit);
+		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"SetLives",(Native)&APawnCar::execSetLives);
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"Slow",(Native)&APawnCar::execSlow);
 	}
-	IMPLEMENT_CLASS(APawnCar, 1905772490);
+	IMPLEMENT_CLASS(APawnCar, 602526508);
 	void ACarController::StaticRegisterNativesACarController()
 	{
 	}
@@ -56,6 +57,7 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_Damage();
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_GetHealth();
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_NotifyHit();
+	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_SetLives();
 	UNREALPROJECT_API class UFunction* Z_Construct_UFunction_APawnCar_Slow();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
@@ -208,6 +210,28 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_APawnCar_SetLives()
+	{
+		struct PawnCar_eventSetLives_Parms
+		{
+			int32 lives;
+		};
+		UObject* Outer=Z_Construct_UClass_APawnCar();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("SetLives"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535, sizeof(PawnCar_eventSetLives_Parms));
+			UProperty* NewProp_lives = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("lives"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(lives, PawnCar_eventSetLives_Parms), 0x0000000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Lives"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UFunction_APawnCar_Slow()
 	{
 		UObject* Outer=Z_Construct_UClass_APawnCar();
@@ -248,6 +272,7 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_Damage());
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_GetHealth());
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_NotifyHit());
+				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_SetLives());
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_Slow());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
@@ -267,6 +292,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_Damage()); // 3329980359
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_GetHealth()); // 2391039533
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_NotifyHit()); // 3743499161
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_SetLives()); // 316577651
 				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnCar_Slow()); // 214672116
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -412,8 +438,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x8DF9E7D0;
-			Guid.B = 0x7BE87498;
+			Guid.A = 0xCBD31F87;
+			Guid.B = 0x261F7563;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

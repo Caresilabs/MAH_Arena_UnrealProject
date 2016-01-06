@@ -10,6 +10,7 @@ APawnCar::APawnCar()
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	lives = 0;
 	Health = 0;
 	Speed = 100;
 	TurnSpeed = 200;
@@ -55,6 +56,11 @@ void APawnCar::Slow()
 	{
 		isSlowing = true;
 	}
+}
+
+void APawnCar::SetLives(int lives){
+	this->lives = lives;
+	UE_LOG(LogTemp, Warning, TEXT("LIVES: %d"), lives);
 }
 
 void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
@@ -126,6 +132,10 @@ void APawnCar::Tick(float DeltaTime)
 		InvincibleCurrent = 0;
 		bInvincible = true;
 		CallInvincible();
+		lives--;
+		if (lives < 0)
+			Destroy();
+
 	}
 
 
