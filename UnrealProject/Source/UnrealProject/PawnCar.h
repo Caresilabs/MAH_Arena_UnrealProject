@@ -75,6 +75,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool bInvincible;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 lives;
 
 private:

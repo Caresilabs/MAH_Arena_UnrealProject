@@ -60,7 +60,6 @@ void APawnCar::Slow()
 
 void APawnCar::SetLives(int lives){
 	this->lives = lives;
-	UE_LOG(LogTemp, Warning, TEXT("LIVES: %d"), lives);
 }
 
 void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
