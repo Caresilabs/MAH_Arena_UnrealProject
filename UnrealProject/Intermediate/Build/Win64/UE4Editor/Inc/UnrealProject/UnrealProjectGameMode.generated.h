@@ -13,8 +13,24 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALPROJECT_UnrealProjectGameMode_generated_h
 
-#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS
-#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetCarController) \
+	{ \
+		P_FINISH; \
+		this->SetCarController(); \
+	}
+
+
+#define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetCarController) \
+	{ \
+		P_FINISH; \
+		this->SetCarController(); \
+	}
+
+
 #define UnrealProject_Source_UnrealProject_UnrealProjectGameMode_h_14_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAUnrealProjectGameMode(); \

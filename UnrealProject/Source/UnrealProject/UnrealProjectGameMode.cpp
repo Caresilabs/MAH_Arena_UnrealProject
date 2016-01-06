@@ -6,6 +6,11 @@
 
 AUnrealProjectGameMode::AUnrealProjectGameMode()
 {
+	//this->PlayerControllerClass = ACarController::StaticClass();
+}
+
+void AUnrealProjectGameMode::SetCarController()
+{
 	this->PlayerControllerClass = ACarController::StaticClass();
 }
 

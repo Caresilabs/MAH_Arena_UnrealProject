@@ -25,30 +25,40 @@ void ACarController::SetupInputComponent()
 
 void ACarController::MoveForward(float axisValue)
 {
+	APawnCar* car = Cast<APawnCar>(GetPawn());
+	if (car == nullptr)
+		return;
 	direction.Y = FMath::Clamp(axisValue, -1.0f, 1.0f);
-	//if (Car != nullptr)
-	Cast<APawnCar>(GetPawn())->SetDirection(direction);
+	car->SetDirection(direction);
 
 }
 void ACarController::Turn(float axisValue)
 {
+	APawnCar* car = Cast<APawnCar>(GetPawn());
+	if (car == nullptr)
+		return;
 	turn = FMath::Clamp(axisValue, -1.0f, 1.0f);
-	//if (Car != nullptr)
-	Cast<APawnCar>(GetPawn())->SetTurn(turn);
+	car->SetTurn(turn);
 
 
 }
 
 void ACarController::RotateX(float axisValue)
 {
+	APawnCar* car = Cast<APawnCar>(GetPawn());
+	if (car == nullptr)
+		return;
 	rotation.Pitch = FMath::Clamp(axisValue, -1.0f, 1.0f);
-	//Cast<APawnCar>(GetPawn())->SetRotationDirection(rotation);
+	//car->SetRotationDirection(rotation);
 }
 
 void ACarController::RotateY(float axisValue)
 {
+	APawnCar* car = Cast<APawnCar>(GetPawn());
+	if (car == nullptr)
+		return;
 	rotation.Roll = FMath::Clamp(axisValue, -1.0f, 1.0f);
-	Cast<APawnCar>(GetPawn())->SetRotationDirection(rotation);
+	car->SetRotationDirection(rotation);
 }
 
 
