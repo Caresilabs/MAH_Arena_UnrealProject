@@ -78,6 +78,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 lives;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool HealthChanged;
+
 private:
 	void AddImpulseCOM(FVector Force);
 
