@@ -74,7 +74,9 @@ void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 }
 
 void APawnCar::Damage(float amount) {
-	Health += amount;
+	Health += amount; 
+	if (amount > 0)
+		HealthChanged = true;
 }
 
 float APawnCar::GetHealth() {
@@ -129,6 +131,7 @@ void APawnCar::Tick(float DeltaTime)
 		BoxComponent->SetAllPhysicsLinearVelocity(FVector(0, 0, 0));
 		Movement->Velocity = FVector(0, 0, 0);
 		InvincibleCurrent = 0;
+		Health = 0.0f;
 		bInvincible = true;
 		CallInvincible();
 		lives--;
