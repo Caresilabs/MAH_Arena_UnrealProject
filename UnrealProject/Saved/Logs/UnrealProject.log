@@ -188,4 +188,34 @@
 [2016.01.11-09.15.55:668][877]LogSavePackage: Total save time: 68.562914ms
 [2016.01.11-09.15.55:668][877]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
 [2016.01.11-09.16.57:756][444]LogSavePackage: Save=29.214348ms
-[2016.01.11-09.16.57:756][444]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelC789AF3F4FEE5FDD449571A7FF1D93FB.tmp' to '../../../../../../Users/Patte/Documents/MAH
+[2016.01.11-09.16.57:756][444]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelC789AF3F4FEE5FDD449571A7FF1D93FB.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.16.57:757][444]LogSavePackage: Total save time: 53.742770ms
+[2016.01.11-09.16.57:757][444]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.24.36:830][119]LogSavePackage: Save=30.924673ms
+[2016.01.11-09.24.36:830][119]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevelA09700AD4284568BCC0DED86BF40B09D.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-09.24.36:833][119]LogSavePackage: Total save time: 60.645360ms
+[2016.01.11-09.24.36:833][119]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-09.24.36:860][119]LogFileHelpers: Saving map 'StartLevel' took 0.144
+[2016.01.11-09.25.30:303][229]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.11-09.25.30:699][229]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2016.01.11-09.25.31:003][229]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.25.45:198][572]BlueprintLog: New page: Compile WinScreen
+[2016.01.11-09.25.45:238][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.25.45:264][572]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F24CBCD60
+[2016.01.11-09.25.45:285][572]BlueprintEditorCompileResults: Info [0637.72] Compile of WinScreen successful! [in 86 ms]
+[2016.01.11-09.25.49:765][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F1BF57A60
+[2016.01.11-09.26.29:665][193]LogActor:Warning: GameNetworkManager /Engine/Transient.World_8:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.27.31:545][ 11]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.27.31:643][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.27.31:665][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F0D6645E0
+[2016.01.11-09.27.31:674][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F0D665DA0
+[2016.01.11-09.27.31:674][ 11]BlueprintEditorCompileResults: Info [0744.11] Compile of UnrealProjectGameModeBP successful! [in 127 ms]
+[2016.01.11-09.27.35:430][426]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.01.11-09.27.35:432][426]Recompiling UnrealProject...
+[2016.01.11-09.27.35:432][426]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 7306 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.27.35:433][426]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.27.36:089][486]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:27:36 AM
+[2016.01.11-09.27.36:089][486]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.27.36:089][486]CompilerResultsLog: Info Target is up to date.
+[2016.01.11-09.27.36:089][486]LogMainFrame: MainFrame: Module compiling took 0.659 seconds
+[2016.01.11-09.27.36:780][558]LogParticles: Destroying 0 GPU particle simulations for FXSy
