@@ -39,6 +39,7 @@ APawnCar::APawnCar()
 void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
+	BoxComponent->SetAngularDamping(2.5f);
 }
 
 
@@ -193,39 +194,28 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 			return;
 
 		//FVector Impulse = FVector(- FVector::DotProduct(GetMovementComponent()->Velocity, HitNormal) * GetMovementComponent()->Velocity * 1000.0f);
-
 		//FVector RelativeVelocity = GetMovementComponent()->Velocity - OtherCar->GetMovementComponent()->Velocity;
-
 		//float VelAlongNormal = FVector::DotProduct(RelativeVelocity, HitNormal);
-
 		//float J = -(1 + 1) * VelAlongNormal;
-
 		
-
 		float DamageToTake = FMath::Abs( FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) / 100.f );
 		OtherCar->Damage(DamageToTake);
-		UE_LOG(LogTemp, Log, TEXT("Actor: %s .. damage taken %f"), *GetActorLabel(), DamageToTake);
-
 
 		FVector Impulse = FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) * GetMovementComponent()->Velocity;	//J * HitNormal;
 
 		OtherCar->ApplyImpulse(Impulse * -0.05f, true);
-
 	}
 }
 
 void APawnCar::SetRotationDirection(FRotator RotationDirection)
 {
-	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 18000000, -RotationDirection.Pitch * 7000000, RotationDirection.Yaw)));
+	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 22000000, -RotationDirection.Pitch * 9000000, RotationDirection.Yaw)));
 }
 
 void APawnCar::SetDirection(FVector Direction)
 {
 	if (IsOnGround)
-	{
 		this->Direction = Direction;
-
-	}
 	else
 		this->Direction = FVector(0, 0, 0);
 }
