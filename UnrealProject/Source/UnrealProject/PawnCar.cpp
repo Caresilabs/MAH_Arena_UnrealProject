@@ -209,7 +209,7 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 
 void APawnCar::SetRotationDirection(FRotator RotationDirection)
 {
-	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 22000000, -RotationDirection.Pitch * 9000000, RotationDirection.Yaw)));
+	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 27000000, -RotationDirection.Pitch * 17000000, RotationDirection.Yaw)));
 }
 
 void APawnCar::SetDirection(FVector Direction)
