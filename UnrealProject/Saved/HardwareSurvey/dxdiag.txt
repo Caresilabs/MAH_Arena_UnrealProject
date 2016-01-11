@@ -1,23 +1,23 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/9/2016, 11:32:47
-             Machine name: TIMS-DATOR
+      Time of this report: 1/11/2016, 09:10:24
+             Machine name: SIMONLAPTOP
          Operating System: Windows 10 Home 64-bit (10.0, Build 10586) (10586.th2_release.151121-2308)
-                 Language: Swedish (Regional Setting: Swedish)
+                 Language: English (Regional Setting: English)
       System Manufacturer: ASUSTeK COMPUTER INC.
-             System Model: UX303LB
-                     BIOS: UX303LB.203
-                Processor: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz (4 CPUs), ~2.4GHz
+             System Model: UX303LN
+                     BIOS: UX303LN.204
+                Processor: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz (4 CPUs), ~2.6GHz
                    Memory: 8192MB RAM
-      Available OS Memory: 8094MB RAM
-                Page File: 5012MB used, 6358MB available
+      Available OS Memory: 8080MB RAM
+                Page File: 5164MB used, 4516MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: 12
       DX Setup Parameters: Not found
-         User DPI Setting: Using System DPI
+         User DPI Setting: 120 DPI (125 percent)
        System DPI Setting: 240 DPI (250 percent)
-          DWM DPI Scaling: UnKnown
+          DWM DPI Scaling: Disabled
                  Miracast: Available, with HDCP
 Microsoft Graphics Hybrid: Supported
            DxDiag Version: 10.00.10586.0000 64bit Unicode
@@ -44,19 +44,19 @@ DirectShow:  0/6 (retail)
 ---------------
 Display Devices
 ---------------
-          Card name: Intel(R) HD Graphics 5500
+          Card name: Intel(R) HD Graphics Family
        Manufacturer: Intel Corporation
           Chip type: Intel(R) HD Graphics Family
            DAC type: Internal
         Device Type: Full Device
-         Device Key: Enum\PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09
-     Display Memory: 4175 MB
-   Dedicated Memory: 128 MB
-      Shared Memory: 4047 MB
+         Device Key: Enum\PCI\VEN_8086&DEV_0A16&SUBSYS_167D1043&REV_0B
+     Display Memory: 4152 MB
+   Dedicated Memory: 112 MB
+      Shared Memory: 4040 MB
        Current Mode: 3200 x 1800 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
       Monitor Model: unknown
-         Monitor Id: SDC364A
+         Monitor Id: SDC424A
         Native Mode: 3200 x 1800(p) (60.000Hz)
         Output Type: Internal
         Driver Name: igdumdim64.dll,igd10iumd64.dll,igd10iumd64.dll,igd12umd64.dll,igdumdim32,igd10iumd32,igd10iumd32,igd12umd32
@@ -65,24 +65,24 @@ Driver File Version: 10.18.0015.4256 (English)
         DDI Version: 12
      Feature Levels: 11.1,11.0,10.1,10.0,9.3,9.2,9.1
        Driver Model: WDDM 2.0
-Graphics Preemption: Triangle
+Graphics Preemption: Primitive
  Compute Preemption: Thread group
            Miracast: Supported
 Hybrid Graphics GPU: Integrated
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: 2015-07-17 00:00:00, 36681912 bytes
+   Driver Date/Size: 7/17/2015 12:00:00 AM, 36681912 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
-  Device Identifier: {D7B78E66-5556-11CF-5363-3238B4C2C735}
+  Device Identifier: {D7B78E66-4956-11CF-5363-7236B6C2C735}
           Vendor ID: 0x8086
-          Device ID: 0x1616
-          SubSys ID: 0x183D1043
-        Revision ID: 0x0009
- Driver Strong Name: oem47.inf:5f63e53468b7076c:iBDWM_w10:10.18.15.4256:pci\ven_8086&dev_1616
+          Device ID: 0x0A16
+          SubSys ID: 0x167D1043
+        Revision ID: 0x000B
+ Driver Strong Name: oem53.inf:5f63e5341cc65b69:iHSWM_w10:10.18.15.4256:pci\ven_8086&dev_0a16
      Rank Of Driver: 00D12001
         Video Accel: ModeMPEG2_A ModeMPEG2_C ModeWMV9_C ModeVC1_C 
-        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeMPEG2_IDCT  DXVA2_ModeVC1_D2010  DXVA2_ModeWMV9_IDCT  DXVA2_ModeVC1_IDCT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_Multiview_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  
+        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeMPEG2_IDCT  DXVA2_ModeVC1_D2010  DXVA2_ModeWMV9_IDCT  DXVA2_ModeVC1_IDCT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_Multiview_NoFGT  DXVA2_ModeHEVC_VLD_Main  
    Deinterlace Caps: {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
                      {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
                      {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
@@ -117,19 +117,19 @@ Hybrid Graphics GPU: Integrated
     MPO Media Hints: Not Supported
         MPO Formats: Not Supported
 
-          Card name: NVIDIA GeForce 940M  
+          Card name: NVIDIA GeForce 840M           
        Manufacturer: NVIDIA
-          Chip type: GeForce 940M
+          Chip type: GeForce 840M
            DAC type: Integrated RAMDAC
         Device Type: Render-Only Device
-         Device Key: Enum\PCI\VEN_10DE&DEV_1347&SUBSYS_12DF1043&REV_A2
-     Display Memory: 6043 MB
-   Dedicated Memory: 1995 MB
-      Shared Memory: 4047 MB
+         Device Key: Enum\PCI\VEN_10DE&DEV_1341&SUBSYS_167D1043&REV_A2
+     Display Memory: 6037 MB
+   Dedicated Memory: 1996 MB
+      Shared Memory: 4040 MB
        Current Mode: n/a
         Driver Name: nvd3dumx,nvwgf2umx,nvwgf2umx,nvwgf2umx,nvd3dum,nvwgf2um,nvwgf2um,nvwgf2um
-Driver File Version: 10.18.0013.6143 (English)
-     Driver Version: 10.18.13.6143
+Driver File Version: 10.18.0013.5354 (English)
+     Driver Version: 10.18.13.5354
         DDI Version: 12
      Feature Levels: 11.0,10.1,10.0,9.3,9.2,9.1
        Driver Model: WDDM 2.0
@@ -139,15 +139,15 @@ Graphics Preemption: DMA
 Hybrid Graphics GPU: Discrete
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: 2015-12-16 00:00:00, 17104016 bytes
+   Driver Date/Size: 7/13/2015 12:00:00 AM, 16009800 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
   Device Identifier: n/a
           Vendor ID: 0x10DE
-          Device ID: 0x1347
-          SubSys ID: 0x12DF1043
+          Device ID: 0x1341
+          SubSys ID: 0x167D1043
         Revision ID: 0x00A2
- Driver Strong Name: oem71.inf:0f066de3bcc3d00d:Section061:10.18.13.6143:pci\ven_10de&dev_1347&subsys_12df1043
+ Driver Strong Name: oem65.inf:0f066de3c64973e2:Section060:10.18.13.5354:pci\ven_10de&dev_1341&subsys_167d1043
      Rank Of Driver: 00D10001
         Video Accel: n/a
         DXVA2 Modes: 
@@ -168,15 +168,15 @@ Sound Devices
             Description: Speakers (Conexant SmartAudio HD)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_104312DF&REV_1001
+            Hardware ID: HDAUDIO\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_1043167D&REV_1001
         Manufacturer ID: 1
              Product ID: 100
                    Type: WDM
             Driver Name: CHDRT64.sys
-         Driver Version: 8.66.0004.0000 (Swedish)
+         Driver Version: 8.66.0004.0000 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
-          Date and Size: 2015-05-08 00:00:00, 1536528 bytes
+          Date and Size: 5/8/2015 12:00:00 AM, 1536528 bytes
             Other Files: 
         Driver Provider: Conexant
          HW Accel Level: Basic
@@ -197,7 +197,7 @@ Sound Capture Devices
   Default Sound Capture: Yes
   Default Voice Capture: Yes
             Driver Name: CHDRT64.sys
-         Driver Version: 8.66.0004.0000 (Swedish)
+         Driver Version: 8.66.0004.0000 (English)
       Driver Attributes: Final Retail
           Date and Size: 5/13/2015 09:40:48, 1536528 bytes
               Cap Flags: 0x1
@@ -216,7 +216,7 @@ Number of Devices: 1
          DriverProvider: Microsoft
           DriverVersion: 10.0.10586.0
       DriverDateEnglish: 6/21/2006 00:00:00
-    DriverDateLocalized: 2006-06-21 00:00:00
+    DriverDateLocalized: 6/21/2006 12:00:00 AM
                 Service: usbvideo
                   Class: Image
           DevNodeStatus: 180200A[DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER]
@@ -233,16 +233,28 @@ Number of Devices: 1
 -------------------
 DirectInput Devices
 -------------------
-      Device Name: Mus
+      Device Name: Mouse
          Attached: 1
     Controller ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
-      Device Name: Tangentbord
+      Device Name: Keyboard
          Attached: 1
     Controller ID: n/a
 Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: Micr
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x045E, 0x07A5
+        FF Driver: n/a
+
+      Device Name: Micr
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x045E, 0x07A5
         FF Driver: n/a
 
       Device Name: ASUS Wireless Radio Control
@@ -251,10 +263,22 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
+      Device Name: Micr
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x045E, 0x07A5
+        FF Driver: n/a
+
+      Device Name: Micr
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x045E, 0x07A5
+        FF Driver: n/a
+
       Device Name: Atmel maXTouch Control
          Attached: 1
     Controller ID: 0x0
-Vendor/Product ID: 0x03EB, 0x8B06
+Vendor/Product ID: 0x03EB, 0x8A32
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -262,27 +286,50 @@ Poll w/ Interrupt: No
 -----------
 USB Devices
 -----------
-+ USB-rotnav (xHCI)
-| Vendor/Product ID: 0x8086, 0x9CB1
++ USB Root Hub (xHCI)
+| Vendor/Product ID: 0x8086, 0x9C31
 | Matching Device ID: USB\ROOT_HUB30
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 10/30/2015 08:17:23, 534368 bytes
 | 
-+-+ USB-enhet
-| | Vendor/Product ID: 0x03F0, 0x134A
-| | Location: Port_#0003.Hub_#0001
-| | Matching Device ID: USB\Class_03&SubClass_01
-| | Service: HidUsb
-| | Driver: hidusb.sys, 10/30/2015 08:17:23, 38400 bytes
-| | Driver: hidclass.sys, 10/30/2015 08:17:23, 154624 bytes
-| | Driver: hidparse.sys, 10/30/2015 08:17:23, 40448 bytes
++-+ USB Composite Device
+| | Vendor/Product ID: 0x045E, 0x07A5
+| | Location: Port_#0001.Hub_#0001
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 10/30/2015 08:17:23, 159072 bytes
 | | 
-| +-+ HID-kompatibel mus
-| | | Vendor/Product ID: 0x03F0, 0x134A
-| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | Service: mouhid
-| | | Driver: mouhid.sys, 10/30/2015 08:17:23, 32256 bytes
-| | | Driver: mouclass.sys, 10/30/2015 08:17:23, 59232 bytes
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x045E, 0x07A5
+| | | Location: 0000.0014.0000.001.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 10/30/2015 08:17:23, 38400 bytes
+| | | Driver: hidclass.sys, 10/30/2015 08:17:23, 154624 bytes
+| | | Driver: hidparse.sys, 10/30/2015 08:17:23, 40448 bytes
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x045E, 0x07A5
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 10/30/2015 08:17:23, 36864 bytes
+| | | | Driver: kbdclass.sys, 10/30/2015 08:17:23, 62304 bytes
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x045E, 0x07A5
+| | | Location: 0000.0014.0000.001.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 10/30/2015 08:17:23, 38400 bytes
+| | | Driver: hidclass.sys, 10/30/2015 08:17:23, 154624 bytes
+| | | Driver: hidparse.sys, 10/30/2015 08:17:23, 40448 bytes
+| | | 
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x045E, 0x07A5
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | | Service: mouhid
+| | | | Driver: mouhid.sys, 10/30/2015 08:17:23, 32256 bytes
+| | | | Driver: mouclass.sys, 10/30/2015 08:17:23, 59232 bytes
 
 ----------------
 Gameport Devices
@@ -291,17 +338,19 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-+ PC/AT Enhanced PS/2 Keyboard (101/102-Key)
-| Matching Device ID: *PNP030B
++ Keyboard Device Filter
+| Matching Device ID: *ATK3001
+| Upper Filters: kbfiltr
 | Service: i8042prt
+| Driver: kbfiltr.sys, 8/6/2012 04:17:18, 17280 bytes
 | Driver: i8042prt.sys, 10/30/2015 08:17:23, 114688 bytes
 | Driver: kbdclass.sys, 10/30/2015 08:17:23, 62304 bytes
 | 
 + ASUS Touchpad
-| Matching Device ID: ACPI\FLT0102
+| Matching Device ID: ACPI\FLT0101
 | Upper Filters: ATP
 | Service: i8042prt
-| Driver: AsusTP.sys, 8/23/2015 16:27:44, 97680 bytes
+| Driver: AsusTP.sys, 7/28/2015 10:28:38, 97680 bytes
 | Driver: mouclass.sys, 10/30/2015 08:17:23, 59232 bytes
 | Driver: i8042prt.sys, 10/30/2015 08:17:23, 114688 bytes
 
@@ -309,124 +358,129 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 7.9 GB
+ Free Space: 16.4 GB
 Total Space: 97.2 GB
 File System: NTFS
-      Model: Micron_M600_MTFDDAK256MBF
+      Model: SanDisk SD6SB1M256G1002
 
       Drive: D:
- Free Space: 16.9 GB
-Total Space: 130.9 GB
+ Free Space: 31.5 GB
+Total Space: 107.0 GB
 File System: NTFS
-      Model: Micron_M600_MTFDDAK256MBF
+      Model: SanDisk SD6SB1M256G1002
 
 --------------
 System Devices
 --------------
-     Name: Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
-Device ID: PCI\VEN_8086&DEV_9CB1&SUBSYS_201F1043&REV_03\3&11583659&1&A0
-   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.10586.0000 (Swedish), 10/30/2015 08:17:23, 378208 bytes
-
-     Name: Intel(R) Dynamic Platform and Thermal Framework Processor Participant
-Device ID: PCI\VEN_8086&DEV_1603&SUBSYS_183D1043&REV_09\3&11583659&1&20
-   Driver: C:\WINDOWS\system32\DRIVERS\dptf_cpu.sys, 8.00.10101.0101 (English), 2/3/2015 11:08:42, 38720 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\WdfCoInstaller01011.dll, 1.11.9200.16384 (Swedish), 2/3/2015 11:08:44, 1795952 bytes
-
-     Name: NVIDIA GeForce 940M  
-Device ID: PCI\VEN_10DE&DEV_1347&SUBSYS_12DF1043&REV_A2\4&2CEA9F6C&0&00E4
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 449656 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 12/16/2015 17:59:13, 1319896 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_46d9b15b1aa6bd1d\NvCplSetupInt.exe, 1.00.0005.0000 (Swedish), 12/16/2015 17:59:13, 96808216 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 11/2/2015 18:03:07, 21910 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (Swedish), 12/16/2015 17:59:13, 841336 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 392312 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 12/16/2015 17:59:13, 74021 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.6143 (English), 12/16/2015 17:59:13, 432432 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.6143 (English), 12/16/2015 17:59:13, 1235576 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.02.0011.0000 (English), 12/16/2015 17:59:13, 194680 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.02.0011.0000 (English), 12/16/2015 17:59:13, 206968 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\nvlddmkm.sys, 10.18.0013.6143 (English), 12/18/2015 09:48:31, 12426896 bytes
-   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 938104 bytes
-   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 872056 bytes
-   Driver: C:\WINDOWS\system32\NvIFROpenGL.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 416560 bytes
-   Driver: C:\WINDOWS\system32\nvEncMFTH264.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 786688 bytes
-   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 378784 bytes
-   Driver: C:\WINDOWS\system32\nvapi64.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 3603368 bytes
-   Driver: C:\WINDOWS\system32\nvcompiler.dll, 12/16/2015 17:59:13, 42976888 bytes
-   Driver: C:\WINDOWS\system32\nvcuda.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 20672376 bytes
-   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0013.6143 (English), 12/16/2015 17:59:13, 2560816 bytes
-   Driver: C:\WINDOWS\system32\nvd3dumx.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 17104016 bytes
-   Driver: C:\WINDOWS\system32\nvinfo.pb, 12/16/2015 17:59:13, 35775 bytes
-   Driver: C:\WINDOWS\system32\nvinitx.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 175368 bytes
-   Driver: C:\WINDOWS\system32\nvoglv64.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 31098488 bytes
-   Driver: C:\WINDOWS\system32\nvopencl.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 21131424 bytes
-   Driver: C:\WINDOWS\system32\nvwgf2umx.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 19727624 bytes
-   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 735024 bytes
-   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 681592 bytes
-   Driver: C:\WINDOWS\SysWow64\NvIFROpenGL.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 370992 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncMFTH264.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 632336 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 316960 bytes
-   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 3184152 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcompiler.dll, 12/16/2015 17:59:13, 37608568 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 17164160 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0013.6143 (English), 12/16/2015 17:59:13, 2214192 bytes
-   Driver: C:\WINDOWS\SysWow64\nvd3dum.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 14103608 bytes
-   Driver: C:\WINDOWS\SysWow64\nvinit.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 153208 bytes
-   Driver: C:\WINDOWS\SysWow64\nvoglv32.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 24923768 bytes
-   Driver: C:\WINDOWS\SysWow64\nvopencl.dll, 6.14.0013.6143 (English), 12/16/2015 17:59:13, 17568432 bytes
-   Driver: C:\WINDOWS\SysWow64\nvwgf2um.dll, 10.18.0013.6143 (English), 12/16/2015 17:59:13, 17123736 bytes
-   Driver: C:\WINDOWS\system32\nvdispco6436143.dll, 2.00.0043.0004 (English), 12/16/2015 17:59:13, 1915512 bytes
-   Driver: C:\WINDOWS\system32\nvdispgenco6436143.dll, 2.00.0021.0002 (English), 12/16/2015 17:59:13, 1564976 bytes
-
-     Name: PCI standard ISA bridge
-Device ID: PCI\VEN_8086&DEV_9CC3&SUBSYS_183D1043&REV_03\3&11583659&1&F8
+     Name: Intel(R) 8 Series LPC Controller (Premium SKU) - 9C43
+Device ID: PCI\VEN_8086&DEV_9C43&SUBSYS_167D1043&REV_04\3&11583659&1&F8
    Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:23, 18784 bytes
 
-     Name: Intel(R) Dynamic Platform and Thermal Framework Chipset Participant
-Device ID: PCI\VEN_8086&DEV_9CA4&SUBSYS_183D1043&REV_03\3&11583659&1&FE
-   Driver: C:\WINDOWS\system32\DRIVERS\dptf_pch.sys, 8.00.10101.0101 (English), 2/3/2015 11:08:42, 38208 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\WdfCoInstaller01011.dll, 1.11.9200.16384 (Swedish), 2/3/2015 11:08:44, 1795952 bytes
+     Name: Intel(R) Dual Band Wireless-AC 7260
+Device ID: PCI\VEN_8086&DEV_08B1&SUBSYS_C1708086&REV_BB\E8B1FCFFFF83663400
+   Driver: C:\WINDOWS\system32\DRIVERS\Netwbw02.sys, 17.15.0000.0005 (English), 10/30/2015 08:17:19, 3485696 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\Netwfw02.dat, 10/30/2015 08:17:19, 3549068 bytes
+
+     Name: Intel(R) Dynamic Platform and Thermal Framework Processor Participant Driver
+Device ID: PCI\VEN_8086&DEV_0A03&SUBSYS_20108086&REV_0B\3&11583659&1&20
+   Driver: C:\WINDOWS\system32\DRIVERS\DptfDevProc.sys, 7.01.0000.2105 (English), 10/18/2013 03:24:40, 289744 bytes
+   Driver: C:\WINDOWS\system32\DptfParticipantProcessorService.exe, 7.01.0000.2105 (English), 10/18/2013 03:24:42, 117704 bytes
+   Driver: C:\WINDOWS\system32\wdfcoinstaller01011.dll, 1.11.9200.16384 (English), 10/18/2013 03:24:36, 1795952 bytes
+
+     Name: Intel(R) Dynamic Platform and Thermal Framework PCH Participant Driver
+Device ID: PCI\VEN_8086&DEV_9C24&SUBSYS_167D1043&REV_04\3&11583659&1&FE
+   Driver: C:\WINDOWS\system32\DRIVERS\DptfDevPch.sys, 7.01.0000.2105 (English), 10/18/2013 03:24:40, 116752 bytes
+   Driver: C:\WINDOWS\system32\wdfcoinstaller01011.dll, 1.11.9200.16384 (English), 10/18/2013 03:24:36, 1795952 bytes
+
+     Name: Intel(R) 8 Series SMBus Controller - 9C22
+Device ID: PCI\VEN_8086&DEV_9C22&SUBSYS_167D1043&REV_04\3&11583659&1&FB
+   Driver: n/a
+
+     Name: NVIDIA GeForce 840M           
+Device ID: PCI\VEN_10DE&DEV_1341&SUBSYS_167D1043&REV_A2\4&71494E&0&00E4
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 448144 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 7/13/2015 19:45:08, 1299756 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvamwu.inf_amd64_50274749aa9892ee\NvCplSetupInt.exe, 1.00.0005.0000 (English), 7/13/2015 19:45:08, 95305888 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 7/13/2015 19:45:08, 21910 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (English), 7/13/2015 19:45:08, 841544 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.5354 (English), 7/13/2015 19:45:08, 227984 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 7/13/2015 19:45:08, 72727 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.5354 (English), 7/13/2015 19:45:08, 415376 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.5354 (English), 7/13/2015 19:45:08, 1193616 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.02.0011.0000 (English), 7/13/2015 19:45:08, 105104 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.02.0011.0000 (English), 7/13/2015 19:45:08, 112784 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\nvlddmkm.sys, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 11139216 bytes
+   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0013.5354 (English), 7/13/2015 19:45:08, 1052488 bytes
+   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0013.5354 (English), 7/13/2015 19:45:08, 1061192 bytes
+   Driver: C:\WINDOWS\system32\NvIFROpenGL.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 408208 bytes
+   Driver: C:\WINDOWS\system32\nvEncMFTH264.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 787200 bytes
+   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 6.14.0013.5354 (English), 7/13/2015 19:45:08, 384464 bytes
+   Driver: C:\WINDOWS\system32\nvapi64.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 3344672 bytes
+   Driver: C:\WINDOWS\system32\nvcompiler.dll, 7/13/2015 19:45:08, 42730128 bytes
+   Driver: C:\WINDOWS\system32\nvcuda.dll, 8.17.0013.5354 (English), 7/13/2015 19:45:08, 14510584 bytes
+   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0013.5354 (English), 7/13/2015 19:45:08, 2360976 bytes
+   Driver: C:\WINDOWS\system32\nvd3dumx.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 16009800 bytes
+   Driver: C:\WINDOWS\system32\nvinfo.pb, 7/13/2015 19:45:08, 31976 bytes
+   Driver: C:\WINDOWS\system32\nvinitx.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 177088 bytes
+   Driver: C:\WINDOWS\system32\nvoglv64.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 30518928 bytes
+   Driver: C:\WINDOWS\system32\nvopencl.dll, 8.17.0013.5354 (English), 7/13/2015 19:45:08, 16159608 bytes
+   Driver: C:\WINDOWS\system32\nvwgf2umx.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 18514616 bytes
+   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0013.5354 (English), 7/13/2015 19:45:08, 976528 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0013.5354 (English), 7/13/2015 19:45:08, 983368 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFROpenGL.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 364176 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncMFTH264.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 632848 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 6.14.0013.5354 (English), 7/13/2015 19:45:08, 314936 bytes
+   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 2955832 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcompiler.dll, 7/13/2015 19:45:08, 37748880 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 8.17.0013.5354 (English), 7/13/2015 19:45:08, 11842680 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0013.5354 (English), 7/13/2015 19:45:08, 2163856 bytes
+   Driver: C:\WINDOWS\SysWow64\nvd3dum.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 12972336 bytes
+   Driver: C:\WINDOWS\SysWow64\nvinit.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 155280 bytes
+   Driver: C:\WINDOWS\SysWow64\nvoglv32.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 22972560 bytes
+   Driver: C:\WINDOWS\SysWow64\nvopencl.dll, 8.17.0013.5354 (English), 7/13/2015 19:45:08, 13274560 bytes
+   Driver: C:\WINDOWS\SysWow64\nvwgf2um.dll, 10.18.0013.5354 (English), 7/13/2015 19:45:08, 15892904 bytes
+   Driver: C:\WINDOWS\system32\nvdispco6435354.dll, 2.00.0043.0004 (English), 7/13/2015 19:45:08, 1898312 bytes
+   Driver: C:\WINDOWS\system32\nvdispgenco6435354.dll, 2.00.0020.0002 (English), 7/13/2015 19:45:08, 1557648 bytes
 
      Name: PCI standard host CPU bridge
-Device ID: PCI\VEN_8086&DEV_1604&SUBSYS_183D1043&REV_09\3&11583659&1&00
+Device ID: PCI\VEN_8086&DEV_0A04&SUBSYS_167D1043&REV_0B\3&11583659&1&00
    Driver: n/a
 
-     Name: PCI Express-rotport
-Device ID: PCI\VEN_8086&DEV_9C98&SUBSYS_183D1043&REV_E3\3&11583659&1&E4
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10586.0000 (Swedish), 10/30/2015 08:17:23, 330080 bytes
+     Name: Intel(R) 8 Series PCI Express Root Port #5 - 9C18
+Device ID: PCI\VEN_8086&DEV_9C18&SUBSYS_167D1043&REV_E4\3&11583659&1&E4
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:23, 330080 bytes
 
-     Name: PCI Express-rotport
-Device ID: PCI\VEN_8086&DEV_9C90&SUBSYS_183D1043&REV_E3\3&11583659&1&E0
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10586.0000 (Swedish), 10/30/2015 08:17:23, 330080 bytes
-
-     Name: Intel Device
-Device ID: PCI\VEN_8086&DEV_9CA2&SUBSYS_183D1043&REV_03\3&11583659&1&FB
-   Driver: n/a
-
-     Name: Intel(R) 9 Series Chipset Family SATA AHCI Controller
-Device ID: PCI\VEN_8086&DEV_9C83&SUBSYS_183D1043&REV_03\3&11583659&1&FA
-   Driver: C:\WINDOWS\system32\DRIVERS\iaStorA.sys, 13.02.0000.1016 (English), 6/26/2014 03:56:54, 670056 bytes
-
-     Name: Intel(R) Dual Band Wireless-AC 7265
-Device ID: PCI\VEN_8086&DEV_095A&SUBSYS_51108086&REV_59\340286FFFF0F3C8700
-   Driver: C:\WINDOWS\system32\DRIVERS\Netwbw02.sys, 17.16.0000.0004 (English), 3/23/2015 11:16:08, 3497240 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\Netwfw02.dat, 3/23/2015 11:13:08, 3548388 bytes
-
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_8086&DEV_9CA0&SUBSYS_12DF1043&REV_03\3&11583659&1&D8
-   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.10586.0000 (Swedish), 10/30/2015 08:17:18, 79872 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:19, 97280 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.10586.0000 (Swedish), 10/30/2015 08:17:19, 333824 bytes
+     Name: Intel(R) 8 Series PCI Express Root Port #1 - 9C10
+Device ID: PCI\VEN_8086&DEV_9C10&SUBSYS_167D1043&REV_E4\3&11583659&1&E0
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:23, 330080 bytes
 
      Name: Intel(R) Management Engine Interface 
-Device ID: PCI\VEN_8086&DEV_9CBA&SUBSYS_183D1043&REV_03\3&11583659&1&B0
-   Driver: C:\WINDOWS\system32\DRIVERS\TeeDriverx64.sys, 10.00.0030.1054 (English), 2/25/2015 14:15:40, 129312 bytes
-   Driver: C:\ProgramData\Microsoft\Windows\DeviceMetadataStore\EN\3f3ca95b-3978-4168-b47b-5444f42d6c89.devicemetadata-ms, 2/25/2015 14:15:40, 938 bytes
-   Driver: C:\ProgramData\Microsoft\Windows\DeviceMetadataStore\EN\46a6fdbe-c823-4579-bab6-35f67e01f793.devicemetadata-ms, 2/25/2015 14:15:40, 833 bytes
-   Driver: C:\WINDOWS\system32\WdfCoInstaller01011.dll, 1.11.9200.16384 (Swedish), 2/25/2015 14:15:40, 1795952 bytes
+Device ID: PCI\VEN_8086&DEV_9C3A&SUBSYS_167D1043&REV_04\3&11583659&1&B0
+   Driver: C:\WINDOWS\system32\DRIVERS\TeeDriverx64.sys, 9.05.0024.1790 (English), 12/9/2013 16:26:24, 100312 bytes
+   Driver: C:\ProgramData\Microsoft\Windows\DeviceMetadataStore\EN\3f3ca95b-3978-4168-b47b-5444f42d6c89.devicemetadata-ms, 12/9/2013 16:26:24, 938 bytes
+   Driver: C:\ProgramData\Microsoft\Windows\DeviceMetadataStore\EN\46a6fdbe-c823-4579-bab6-35f67e01f793.devicemetadata-ms, 12/9/2013 16:26:24, 833 bytes
+   Driver: C:\WINDOWS\system32\WdfCoInstaller01011.dll, 1.11.9200.16384 (English), 10/18/2013 03:24:36, 1795952 bytes
 
-     Name: Intel(R) HD Graphics 5500
-Device ID: PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09\3&11583659&1&10
+     Name: Intel(R) 8 Series Chipset Family SATA AHCI Controller
+Device ID: PCI\VEN_8086&DEV_9C03&SUBSYS_167D1043&REV_04\3&11583659&1&FA
+   Driver: C:\WINDOWS\system32\DRIVERS\iaStorA.sys, 13.02.0000.1016 (English), 6/26/2014 03:56:54, 670056 bytes
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_9C20&SUBSYS_167D1043&REV_04\3&11583659&1&D8
+   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:18, 79872 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:19, 97280 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:19, 333824 bytes
+
+     Name: Intel(R) 8 Series PCI Express Root Port #4 - 9C16
+Device ID: PCI\VEN_8086&DEV_9C16&SUBSYS_167D1043&REV_E4\3&11583659&1&E3
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10586.0000 (English), 10/30/2015 08:17:23, 330080 bytes
+
+     Name: Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+Device ID: PCI\VEN_8086&DEV_9C31&SUBSYS_201F1043&REV_04\3&11583659&1&A0
+   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.10586.0000 (English), 10/30/2015 08:17:23, 378208 bytes
+
+     Name: Intel(R) HD Graphics Family
+Device ID: PCI\VEN_8086&DEV_0A16&SUBSYS_167D1043&REV_0B\3&11583659&1&10
    Driver: C:\WINDOWS\system32\DRIVERS\igdkmd64.sys, 10.18.0015.4256 (English), 7/17/2015 23:36:32, 6389688 bytes
    Driver: C:\WINDOWS\system32\igd10iumd64.dll, 10.18.0015.4256 (English), 7/17/2015 23:34:24, 13727296 bytes
    Driver: C:\WINDOWS\system32\igd10idpp64.dll, 10.18.0015.4256 (English), 7/17/2015 23:34:24, 284280 bytes
@@ -487,12 +541,12 @@ Device ID: PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09\3&11583659&1&10
    Driver: C:\WINDOWS\system32\igfxEMLib.dll, 1.00.0000.0000 (Invariant Language), 7/17/2015 23:28:06, 10240 bytes
    Driver: C:\WINDOWS\system32\igfxEMLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 7/17/2015 23:28:06, 10240 bytes
    Driver: C:\WINDOWS\system32\GfxUIEx.exe, 6.15.0010.4256 (English), 7/17/2015 23:35:34, 448912 bytes
-   Driver: C:\WINDOWS\system32\Gfxv4_0.exe, 8.15.0010.4256 (Swedish), 7/17/2015 23:35:38, 927120 bytes
+   Driver: C:\WINDOWS\system32\Gfxv4_0.exe, 8.15.0010.4256 (English), 7/17/2015 23:35:38, 927120 bytes
    Driver: C:\WINDOWS\system32\Gfxv4_0.exe.config, 7/17/2015 23:28:06, 935 bytes
-   Driver: C:\WINDOWS\system32\Gfxv2_0.exe, 8.15.0010.4256 (Swedish), 7/17/2015 23:35:36, 923536 bytes
+   Driver: C:\WINDOWS\system32\Gfxv2_0.exe, 8.15.0010.4256 (English), 7/17/2015 23:35:36, 923536 bytes
    Driver: C:\WINDOWS\system32\Gfxv2_0.exe.config, 7/17/2015 23:28:06, 895 bytes
-   Driver: C:\WINDOWS\system32\GfxResources.dll, 8.15.0010.4256 (Swedish), 7/17/2015 23:28:06, 5245440 bytes
-   Driver: C:\WINDOWS\system32\MetroIntelGenericUIFramework.dll, 1.00.0000.0000 (Swedish), 7/17/2015 23:28:06, 624128 bytes
+   Driver: C:\WINDOWS\system32\GfxResources.dll, 8.15.0010.4256 (English), 7/17/2015 23:28:06, 5245440 bytes
+   Driver: C:\WINDOWS\system32\MetroIntelGenericUIFramework.dll, 1.00.0000.0000 (English), 7/17/2015 23:28:06, 624128 bytes
    Driver: C:\WINDOWS\system32\igfxCUIServicePS.dll, 7/17/2015 23:28:06, 86016 bytes
    Driver: C:\WINDOWS\system32\igfxCUIService.exe, 6.15.0010.4256 (English), 7/17/2015 23:35:40, 351120 bytes
    Driver: C:\WINDOWS\system32\igfxCPL.cpl, 7/17/2015 23:28:06, 256000 bytes
@@ -500,9 +554,9 @@ Device ID: PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09\3&11583659&1&10
    Driver: C:\WINDOWS\system32\igfxDTCM.dll, 6.15.0010.4256 (English), 7/17/2015 23:28:06, 243200 bytes
    Driver: C:\WINDOWS\system32\igfxHK.exe, 6.15.0010.4256 (English), 7/17/2015 23:35:48, 249232 bytes
    Driver: C:\WINDOWS\system32\igfxOSP.dll, 6.15.0010.4256 (English), 7/17/2015 23:28:08, 386048 bytes
-   Driver: C:\WINDOWS\system32\DPTopologyApp.exe, 8.15.0010.4256 (Swedish), 7/17/2015 23:35:28, 214416 bytes
+   Driver: C:\WINDOWS\system32\DPTopologyApp.exe, 8.15.0010.4256 (English), 7/17/2015 23:35:28, 214416 bytes
    Driver: C:\WINDOWS\system32\DPTopologyApp.exe.config, 7/17/2015 23:28:06, 935 bytes
-   Driver: C:\WINDOWS\system32\DPTopologyAppv2_0.exe, 8.15.0010.4256 (Swedish), 7/17/2015 23:35:30, 213904 bytes
+   Driver: C:\WINDOWS\system32\DPTopologyAppv2_0.exe, 8.15.0010.4256 (English), 7/17/2015 23:35:30, 213904 bytes
    Driver: C:\WINDOWS\system32\DPTopologyAppv2_0.exe.config, 7/17/2015 23:28:06, 895 bytes
    Driver: C:\WINDOWS\system32\igfxext.exe, 6.15.0010.4256 (English), 7/17/2015 23:35:44, 219024 bytes
    Driver: C:\WINDOWS\system32\igfxexps.dll, 6.15.0010.4256 (English), 7/17/2015 23:34:24, 36616 bytes
@@ -510,8 +564,8 @@ Device ID: PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09\3&11583659&1&10
    Driver: C:\WINDOWS\system32\ImageStabilization.wmv, 7/17/2015 23:28:06, 403671 bytes
    Driver: C:\WINDOWS\system32\FilmModeDetection.wmv, 7/17/2015 23:28:06, 641530 bytes
    Driver: C:\WINDOWS\SysWow64\igfxexps32.dll, 6.15.0010.4256 (English), 7/17/2015 23:03:14, 35328 bytes
-   Driver: C:\WINDOWS\system32\ig8icd64.dll, 10.18.0015.4256 (English), 7/17/2015 23:29:58, 13211648 bytes
-   Driver: C:\WINDOWS\SysWow64\ig8icd32.dll, 10.18.0015.4256 (English), 7/17/2015 23:12:32, 10032128 bytes
+   Driver: C:\WINDOWS\system32\ig75icd64.dll, 10.18.0015.4256 (English), 7/17/2015 23:29:54, 11384832 bytes
+   Driver: C:\WINDOWS\SysWow64\ig75icd32.dll, 10.18.0015.4256 (English), 7/17/2015 23:09:58, 8507392 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\llvm_release_license.txt, 7/17/2015 23:00:02, 1981 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\readme.txt, 7/17/2015 23:00:02, 9788 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\version.ini, 7/17/2015 23:00:02, 34 bytes
@@ -534,8 +588,8 @@ Device ID: PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09\3&11583659&1&10
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_n8.dll, 3.04.0000.0000 (English), 7/17/2015 23:00:02, 5005312 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_g9.dll, 3.04.0000.0000 (English), 7/17/2015 23:00:02, 5342720 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_s9.dll, 3.04.0000.0000 (English), 7/17/2015 23:00:02, 5220864 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbbmalloc.dll, 4.02.2014.0601 (Swedish), 7/17/2015 23:00:04, 191120 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbb.dll, 4.02.2014.0601 (Swedish), 7/17/2015 23:00:04, 342672 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbbmalloc.dll, 4.02.2014.0601 (English), 7/17/2015 23:00:04, 191120 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbb.dll, 4.02.2014.0601 (English), 7/17/2015 23:00:04, 342672 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbb_preview.dll, 4.02.2013.1002 (), 7/17/2015 23:00:04, 338576 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\common\clbltfnshared.rtl, 7/17/2015 23:00:02, 1026520 bytes
    Driver: C:\WINDOWS\system32\Intel_OpenCL_ICD64.dll, 2.00.0002.0000 (English), 7/17/2015 22:58:36, 82432 bytes
@@ -557,8 +611,8 @@ Device ID: PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09\3&11583659&1&10
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_h8.dll, 3.04.0000.0000 (English), 7/17/2015 23:00:02, 5216768 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_e9.dll, 3.04.0000.0000 (English), 7/17/2015 23:00:02, 5727232 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_l9.dll, 3.04.0000.0000 (English), 7/17/2015 23:00:02, 5609984 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbbmalloc.dll, 4.02.2014.0601 (Swedish), 7/17/2015 23:00:02, 231056 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbb.dll, 4.02.2014.0601 (Swedish), 7/17/2015 23:00:02, 421008 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbbmalloc.dll, 4.02.2014.0601 (English), 7/17/2015 23:00:02, 231056 bytes
+   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbb.dll, 4.02.2014.0601 (English), 7/17/2015 23:00:02, 421008 bytes
    Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbb_preview.dll, 4.02.2013.1002 (), 7/17/2015 23:00:02, 416400 bytes
    Driver: C:\WINDOWS\SysWow64\IntelOpenCL32.dll, 10.18.0015.4256 (English), 7/17/2015 23:17:04, 300032 bytes
    Driver: C:\WINDOWS\SysWow64\igdbcl32.dll, 10.18.0015.4256 (English), 7/17/2015 23:17:12, 373248 bytes
@@ -606,10 +660,6 @@ Device ID: PCI\VEN_8086&DEV_1616&SUBSYS_183D1043&REV_09\3&11583659&1&10
    Driver: C:\WINDOWS\system32\igfxCoIn_v4256.dll, 1.03.0004.0000 (English), 6/26/2015 23:03:00, 206848 bytes
    Driver: C:\WINDOWS\system32\DisplayAudiox64.cab, 7/17/2015 22:58:28, 803113 bytes
 
-     Name: PCI Express-rotport
-Device ID: PCI\VEN_8086&DEV_9C96&SUBSYS_183D1043&REV_E3\3&11583659&1&E3
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.10586.0000 (Swedish), 10/30/2015 08:17:23, 330080 bytes
-
 ------------------
 DirectShow Filters
 ------------------
@@ -624,7 +674,6 @@ WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,10.00.10586.0000
 WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,10.00.10586.0000
 Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,10.00.10586.0000
 Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,10.00.10586.0000
-WD Secure Source Filter,0x00200000,0,1,WDSecureSourceFilter.dll,5.01.0028.0000
 DV Muxer,0x00400000,0,0,qdv.dll,10.00.10586.0000
 Color Space Converter,0x00400001,1,1,quartz.dll,10.00.10586.0000
 WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.10586.0000
@@ -654,11 +703,9 @@ Line 21 Decoder,0x00600000,1,1,,
 Video Port Manager,0x00600000,2,1,quartz.dll,10.00.10586.0000
 Video Renderer,0x00400000,1,0,quartz.dll,10.00.10586.0000
 VPS Decoder,0x00200000,0,0,WSTPager.ax,10.00.10586.0000
-Intel® AAC encoder,0x00200000,1,1,intelaac.dll,5.01.0028.0000
 WM ASF Writer,0x00400000,0,0,qasf.dll,12.00.10586.0000
 VBI Surface Allocator,0x00600000,1,1,vbisurf.ax,
 File writer,0x00200000,1,0,qcap.dll,10.00.10586.0000
-Intel® Mux Renderer,0x00200000,2,0,intelmux.dll,5.01.0028.0000
 DVD Navigator,0x00200000,0,3,qdvd.dll,10.00.10586.0035
 Overlay Mixer2,0x00200000,1,1,,
 Microsoft MPEG-2 Audio Encoder,0x00200000,1,1,msmpeg2enc.dll,12.00.10586.0035
@@ -673,7 +720,6 @@ StreamBufferSource,0x00200000,0,0,sbe.dll,10.00.10586.0000
 Smart Tee,0x00200000,1,2,qcap.dll,10.00.10586.0000
 Overlay Mixer,0x00200000,0,0,,
 AVI Decompressor,0x00600000,1,1,quartz.dll,10.00.10586.0000
-WD Audio Filter,0x00200000,0,1,WDAudioFilter.dll,5.01.0028.0000
 AVI/WAV File Source,0x00400000,0,2,quartz.dll,10.00.10586.0000
 Wave Parser,0x00400000,1,1,quartz.dll,10.00.10586.0000
 MIDI Parser,0x00400000,1,1,quartz.dll,10.00.10586.0000
@@ -685,7 +731,6 @@ AVI Mux,0x00200000,1,0,qcap.dll,10.00.10586.0000
 Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.10586.0000
 File Source (Async.),0x00400000,0,1,quartz.dll,10.00.10586.0000
 File Source (URL),0x00400000,0,1,quartz.dll,10.00.10586.0000
-WD Silence Filter,0x00200000,0,1,WDSilenceFilter.dll,5.01.0028.0000
 Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,10.00.10586.0000
 Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.10586.0000
 BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,10.00.10586.0000
@@ -855,7 +900,7 @@ Video Decoders:
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.10586.0000
 Video Encoders:
   Intel® Quick Sync Video H.264 Encoder MFT, {4BE8D3C0-0515-4A37-AD55-E4BAE19AF471}, 0x4, 7, mfx_mft_h264ve_64.dll, 6.15.0007.0007
-  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 10.18.0013.6143
+  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 10.18.0013.5354
   Intel® Hardware H265 Encoder MFT, {BC10864D-2B34-408F-912A-102B1B867B6C}, 0x4, 7, mfx_mft_h265ve_64.dll, 6.15.0007.0007
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.10586.0000
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.10586.0000
@@ -1161,296 +1206,192 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fel-bucket 124587758957, typ 5
-Händelsenamn: PerfWatsonVS12Data
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket 125188834095, type 5
+Event Name: WindowsUpdateFailure3
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: devenv
-P2: 14.0.23107.0
-P3: 0
-P4: PerfWatson2
-P5: 14.0.23107.0
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: 10.0.10586.17
+P2: 8024000b
+P3: 1F12D378-2E6A-423F-B266-7EB52723A56D
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
-Bifogade filer:
-C:\Users\Tim\AppData\Local\Temp\VSTelem.Out\201601081408_D14REL_14.0.23107.0_9be2544f2de84f67afb30ad3942d47bc51844.tcdb
-C:\Users\Tim\AppData\Local\Temp\WER4BDE.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_devenv_da4216ddeccbddca345d568db1c458a97faca_00000000_2cb3087e
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 4c581cb5-b611-11e5-827d-00e04c415a29
-Rapportstatus: 0
-Hash-bucket: c1afeb679ae87721c2aee932b1120bfe
+
 +++ WER1 +++:
-Fel-bucket , typ 0
-Händelsenamn: PerfWatsonVS12Data
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket 125394314297, type 5
+Event Name: WindowsUpdateFailure3
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: devenv
-P2: 14.0.23107.0
-P3: 0
-P4: PerfWatson2
-P5: 14.0.23107.0
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: 10.0.10586.17
+P2: 8024000b
+P3: 7D360EED-100B-467B-B4A4-43BEA4D3E26D
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
-Bifogade filer:
-C:\Users\Tim\AppData\Local\Temp\VSTelem.Out\201601081408_D14REL_14.0.23107.0_9be2544f2de84f67afb30ad3942d47bc51844.tcdb
-C:\Users\Tim\AppData\Local\Temp\WER4BDE.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_devenv_da4216ddeccbddca345d568db1c458a97faca_00000000_cab_c1cc4bee
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 4c581cb5-b611-11e5-827d-00e04c415a29
-Rapportstatus: 4
-Hash-bucket: 
+
 +++ WER2 +++:
-Fel-bucket , typ 0
-Händelsenamn: PnPRequestAdditionalSoftware
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket 125312920920, type 5
+Event Name: WindowsUpdateFailure3
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: x64
-P2: USB\VID_03F0&PID_134A&REV_0100
-P3: 10.0.0.0
-P4: 041D
-P5: input.inf
-P6: *
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: 10.0.10586.17
+P2: 8024000b
+P3: CFCAB6AD-E81B-4E1F-89D8-9FD9AF292F7D
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
-Bifogade filer:
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_7996303a15d3ab3335a43d1f2cada5e4324b4b4e_00000000_379682dd
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 2b5acd9a-b465-11e5-827d-00e04c415a29
-Rapportstatus: 4100
-Hash-bucket: 
+
 +++ WER3 +++:
-Fel-bucket , typ 0
-Händelsenamn: PnPGenericDriverFound
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: x64
-P2: USB\VID_03F0&PID_134A&REV_0100
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: UE4-UnrealProject
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-UnrealProject-9540.dll
+P5: 4.9.2
+P6: 56694c24
+P7: c0000005
+P8: 0000000000006D4C
+P9: !"C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
-Bifogade filer:
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_1ab03a2bc6161ccaf90cec1defa49bca78c57aa_00000000_379682bd
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 2b5acd99-b465-11e5-827d-00e04c415a29
-Rapportstatus: 4100
-Hash-bucket: 
+
 +++ WER4 +++:
-Fel-bucket 128952313613, typ 5
-Händelsenamn: RADAR_PRE_LEAK_WOW64
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: vcpkgsrv.exe
-P2: 12.0.21005.1
-P3: 10.0.10586.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: UE4-UnrealProject
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-UnrealProject-9540.dll
+P5: 4.9.2
+P6: 56694c24
+P7: c0000005
+P8: 0000000000006D4C
+P9: !"C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
-Bifogade filer:
-C:\Users\Tim\AppData\Local\Temp\RDR795B.tmp\empty.txt
-C:\Users\Tim\AppData\Local\Temp\WER795C.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 070adf3e-b463-11e5-827d-00e04c415a29
-Rapportstatus: 0
-Hash-bucket: f0b8472cb012e9262877c71e5a6960ce
+
 +++ WER5 +++:
-Fel-bucket 125026835750, typ 5
-Händelsenamn: MpTelemetry
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: 2152759308
-P2: unspecified
-P3: ScanFile
-P4: 4.9.10586.0
-P5: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
-P6: unspecified
-P7: unspecified
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: UE4-UnrealProject
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-UnrealProject-9540.dll
+P5: 4.9.2
+P6: 56694c24
+P7: c0000005
+P8: 0000000000006D4C
+P9: !"C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
-Bifogade filer:
-C:\Windows\Temp\MPInstrumentation\client_manifest.xml
-C:\Windows\Temp\WERDB46.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_2152759308_6c91a68d9dc3dcb8f81270a751e1bdc7adf683af_00000000_cab_0c0ddb46
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: ea0c2803-b45b-11e5-827d-00e04c415a29
-Rapportstatus: 0
-Hash-bucket: 4e8f2293c25f6ae615cf42d952128d60
+
 +++ WER6 +++:
-Fel-bucket , typ 0
-Händelsenamn: MpTelemetry
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: 2152759308
-P2: unspecified
-P3: ScanFile
-P4: 4.9.10586.0
-P5: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
-P6: unspecified
-P7: unspecified
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: UE4-UnrealProject
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-UnrealProject-9540.dll
+P5: 4.9.2
+P6: 56694c24
+P7: c0000005
+P8: 0000000000006D4C
+P9: !"C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
-Bifogade filer:
-C:\Windows\Temp\MPInstrumentation\client_manifest.xml
-C:\Windows\Temp\WERDB46.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_2152759308_6c91a68d9dc3dcb8f81270a751e1bdc7adf683af_00000000_cab_0c0ddb46
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: ea0c2803-b45b-11e5-827d-00e04c415a29
-Rapportstatus: 4
-Hash-bucket: 
+
 +++ WER7 +++:
-Fel-bucket , typ 0
-Händelsenamn: PnPRequestAdditionalSoftware
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: x64
-P2: USB\VID_03F0&PID_134A&REV_0100
-P3: 10.0.0.0
-P4: 041D
-P5: input.inf
-P6: *
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: UE4-UnrealProject
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-UnrealProject-4529.dll
+P5: 4.9.2
+P6: 56693880
+P7: c0000005
+P8: 0000000000006934
+P9: !"C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
-Bifogade filer:
-C:\Users\Tim\AppData\Local\Temp\WERDD1A.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_7996303a15d3ab3335a43d1f2cada5e4324b4b4e_00000000_cab_3415dd28
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 794ce1eb-b459-11e5-827d-00e04c415a29
-Rapportstatus: 4
-Hash-bucket: 
+
 +++ WER8 +++:
-Fel-bucket , typ 0
-Händelsenamn: PnPGenericDriverFound
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: x64
-P2: USB\VID_03F0&PID_134A&REV_0100
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: UE4-UnrealProject
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-UnrealProject-4529.dll
+P5: 4.9.2
+P6: 56693880
+P7: c0000005
+P8: 0000000000006934
+P9: !"C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
-Bifogade filer:
-C:\Users\Tim\AppData\Local\Temp\WERDCEA.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_1ab03a2bc6161ccaf90cec1defa49bca78c57aa_00000000_cab_3415dcfa
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 794ce1ea-b459-11e5-827d-00e04c415a29
-Rapportstatus: 4
-Hash-bucket: 
+
 +++ WER9 +++:
-Fel-bucket 128949575279, typ 5
-Händelsenamn: RADAR_PRE_LEAK_WOW64
-Svar: Inte tillgänglig
-Kabinett-ID: 0
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Inte tillgänglig
+Cab Id: 0
 
-Problemsignatur:
-P1: eu4.exe
-P2: 1.0.0.0
-P3: 10.0.10586.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+Problem signature:
+P1: UE4-UnrealProject
+P2: 4.9.2
+P3: 56094ebc
+P4: UE4Editor-UnrealProject-4529.dll
+P5: 4.9.2
+P6: 56693880
+P7: c0000005
+P8: 0000000000006934
+P9: !"C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\UnrealProject.uproject" !AssertLog=""
+P10: ++depot+UE4-Releases+4.9!D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/!Editor!2707645
 
-Bifogade filer:
-C:\Users\Tim\AppData\Local\Temp\RDR90D5.tmp\empty.txt
-C:\Users\Tim\AppData\Local\Temp\WER90E6.tmp.WERInternalMetadata.xml
-
-Filerna kan vara tillgängligahär:
-
-
-Analyssymbol: 
-Kontrollerar lösning igen: 0
-Rapport-ID: 054545e7-b151-11e5-827c-9158a5f2d6ea
-Rapportstatus: 0
-Hash-bucket: 13ec40e34473e921d9ea7b7fef69d6ac
+
