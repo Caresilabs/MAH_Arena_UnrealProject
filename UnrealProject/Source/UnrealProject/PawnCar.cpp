@@ -27,12 +27,10 @@ APawnCar::APawnCar()
 	RootComponent = BoxComponent;
 
 	Tags.Add(FName("POI"));
-
 	
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->AttachTo(RootComponent);
 	
-
 	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Movement"));
 	Movement->SetUpdatedComponent(RootComponent);
 }

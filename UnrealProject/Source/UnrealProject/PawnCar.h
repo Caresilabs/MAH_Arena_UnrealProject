@@ -84,6 +84,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Indices)
 	void SetPlayerIndex(int32 index);
 
+	void Thrust(float value);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float ThrustDelay;
+
 private:
 	void AddImpulseCOM(FVector Force);
 
