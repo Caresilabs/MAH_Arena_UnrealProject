@@ -28,7 +28,19 @@ APawnCar::APawnCar()
 
 	Tags.Add(FName("POI"));
 
+	const static auto MeshName = TEXT("StaticMesh'/Game/Models/") + FString::FromInt(PlayerIndex) + "." + FString::FromInt(PlayerIndex);
+
+	struct FConstructorStatics
+	{
+		ConstructorHelpers::FObjectFinderOptional<UStaticMesh> Mesh;
+		FConstructorStatics()
+			: Mesh(MeshName)
+		{
+		}
+	};
+	static FConstructorStatics ConstructorStatics;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
+	StaticMesh->SetStaticMesh(ConstructorStatics.Mesh.Get());
 	StaticMesh->AttachTo(RootComponent);
 
 	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Movement"));
@@ -39,6 +51,7 @@ APawnCar::APawnCar()
 void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
+	BoxComponent->SetAngularDamping(2.5f);
 }
 
 
@@ -210,39 +223,28 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 			return;
 
 		//FVector Impulse = FVector(- FVector::DotProduct(GetMovementComponent()->Velocity, HitNormal) * GetMovementComponent()->Velocity * 1000.0f);
-
 		//FVector RelativeVelocity = GetMovementComponent()->Velocity - OtherCar->GetMovementComponent()->Velocity;
-
 		//float VelAlongNormal = FVector::DotProduct(RelativeVelocity, HitNormal);
-
 		//float J = -(1 + 1) * VelAlongNormal;
-
 		
-
 		float DamageToTake = FMath::Abs( FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) / 100.f );
 		OtherCar->Damage(DamageToTake);
-		UE_LOG(LogTemp, Log, TEXT("Actor: %s .. damage taken %f"), *GetActorLabel(), DamageToTake);
-
 
 		FVector Impulse = FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) * GetMovementComponent()->Velocity;	//J * HitNormal;
 
 		OtherCar->ApplyImpulse(Impulse * -0.05f, true);
-
 	}
 }
 
 void APawnCar::SetRotationDirection(FRotator RotationDirection)
 {
-	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 18000000, -RotationDirection.Pitch * 7000000, RotationDirection.Yaw)));
+	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 27000000, -RotationDirection.Pitch * 17000000, RotationDirection.Yaw)));
 }
 
 void APawnCar::SetDirection(FVector Direction)
 {
 	if (IsOnGround)
-	{
 		this->Direction = Direction;
-
-	}
 	else
 		this->Direction = FVector(0, 0, 0);
 }
