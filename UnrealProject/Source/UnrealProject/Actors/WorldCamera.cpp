@@ -33,7 +33,7 @@ void AWorldCamera::Tick( float delta ) {
 	
 	auto NewLocation = Average + (GetActorForwardVector() * -MaxDistance* 1.15f);
 
-	SetActorLocation( FMath::Lerp( GetActorLocation(), NewLocation, delta * 5.f) );
+	SetActorLocation( FMath::Lerp( GetActorLocation(), NewLocation, delta * 9.f) );
 
 }
 
