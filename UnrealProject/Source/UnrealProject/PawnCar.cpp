@@ -28,19 +28,11 @@ APawnCar::APawnCar()
 
 	Tags.Add(FName("POI"));
 
-	const static auto MeshName = TEXT("StaticMesh'/Game/Models/") + FString::FromInt(PlayerIndex) + "." + FString::FromInt(PlayerIndex);
+	//const static auto MeshName = TEXT("StaticMesh'/Game/Models/") + FString::FromInt(PlayerIndex) + "." + FString::FromInt(PlayerIndex);
 
-	struct FConstructorStatics
-	{
-		ConstructorHelpers::FObjectFinderOptional<UStaticMesh> Mesh;
-		FConstructorStatics()
-			: Mesh(MeshName)
-		{
-		}
-	};
-	static FConstructorStatics ConstructorStatics;
+	//static FConstructorStatics ConstructorStatics;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
-	StaticMesh->SetStaticMesh(ConstructorStatics.Mesh.Get());
+	//StaticMesh->SetStaticMesh(ConstructorStatics.Mesh.Get());
 	StaticMesh->AttachTo(RootComponent);
 
 	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Movement"));

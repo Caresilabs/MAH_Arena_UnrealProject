@@ -84,6 +84,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 PlayerIndex;
 
+	void Thrust(float value);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float ThrustDelay;
+
 private:
 	void AddImpulseCOM(FVector Force);
 
