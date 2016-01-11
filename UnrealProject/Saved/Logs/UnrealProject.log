@@ -218,4 +218,614 @@
 [2016.01.11-09.27.36:089][486]CompilerResultsLog: Info Compiling game modules for hot reload
 [2016.01.11-09.27.36:089][486]CompilerResultsLog: Info Target is up to date.
 [2016.01.11-09.27.36:089][486]LogMainFrame: MainFrame: Module compiling took 0.659 seconds
-[2016.01.11-09.27.36:780][558]LogParticles: Destroying 0 GPU particle simulations for FXSy
+[2016.01.11-09.27.36:780][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F0CD645E0
+[2016.01.11-09.27.38:011][558]LogSavePackage: Save=80.736465ms
+[2016.01.11-09.27.38:011][558]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBP211F26244A51E9D1F7166791BB75EB59.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.27.38:014][558]LogSavePackage: Total save time: 112.003542ms
+[2016.01.11-09.27.38:014][558]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.27.38:021][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/WinScreen" FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset" SILENT=true
+[2016.01.11-09.27.38:055][558]LogSavePackage: Save=12.652803ms
+[2016.01.11-09.27.38:055][558]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/WinScreen34DB932B43462BE2D6D57E94048129C1.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset'
+[2016.01.11-09.27.38:057][558]LogSavePackage: Total save time: 34.997065ms
+[2016.01.11-09.27.38:057][558]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset
+[2016.01.11-09.27.38:158][558]LogSavePackage: Save=39.507366ms
+[2016.01.11-09.27.38:158][558]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel440A844641D8352BC378DB92CCC39370.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.27.38:159][558]LogSavePackage: Total save time: 58.545019ms
+[2016.01.11-09.27.38:159][558]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.29.06:817][260]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.01.11-09.29.06:818][260]Recompiling UnrealProject...
+[2016.01.11-09.29.06:819][260]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 71 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.29.06:820][260]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.29.07:470][319]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:29:07 AM
+[2016.01.11-09.29.07:470][319]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.29.07:470][319]CompilerResultsLog: Info Target is up to date.
+[2016.01.11-09.29.07:470][319]LogMainFrame: MainFrame: Module compiling took 0.653 seconds
+[2016.01.11-09.29.10:817][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.29.10:936][713]LogSavePackage: Save=39.171234ms
+[2016.01.11-09.29.10:936][713]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel63D05DF24C044077E905D0BEAD425D87.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.29.10:937][713]LogSavePackage: Total save time: 62.407289ms
+[2016.01.11-09.29.10:937][713]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.30.09:177][806]LogActor:Warning: GameNetworkManager /Engine/Transient.World_11:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.31.10:627][202]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_74.EdGraphPin_30060''
+[2016.01.11-09.31.10:627][202]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_74.EdGraphPin_30058''
+[2016.01.11-09.31.10:627][202]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3052.EdGraphPin_12619''
+[2016.01.11-09.31.10:627][202]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3055.EdGraphPin_12648''
+[2016.01.11-09.31.28:946][374]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.31.29:045][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.31.29:067][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F42639E40
+[2016.01.11-09.31.29:067][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F331182C0
+[2016.01.11-09.31.29:075][374]BlueprintEditorCompileResults: Info [0981.51] Compile of UnrealProjectGameModeBP successful! [in 129 ms]
+[2016.01.11-09.31.32:693][632]LogSavePackage: Save=85.161522ms
+[2016.01.11-09.31.32:693][632]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBPB8C0504B437C8AFBF013E2B389EF3F10.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.31.32:696][632]LogSavePackage: Total save time: 110.964634ms
+[2016.01.11-09.31.32:696][632]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.31.32:791][632]LogSavePackage: Save=38.031399ms
+[2016.01.11-09.31.32:791][632]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelF05B2EA44269479930E8A4BDDD953BFC.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.31.32:793][632]LogSavePackage: Total save time: 58.676451ms
+[2016.01.11-09.31.32:793][632]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.32.35:027][351]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.32.36:872][526]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.32.41:092][926]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.32.41:138][926]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.32.41:323][942]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.32.50:814][844]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.32.59:882][876]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.10:555][ 16]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.19:389][997]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.23:334][425]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.37:117][907]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.42:084][466]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.49:048][228]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.51:308][475]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.33.55:021][898]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.33.55:159][898]BlueprintEditorCompileResults: Info [1127.60] Compile of UnrealProjectGameModeBP successful! [in 137 ms]
+[2016.01.11-09.34.02:213][134]LogSavePackage: Save=89.905609ms
+[2016.01.11-09.34.02:213][134]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBP84FFEE3D4CA71452832A2DA7AEA34041.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.34.02:215][134]LogSavePackage: Total save time: 119.697861ms
+[2016.01.11-09.34.02:215][134]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.34.02:336][134]LogSavePackage: Save=48.150219ms
+[2016.01.11-09.34.02:336][134]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel3322C92F42856CCA12755C84C64F6804.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.34.02:337][134]LogSavePackage: Total save time: 75.291879ms
+[2016.01.11-09.34.02:337][134]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.34.32:623][501]LogActor:Warning: GameNetworkManager /Engine/Transient.World_12:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.35.07:129][506]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.35.07:229][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.35.07:258][506]BlueprintEditorCompileResults: Info [1199.69] Compile of UnrealProjectGameModeBP successful! [in 128 ms]
+[2016.01.11-09.35.09:300][564]LogSavePackage: Save=94.853546ms
+[2016.01.11-09.35.09:300][564]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBP7ECFDE3641ED86A4F6D75B9563214F35.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.35.09:303][564]LogSavePackage: Total save time: 119.819883ms
+[2016.01.11-09.35.09:303][564]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.35.09:409][564]LogSavePackage: Save=40.888969ms
+[2016.01.11-09.35.09:409][564]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel7539DB264F64A5F6F32A68956B4428D8.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.35.09:410][564]LogSavePackage: Total save time: 60.564108ms
+[2016.01.11-09.35.09:410][564]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.35.29:851][764]LogSavePackage: Save=39.514210ms
+[2016.01.11-09.35.29:851][764]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevel_Auto1B0AF35FE421184E1629B5EBE44432C76.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/StartLevel_Auto1.umap'
+[2016.01.11-09.35.29:853][764]LogSavePackage: Total save time: 63.640922ms
+[2016.01.11-09.35.29:853][764]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/StartLevel_Auto1.umap
+[2016.01.11-09.35.29:854][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StartLevel' took 0.093
+[2016.01.11-09.35.29:854][764]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
+[2016.01.11-09.36.32:793][787]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.36.32:924][787]BlueprintEditorCompileResults: Info [1285.36] Compile of UnrealProjectGameModeBP successful! [in 131 ms]
+[2016.01.11-09.36.34:905][864]LogSavePackage: Save=92.456131ms
+[2016.01.11-09.36.34:905][864]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBPFD47A54746041108187E45B5E5BF75C4.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.36.34:907][864]LogSavePackage: Total save time: 118.018042ms
+[2016.01.11-09.36.34:907][864]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.36.35:015][864]LogSavePackage: Save=39.378788ms
+[2016.01.11-09.36.35:015][864]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelC930522C4A4EFFDECBF9E49274086A98.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.36.35:016][864]LogSavePackage: Total save time: 60.635954ms
+[2016.01.11-09.36.35:016][864]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.37.30:539][ 60]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.37:145][655]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.37:157][655]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.37:169][655]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.37:215][655]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.37:524][682]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.40:757][942]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.41:719][ 24]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.37.55:162][443]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_74.EdGraphPin_30526''
+[2016.01.11-09.37.55:162][443]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_74.EdGraphPin_30524''
+[2016.01.11-09.37.55:162][443]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3055.EdGraphPin_30553''
+[2016.01.11-09.37.55:162][443]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3052.EdGraphPin_30539''
+[2016.01.11-09.38.04:454][492]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.38.17:474][875]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.39.06:361][123]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.39.06:501][123]BlueprintEditorCompileResults: Info [1438.94] Compile of UnrealProjectGameModeBP successful! [in 139 ms]
+[2016.01.11-09.39.27:123][377]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.39.27:257][377]BlueprintEditorCompileResults: Info [1459.69] Compile of UnrealProjectGameModeBP successful! [in 134 ms]
+[2016.01.11-09.39.29:798][467]LogSavePackage: Save=101.398621ms
+[2016.01.11-09.39.29:798][467]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBP3066A4EA41E081B732E5C0B994C79D26.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.39.29:801][467]LogSavePackage: Total save time: 131.732281ms
+[2016.01.11-09.39.29:801][467]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.39.29:911][467]LogSavePackage: Save=41.461739ms
+[2016.01.11-09.39.29:911][467]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelF6BFD0F343B3CA0E30FE8FABC1846397.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.39.29:913][467]LogSavePackage: Total save time: 61.067596ms
+[2016.01.11-09.39.29:913][467]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.39.55:223][ 43]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.40.26:803][519]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.40.26:939][519]BlueprintEditorCompileResults: Info [1519.37] Compile of UnrealProjectGameModeBP successful! [in 136 ms]
+[2016.01.11-09.40.29:444][586]LogSavePackage: Save=98.836418ms
+[2016.01.11-09.40.29:445][586]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBPBF18C06B4C5C840592D23B9FCEE95BF9.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.40.29:447][586]LogSavePackage: Total save time: 124.416575ms
+[2016.01.11-09.40.29:447][586]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.40.29:550][586]LogSavePackage: Save=42.055889ms
+[2016.01.11-09.40.29:550][586]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelFD35940048D613B888DA60A8B47525EF.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.40.29:551][586]LogSavePackage: Total save time: 62.228817ms
+[2016.01.11-09.40.29:551][586]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.41.10:973][ 43]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.41.11:109][ 43]BlueprintEditorCompileResults: Info [1563.54] Compile of UnrealProjectGameModeBP successful! [in 135 ms]
+[2016.01.11-09.41.13:069][130]LogSavePackage: Save=102.253075ms
+[2016.01.11-09.41.13:069][130]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBPE0575B7F4B4DF02FC0397D86A100994A.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.41.13:071][130]LogSavePackage: Total save time: 128.142282ms
+[2016.01.11-09.41.13:071][130]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.41.13:169][130]LogSavePackage: Save=42.132298ms
+[2016.01.11-09.41.13:169][130]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel0AA525C44447D1D9B3A5989AB4AF8356.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.41.13:171][130]LogSavePackage: Total save time: 61.502375ms
+[2016.01.11-09.41.13:171][130]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.42.02:694][167]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/Globals.Globals_C'
+[2016.01.11-09.42.09:924][879]LogEditorTransaction: Undo Delete current selection
+[2016.01.11-09.42.12:060][ 60]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.42.13:653][206]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.42.22:430][ 98]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_74.EdGraphPin_32502''
+[2016.01.11-09.42.22:431][ 98]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_74.EdGraphPin_32500''
+[2016.01.11-09.42.22:431][ 98]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3055.EdGraphPin_32529''
+[2016.01.11-09.42.22:431][ 98]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3052.EdGraphPin_32515''
+[2016.01.11-09.42.46:068][470]LogSavePackage: Save=40.780914ms
+[2016.01.11-09.42.46:068][470]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevelD90A0629458EE8FDD091A5A541DFC599.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-09.42.46:070][470]LogSavePackage: Total save time: 69.000546ms
+[2016.01.11-09.42.46:070][470]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-09.42.46:097][470]LogFileHelpers: Saving map 'StartLevel' took 0.169
+[2016.01.11-09.42.46:212][470]LogSavePackage: Save=91.522423ms
+[2016.01.11-09.42.46:212][470]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBPF369D5C6428AE42A86946690E317D629.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.42.46:215][470]LogSavePackage: Total save time: 111.740395ms
+[2016.01.11-09.42.46:215][470]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.42.46:470][499]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.42.46:596][499]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F3B86DF80
+[2016.01.11-09.42.46:596][499]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F1BF57C40
+[2016.01.11-09.42.46:606][499]BlueprintEditorCompileResults: Info [1659.04] Compile of UnrealProjectGameModeBP successful! [in 136 ms]
+[2016.01.11-09.42.48:753][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F644C6160
+[2016.01.11-09.42.48:855][732]LogSavePackage: Save=38.413147ms
+[2016.01.11-09.42.48:855][732]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelF54253574DFCCACB6FE2F69D92D61AC8.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.42.48:856][732]LogSavePackage: Total save time: 57.051085ms
+[2016.01.11-09.42.48:856][732]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.43.14:827][ 71]LogActor:Warning: GameNetworkManager /Engine/Transient.World_13:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.43.46:895][682]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.43.46:993][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.43.47:022][682]BlueprintEditorCompileResults: Info [1719.46] Compile of UnrealProjectGameModeBP successful! [in 126 ms]
+[2016.01.11-09.43.49:264][787]LogSavePackage: Save=87.190872ms
+[2016.01.11-09.43.49:264][787]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBPCC315225454C9C55F12AE29E28D65FE2.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.43.49:266][787]LogSavePackage: Total save time: 112.568613ms
+[2016.01.11-09.43.49:266][787]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.43.49:386][787]LogSavePackage: Save=52.413910ms
+[2016.01.11-09.43.49:386][787]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel36C4547849C322F619DAF49DDF22FE48.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.43.49:388][787]LogSavePackage: Total save time: 83.736867ms
+[2016.01.11-09.43.49:388][787]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.44.40:465][ 86]LogSavePackage: Save=43.902779ms
+[2016.01.11-09.44.40:465][ 86]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevel4B6B0016468E67D436BE81B1BDA3086B.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-09.44.40:467][ 86]LogSavePackage: Total save time: 78.901265ms
+[2016.01.11-09.44.40:467][ 86]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-09.44.40:493][ 86]LogFileHelpers: Saving map 'StartLevel' took 0.191
+[2016.01.11-09.44.54:297][976]LogRenderer: Reallocating scene render targets to support 1472x712 (Frame:57933).
+[2016.01.11-09.47.37:824][ 58]LogEditorTransaction: Undo Set float key value
+[2016.01.11-09.47.39:412][ 59]LogEditorTransaction: Undo Animatable Property Changed
+[2016.01.11-09.47.48:951][865]LogEditorTransaction: Undo Animatable Property Changed
+[2016.01.11-09.49.15:938][194]BlueprintLog: New page: Compile WinScreen
+[2016.01.11-09.49.16:001][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.49.16:022][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F62ADD940
+[2016.01.11-09.49.16:041][194]BlueprintEditorCompileResults: Info [2048.48] Compile of WinScreen successful! [in 102 ms]
+[2016.01.11-09.49.33:636][727]BlueprintLog: New page: Compile WinScreen
+[2016.01.11-09.49.33:701][727]BlueprintEditorCompileResults: Info [2066.14] Compile of WinScreen successful! [in 64 ms]
+[2016.01.11-09.49.45:744][953]LogActor:Warning: GameNetworkManager /Engine/Transient.World_18:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.50.23:613][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.50.23:633][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F576AC680
+[2016.01.11-09.50.23:634][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F331185E0
+[2016.01.11-09.50.23:635][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F3311B6A0
+[2016.01.11-09.50.23:636][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F576AC860
+[2016.01.11-09.50.23:783][230]LogSavePackage: Save=89.879379ms
+[2016.01.11-09.50.23:783][230]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBP3A5FD2CD43F1778B981AF2A3DDD6E366.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.50.23:786][230]LogSavePackage: Total save time: 120.199639ms
+[2016.01.11-09.50.23:786][230]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.50.23:791][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/WinScreen" FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset" SILENT=true
+[2016.01.11-09.50.23:827][230]LogSavePackage: Save=13.808320ms
+[2016.01.11-09.50.23:827][230]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/WinScreen7E9847B14CD2A9B83CFB848007CFF6A5.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset'
+[2016.01.11-09.50.23:829][230]LogSavePackage: Total save time: 36.698550ms
+[2016.01.11-09.50.23:829][230]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset
+[2016.01.11-09.50.24:698][331]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.50.24:827][331]BlueprintEditorCompileResults: Info [2117.26] Compile of UnrealProjectGameModeBP successful! [in 129 ms]
+[2016.01.11-09.50.28:686][743]LogActor:Warning: GameNetworkManager /Engine/Transient.World_19:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.50.46:638][708]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'WinScreen', cached variable property's owner is '/Game/GUI/WinScreen.SKEL_WinScreen_C'
+[2016.01.11-09.50.47:070][755]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'WinScreen', cached variable property's owner is '/Game/GUI/WinScreen.SKEL_WinScreen_C'
+[2016.01.11-09.50.48:763][957]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'WinScreen', cached variable property's owner is '/Game/GUI/WinScreen.SKEL_WinScreen_C'
+[2016.01.11-09.50.48:774][958]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'WinScreen', cached variable property's owner is '/Game/GUI/WinScreen.SKEL_WinScreen_C'
+[2016.01.11-09.51.06:125][  6]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'WinScreen', cached variable property's owner is '/Game/GUI/WinScreen.SKEL_WinScreen_C'
+[2016.01.11-09.51.18:072][435]BlueprintLog: New page: Compile WinScreen
+[2016.01.11-09.51.18:110][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.51.18:129][435]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F445ACA40
+[2016.01.11-09.51.18:131][435]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F54D87F60
+[2016.01.11-09.51.18:137][435]BlueprintEditorCompileResults: Info [2170.57] Compile of WinScreen successful! [in 64 ms]
+[2016.01.11-09.51.20:220][670]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F0116E160
+[2016.01.11-09.51.20:221][670]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F0116F2E0
+[2016.01.11-09.51.21:167][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/WinScreen" FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset" SILENT=true
+[2016.01.11-09.51.21:203][670]LogSavePackage: Save=16.210585ms
+[2016.01.11-09.51.21:203][670]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/WinScreen2DDF49D0454319E882F95EB6356C23B9.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset'
+[2016.01.11-09.51.21:205][670]LogSavePackage: Total save time: 36.748439ms
+[2016.01.11-09.51.21:205][670]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset
+[2016.01.11-09.51.21:313][670]LogSavePackage: Save=40.716766ms
+[2016.01.11-09.51.21:314][670]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel43188EE6487194A272C09DAD8DE111C9.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.51.21:315][670]LogSavePackage: Total save time: 62.961813ms
+[2016.01.11-09.51.21:315][670]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.51.54:414][144]LogSavePackage: Save=40.960529ms
+[2016.01.11-09.51.54:414][144]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevelA9942513406FE9E2774353ABA0EBCE01.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-09.51.54:416][144]LogSavePackage: Total save time: 66.209689ms
+[2016.01.11-09.51.54:416][144]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-09.51.54:442][144]LogFileHelpers: Saving map 'StartLevel' took 0.175
+[2016.01.11-09.51.54:446][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/WinScreen" FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset" SILENT=true
+[2016.01.11-09.51.54:480][144]LogSavePackage: Save=14.370825ms
+[2016.01.11-09.51.54:480][144]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/WinScreenD0F463B645CEE3FE5014458EEB236454.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset'
+[2016.01.11-09.51.54:482][144]LogSavePackage: Total save time: 34.012035ms
+[2016.01.11-09.51.54:482][144]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/WinScreen.uasset
+[2016.01.11-09.51.55:457][260]BlueprintLog: New page: Compile WinScreen
+[2016.01.11-09.51.55:519][260]BlueprintEditorCompileResults: Info [2207.96] Compile of WinScreen successful! [in 62 ms]
+[2016.01.11-09.51.59:364][683]LogActor:Warning: GameNetworkManager /Engine/Transient.World_24:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.52.00:516][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1692.EdGraphPin_36432''
+[2016.01.11-09.52.00:516][809]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_DynamicCast_665.EdGraphPin_11929) from referencer (EdGraphPin /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP:EventGraph.K2Node_CallFunction_4139.EdGraphPin_36426).  Import failed...
+[2016.01.11-09.52.00:516][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_665.EdGraphPin_11929''
+[2016.01.11-09.52.00:516][809]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionEntry_216.EdGraphPin_7962) from referencer (EdGraphPin /Game/Blueprints/UnrealProjectGameModeBP.UnrealProjectGameModeBP:EventGraph.K2Node_CallFunction_4139.EdGraphPin_36425).  Import failed...
+[2016.01.11-09.52.00:516][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_216.EdGraphPin_7962''
+[2016.01.11-09.52.00:516][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4139.EdGraphPin_36428''
+[2016.01.11-09.52.00:570][809]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.52.02:335][ 19]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/Blueprints/UnrealProjectGameModeBP.SKEL_UnrealProjectGameModeBP_C'
+[2016.01.11-09.52.11:444][ 48]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/GUI/WinScreen.WinScreen_C'
+[2016.01.11-09.52.22:908][354]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/GUI/WinScreen.WinScreen_C'
+[2016.01.11-09.52.33:975][643]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'UnrealProjectGameModeBP', cached variable property's owner is '/Game/GUI/WinScreen.WinScreen_C'
+[2016.01.11-09.53.04:765][205]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.53.04:868][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.53.04:890][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F1C202160
+[2016.01.11-09.53.04:899][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F1C200400
+[2016.01.11-09.53.04:899][205]BlueprintEditorCompileResults: Info [2277.34] Compile of UnrealProjectGameModeBP successful! [in 135 ms]
+[2016.01.11-09.53.09:832][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F1C201B20
+[2016.01.11-09.53.09:984][751]LogSavePackage: Save=88.700775ms
+[2016.01.11-09.53.09:985][751]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBP7B483B9741932FBAD1113098FB8E33E9.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.53.09:987][751]LogSavePackage: Total save time: 127.108503ms
+[2016.01.11-09.53.09:987][751]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.53.10:559][798]LogSavePackage: Save=48.647152ms
+[2016.01.11-09.53.10:559][798]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel4C9CEF2149B414AD04805EB099E21B2E.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.53.10:560][798]LogSavePackage: Total save time: 67.690503ms
+[2016.01.11-09.53.10:560][798]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.54.40:124][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.54.40:293][397]LogSavePackage: Save=39.121056ms
+[2016.01.11-09.54.40:293][397]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevelFD06265A4B276F1F31EC9F959CB1E200.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-09.54.40:296][397]LogSavePackage: Total save time: 64.314332ms
+[2016.01.11-09.54.40:296][397]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-09.54.40:321][397]LogFileHelpers: Saving map 'StartLevel' took 0.160
+[2016.01.11-09.54.43:585][733]LogActor:Warning: GameNetworkManager /Engine/Transient.World_25:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.54.49:894][349]BlueprintLog: New page: Compile UnrealProjectGameModeBP
+[2016.01.11-09.54.49:993][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.54.50:023][349]BlueprintEditorCompileResults: Info [2382.46] Compile of UnrealProjectGameModeBP successful! [in 129 ms]
+[2016.01.11-09.54.57:281][166]LogAIModule: Creating AISystem for world BattleBlock
+[2016.01.11-09.54.57:295][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.54.57:315][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F420AE2A0
+[2016.01.11-09.54.58:535][166]LogSavePackage: Save=88.730141ms
+[2016.01.11-09.54.58:535][166]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UnrealProjectGameModeBP382F0C814BF3D52A23E40B9D11931AD8.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset'
+[2016.01.11-09.54.58:538][166]LogSavePackage: Total save time: 109.061867ms
+[2016.01.11-09.54.58:538][166]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/UnrealProjectGameModeBP.uasset
+[2016.01.11-09.54.58:539][166]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/BattleBlock.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.11-09.54.58:539][166]LightingResults: New page: Lighting Build
+[2016.01.11-09.54.58:551][166]LoadErrors: New page: Loading map: BattleBlock.umap
+[2016.01.11-09.54.58:551][166]MapCheck: New page: Map Check
+[2016.01.11-09.54.58:551][166]LightingResults: New page: Lighting Build
+[2016.01.11-09.54.58:570][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F1E7E7420
+[2016.01.11-09.54.58:651][166]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.11-09.54.58:678][166]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.11-09.54.58:729][166]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.576ms to complete.
+[2016.01.11-09.54.58:729][166]LogFileHelpers: Loading map 'BattleBlock' took 0.192
+[2016.01.11-09.55.24:073][112]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.01.11-09.55.24:076][112]Recompiling UnrealProject...
+[2016.01.11-09.55.24:076][112]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 1223 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.55.24:077][112]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.55.24:740][173]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:55:24 AM
+[2016.01.11-09.55.24:740][173]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.55.24:740][173]CompilerResultsLog: Info Target is up to date.
+[2016.01.11-09.55.24:740][173]LogMainFrame: MainFrame: Module compiling took 0.667 seconds
+[2016.01.11-09.55.28:267][567]LogSavePackage: Save=99.073051ms
+[2016.01.11-09.55.28:268][567]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/BattleBlockC4996CDD41230783FC5A9DAF3D9B4154.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/BattleBlock.umap'
+[2016.01.11-09.55.28:270][567]LogSavePackage: Total save time: 129.650753ms
+[2016.01.11-09.55.28:271][567]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/BattleBlock.umap
+[2016.01.11-09.55.28:297][567]LogFileHelpers: Saving map 'BattleBlock' took 0.232
+[2016.01.11-09.55.29:018][651]LogAIModule: Creating AISystem for world StartLevel
+[2016.01.11-09.55.29:042][651]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.11-09.55.29:042][651]LightingResults: New page: Lighting Build
+[2016.01.11-09.55.29:055][651]LoadErrors: New page: Loading map: StartLevel.umap
+[2016.01.11-09.55.29:056][651]MapCheck: New page: Map Check
+[2016.01.11-09.55.29:056][651]LightingResults: New page: Lighting Build
+[2016.01.11-09.55.29:074][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F20936700
+[2016.01.11-09.55.29:158][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.11-09.55.29:184][651]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.11-09.55.29:232][651]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.324ms to complete.
+[2016.01.11-09.55.29:233][651]LogFileHelpers: Loading map 'StartLevel' took 0.193
+[2016.01.11-09.55.30:145][735]LogSavePackage: Save=39.815845ms
+[2016.01.11-09.55.30:145][735]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelFB4328BE422CC2CD9507E4B210C2810F.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.55.30:146][735]LogSavePackage: Total save time: 58.905959ms
+[2016.01.11-09.55.30:146][735]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-09.56.04:172][287]LogSavePackage: Save=40.152554ms
+[2016.01.11-09.56.04:172][287]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevel9B8B98A14EBA29898AFA2393C61FED94.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-09.56.04:174][287]LogSavePackage: Total save time: 65.370347ms
+[2016.01.11-09.56.04:174][287]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-09.56.04:200][287]LogFileHelpers: Saving map 'StartLevel' took 0.166
+[2016.01.11-09.56.05:316][415]LogAIModule: Creating AISystem for world BattleBlock
+[2016.01.11-09.56.05:348][415]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/BattleBlock.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.11-09.56.05:348][415]LightingResults: New page: Lighting Build
+[2016.01.11-09.56.05:360][415]LoadErrors: New page: Loading map: BattleBlock.umap
+[2016.01.11-09.56.05:361][415]MapCheck: New page: Map Check
+[2016.01.11-09.56.05:361][415]LightingResults: New page: Lighting Build
+[2016.01.11-09.56.05:379][415]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F209FD620
+[2016.01.11-09.56.05:480][415]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.11-09.56.05:507][415]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.11-09.56.05:555][415]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.454ms to complete.
+[2016.01.11-09.56.05:556][415]LogFileHelpers: Loading map 'BattleBlock' took 0.210
+[2016.01.11-09.56.11:508][101]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.01.11-09.56.11:510][101]Recompiling UnrealProject...
+[2016.01.11-09.56.11:511][101]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 3301 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.56.11:512][101]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.56.12:169][161]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:56:12 AM
+[2016.01.11-09.56.12:169][161]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.56.12:169][161]CompilerResultsLog: Info Target is up to date.
+[2016.01.11-09.56.12:169][161]LogMainFrame: MainFrame: Module compiling took 0.661 seconds
+[2016.01.11-09.56.13:910][340]LogSavePackage: Save=103.652061ms
+[2016.01.11-09.56.13:910][340]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/BattleBlock3D20332C462AB2C6E03E7B8AB2592259.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/BattleBlock.umap'
+[2016.01.11-09.56.13:912][340]LogSavePackage: Total save time: 135.451999ms
+[2016.01.11-09.56.13:912][340]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/BattleBlock.umap
+[2016.01.11-09.56.13:939][340]LogFileHelpers: Saving map 'BattleBlock' took 0.237
+[2016.01.11-09.56.14:354][388]LogAIModule: Creating AISystem for world StartLevel
+[2016.01.11-09.56.14:379][388]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.11-09.56.14:379][388]LightingResults: New page: Lighting Build
+[2016.01.11-09.56.14:391][388]LoadErrors: New page: Loading map: StartLevel.umap
+[2016.01.11-09.56.14:392][388]MapCheck: New page: Map Check
+[2016.01.11-09.56.14:392][388]LightingResults: New page: Lighting Build
+[2016.01.11-09.56.14:410][388]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F17BB93A0
+[2016.01.11-09.56.14:518][388]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.11-09.56.14:545][388]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.11-09.56.14:595][388]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.062ms to complete.
+[2016.01.11-09.56.14:596][388]LogFileHelpers: Loading map 'StartLevel' took 0.219
+[2016.01.11-09.56.15:662][488]LogSavePackage: Save=49.583138ms
+[2016.01.11-09.56.15:662][488]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelD975377D42D65BFFADBA65ABC8532E82.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-09.56.15:663][488]LogSavePackage: Total save time: 81.513081ms
+[2016.01.11-09.56.15:663][488]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-10.06.18:820][305]LogSavePackage: Save=39.801308ms
+[2016.01.11-10.06.18:820][305]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevelF8E7BCF54F931734A4A616A789ECFC91.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-10.06.18:823][305]LogSavePackage: Total save time: 69.449581ms
+[2016.01.11-10.06.18:823][305]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-10.06.18:850][305]LogFileHelpers: Saving map 'StartLevel' took 0.173
+[2016.01.11-10.06.30:925][733]LogSavePackage: Save=40.731022ms
+[2016.01.11-10.06.30:925][733]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelEBA5BCBF49E6271205CC1DA324FC79FC.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-10.06.30:926][733]LogSavePackage: Total save time: 60.387347ms
+[2016.01.11-10.06.30:926][733]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-10.06.57:916][259]LogSavePackage: Save=39.174938ms
+[2016.01.11-10.06.57:917][259]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevelA3CBB5CB4A6353618FB0AE88B159AFCA.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-10.06.57:919][259]LogSavePackage: Total save time: 65.159090ms
+[2016.01.11-10.06.57:919][259]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-10.06.57:945][259]LogFileHelpers: Saving map 'StartLevel' took 0.166
+[2016.01.11-10.14.04:745][448]LogSavePackage: Save=40.917480ms
+[2016.01.11-10.14.04:745][448]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel3F6E57064DB8E5C6BBA8648D213325C8.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-10.14.04:745][448]LogSavePackage: Total save time: 63.567653ms
+[2016.01.11-10.14.04:745][448]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-10.25.19:187][ 83]LogSavePackage: Save=40.013706ms
+[2016.01.11-10.25.19:187][ 83]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevel59C93DBE422CF44BDD6FB49FF6DBDAFF.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-10.25.19:190][ 83]LogSavePackage: Total save time: 71.253419ms
+[2016.01.11-10.25.19:190][ 83]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-10.25.19:217][ 83]LogFileHelpers: Saving map 'StartLevel' took 0.177
+[2016.01.11-10.25.20:797][230]Cmd: QUIT_EDITOR
+[2016.01.11-10.25.20:917][230]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.11-10.25.21:015][230]LogExit: Preparing to exit.
+[2016.01.11-10.25.21:709][230]LogExit: Editor shut down
+[2016.01.11-10.25.21:709][230]LogExit: Transaction tracking system shut down
+[2016.01.11-10.25.21:711][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F209FDBC0
+[2016.01.11-10.25.21:712][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F262A3600
+[2016.01.11-10.25.21:713][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F209360C0
+[2016.01.11-10.25.21:714][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F262C5940
+[2016.01.11-10.25.21:714][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F3CFD6D40
+[2016.01.11-10.25.21:861][230]LogExit: Object subsystem successfully closed.
+[2016.01.11-10.25.21:877][230]LogD3D11RHI: Shutdown
+[2016.01.11-10.25.21:877][230]LogD3D11RHI: CleanupD3DDevice
+[2016.01.11-10.25.21:927][230]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.11-10.25.21:942][230]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2016.01.11-10.25.21:942][230]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.01.11-10.25.21:942][230]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.11-10.25.21:942][230]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.11-10.25.21:942][230]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.11-10.25.21:942][230]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.11-10.25.21:942][230]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.11-10.25.21:944][230]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.11-10.25.21:944][230]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.11-10.25.21:944][230]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.11-10.25.21:944][230]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.11-10.25.21:944][230]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.11-10.25.21:945][230]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.11-10.25.22:391][230]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.11-10.25.22:392][230]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.11-10.25.22:392][230]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.11-10.25.22:392][230]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.11-10.25.22:392][230]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.11-10.25.22:393][230]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.11-10.25.22:635][230]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.11-10.25.22:635][230]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.11-10.25.22:635][230]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.11-10.25.22:635][230]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.11-10.25.22:635][230]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.11-10.25.22:635][230]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.11-10.25.22:635][230]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.11-10.25.22:636][230]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.11-10.25.22:661][230]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.11-10.25.22:661][230]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.11-10.25.22:661][230]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.11-10.25.22:661][230]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.11-10.25.22:662][230]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.11-10.25.22:663][230]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.11-10.25.22:663][230]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.11-10.25.22:663][230]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.11-10.25.22:663][230]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.11-10.25.22:663][230]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.11-10.25.22:663][230]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.11-10.25.22:666][230]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.11-10.25.22:672][230]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.11-10.25.22:745][230]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.11-10.25.22:745][230]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.11-10.25.22:745][230]LogModuleManager: Shutting down and abandoning module UnrealProject (86)
+[2016.01.11-10.25.22:745][230]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.11-10.25.22:846][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.11-10.25.22:846][230]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.11-10.25.22:846][230]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.11-10.25.22:850][230]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.11-10.25.22:850][230]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.11-10.25.22:851][230]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.11-10.25.22:851][230]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.11-10.25.22:851][230]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.11-10.25.22:851][230]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.11-10.25.22:851][230]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.11-10.25.22:851][230]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.11-10.25.22:851][230]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.11-10.25.22:852][230]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.11-10.25.22:852][230]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.11-10.25.22:852][230]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.11-10.25.22:852][230]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.11-10.25.22:852][230]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.11-10.25.22:852][230]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.11-10.25.22:852][230]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.11-10.25.22:858][230]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.11-10.25.22:863][230]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.11-10.25.22:949][230]LogDerivedDataCache: Shutdown
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.11-10.25.22:949][230]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.11-10.25.22:950][230]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.11-10.25.22:951][230]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.11-10.25.22:951][230]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.11-10.25.24:954][230]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.11-10.25.24:954][230]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.11-10.25.24:954][230]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.11-10.25.24:954][230]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.11-10.25.24:954][230]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.11-10.25.24:954][230]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.11-10.25.24:957][230]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.11-10.25.24:958][230]LogExit: Exiting.
+[2016.01.11-10.25.24:971][230]Log file closed, 01/11/16 11:25:24
