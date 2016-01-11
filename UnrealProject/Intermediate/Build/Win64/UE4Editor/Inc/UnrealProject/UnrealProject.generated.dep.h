@@ -11,6 +11,9 @@
 #ifndef UNREALPROJECT_CarController_generated_h
 	#include "CarController.h"
 #endif
+#ifndef UNREALPROJECT_PowerUp_generated_h
+	#include "Actors/PowerUp.h"
+#endif
 #ifndef UNREALPROJECT_UnrealProjectGameMode_generated_h
 	#include "UnrealProjectGameMode.h"
 #endif

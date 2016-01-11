@@ -27,6 +27,7 @@ class UNREALPROJECT_API ACarController : public APlayerController
 
 	void RotateX(float axisValue);
 	void RotateY(float axisValue);
+	void Thrust(float value);
 
 
 public:

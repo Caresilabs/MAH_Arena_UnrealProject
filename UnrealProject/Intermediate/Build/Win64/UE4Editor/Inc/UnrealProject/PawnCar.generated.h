@@ -19,6 +19,13 @@ struct FHitResult;
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetPlayerIndex) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_index); \
+		P_FINISH; \
+		this->SetPlayerIndex(Z_Param_index); \
+	} \
+ \
 	DECLARE_FUNCTION(execSlow) \
 	{ \
 		P_FINISH; \
@@ -75,6 +82,13 @@ struct FHitResult;
 
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetPlayerIndex) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_index); \
+		P_FINISH; \
+		this->SetPlayerIndex(Z_Param_index); \
+	} \
  \
 	DECLARE_FUNCTION(execSlow) \
 	{ \

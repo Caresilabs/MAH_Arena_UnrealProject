@@ -267,6 +267,8 @@
 		<ClInclude Include="..\..\Source\UnrealProject\UnrealProject.h" />
 		<ClCompile Include="..\..\Source\UnrealProject\UnrealProjectGameMode.cpp" />
 		<ClInclude Include="..\..\Source\UnrealProject\UnrealProjectGameMode.h" />
+		<ClCompile Include="..\..\Source\UnrealProject\Actors\PowerUp.cpp" />
+		<ClInclude Include="..\..\Source\UnrealProject\Actors\PowerUp.h" />
 		<ClCompile Include="..\..\Source\UnrealProject\Actors\WorldCamera.cpp" />
 		<ClInclude Include="..\..\Source\UnrealProject\Actors\WorldCamera.h" />
 	</ItemGroup>

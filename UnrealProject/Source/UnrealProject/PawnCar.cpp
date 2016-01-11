@@ -27,22 +27,10 @@ APawnCar::APawnCar()
 	RootComponent = BoxComponent;
 
 	Tags.Add(FName("POI"));
-
-	const static auto MeshName = TEXT("StaticMesh'/Game/Models/") + FString::FromInt(PlayerIndex) + "." + FString::FromInt(PlayerIndex);
-
-	struct FConstructorStatics
-	{
-		ConstructorHelpers::FObjectFinderOptional<UStaticMesh> Mesh;
-		FConstructorStatics()
-			: Mesh(MeshName)
-		{
-		}
-	};
-	static FConstructorStatics ConstructorStatics;
+	
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
-	StaticMesh->SetStaticMesh(ConstructorStatics.Mesh.Get());
 	StaticMesh->AttachTo(RootComponent);
-
+	
 	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Movement"));
 	Movement->SetUpdatedComponent(RootComponent);
 }
@@ -52,6 +40,15 @@ void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
 	BoxComponent->SetAngularDamping(2.5f);
+}
+
+void APawnCar::SetPlayerIndex(int32 index) {
+	this->PlayerIndex = index;
+
+	const FString MeshName = FString("StaticMesh'/Game/Models/example_") + FString::FromInt(index) + FString(".example_") + FString::FromInt(index) + FString("'");
+	UStaticMesh* GroundMesh = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, *MeshName));
+
+	StaticMesh->SetStaticMesh(GroundMesh);
 }
 
 
@@ -84,6 +81,18 @@ void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 	}
 
 	BoxComponent->AddImpulse(Impulse);
+}
+
+void APawnCar::Thrust(float value){
+
+	if (ThrustDelay <= 0)
+	{
+		ThrustDelay = 5;
+		FRotationMatrix Matrix = FRotationMatrix(BoxComponent->GetRelativeTransform().GetRotation().Rotator());
+		FVector impulse = Matrix.TransformVector(FVector(0, 1000000, 0));
+		BoxComponent->AddImpulse(impulse);
+	}
+
 }
 
 void APawnCar::Damage(float amount) {
@@ -192,7 +201,12 @@ void APawnCar::Tick(float DeltaTime)
 		}
 	}
 
-
+	if (ThrustDelay > 0)
+	{
+		ThrustDelay -= DeltaTime;
+		if (ThrustDelay < 0)
+			ThrustDelay = 0;
+	}
 }
 
 void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) {
