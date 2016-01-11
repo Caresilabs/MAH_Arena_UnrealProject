@@ -460,8 +460,16 @@ D:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptGeneratorPlugin\Source\Scri
 D:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 D:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 D:\Program Files\Epic Games\4.9\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
+<<<<<<< HEAD
 D:\Users\Tim\Documents\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProject\UnrealProject.Build.cs
 D:\Program Files\Epic Games\4.9\Engine\Source\UE4Editor.Target.cs
 D:\Program Files\Epic Games\4.9\Engine\Source\UE4Game.Target.cs
 D:\Users\Tim\Documents\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProject.Target.cs
 D:\Users\Tim\Documents\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProjectEditor.Target.cs
+=======
+C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProject\UnrealProject.Build.cs
+D:\Program Files\Epic Games\4.9\Engine\Source\UE4Editor.Target.cs
+D:\Program Files\Epic Games\4.9\Engine\Source\UE4Game.Target.cs
+C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProject.Target.cs
+C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Source\UnrealProjectEditor.Target.cs
+>>>>>>> d609d42a7a3c681156237a5f478957910ca11866

@@ -24,11 +24,15 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"SetPlayerIndex",(Native)&APawnCar::execSetPlayerIndex);
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"Slow",(Native)&APawnCar::execSlow);
 	}
-	IMPLEMENT_CLASS(APawnCar, 3260256233);
+	IMPLEMENT_CLASS(APawnCar, 923212360);
 	void ACarController::StaticRegisterNativesACarController()
 	{
 	}
 	IMPLEMENT_CLASS(ACarController, 530177351);
+	void APowerUp::StaticRegisterNativesAPowerUp()
+	{
+	}
+	IMPLEMENT_CLASS(APowerUp, 1628014838);
 	void AUnrealProjectGameMode::StaticRegisterNativesAUnrealProjectGameMode()
 	{
 	}
@@ -49,6 +53,7 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 	ENGINE_API class UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	ENGINE_API class UClass* Z_Construct_UClass_ACameraActor();
 
@@ -65,6 +70,8 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_APawnCar();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_ACarController();
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_APowerUp_NoRegister();
+	UNREALPROJECT_API class UClass* Z_Construct_UClass_APowerUp();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode_NoRegister();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AUnrealProjectGameMode();
 	UNREALPROJECT_API class UClass* Z_Construct_UClass_AWorldCamera_NoRegister();
@@ -301,6 +308,7 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_Slow());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_ThrustDelay = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ThrustDelay"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(ThrustDelay, APawnCar), 0x0000000000000005);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(HealthChanged, APawnCar, bool);
 				UProperty* NewProp_HealthChanged = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("HealthChanged"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(HealthChanged, APawnCar), 0x0000000000000005, CPP_BOOL_PROPERTY_BITMASK(HealthChanged, APawnCar), sizeof(bool), true);
 				UProperty* NewProp_lives = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("lives"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(lives, APawnCar), 0x0000000000000005);
@@ -329,6 +337,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+				MetaData->SetValue(NewProp_ThrustDelay, TEXT("Category"), TEXT("PawnCar"));
+				MetaData->SetValue(NewProp_ThrustDelay, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(NewProp_HealthChanged, TEXT("Category"), TEXT("PawnCar"));
 				MetaData->SetValue(NewProp_HealthChanged, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(NewProp_lives, TEXT("Category"), TEXT("PawnCar"));
@@ -396,6 +406,43 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACarController(Z_Construct_UClass_ACarController, TEXT("ACarController"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACarController);
+	UClass* Z_Construct_UClass_APowerUp_NoRegister()
+	{
+		return APowerUp::StaticClass();
+	}
+	UClass* Z_Construct_UClass_APowerUp()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_UnrealProject();
+			OuterClass = APowerUp::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_StaticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("StaticMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(StaticMesh, APowerUp), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Actors/PowerUp.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Actors/PowerUp.h"));
+				MetaData->SetValue(NewProp_StaticMesh, TEXT("Category"), TEXT("PowerUp"));
+				MetaData->SetValue(NewProp_StaticMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_StaticMesh, TEXT("ModuleRelativePath"), TEXT("Actors/PowerUp.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_APowerUp(Z_Construct_UClass_APowerUp, TEXT("APowerUp"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(APowerUp);
 	UClass* Z_Construct_UClass_AUnrealProjectGameMode_NoRegister()
 	{
 		return AUnrealProjectGameMode::StaticClass();
@@ -471,8 +518,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x77A47C2E;
-			Guid.B = 0xEF732F67;
+			Guid.A = 0x0DE4CCF1;
+			Guid.B = 0x36058864;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
