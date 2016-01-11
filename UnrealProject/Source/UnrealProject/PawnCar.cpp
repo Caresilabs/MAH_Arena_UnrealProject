@@ -27,14 +27,10 @@ APawnCar::APawnCar()
 	RootComponent = BoxComponent;
 
 	Tags.Add(FName("POI"));
-
-	//const static auto MeshName = TEXT("StaticMesh'/Game/Models/") + FString::FromInt(PlayerIndex) + "." + FString::FromInt(PlayerIndex);
-
-	//static FConstructorStatics ConstructorStatics;
+	
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
-	//StaticMesh->SetStaticMesh(ConstructorStatics.Mesh.Get());
 	StaticMesh->AttachTo(RootComponent);
-
+	
 	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Movement"));
 	Movement->SetUpdatedComponent(RootComponent);
 }
@@ -44,6 +40,21 @@ void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
 	BoxComponent->SetAngularDamping(2.5f);
+
+	
+}
+
+void APawnCar::SetPlayerIndex(int32 index) {
+	this->PlayerIndex = index ;
+
+	// StaticMesh'/Game/Models/example_0.example_0'
+	static const FString MeshName = FString("StaticMesh'/Game/Models/example_") + FString::FromInt(PlayerIndex) + FString(".example_") + FString::FromInt(PlayerIndex) + FString("'");
+
+	UE_LOG(LogTemp, Log, TEXT("hej %s"), *MeshName);
+
+	UStaticMesh* GroundMesh = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, *MeshName));
+
+	StaticMesh->SetStaticMesh(GroundMesh);
 }
 
 

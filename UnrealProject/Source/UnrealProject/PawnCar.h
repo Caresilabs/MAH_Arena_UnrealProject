@@ -81,8 +81,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool HealthChanged;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 PlayerIndex;
+	UFUNCTION(BlueprintCallable, Category = Indices)
+	void SetPlayerIndex(int32 index);
 
 	void Thrust(float value);
 
@@ -91,6 +91,8 @@ public:
 
 private:
 	void AddImpulseCOM(FVector Force);
+
+	int32 PlayerIndex;
 
 	FVector Direction;
 
