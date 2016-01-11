@@ -63,6 +63,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Speed)
 	void Slow();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Speed;
 
 	virtual void BeginPlay() override;
 	
@@ -81,6 +83,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool HealthChanged;
 
+	void Thrust(float value);
+
+	float ThrustDelay;
+
 private:
 	void AddImpulseCOM(FVector Force);
 
@@ -89,8 +95,6 @@ private:
 	FRotator RotationDirection;
 
 	float Health;
-
-	float Speed;
 
 	float TurnSpeed;
 
@@ -107,4 +111,7 @@ private:
 	bool isSlowing;
 
 	float SlowTime;
+
+	bool ThrustActive;
+
 };

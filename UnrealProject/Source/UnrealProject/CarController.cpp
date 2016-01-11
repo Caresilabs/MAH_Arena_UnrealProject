@@ -22,6 +22,18 @@ void ACarController::SetupInputComponent()
 	InputComponent->BindAxis("Turn", this, &ACarController::Turn);
 	InputComponent->BindAxis("RotateY", this, &ACarController::RotateY);
 	InputComponent->BindAxis("RotateX", this, &ACarController::RotateX);
+	
+	InputComponent->BindAxis("ThrustAxis", this, &ACarController::Thrust);
+	//InputComponent->BindAction("Thrust", IE_Pressed, this, &ACarController::Thrust);
+}
+
+void ACarController::Thrust(float value)
+{
+	APawnCar* car = Cast<APawnCar>(GetPawn());
+	if (car == nullptr)
+		return;
+	if (value > 0)
+		car->Thrust(value);
 }
 
 void ACarController::MoveForward(float axisValue)
