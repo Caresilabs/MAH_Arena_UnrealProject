@@ -23,7 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealProject() {}
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"SetLives",(Native)&APawnCar::execSetLives);
 		FNativeFunctionRegistrar::RegisterFunction(APawnCar::StaticClass(),"Slow",(Native)&APawnCar::execSlow);
 	}
-	IMPLEMENT_CLASS(APawnCar, 3024510340);
+	IMPLEMENT_CLASS(APawnCar, 1933249931);
 	void ACarController::StaticRegisterNativesACarController()
 	{
 	}
@@ -276,6 +276,7 @@ FName UNREALPROJECT_CallInvincible = FName(TEXT("CallInvincible"));
 				OuterClass->LinkChild(Z_Construct_UFunction_APawnCar_Slow());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_PlayerIndex = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PlayerIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(PlayerIndex, APawnCar), 0x0000000000000005);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(HealthChanged, APawnCar, bool);
 				UProperty* NewProp_HealthChanged = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("HealthChanged"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(HealthChanged, APawnCar), 0x0000000000000005, CPP_BOOL_PROPERTY_BITMASK(HealthChanged, APawnCar), sizeof(bool), true);
 				UProperty* NewProp_lives = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("lives"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(lives, APawnCar), 0x0000000000000005);
@@ -303,6 +304,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
+				MetaData->SetValue(NewProp_PlayerIndex, TEXT("Category"), TEXT("PawnCar"));
+				MetaData->SetValue(NewProp_PlayerIndex, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(NewProp_HealthChanged, TEXT("Category"), TEXT("PawnCar"));
 				MetaData->SetValue(NewProp_HealthChanged, TEXT("ModuleRelativePath"), TEXT("PawnCar.h"));
 				MetaData->SetValue(NewProp_lives, TEXT("Category"), TEXT("PawnCar"));
@@ -445,7 +448,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UnrealProject")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x0A55B143;
+			Guid.A = 0xC77C940A;
 			Guid.B = 0x261F7563;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
