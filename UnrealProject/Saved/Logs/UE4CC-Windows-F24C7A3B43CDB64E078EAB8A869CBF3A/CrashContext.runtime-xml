@@ -2,7 +2,7 @@
 <FGenericCrashContext>
 <RuntimeProperties>
 <Version>1</Version>
-<ProcessId>5224</ProcessId>
+<ProcessId>7304</ProcessId>
 <IsInternalBuild>0</IsInternalBuild>
 <IsPerforceBuild>0</IsPerforceBuild>
 <IsSourceDistribution>0</IsSourceDistribution>
@@ -11,9 +11,9 @@
 <BuildConfiguration>Development</BuildConfiguration>
 <PlatformName>Windows</PlatformName>
 <PlatformNameIni>Windows</PlatformNameIni>
-<EngineMode>Game</EngineMode>
+<EngineMode>Editor</EngineMode>
 <EngineVersion>4.9.2-2707645+++depot+UE4-Releases+4.9</EngineVersion>
-<CommandLine> /Temp/Autosaves/Game/Maps/UEDPCStartLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess </CommandLine>
+<CommandLine> </CommandLine>
 <LanguageLCID>9</LanguageLCID>
 <DefaultLocale>sv_SE</DefaultLocale>
 <IsUE4Release>1</IsUE4Release>
@@ -25,7 +25,9 @@
 <CallStack></CallStack>
 <SourceContext></SourceContext>
 <UserDescription></UserDescription>
-<ErrorMessage></ErrorMessage>
+<ErrorMessage>Assertion failed: IncrementalRegisterComponents(0) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3566] 
+
+</ErrorMessage>
 <MiscNumberOfCores>4</MiscNumberOfCores>
 <MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
 <MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
@@ -39,12 +41,12 @@
 <MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
 <MemoryStatsPageSize>4096</MemoryStatsPageSize>
 <MemoryStatsTotalPhysicalGB>16</MemoryStatsTotalPhysicalGB>
-<MemoryStatsAvailablePhysical>0</MemoryStatsAvailablePhysical>
-<MemoryStatsAvailableVirtual>0</MemoryStatsAvailableVirtual>
-<MemoryStatsUsedPhysical>0</MemoryStatsUsedPhysical>
-<MemoryStatsPeakUsedPhysical>0</MemoryStatsPeakUsedPhysical>
-<MemoryStatsUsedVirtual>0</MemoryStatsUsedVirtual>
-<MemoryStatsPeakUsedVirtual>0</MemoryStatsPeakUsedVirtual>
+<MemoryStatsAvailablePhysical>13636251648</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140735130992640</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>900648960</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>913219584</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>1566228480</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>1582948352</MemoryStatsPeakUsedVirtual>
 <MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
 <MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
 <MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>

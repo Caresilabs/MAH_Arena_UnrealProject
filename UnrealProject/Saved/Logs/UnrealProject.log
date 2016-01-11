@@ -1,676 +1,415 @@
-﻿[2016.01.11-11.52.46:744][  0]Log file open, 01/11/16 12:52:46
-[2016.01.11-11.52.46:744][  0]LogInit:Display: Running engine for game: UnrealProject
-[2016.01.11-11.52.46:744][  0]LogInit:Display: RandInit(-235931810) SRandInit(-235931810).
-[2016.01.11-11.52.46:744][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.01.11-11.52.46:744][  0]LogStats: Stats thread started at 0.071641
-[2016.01.11-11.52.46:744][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.01.11-11.52.46:744][  0]LogInit: API Version: 2672455
-[2016.01.11-11.52.46:744][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2016.01.11-11.52.46:744][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2016.01.11-11.52.46:744][  0]LogInit: Build Configuration: Development
-[2016.01.11-11.52.46:744][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2016.01.11-11.52.46:744][  0]LogInit: Command line:  
-[2016.01.11-11.52.46:744][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2016.01.11-11.52.46:744][  0]LogInit: Rocket: 1
-[2016.01.11-11.52.46:760][  0]LogInit: Using libcurl 7.41.0
-[2016.01.11-11.52.46:760][  0]LogInit:  - built for x86_64-pc-win32
-[2016.01.11-11.52.46:760][  0]LogInit:  - supports SSL with WinSSL
-[2016.01.11-11.52.46:760][  0]LogInit:  - other features:
-[2016.01.11-11.52.46:760][  0]LogInit:      CURL_VERSION_SSL
-[2016.01.11-11.52.46:760][  0]LogInit:      CURL_VERSION_IPV6
-[2016.01.11-11.52.46:760][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.01.11-11.52.46:760][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.01.11-11.52.46:760][  0]LogInit:      CURL_VERSION_IDN
-[2016.01.11-11.52.46:760][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.01.11-11.52.46:760][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.01.11-11.52.46:760][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.01.11-11.52.46:760][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.01.11-11.52.46:760][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.01.11-11.52.46:765][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.01.11-11.52.46:771][  0]LogInit: Object subsystem initialized
-[2016.01.11-11.52.46:772][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.11-11.52.46:772][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.01.11-11.52.46:780][  0]LogInit: Computer: PATTES
-[2016.01.11-11.52.46:780][  0]LogInit: User: Patte
-[2016.01.11-11.52.46:780][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.01.11-11.52.46:780][  0]LogInit: High frequency timer resolution =3.507523 MHz
-[2016.01.11-11.52.46:780][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.01.11-11.52.46:780][  0]LogMemory: Platform Memory Stats for Windows
-[2016.01.11-11.52.46:780][  0]LogMemory: Process Physical Memory: 54.14 MB used, 54.14 MB peak
-[2016.01.11-11.52.46:780][  0]LogMemory: Process Virtual Memory: 57.34 MB used, 57.34 MB peak
-[2016.01.11-11.52.46:780][  0]LogMemory: Physical Memory: 2428.41 MB used, 16324.34 MB total
-[2016.01.11-11.52.46:780][  0]LogMemory: Virtual Memory: 366.60 MB used, 134217728.00 MB total
-[2016.01.11-11.52.46:805][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
-[2016.01.11-11.52.47:422][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
-[2016.01.11-11.52.47:422][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
-[2016.01.11-11.52.47:423][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.01.11-11.52.47:424][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
-[2016.01.11-11.52.47:424][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.01.11-11.52.47:426][  0]LogD3D11RHI: !Direct3DDevice
-[2016.01.11-11.52.47:426][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.01.11-11.52.47:437][  0]LogD3D11RHI: Async texture creation enabled
-[2016.01.11-11.52.47:452][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/6092/).
-[2016.01.11-11.52.47:452][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/4BE476284677755A3CF460849CC5EB45/'.
-[2016.01.11-11.52.47:452][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.01.11-11.52.48:374][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.01.11-11.52.48:378][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.01.11-11.52.48:382][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.01.11-11.52.48:387][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.01.11-11.52.48:391][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.01.11-11.52.48:394][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.01.11-11.52.48:396][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.01.11-11.52.48:399][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.01.11-11.52.48:401][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.01.11-11.52.48:404][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.01.11-11.52.48:407][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.01.11-11.52.48:410][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.01.11-11.52.48:410][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.01.11-11.52.48:426][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.01.11-11.52.48:428][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.01.11-11.52.48:431][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.01.11-11.52.48:434][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.01.11-11.52.48:434][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.11-11.52.48:505][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.01.11-11.52.48:540][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.01.11-11.52.48:540][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2016.01.11-11.52.48:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.01.11-11.52.48:540][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.01.11-11.52.48:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.01.11-11.52.48:540][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.01.11-11.52.48:650][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.01.11-11.52.48:662][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Patte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.01.11-11.52.48:803][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.11-11.52.48:805][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.01.11-11.52.48:907][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.01.11-11.52.48:907][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.01.11-11.52.49:102][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.01.11-11.52.49:712][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.01.11-11.52.49:820][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
-[2016.01.11-11.52.49:957][  0]SourceControl: Info Source control is disabled
-[2016.01.11-11.52.49:963][  0]SourceControl: Info Source control is disabled
-[2016.01.11-11.52.49:979][  0]SourceControl: Info Source control is disabled
-[2016.01.11-11.52.49:991][  0]SourceControl: Info Source control is disabled
-[2016.01.11-11.52.50:109][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.01.11-11.52.50:175][  0]LogObj: 28413 objects as part of root set at end of initial load.
-[2016.01.11-11.52.50:175][  0]LogUObjectAllocator: 6060568 out of 0 bytes used by permanent object pool.
-[2016.01.11-11.52.50:220][  0]LogEngine: Initializing Engine...
-[2016.01.11-11.52.50:222][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2016.01.11-11.52.50:223][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.01.11-11.52.50:317][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.01.11-11.52.50:321][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.01.11-11.52.50:329][  0]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287478
-[2016.01.11-11.52.50:329][  0]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2016.01.11-11.52.50:347][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.01.11-11.52.50:351][  0]LogInit: Texture streaming: Enabled
-[2016.01.11-11.52.50:355][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.01.11-11.52.50:355][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.01.11-11.52.50:355][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d64b8b5483bfedc8d998f82f4192655|13486bde023f4a2ab96e5809842d42e4|71295755-6037-4172-8870-b93479030fdb
-[2016.01.11-11.52.50:355][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.01.11-11.52.50:377][  0]LogInit: Transaction tracking system initialized
-[2016.01.11-11.52.50:403][  0]BlueprintLog: New page: Editor Load
-[2016.01.11-11.52.50:464][  0]LocalizationService: Info Localization service is disabled
-[2016.01.11-11.52.50:525][  0]LogConsoleResponse:Display: 
-[2016.01.11-11.52.50:608][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.01.11-11.52.50:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.01s
-[2016.01.11-11.52.50:657][  0]SourceControl: Info Source control is disabled
-[2016.01.11-11.52.50:657][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.01.11-11.52.50:657][  0]LightingResults: New page: Lighting Build
-[2016.01.11-11.52.50:660][  0]MapCheck: New page: Map Check
-[2016.01.11-11.52.50:660][  0]LightingResults: New page: Lighting Build
-[2016.01.11-11.52.50:668][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003409678720
-[2016.01.11-11.52.50:815][  0]LogAIModule: Creating AISystem for world StartLevel
-[2016.01.11-11.52.50:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.01.11-11.52.50:817][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.01.11-11.52.50:851][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.888ms to complete.
-[2016.01.11-11.52.50:852][  0]LogFileHelpers: Loading map 'StartLevel' took 0.195
-[2016.01.11-11.52.50:948][  0]LogCollectionManager: Loaded 0 collections in 0.002265 seconds
-[2016.01.11-11.52.50:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.01s
-[2016.01.11-11.52.50:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Patte/Collections/' took 0.01s
-[2016.01.11-11.52.50:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
-[2016.01.11-11.52.50:988][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1872 classes and 336 folders.
-[2016.01.11-11.52.50:992][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.01.11-11.52.50:998][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2016.01.11-11.52.51:029][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2016.01.11-11.52.51:040][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2016.01.11-11.52.51:083][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.01.11-11.52.51:087][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.01.11-11.52.51:109][  0]LogLoad: Full Startup: 5.21 seconds (BP compile: 0.05 seconds)
-[2016.01.11-11.52.51:158][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.01.11-11.52.51:293][  0]LogRenderer: Reallocating scene render targets to support 1056x576 (Frame:2).
-[2016.01.11-11.52.51:804][  2]LogAssetRegistry: Asset discovery search completed in 1.9959 seconds
-[2016.01.11-11.52.51:804][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.01.11-11.52.51:804][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2016.01.11-11.53.03:083][710]LogBlueprint:Error: [compiler UnrealProjectGameModeBP] Error Could not find a function named "SetPlayerIndex" in 'PawnCar'.
-Make sure 'PawnCar' has been compiled for  Set Player Index 
-[2016.01.11-11.53.03:093][710]LogBlueprint:Warning: [compiler UnrealProjectGameModeBP] Warning [0017.19] Compile of UnrealProjectGameModeBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 20 ms]
-[2016.01.11-11.53.03:093][710]LogBlueprint:Warning: [compiler UnrealProjectGameModeBP] Warning [0017.19] Compile of UnrealProjectGameModeBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
-[2016.01.11-11.53.03:093][710]LogBlueprint:Warning: [compiler UnrealProjectGameModeBP] Warning [0017.19] Compile of UnrealProjectGameModeBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
-[2016.01.11-11.53.03:297][710]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.01.11-11.53.03:679][710]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
-[2016.01.11-11.53.25:472][ 74]BlueprintLog: New page: Compile SharedHUD
-[2016.01.11-11.53.25:619][ 74]BlueprintEditorCompileResults: Info [0039.72] Compile of SharedHUD successful! [in 147 ms]
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8190 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_IfThenElse_97.EdGraphPin_8190
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8190 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_IfThenElse_97.EdGraphPin_8190
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8190 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_IfThenElse_97.EdGraphPin_8190
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:239][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5145 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_CallFunction_5145
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5145.EdGraphPin_10469 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_CallFunction_5145.EdGraphPin_10469
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5145.EdGraphPin_10469 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_CallFunction_5145.EdGraphPin_10469
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5145.EdGraphPin_10469 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_CallFunction_5145.EdGraphPin_10469
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110.EdGraphPin_10454 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_DynamicCast_1110.EdGraphPin_10454
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110.EdGraphPin_10454 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_DynamicCast_1110.EdGraphPin_10454
-[2016.01.11-11.53.53:240][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110.EdGraphPin_10454 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_DynamicCast_1110.EdGraphPin_10454
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_CallFunction_5142 or K2Node_CallFunction /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_CallFunction_5142
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5142.EdGraphPin_10444 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_CallFunction_5142.EdGraphPin_10444
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5142.EdGraphPin_10444 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_CallFunction_5142.EdGraphPin_10444
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_CallFunction_5142.EdGraphPin_10444 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_CallFunction_5142.EdGraphPin_10444
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:241][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_DynamicCast_1110 or K2Node_DynamicCast /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_DynamicCast_1110
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110.EdGraphPin_10453 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_DynamicCast_1110.EdGraphPin_10453
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110.EdGraphPin_10453 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_DynamicCast_1110.EdGraphPin_10453
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_DynamicCast_1110.EdGraphPin_10453 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_DynamicCast_1110.EdGraphPin_10453
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionEntry_244 or K2Node_FunctionEntry /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_FunctionEntry_244
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionEntry_244 or K2Node_FunctionEntry /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_FunctionEntry_244
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionEntry_244 or K2Node_FunctionEntry /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_FunctionEntry_244
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8188 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_IfThenElse_97.EdGraphPin_8188
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8188 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_IfThenElse_97.EdGraphPin_8188
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8188 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_IfThenElse_97.EdGraphPin_8188
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:242][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player0.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player1.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player2.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player3.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Health_player0.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Health_player1.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Health_player2.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Health_player3.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Lives_player0.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Lives_player1.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Lives_player2.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:Lives_player3.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_258.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_257.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_256.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_255.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_254.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_253.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_252.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_251.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_250.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_249.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_248.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_247.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_238.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_237.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_236.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_235.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_234.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_233.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_232.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_231.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_230.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:243][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_229.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_228.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_227.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_219.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_218.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_217.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_216.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_215.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_214.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_213.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_212.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_211.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_210.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_209.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/WinScreen.WinScreen:GetText_0.K2Node_FunctionResult_3 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_208.K2Node_FunctionResult_3
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_3.EdGraphPin_6362 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_FunctionResult_3.EdGraphPin_6362
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_3.EdGraphPin_6362 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_FunctionResult_3.EdGraphPin_6362
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_3.EdGraphPin_6362 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_FunctionResult_3.EdGraphPin_6362
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:244][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_IfThenElse_97 or K2Node_IfThenElse /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_IfThenElse_97
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8189 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_IfThenElse_97.EdGraphPin_8189
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8189 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_IfThenElse_97.EdGraphPin_8189
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_IfThenElse_97.EdGraphPin_8189 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_IfThenElse_97.EdGraphPin_8189
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player1.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player0.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player1.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player2.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetVisibility_player3.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_262.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_260.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_259.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_258.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_257.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_256.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_255.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_242.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_240.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_239.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_238.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_237.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_236.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_235.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player3.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:245][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_221.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_220.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_219.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_218.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_217.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:GetBoost_player0.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/GUI/SharedHUD.SharedHUD:EdGraph_216.K2Node_FunctionResult_1
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_1.EdGraphPin_6383 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_222.K2Node_FunctionResult_1.EdGraphPin_6383
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_1.EdGraphPin_6383 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_241.K2Node_FunctionResult_1.EdGraphPin_6383
-[2016.01.11-11.53.53:246][178]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/GUI/SharedHUD.SharedHUD:GetBoost_player2.K2Node_FunctionResult_1.EdGraphPin_6383 or EdGraphPin /Game/GUI/SharedHUD.SharedHUD:EdGraph_261.K2Node_FunctionResult_1.EdGraphPin_6383
-[2016.01.11-11.54.14:226][663]BlueprintLog: New page: Compile SharedHUD
-[2016.01.11-11.54.14:313][663]LogBlueprint:Error: [compiler UnrealProjectGameModeBP] Error Could not find a function named "SetPlayerIndex" in 'PawnCar'.
-Make sure 'PawnCar' has been compiled for  Set Player Index 
-[2016.01.11-11.54.14:523][663]BlueprintEditorCompileResults: Info [0088.62] Compile of SharedHUD successful! [in 296 ms]
-[2016.01.11-11.54.18:561][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/SharedHUD" FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset" SILENT=true
-[2016.01.11-11.54.18:812][127]LogSavePackage: Save=225.680908ms
-[2016.01.11-11.54.18:812][127]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/SharedHUD5F080AEB48C37D0D6A52BBBBA534C723.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset'
-[2016.01.11-11.54.18:814][127]LogSavePackage: Total save time: 251.209471ms
-[2016.01.11-11.54.18:814][127]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset
-[2016.01.11-11.54.21:113][398]LogVSAccessor:Warning: Couldn't access Visual Studio
-[2016.01.11-11.54.21:114][398]Recompiling UnrealProject...
-[2016.01.11-11.54.21:114][398]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 5 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
-[2016.01.11-11.54.21:116][398]Warning: Starting HotReload took  0.0s.
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 1:54:35 PM
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (game project files are newer)
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 7,0604255 seconds
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info PawnCar.cpp
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info UnrealProjectGameMode.cpp
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info CarController.cpp
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info WorldCamera.cpp
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info UnrealProject.generated.cpp
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info [6/6] Link UE4Editor-UnrealProject-5.dll
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5.lib and object C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-5.exp
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.01.11-11.54.35:458][ 97]CompilerResultsLog: Info Total build time: 14,31 seconds
-[2016.01.11-11.54.35:458][ 97]LogMainFrame: MainFrame: Module compiling took 14.346 seconds
-[2016.01.11-11.54.35:482][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003449C6EC00
-[2016.01.11-11.54.35:508][ 97]LogClass: Could not find existing class PawnCar in package /Script/UnrealProject for HotReload, assuming new class
-[2016.01.11-11.54.35:508][ 97]LogClass: Function ApplyImpulse is new.
-[2016.01.11-11.54.35:508][ 97]LogClass: Function Boost is new.
-[2016.01.11-11.54.35:508][ 97]LogClass: Function Damage is new.
-[2016.01.11-11.54.35:508][ 97]LogClass: Function GetHealth is new.
-[2016.01.11-11.54.35:508][ 97]LogClass: Function NotifyHit is new.
-[2016.01.11-11.54.35:508][ 97]LogClass: Function SetLives is new.
-[2016.01.11-11.54.35:508][ 97]LogClass: Function SetPlayerIndex is new.
-[2016.01.11-11.54.35:508][ 97]LogClass: Function Slow is new.
-[2016.01.11-11.54.35:520][ 97]LogHotReload: Re-instancing PawnCar after hot-reload.
-[2016.01.11-11.54.35:650][ 97]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0020 seconds. Added 5 classes and 3 folders.
-[2016.01.11-11.54.35:654][ 97]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2016.01.11-11.54.36:151][ 97]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1873 classes and 338 folders.
-[2016.01.11-11.54.39:929][509]LogSavePackage: Save=42.463871ms
-[2016.01.11-11.54.39:929][509]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel14F7CFD848F3120D54CC3D8D40ECCA8B.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
-[2016.01.11-11.54.39:930][509]LogSavePackage: Total save time: 65.477263ms
-[2016.01.11-11.54.39:930][509]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
-[2016.01.11-11.55.39:979][944]LogSavePackage: Save=42.290813ms
-[2016.01.11-11.55.39:979][944]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevelEFF7BF8945392CEA7FE368A5800AEE2C.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
-[2016.01.11-11.55.39:981][944]LogSavePackage: Total save time: 67.282241ms
-[2016.01.11-11.55.39:981][944]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
-[2016.01.11-11.55.40:012][944]LogFileHelpers: Saving map 'StartLevel' took 0.183
-[2016.01.11-11.58.05:911][482]BlueprintLog: New page: Compile SharedHUD
-[2016.01.11-11.58.06:036][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003449C6E700
-[2016.01.11-11.58.06:057][482]BlueprintEditorCompileResults: Info [0320.16] Compile of SharedHUD successful! [in 145 ms]
-[2016.01.11-11.58.09:259][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/SharedHUD" FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset" SILENT=true
-[2016.01.11-11.58.09:498][737]LogSavePackage: Save=219.760788ms
-[2016.01.11-11.58.09:499][737]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/SharedHUD17E30A514ACB5F9360FCDAAB51A55A1A.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset'
-[2016.01.11-11.58.09:501][737]LogSavePackage: Total save time: 240.456015ms
-[2016.01.11-11.58.09:501][737]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset
-[2016.01.11-11.58.16:288][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003449C92840
-[2016.01.11-11.58.16:372][461]LogSavePackage: Save=39.829819ms
-[2016.01.11-11.58.16:372][461]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelBD9D56934DCC094965D170BA917620DD.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
-[2016.01.11-11.58.16:373][461]LogSavePackage: Total save time: 59.989057ms
-[2016.01.11-11.58.16:373][461]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
-[2016.01.11-11.58.43:752][ 23]LogSavePackage: Save=53.591095ms
-[2016.01.11-11.58.43:752][ 23]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel6C9E78C54F1C3F4282C22E946BA58C56.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
-[2016.01.11-11.58.43:753][ 23]LogSavePackage: Total save time: 85.105073ms
-[2016.01.11-11.58.43:753][ 23]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
-[2016.01.11-12.06.21:956][712]LogSavePackage: Save=39.451771ms
-[2016.01.11-12.06.21:956][712]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevel0D2FDAFA455A330A5DD25FBA676E522E.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
-[2016.01.11-12.06.21:959][712]LogSavePackage: Total save time: 68.447161ms
-[2016.01.11-12.06.21:959][712]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
-[2016.01.11-12.06.21:986][712]LogFileHelpers: Saving map 'StartLevel' took 0.162
-[2016.01.11-12.07.07:711][ 35]LogRenderer: Reallocating scene render targets to support 1472x712 (Frame:36414).
-[2016.01.11-12.07.37:823][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
-[2016.01.11-12.07.42:181][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
-[2016.01.11-12.07.42:201][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003449C92520
-[2016.01.11-12.07.42:202][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034189ED9E0
-[2016.01.11-12.07.42:297][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PawnCarBP" FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/PawnCarBP.uasset" SILENT=true
-[2016.01.11-12.07.42:371][932]LogSavePackage: Save=37.258774ms
-[2016.01.11-12.07.42:371][932]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/PawnCarBP6F2563B649030F59D2E10DAA12722825.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/PawnCarBP.uasset'
-[2016.01.11-12.07.42:373][932]LogSavePackage: Total save time: 73.772289ms
-[2016.01.11-12.07.42:373][932]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/PawnCarBP.uasset
-[2016.01.11-12.07.43:581][ 76]BlueprintLog: New page: Compile PawnCarBP
-[2016.01.11-12.07.43:658][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
-[2016.01.11-12.07.43:684][ 76]BlueprintEditorCompileResults: Info [0897.78] Compile of PawnCarBP successful! [in 102 ms]
-[2016.01.11-12.07.53:544][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
-[2016.01.11-12.08.00:467][928]LogAIModule: Creating AISystem for world Patrik
-[2016.01.11-12.08.00:479][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
-[2016.01.11-12.08.00:505][928]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Patrik.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.01.11-12.08.00:505][928]LightingResults: New page: Lighting Build
-[2016.01.11-12.08.00:517][928]LoadErrors: New page: Loading map: Patrik.umap
-[2016.01.11-12.08.00:518][928]MapCheck: New page: Map Check
-[2016.01.11-12.08.00:518][928]LightingResults: New page: Lighting Build
-[2016.01.11-12.08.00:536][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000340CDA0C20
-[2016.01.11-12.08.00:536][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003418FCEC00
-[2016.01.11-12.08.00:584][928]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.01.11-12.08.00:611][928]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.01.11-12.08.00:656][928]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.237ms to complete.
-[2016.01.11-12.08.00:656][928]LogFileHelpers: Loading map 'Patrik' took 0.151
-[2016.01.11-12.08.30:964][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
-[2016.01.11-12.08.30:983][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000345C691080
-[2016.01.11-12.08.31:679][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
-[2016.01.11-12.08.32:030][  0]Cmd: QUIT_EDITOR
-[2016.01.11-12.08.32:153][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.01.11-12.08.32:248][  0]LogExit: Preparing to exit.
-[2016.01.11-12.08.33:125][  0]LogExit: Editor shut down
-[2016.01.11-12.08.33:126][  0]LogExit: Transaction tracking system shut down
-[2016.01.11-12.08.33:128][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034350E2CA0
-[2016.01.11-12.08.33:128][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003439E019E0
-[2016.01.11-12.08.33:128][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000343F4C96C0
-[2016.01.11-12.08.33:130][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003435D29DA0
-[2016.01.11-12.08.33:130][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000342146D440
-[2016.01.11-12.08.33:274][  0]LogExit: Object subsystem successfully closed.
-[2016.01.11-12.08.33:289][  0]LogD3D11RHI: Shutdown
-[2016.01.11-12.08.33:289][  0]LogD3D11RHI: CleanupD3DDevice
-[2016.01.11-12.08.33:352][  0]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.01.11-12.08.33:372][  0]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
-[2016.01.11-12.08.33:372][  0]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
-[2016.01.11-12.08.33:372][  0]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
-[2016.01.11-12.08.33:372][  0]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
-[2016.01.11-12.08.33:372][  0]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
-[2016.01.11-12.08.33:372][  0]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
-[2016.01.11-12.08.33:372][  0]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
-[2016.01.11-12.08.33:373][  0]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
-[2016.01.11-12.08.33:373][  0]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module BspMode (185)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
-[2016.01.11-12.08.33:374][  0]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module MergeActors (169)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module SizeMap (168)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module TreeMap (167)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module XmlParser (158)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module Blutility (157)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module AutomationController (146)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module Layers (144)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
-[2016.01.11-12.08.33:802][  0]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module Persona (140)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module Kismet (139)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module Toolbox (136)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module OutputLog (133)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module GammaUI (132)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module Documentation (131)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module Analytics (127)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module AIModule (124)
-[2016.01.11-12.08.33:803][  0]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module SteamVR (119)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module OculusRift (117)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
-[2016.01.11-12.08.33:908][  0]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module CableComponent (113)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module SourceControl (100)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module HotReload (93)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module MainFrame (92)
-[2016.01.11-12.08.33:915][  0]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
-[2016.01.11-12.08.33:916][  0]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
-[2016.01.11-12.08.33:916][  0]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
-[2016.01.11-12.08.34:021][  0]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
-[2016.01.11-12.08.34:022][  0]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
-[2016.01.11-12.08.34:022][  0]LogModuleManager: Shutting down and abandoning module UnrealProject (86)
-[2016.01.11-12.08.34:022][  0]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2016.01.11-12.08.34:123][  0]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2016.01.11-12.08.34:123][  0]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2016.01.11-12.08.34:123][  0]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2016.01.11-12.08.34:125][  0]LogModuleManager: Shutting down and abandoning module Media (81)
-[2016.01.11-12.08.34:125][  0]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2016.01.11-12.08.34:126][  0]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module Core (59)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2016.01.11-12.08.34:128][  0]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2016.01.11-12.08.34:131][  0]LogDerivedDataCache: Shutdown
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.01.11-12.08.34:131][  0]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2016.01.11-12.08.36:134][  0]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2016.01.11-12.08.36:134][  0]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.01.11-12.08.36:134][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.01.11-12.08.36:134][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.01.11-12.08.36:134][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.01.11-12.08.36:134][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.01.11-12.08.36:136][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.01.11-12.08.36:136][  0]LogExit: Exiting.
-[2016.01.11-12.08.36:138][  0]Log file closed, 01/11/16 13:08:36
+﻿[2016.01.11-13.11.01:435][  0]Log file open, 01/11/16 14:11:01
+[2016.01.11-13.11.01:435][  0]LogInit:Display: Running engine for game: UnrealProject
+[2016.01.11-13.11.01:435][  0]LogInit:Display: RandInit(-949021244) SRandInit(-949021244).
+[2016.01.11-13.11.01:435][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.11-13.11.01:435][  0]LogStats: Stats thread started at 0.075371
+[2016.01.11-13.11.01:435][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.11-13.11.01:435][  0]LogInit: API Version: 2672455
+[2016.01.11-13.11.01:435][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.11-13.11.01:435][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.11-13.11.01:435][  0]LogInit: Build Configuration: Development
+[2016.01.11-13.11.01:435][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.11-13.11.01:435][  0]LogInit: Command line:  
+[2016.01.11-13.11.01:435][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.11-13.11.01:435][  0]LogInit: Rocket: 1
+[2016.01.11-13.11.01:448][  0]LogInit: Using libcurl 7.41.0
+[2016.01.11-13.11.01:449][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.11-13.11.01:449][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.11-13.11.01:449][  0]LogInit:  - other features:
+[2016.01.11-13.11.01:449][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.11-13.11.01:449][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.11-13.11.01:449][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.11-13.11.01:449][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.11-13.11.01:449][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.11-13.11.01:449][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.11-13.11.01:449][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.11-13.11.01:449][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.11-13.11.01:449][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.11-13.11.01:449][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.11-13.11.01:454][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.11-13.11.01:460][  0]LogInit: Object subsystem initialized
+[2016.01.11-13.11.01:461][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.11-13.11.01:461][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.11-13.11.01:469][  0]LogInit: Computer: PATTES
+[2016.01.11-13.11.01:469][  0]LogInit: User: Patte
+[2016.01.11-13.11.01:469][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.11-13.11.01:469][  0]LogInit: High frequency timer resolution =3.507523 MHz
+[2016.01.11-13.11.01:469][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.11-13.11.01:469][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.11-13.11.01:469][  0]LogMemory: Process Physical Memory: 54.14 MB used, 54.14 MB peak
+[2016.01.11-13.11.01:469][  0]LogMemory: Process Virtual Memory: 55.39 MB used, 55.39 MB peak
+[2016.01.11-13.11.01:469][  0]LogMemory: Physical Memory: 4470.85 MB used, 16324.34 MB total
+[2016.01.11-13.11.01:469][  0]LogMemory: Virtual Memory: 364.66 MB used, 134217728.00 MB total
+[2016.01.11-13.11.01:499][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.11-13.11.02:139][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.01.11-13.11.02:139][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2016.01.11-13.11.02:141][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.11-13.11.02:141][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2016.01.11-13.11.02:141][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.11-13.11.02:144][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.11-13.11.02:144][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.11-13.11.02:154][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.11-13.11.02:169][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/1080/).
+[2016.01.11-13.11.02:169][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/3A2F89304C65904FA2BB54ACA1A08ACC/'.
+[2016.01.11-13.11.02:169][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.11-13.11.02:998][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.11-13.11.03:003][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.11-13.11.03:008][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.11-13.11.03:012][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.11-13.11.03:016][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.11-13.11.03:019][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.11-13.11.03:022][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.11-13.11.03:024][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.11-13.11.03:027][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.11-13.11.03:030][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.11-13.11.03:033][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.11-13.11.03:036][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.11-13.11.03:036][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.11-13.11.03:052][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.11-13.11.03:054][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.11-13.11.03:057][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.11-13.11.03:060][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.11-13.11.03:060][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.11-13.11.03:132][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.11-13.11.03:168][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.11-13.11.03:168][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.11-13.11.03:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.11-13.11.03:168][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.11-13.11.03:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.11-13.11.03:168][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.11-13.11.03:283][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.11-13.11.03:295][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Patte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.11-13.11.03:447][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.11-13.11.03:450][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.11-13.11.03:552][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.11-13.11.03:552][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.11-13.11.03:747][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.11-13.11.04:314][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.11-13.11.04:421][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.01.11-13.11.04:554][  0]SourceControl: Info Source control is disabled
+[2016.01.11-13.11.04:561][  0]SourceControl: Info Source control is disabled
+[2016.01.11-13.11.04:574][  0]SourceControl: Info Source control is disabled
+[2016.01.11-13.11.04:583][  0]SourceControl: Info Source control is disabled
+[2016.01.11-13.11.04:707][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.11-13.11.04:773][  0]LogObj: 28414 objects as part of root set at end of initial load.
+[2016.01.11-13.11.04:773][  0]LogUObjectAllocator: 6060776 out of 0 bytes used by permanent object pool.
+[2016.01.11-13.11.04:819][  0]LogEngine: Initializing Engine...
+[2016.01.11-13.11.04:821][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.11-13.11.04:821][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.11-13.11.04:915][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.11-13.11.04:919][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.11-13.11.04:927][  0]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287478
+[2016.01.11-13.11.04:927][  0]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.01.11-13.11.04:945][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.11-13.11.04:949][  0]LogInit: Texture streaming: Enabled
+[2016.01.11-13.11.04:953][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.11-13.11.04:953][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.11-13.11.04:953][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d64b8b5483bfedc8d998f82f4192655|13486bde023f4a2ab96e5809842d42e4|71295755-6037-4172-8870-b93479030fdb
+[2016.01.11-13.11.04:953][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.11-13.11.04:976][  0]LogInit: Transaction tracking system initialized
+[2016.01.11-13.11.04:998][  0]BlueprintLog: New page: Editor Load
+[2016.01.11-13.11.05:061][  0]LocalizationService: Info Localization service is disabled
+[2016.01.11-13.11.05:123][  0]LogConsoleResponse:Display: 
+[2016.01.11-13.11.05:206][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.11-13.11.05:253][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/' took 0.01s
+[2016.01.11-13.11.05:253][  0]SourceControl: Info Source control is disabled
+[2016.01.11-13.11.05:253][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.11-13.11.05:253][  0]LightingResults: New page: Lighting Build
+[2016.01.11-13.11.05:256][  0]MapCheck: New page: Map Check
+[2016.01.11-13.11.05:256][  0]LightingResults: New page: Lighting Build
+[2016.01.11-13.11.05:266][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000145E628720
+[2016.01.11-13.11.05:422][  0]LogAIModule: Creating AISystem for world StartLevel
+[2016.01.11-13.11.05:423][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.11-13.11.05:424][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.11-13.11.05:460][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.864ms to complete.
+[2016.01.11-13.11.05:460][  0]LogFileHelpers: Loading map 'StartLevel' took 0.207
+[2016.01.11-13.11.05:556][  0]LogCollectionManager: Loaded 0 collections in 0.001828 seconds
+[2016.01.11-13.11.05:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Collections/' took 0.01s
+[2016.01.11-13.11.05:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Developers/Patte/Collections/' took 0.01s
+[2016.01.11-13.11.05:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Collections/' took 0.01s
+[2016.01.11-13.11.05:596][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1872 classes and 336 folders.
+[2016.01.11-13.11.05:600][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.01.11-13.11.05:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2016.01.11-13.11.05:643][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.01.11-13.11.05:651][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.01.11-13.11.05:694][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.11-13.11.05:697][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.11-13.11.05:719][  0]LogLoad: Full Startup: 5.12 seconds (BP compile: 0.05 seconds)
+[2016.01.11-13.11.06:092][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.11-13.11.06:194][  0]LogRenderer: Reallocating scene render targets to support 1056x576 (Frame:2).
+[2016.01.11-13.11.06:739][  2]LogAssetRegistry: Asset discovery search completed in 2.3287 seconds
+[2016.01.11-13.11.06:739][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.11-13.11.06:739][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.01.11-13.11.11:641][161]Recompiling UnrealProject...
+[2016.01.11-13.11.11:641][161]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 7885 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-13.11.11:643][161]Warning: Starting HotReload took  0.0s.
+[2016.01.11-13.11.14:624][499]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 3:11:14 PM
+[2016.01.11-13.11.14:624][499]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-13.11.14:625][499]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.01.11-13.11.14:625][499]CompilerResultsLog: Info PawnCar.cpp
+[2016.01.11-13.11.14:625][499]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-7885.dll
+[2016.01.11-13.11.14:625][499]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7885.lib and object C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7885.exp
+[2016.01.11-13.11.14:625][499]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.01.11-13.11.14:625][499]CompilerResultsLog: Info Total build time: 2,95 seconds
+[2016.01.11-13.11.14:625][499]LogMainFrame: MainFrame: Module compiling took 2.986 seconds
+[2016.01.11-13.11.14:664][499]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0015 seconds. Added 5 classes and 3 folders.
+[2016.01.11-13.11.14:665][499]Warning: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2016.01.11-13.11.14:716][499]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1873 classes and 338 folders.
+[2016.01.11-13.11.16:597][706]LogSavePackage: Save=27.448715ms
+[2016.01.11-13.11.16:597][706]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel7079BC4A4ED71B1F5994C88F2BCEB186.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-13.11.16:598][706]LogSavePackage: Total save time: 60.781352ms
+[2016.01.11-13.11.16:598][706]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-13.11.53:740][219]Recompiling UnrealProject...
+[2016.01.11-13.11.53:740][219]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 4822 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-13.11.53:742][219]Warning: Starting HotReload took  0.0s.
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 3:11:56 PM
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: Info PawnCar.cpp
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-4822.dll
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4822.lib and object C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4822.exp
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.01.11-13.11.56:570][539]CompilerResultsLog: Info Total build time: 2,80 seconds
+[2016.01.11-13.11.56:570][539]LogMainFrame: MainFrame: Module compiling took 2.831 seconds
+[2016.01.11-13.11.56:607][539]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0013 seconds. Added 5 classes and 3 folders.
+[2016.01.11-13.11.56:608][539]Warning: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2016.01.11-13.11.56:660][539]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1873 classes and 338 folders.
+[2016.01.11-13.11.57:252][593]LogSavePackage: Save=27.292765ms
+[2016.01.11-13.11.57:252][593]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevel714BEE9D4AEFCD44200C4E940E428CFF.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-13.11.57:253][593]LogSavePackage: Total save time: 47.888495ms
+[2016.01.11-13.11.57:253][593]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-13.12.26:317][153]Recompiling UnrealProject...
+[2016.01.11-13.12.26:318][153]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 4108 Win64 Development -editorrecompile -canskiplink "C:/Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-13.12.26:319][153]Warning: Starting HotReload took  0.0s.
+[2016.01.11-13.12.29:221][483]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 3:12:29 PM
+[2016.01.11-13.12.29:222][483]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-13.12.29:222][483]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.01.11-13.12.29:222][483]CompilerResultsLog: Info PawnCar.cpp
+[2016.01.11-13.12.29:222][483]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-4108.dll
+[2016.01.11-13.12.29:222][483]CompilerResultsLog: Info    Creating library C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4108.lib and object C:\Users\Patte\Documents\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-4108.exp
+[2016.01.11-13.12.29:222][483]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.01.11-13.12.29:222][483]CompilerResultsLog: Info Total build time: 2,87 seconds
+[2016.01.11-13.12.29:222][483]LogMainFrame: MainFrame: Module compiling took 2.906 seconds
+[2016.01.11-13.12.29:257][483]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0013 seconds. Added 5 classes and 3 folders.
+[2016.01.11-13.12.29:258][483]Warning: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2016.01.11-13.12.29:309][483]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 1873 classes and 338 folders.
+[2016.01.11-13.12.30:733][636]LogSavePackage: Save=35.220295ms
+[2016.01.11-13.12.30:733][636]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/UEDPCStartLevelC7B167744D97A837F4A3BEA2DAAADB6E.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap'
+[2016.01.11-13.12.30:734][636]LogSavePackage: Total save time: 58.323212ms
+[2016.01.11-13.12.30:734][636]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/UEDPCStartLevel.umap
+[2016.01.11-13.16.57:764][372]LogSavePackage: Save=28.170307ms
+[2016.01.11-13.16.57:764][372]LogSavePackage: Moving '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Saved/StartLevel515428A14E52FAFC6145AE99C2EE0C07.tmp' to '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap'
+[2016.01.11-13.16.57:767][372]LogSavePackage: Total save time: 57.003759ms
+[2016.01.11-13.16.57:767][372]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/StartLevel.umap
+[2016.01.11-13.16.57:794][372]LogFileHelpers: Saving map 'StartLevel' took 0.134
+[2016.01.11-13.16.57:893][372]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.11-13.16.58:117][373]Cmd: QUIT_EDITOR
+[2016.01.11-13.16.58:317][373]LogExit: Preparing to exit.
+[2016.01.11-13.16.58:508][373]LogExit: Editor shut down
+[2016.01.11-13.16.58:509][373]LogExit: Transaction tracking system shut down
+[2016.01.11-13.16.58:511][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000146B48F7E0
+[2016.01.11-13.16.58:511][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001406D35BC0
+[2016.01.11-13.16.58:511][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001410317600
+[2016.01.11-13.16.58:610][373]LogExit: Object subsystem successfully closed.
+[2016.01.11-13.16.58:626][373]LogD3D11RHI: Shutdown
+[2016.01.11-13.16.58:626][373]LogD3D11RHI: CleanupD3DDevice
+[2016.01.11-13.16.58:654][373]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.11-13.16.58:668][373]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.11-13.16.58:668][373]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.11-13.16.58:668][373]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.11-13.16.58:668][373]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.11-13.16.58:668][373]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.11-13.16.58:669][373]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.11-13.16.59:209][373]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.11-13.16.59:210][373]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.11-13.16.59:420][373]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.11-13.16.59:438][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.11-13.16.59:440][373]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.11-13.16.59:440][373]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.11-13.16.59:440][373]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.11-13.16.59:440][373]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.11-13.16.59:440][373]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.11-13.16.59:440][373]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.11-13.16.59:440][373]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.11-13.16.59:441][373]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.11-13.16.59:443][373]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.11-13.16.59:532][373]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.11-13.16.59:533][373]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.11-13.16.59:533][373]LogModuleManager: Shutting down and abandoning module UnrealProject (86)
+[2016.01.11-13.16.59:533][373]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.11-13.16.59:634][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.11-13.16.59:634][373]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.11-13.16.59:634][373]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.11-13.16.59:641][373]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.11-13.16.59:641][373]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.11-13.16.59:644][373]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.11-13.16.59:644][373]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.11-13.16.59:644][373]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.11-13.16.59:644][373]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.11-13.16.59:644][373]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.11-13.16.59:645][373]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.11-13.16.59:652][373]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.11-13.16.59:653][373]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.11-13.16.59:724][373]LogDerivedDataCache: Shutdown
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.11-13.16.59:724][373]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.11-13.16.59:725][373]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.11-13.17.01:729][373]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.11-13.17.01:729][373]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.11-13.17.01:729][373]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.11-13.17.01:729][373]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.11-13.17.01:729][373]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.11-13.17.01:729][373]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.11-13.17.01:730][373]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.11-13.17.01:731][373]LogExit: Exiting.
+[2016.01.11-13.17.01:733][373]Log file closed, 01/11/16 14:17:01
