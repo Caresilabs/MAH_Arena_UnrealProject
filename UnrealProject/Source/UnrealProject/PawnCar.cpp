@@ -91,6 +91,18 @@ void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 	BoxComponent->AddImpulse(Impulse);
 }
 
+void APawnCar::Thrust(float value){
+
+	if (ThrustDelay <= 0)
+	{
+		ThrustDelay = 5;
+		FRotationMatrix Matrix = FRotationMatrix(BoxComponent->GetRelativeTransform().GetRotation().Rotator());
+		FVector impulse = Matrix.TransformVector(FVector(0, 1000000, 0));
+		BoxComponent->AddImpulse(impulse);
+	}
+
+}
+
 void APawnCar::Damage(float amount) {
 	Health += amount; 
 	if (amount > 0)
@@ -197,7 +209,12 @@ void APawnCar::Tick(float DeltaTime)
 		}
 	}
 
-
+	if (ThrustDelay > 0)
+	{
+		ThrustDelay -= DeltaTime;
+		if (ThrustDelay < 0)
+			ThrustDelay = 0;
+	}
 }
 
 void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) {
