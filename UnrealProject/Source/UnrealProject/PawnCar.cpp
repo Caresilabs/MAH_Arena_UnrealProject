@@ -40,18 +40,12 @@ void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
 	BoxComponent->SetAngularDamping(2.5f);
-
-	
 }
 
 void APawnCar::SetPlayerIndex(int32 index) {
-	this->PlayerIndex = index ;
+	this->PlayerIndex = index;
 
-	// StaticMesh'/Game/Models/example_0.example_0'
-	static const FString MeshName = FString("StaticMesh'/Game/Models/example_") + FString::FromInt(PlayerIndex) + FString(".example_") + FString::FromInt(PlayerIndex) + FString("'");
-
-	UE_LOG(LogTemp, Log, TEXT("hej %s"), *MeshName);
-
+	const FString MeshName = FString("StaticMesh'/Game/Models/example_") + FString::FromInt(index) + FString(".example_") + FString::FromInt(index) + FString("'");
 	UStaticMesh* GroundMesh = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, *MeshName));
 
 	StaticMesh->SetStaticMesh(GroundMesh);
