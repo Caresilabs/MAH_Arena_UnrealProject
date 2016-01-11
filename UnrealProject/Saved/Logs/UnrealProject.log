@@ -12362,4 +12362,391 @@
 [2016.01.11-08.50.44:595][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
 [2016.01.11-08.50.44:595][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
 [2016.01.11-08.50.44:596][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-08.50.44:596][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocke
+[2016.01.11-08.50.44:596][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-08.50.44:596][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2016.01.11-09.50.44
+[2016.01.11-08.50.44:596][971]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-08.50.44:596][971]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-08.50.44:597][971]LogWorld: Bringing up level for play took: 0.012244
+[2016.01.11-08.50.44:598][971]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.11-08.50.44:604][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-08.50.44:604][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-08.50.44:604][971]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-08.50.44:605][971]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.316
+[2016.01.11-08.50.44:605][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.02.32:242][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.02.32:273][369]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.02.32:310][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.02.32:480][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000249129ECFE0
+[2016.01.11-09.19.08:755][972]LogBlueprintUserMessages: [SpringBoard_C_0] Hello
+[2016.01.11-09.19.45:281][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.19.45:356][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024974345120
+[2016.01.11-09.19.45:363][906]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Simon' took 0.082
+[2016.01.11-09.19.45:372][906]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/SpringBoard] ([1] browsable assets)...
+[2016.01.11-09.19.45:397][906]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/SpringBoard.SpringBoard]
+[2016.01.11-09.19.45:397][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SpringBoard]
+[2016.01.11-09.19.45:512][906]LogSavePackage: Save=54.528309ms
+[2016.01.11-09.19.45:512][906]LogSavePackage: Moving 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/SpringBoard_Auto384CB081943F9700D17F63AAEC0B40DDC.tmp' to 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Blueprints/SpringBoard_Auto3.uasset'
+[2016.01.11-09.19.45:513][906]LogSavePackage: Total save time: 114.518486ms
+[2016.01.11-09.19.45:513][906]LogSavePackage:Warning: Finished SavePackage C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Autosaves/Game/Blueprints/SpringBoard_Auto3.uasset
+[2016.01.11-09.19.45:514][906]LogFileHelpers: Auto-saving content packages took 0.150
+[2016.01.11-09.21.43:515][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.Movement) Not registered. Aborting.
+[2016.01.11-09.21.43:727][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Simon" FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.11-09.21.44:093][978]LogSavePackage: Save=243.968292ms
+[2016.01.11-09.21.44:093][978]LogSavePackage: Moving 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/Simon20F7D1C845F9514DFE2B088B65056E21.tmp' to 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap'
+[2016.01.11-09.21.44:102][978]LogSavePackage: Total save time: 313.151598ms
+[2016.01.11-09.21.44:103][978]LogSavePackage:Warning: Finished SavePackage C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Maps/Simon.umap
+[2016.01.11-09.21.44:174][978]LogFileHelpers: Saving map 'Simon' took 0.531
+[2016.01.11-09.21.44:188][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/SharedHUD" FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset" SILENT=true
+[2016.01.11-09.21.44:818][978]LogSavePackage: Save=539.380249ms
+[2016.01.11-09.21.44:818][978]LogSavePackage: Moving 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/SharedHUD0C28EDC0440605D66145DFBC90A3901F.tmp' to 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset'
+[2016.01.11-09.21.44:825][978]LogSavePackage: Total save time: 630.908836ms
+[2016.01.11-09.21.44:825][978]LogSavePackage:Warning: Finished SavePackage C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/GUI/SharedHUD.uasset
+[2016.01.11-09.21.44:839][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpringBoard" FILE="C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/SpringBoard.uasset" SILENT=true
+[2016.01.11-09.21.44:937][978]LogSavePackage: Save=41.931583ms
+[2016.01.11-09.21.44:937][978]LogSavePackage: Moving 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Saved/SpringBoard0C99765141D0DFAECD260D992F77DA28.tmp' to 'C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/SpringBoard.uasset'
+[2016.01.11-09.21.44:945][978]LogSavePackage: Total save time: 100.369569ms
+[2016.01.11-09.21.44:945][978]LogSavePackage:Warning: Finished SavePackage C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/Content/Blueprints/SpringBoard.uasset
+[2016.01.11-09.23.15:517][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.23.15:518][544]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.11-09.23.15:519][544]LogPlayLevel: [PlayLevel] Compiling SpringBoard before play...
+[2016.01.11-09.23.15:597][544]LogPlayLevel: PlayLevel: Blueprint regeneration took 78 ms (2 blueprints)
+[2016.01.11-09.23.15:601][544]LogPlayLevel: [PlayLevel] Compiling SharedHUD before play...
+[2016.01.11-09.23.15:792][544]LogPlayLevel: PlayLevel: Blueprint regeneration took 273 ms (3 blueprints)
+[2016.01.11-09.23.15:793][544]LogPlayLevel: [PlayLevel] Compiling UnrealProjectGameModeBP before play...
+[2016.01.11-09.23.15:958][544]LogPlayLevel: PlayLevel: Blueprint regeneration took 440 ms (3 blueprints)
+[2016.01.11-09.23.16:028][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000249732E93A0
+[2016.01.11-09.23.16:043][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000249732E9E40
+[2016.01.11-09.23.16:043][544]PIE: New page: PIE session: Simon (Jan 11, 2016, 11:23:16 AM)
+[2016.01.11-09.23.16:043][544]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2016.01.11-09.23.16:088][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045021s)
+[2016.01.11-09.23.16:091][544]LogAIModule: Creating AISystem for world Simon
+[2016.01.11-09.23.16:091][544]LogPlayLevel: PIE: World Init took: (0.002350s)
+[2016.01.11-09.23.16:091][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.047758s)
+[2016.01.11-09.23.16:157][544]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.11-09.23.16:170][544]LogInit: FAudioDevice initialized.
+[2016.01.11-09.23.16:207][544]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.11-09.23.16:215][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:215][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:216][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:216][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:216][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:217][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:217][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:217][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:217][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:217][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:217][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:217][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:218][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:219][544]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 0) at 2016.01.11-10.23.16
+[2016.01.11-09.23.16:219][544]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.23.16:219][544]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.23.16:220][544]LogWorld: Bringing up level for play took: 0.012352
+[2016.01.11-09.23.16:222][544]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.11-09.23.16:228][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:228][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:228][544]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.16:229][544]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 1.307
+[2016.01.11-09.23.16:229][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.23.21:690][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.23.21:708][980]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.23.21:747][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.23.21:834][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024909A20540
+[2016.01.11-09.23.26:360][ 54]Recompiling UnrealProject...
+[2016.01.11-09.23.26:361][ 54]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 1456 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.23.26:364][ 54]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.24.38:603][706]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:24:38 AM
+[2016.01.11-09.24.38:603][706]CompilerResultsLog: Info Creating makefile for hot reloading UnrealProject (game project files are newer)
+[2016.01.11-09.24.38:603][706]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.24.38:603][706]CompilerResultsLog: Info Parsing headers for UnrealProjectEditor
+[2016.01.11-09.24.38:603][706]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" "C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate\Build\Win64\UnrealProjectEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.01.11-09.24.38:604][706]CompilerResultsLog: Info Reflection code generated for UnrealProjectEditor in 24.2432012 seconds
+[2016.01.11-09.24.38:604][706]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2016.01.11-09.24.38:604][706]CompilerResultsLog: Info PawnCar.cpp
+[2016.01.11-09.24.38:604][706]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-1456.dll
+[2016.01.11-09.24.38:604][706]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-1456.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-1456.exp
+[2016.01.11-09.24.38:604][706]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.01.11-09.24.38:604][706]CompilerResultsLog: Info Total build time: 72.10 seconds
+[2016.01.11-09.24.38:604][706]LogMainFrame: MainFrame: Module compiling took 72.249 seconds
+[2016.01.11-09.24.38:765][706]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0039 seconds. Added 4 classes and 3 folders.
+[2016.01.11-09.24.38:772][706]Warning: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2016.01.11-09.24.39:653][706]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 1872 classes and 338 folders.
+[2016.01.11-09.24.46:412][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.24.46:412][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.11-09.24.46:412][ 56]PIE: New page: PIE session: Simon (Jan 11, 2016, 11:24:46 AM)
+[2016.01.11-09.24.46:412][ 56]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2016.01.11-09.24.46:464][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051329s)
+[2016.01.11-09.24.46:465][ 56]LogAIModule: Creating AISystem for world Simon
+[2016.01.11-09.24.46:465][ 56]LogPlayLevel: PIE: World Init took: (0.001619s)
+[2016.01.11-09.24.46:466][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.053610s)
+[2016.01.11-09.24.46:658][ 56]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.11-09.24.46:672][ 56]LogInit: FAudioDevice initialized.
+[2016.01.11-09.24.46:711][ 56]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.11-09.24.46:720][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:720][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:721][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:721][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:721][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:721][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:721][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:722][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:722][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:722][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:722][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:722][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:723][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:723][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:723][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:723][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:723][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:724][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:724][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:724][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:724][ 56]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2016.01.11-10.24.46
+[2016.01.11-09.24.46:724][ 56]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.24.46:725][ 56]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.24.46:726][ 56]LogWorld: Bringing up level for play took: 0.013871
+[2016.01.11-09.24.46:728][ 56]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.11-09.24.46:734][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:735][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:735][ 56]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.46:736][ 56]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.185
+[2016.01.11-09.24.46:736][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.24.51:738][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.24.51:757][337]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.24.51:791][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.24.51:857][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024913565800
+[2016.01.11-09.24.57:449][422]Recompiling UnrealProject...
+[2016.01.11-09.24.57:450][422]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 9132 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.24.57:452][422]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:25:07 AM
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: Info PawnCar.cpp
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-9132.dll
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-9132.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-9132.exp
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.01.11-09.25.07:119][941]CompilerResultsLog: Info Total build time: 9.55 seconds
+[2016.01.11-09.25.07:119][941]LogMainFrame: MainFrame: Module compiling took 9.677 seconds
+[2016.01.11-09.25.07:274][941]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0036 seconds. Added 4 classes and 3 folders.
+[2016.01.11-09.25.07:281][941]Warning: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2016.01.11-09.25.08:137][941]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 1872 classes and 338 folders.
+[2016.01.11-09.25.14:297][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.14:298][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.11-09.25.14:298][278]PIE: New page: PIE session: Simon (Jan 11, 2016, 11:25:14 AM)
+[2016.01.11-09.25.14:298][278]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2016.01.11-09.25.14:336][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038344s)
+[2016.01.11-09.25.14:337][278]LogAIModule: Creating AISystem for world Simon
+[2016.01.11-09.25.14:337][278]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2016.01.11-09.25.14:338][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.039695s)
+[2016.01.11-09.25.14:482][278]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.11-09.25.14:496][278]LogInit: FAudioDevice initialized.
+[2016.01.11-09.25.14:537][278]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.11-09.25.14:547][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:547][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:548][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:548][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:548][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:548][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:548][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:549][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:549][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:549][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:549][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:550][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:550][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:550][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:550][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:551][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:551][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:551][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:551][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:551][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:551][278]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2016.01.11-10.25.14
+[2016.01.11-09.25.14:552][278]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.25.14:552][278]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.25.14:553][278]LogWorld: Bringing up level for play took: 0.014763
+[2016.01.11-09.25.14:555][278]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.11-09.25.14:561][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:561][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:562][278]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.14:563][278]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon -0.359
+[2016.01.11-09.25.14:563][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.19:972][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.20:004][533]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.20:049][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.20:145][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002490E99F6A0
+[2016.01.11-09.25.21:450][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.21:450][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.11-09.25.21:450][599]PIE: New page: PIE session: Simon (Jan 11, 2016, 11:25:21 AM)
+[2016.01.11-09.25.21:450][599]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2016.01.11-09.25.21:492][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041238s)
+[2016.01.11-09.25.21:493][599]LogAIModule: Creating AISystem for world Simon
+[2016.01.11-09.25.21:493][599]LogPlayLevel: PIE: World Init took: (0.001345s)
+[2016.01.11-09.25.21:494][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.042981s)
+[2016.01.11-09.25.21:567][599]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.11-09.25.21:580][599]LogInit: FAudioDevice initialized.
+[2016.01.11-09.25.21:621][599]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.11-09.25.21:630][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:630][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:630][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:630][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:631][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:631][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:631][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:632][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:632][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:632][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:632][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:632][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:633][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:633][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:633][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:633][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:633][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:634][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:634][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:634][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:634][599]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2016.01.11-10.25.21
+[2016.01.11-09.25.21:634][599]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.25.21:635][599]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.25.21:636][599]LogWorld: Bringing up level for play took: 0.014340
+[2016.01.11-09.25.21:637][599]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.11-09.25.21:644][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:644][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:645][599]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.21:645][599]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.724
+[2016.01.11-09.25.21:646][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.37:771][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.37:788][551]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.37:821][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.37:891][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024973C076A0
+[2016.01.11-09.25.49:412][676]Recompiling UnrealProject...
+[2016.01.11-09.25.49:412][676]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 2903 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.25.49:415][676]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.25.58:124][152]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:25:58 AM
+[2016.01.11-09.25.58:125][152]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.25.58:125][152]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2016.01.11-09.25.58:125][152]CompilerResultsLog: Info PawnCar.cpp
+[2016.01.11-09.25.58:125][152]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-2903.dll
+[2016.01.11-09.25.58:125][152]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2903.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-2903.exp
+[2016.01.11-09.25.58:125][152]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.01.11-09.25.58:125][152]CompilerResultsLog: Info Total build time: 8.61 seconds
+[2016.01.11-09.25.58:125][152]LogMainFrame: MainFrame: Module compiling took 8.718 seconds
+[2016.01.11-09.25.58:281][152]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0036 seconds. Added 4 classes and 3 folders.
+[2016.01.11-09.25.58:287][152]Warning: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2016.01.11-09.25.59:136][152]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 1872 classes and 338 folders.
+[2016.01.11-09.25.59:378][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.25.59:378][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.11-09.25.59:378][163]PIE: New page: PIE session: Simon (Jan 11, 2016, 11:25:59 AM)
+[2016.01.11-09.25.59:378][163]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2016.01.11-09.25.59:424][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046199s)
+[2016.01.11-09.25.59:425][163]LogAIModule: Creating AISystem for world Simon
+[2016.01.11-09.25.59:426][163]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2016.01.11-09.25.59:426][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.047801s)
+[2016.01.11-09.25.59:555][163]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.11-09.25.59:569][163]LogInit: FAudioDevice initialized.
+[2016.01.11-09.25.59:610][163]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.11-09.25.59:619][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:619][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:620][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:620][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:620][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:620][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:620][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:621][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:621][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:621][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:621][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:621][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:622][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:622][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:622][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:622][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:622][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:623][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:623][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:623][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:623][163]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2016.01.11-10.25.59
+[2016.01.11-09.25.59:623][163]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.25.59:624][163]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.25.59:625][163]LogWorld: Bringing up level for play took: 0.014037
+[2016.01.11-09.25.59:627][163]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.11-09.25.59:633][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:634][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:634][163]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.25.59:635][163]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.714
+[2016.01.11-09.25.59:635][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.26.09:969][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.26.09:988][753]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.10:026][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.26.10:091][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002497FE00F40
+[2016.01.11-09.26.15:537][849]Recompiling UnrealProject...
+[2016.01.11-09.26.15:537][849]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealProject -ModuleWithSuffix UnrealProject 7911 Win64 Development -editorrecompile -canskiplink "C:/Users/Simon/Documents/GitHub/MAH_Arena_UnrealProject/UnrealProject/UnrealProject.uproject" -rocket  -rocket]
+[2016.01.11-09.26.15:539][849]Warning: Starting HotReload took  0.0s.
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: New page: Compilation - Jan 11, 2016, 11:26:24 AM
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: Info PawnCar.cpp
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: Info [2/2] Link UE4Editor-UnrealProject-7911.dll
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: Info    Creating library C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7911.lib and object C:\Users\Simon\Documents\GitHub\MAH_Arena_UnrealProject\UnrealProject\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-UnrealProject-7911.exp
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.01.11-09.26.24:781][349]CompilerResultsLog: Info Total build time: 9.13 seconds
+[2016.01.11-09.26.24:781][349]LogMainFrame: MainFrame: Module compiling took 9.250 seconds
+[2016.01.11-09.26.24:935][349]LogContentBrowser: Native class hierarchy updated for 'UnrealProject' in 0.0036 seconds. Added 4 classes and 3 folders.
+[2016.01.11-09.26.24:942][349]Warning: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2016.01.11-09.26.25:822][349]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 1872 classes and 338 folders.
+[2016.01.11-09.26.27:551][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.26.27:552][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.11-09.26.27:552][443]PIE: New page: PIE session: Simon (Jan 11, 2016, 11:26:27 AM)
+[2016.01.11-09.26.27:552][443]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simon
+[2016.01.11-09.26.27:593][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040723s)
+[2016.01.11-09.26.27:594][443]LogAIModule: Creating AISystem for world Simon
+[2016.01.11-09.26.27:594][443]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2016.01.11-09.26.27:594][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simon.Simon to /Game/Maps/UEDPIE_0_Simon.Simon (0.042069s)
+[2016.01.11-09.26.27:734][443]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.11-09.26.27:748][443]LogInit: FAudioDevice initialized.
+[2016.01.11-09.26.27:786][443]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.11-09.26.27:796][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:796][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:796][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:796][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:796][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:797][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:797][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:797][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:797][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:797][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:798][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:798][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:798][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:798][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:799][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:799][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:799][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:799][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:800][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:800][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:800][443]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simon.Simon up for play (max tick rate 60) at 2016.01.11-10.26.27
+[2016.01.11-09.26.27:800][443]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameSession_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.26.27:800][443]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Simon.Simon:PersistentLevel.GameNetworkManager_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.11-09.26.27:802][443]LogWorld: Bringing up level for play took: 0.014152
+[2016.01.11-09.26.27:803][443]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.11-09.26.27:809][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:810][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:810][443]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.27:811][443]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simon 0.89
+[2016.01.11-09.26.27:811][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.26.51:228][790]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.11-09.26.52:961][894]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.26.53:015][894]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Simon.Simon:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Simon.Simon:PersistentLevel.Simon' with GeneratedClass '/Game/Maps/Simon.Simon_C' with ClassGeneratedBy '/Game/Maps/Simon.Simon:PersistentLevel.Simon'
+[2016.01.11-09.26.53:078][894]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000249130423E0
+[2016.01.11-09.27.25:934][836]Recompiling UnrealProject...
+[2016.01.11-09.27.25:935][
