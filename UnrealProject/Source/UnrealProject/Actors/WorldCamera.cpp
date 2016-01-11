@@ -31,9 +31,9 @@ void AWorldCamera::Tick( float delta ) {
 
 	//const FRotator Rot = FRotationMatrix::MakeFromX( Average - GetActorLocation() ).Rotator();
 	
-	auto NewLocation = Average + (GetActorForwardVector() * -MaxDistance* 1.15f);
+	auto NewLocation = Average + (GetActorForwardVector() * -MaxDistance* 1.16f);
 
-	SetActorLocation( FMath::Lerp( GetActorLocation(), NewLocation, delta * 9.f) );
+	SetActorLocation( FMath::Lerp( GetActorLocation(), NewLocation, delta * 10.f) );
 
 }
 

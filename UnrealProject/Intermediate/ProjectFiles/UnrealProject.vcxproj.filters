@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\UnrealProject.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{73D5E0A0-598D-4719-A74F-F2E82B659F37}</UniqueIdentifier>
+			<UniqueIdentifier>{1F1320B0-0DC9-4260-A1A1-AFA0ABC2A100}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UnrealProject.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{ADA4A336-4281-4219-ABC5-C229D247687B}</UniqueIdentifier>
+			<UniqueIdentifier>{20E9E8FD-4548-436C-BB45-6C1F4CD3EBAC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\UnrealProject">
-			<UniqueIdentifier>{9EC0E718-0C84-41FA-949C-9340D7FE4A3F}</UniqueIdentifier>
+			<UniqueIdentifier>{030A52AE-84B1-42E7-AF95-C8D1442815E8}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\UnrealProject\CarController.cpp">
 			<Filter>Source\UnrealProject</Filter>
@@ -58,7 +58,7 @@
 			<Filter>Source\UnrealProject</Filter>
 		</ClInclude >
 		<Filter Include="Source\UnrealProject\Actors">
-			<UniqueIdentifier>{F72A8119-C170-4EEF-A396-129270A4910B}</UniqueIdentifier>
+			<UniqueIdentifier>{E174E8F9-D386-4586-BE89-C4D77E340B1F}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\UnrealProject\Actors\PowerUp.cpp">
 			<Filter>Source\UnrealProject\Actors</Filter>

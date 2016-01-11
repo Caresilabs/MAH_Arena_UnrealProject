@@ -39,7 +39,8 @@ APawnCar::APawnCar()
 void APawnCar::BeginPlay()
 {
 	Super::BeginPlay();
-	BoxComponent->SetAngularDamping(2.5f);
+	BoxComponent->SetAngularDamping(2.0f);
+	BoxComponent->GetBodyInstance()->MassInKg = 1500.0f;
 }
 
 void APawnCar::SetPlayerIndex(int32 index) {
@@ -76,8 +77,9 @@ void APawnCar::ApplyImpulse(FVector Impulse, bool bUtilizeHealth)
 {
 	if (bUtilizeHealth) {
 		Impulse = Impulse * (1 + ((Health + 1.0f) / 25.0f));
+		
 		UE_LOG(LogTemp, Log, TEXT("Actor: %s .. impuse scale %f ... health %f"), *GetActorLabel(), (1 + ((Health + 1.0f) / 25.f)), Health);
-		//Impulse.Z *= 2.0f;
+		
 	}
 
 	BoxComponent->AddImpulse(Impulse);
@@ -89,7 +91,7 @@ void APawnCar::Thrust(float value){
 	{
 		ThrustDelay = 5;
 		FRotationMatrix Matrix = FRotationMatrix(BoxComponent->GetRelativeTransform().GetRotation().Rotator());
-		FVector impulse = Matrix.TransformVector(FVector(0, 1000000, 0));
+		FVector impulse = Matrix.TransformVector(FVector(0, 2800000, 0));
 		BoxComponent->AddImpulse(impulse);
 	}
 
@@ -219,23 +221,20 @@ void APawnCar::NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class
 		if (OtherCar->bInvincible)
 			return;
 
-		//FVector Impulse = FVector(- FVector::DotProduct(GetMovementComponent()->Velocity, HitNormal) * GetMovementComponent()->Velocity * 1000.0f);
-		//FVector RelativeVelocity = GetMovementComponent()->Velocity - OtherCar->GetMovementComponent()->Velocity;
-		//float VelAlongNormal = FVector::DotProduct(RelativeVelocity, HitNormal);
 		//float J = -(1 + 1) * VelAlongNormal;
 		
-		float DamageToTake = FMath::Abs( FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) / 100.f );
+		float DamageToTake = FMath::Abs( FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) / 120.f );
 		OtherCar->Damage(DamageToTake);
 
 		FVector Impulse = FVector::DotProduct(HitNormal, GetMovementComponent()->Velocity) * GetMovementComponent()->Velocity;	//J * HitNormal;
 
-		OtherCar->ApplyImpulse(Impulse * -0.05f, true);
+		OtherCar->ApplyImpulse(Impulse * -0.25f, true);
 	}
 }
 
 void APawnCar::SetRotationDirection(FRotator RotationDirection)
 {
-	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 27000000, -RotationDirection.Pitch * 17000000, RotationDirection.Yaw)));
+	BoxComponent->AddTorque(BoxComponent->GetComponentRotation().RotateVector(FVector(RotationDirection.Roll * 97000000, -RotationDirection.Pitch * 77000000, RotationDirection.Yaw)));
 }
 
 void APawnCar::SetDirection(FVector Direction)
