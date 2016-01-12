@@ -32,11 +32,20 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Health)
 	void Damage(float amount);
 
+	UFUNCTION(BlueprintImplementableEvent, meta = (FriendlyName = "Spawns particles"))
+	void ThrustParticle();
+
 	UFUNCTION(BlueprintCallable, Category = Health)
 	float GetHealth();
 
 	UFUNCTION(BlueprintCallable, Category = Lives)
 	void SetLives(int32 lives);
+
+	UFUNCTION(BlueprintCallable, Category = Lives)
+	bool IsBoosting();
+
+	UFUNCTION(BlueprintCallable, Category = Lives)
+	bool IsSlow();
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Invincibility")
 	void CallInvincible();

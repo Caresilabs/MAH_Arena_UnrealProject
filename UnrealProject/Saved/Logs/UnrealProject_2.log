@@ -1,642 +1,645 @@
-﻿[2016.01.11-14.40.37:493][  0]Log file open, 01/11/16 15:40:37
-[2016.01.11-14.40.37:493][  0]LogInit:Display: Running engine for game: UnrealProject
-[2016.01.11-14.40.37:493][  0]LogInit:Display: RandInit(728507972) SRandInit(728507972).
-[2016.01.11-14.40.37:493][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.01.11-14.40.37:493][  0]LogStats: Stats thread started at 0.075375
-[2016.01.11-14.40.37:493][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.01.11-14.40.37:493][  0]LogInit: API Version: 2672455
-[2016.01.11-14.40.37:493][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2016.01.11-14.40.37:493][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2016.01.11-14.40.37:493][  0]LogInit: Build Configuration: Development
-[2016.01.11-14.40.37:493][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2016.01.11-14.40.37:493][  0]LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCStartLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
-[2016.01.11-14.40.37:493][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2016.01.11-14.40.37:493][  0]LogInit: Rocket: 1
-[2016.01.11-14.40.37:506][  0]LogInit: Using libcurl 7.41.0
-[2016.01.11-14.40.37:506][  0]LogInit:  - built for x86_64-pc-win32
-[2016.01.11-14.40.37:506][  0]LogInit:  - supports SSL with WinSSL
-[2016.01.11-14.40.37:506][  0]LogInit:  - other features:
-[2016.01.11-14.40.37:506][  0]LogInit:      CURL_VERSION_SSL
-[2016.01.11-14.40.37:506][  0]LogInit:      CURL_VERSION_IPV6
-[2016.01.11-14.40.37:506][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.01.11-14.40.37:506][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.01.11-14.40.37:506][  0]LogInit:      CURL_VERSION_IDN
-[2016.01.11-14.40.37:507][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.01.11-14.40.37:507][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.01.11-14.40.37:507][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.01.11-14.40.37:507][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.01.11-14.40.37:507][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.01.11-14.40.37:513][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.01.11-14.40.37:519][  0]LogInit: Object subsystem initialized
-[2016.01.11-14.40.37:520][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.11-14.40.37:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.01.11-14.40.37:522][  0]LogInit: Computer: PATTES
-[2016.01.11-14.40.37:522][  0]LogInit: User: Patte
-[2016.01.11-14.40.37:522][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.01.11-14.40.37:522][  0]LogInit: High frequency timer resolution =3.507523 MHz
-[2016.01.11-14.40.37:522][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.01.11-14.40.37:522][  0]LogMemory: Platform Memory Stats for Windows
-[2016.01.11-14.40.37:522][  0]LogMemory: Process Physical Memory: 53.98 MB used, 53.98 MB peak
-[2016.01.11-14.40.37:522][  0]LogMemory: Process Virtual Memory: 57.55 MB used, 57.55 MB peak
-[2016.01.11-14.40.37:522][  0]LogMemory: Physical Memory: 4592.94 MB used, 16324.34 MB total
-[2016.01.11-14.40.37:522][  0]LogMemory: Virtual Memory: 367.54 MB used, 134217728.00 MB total
-[2016.01.11-14.40.37:546][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
-[2016.01.11-14.40.38:111][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
-[2016.01.11-14.40.38:111][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
-[2016.01.11-14.40.38:112][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.01.11-14.40.38:112][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
-[2016.01.11-14.40.38:113][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.01.11-14.40.38:116][  0]LogD3D11RHI: !Direct3DDevice
-[2016.01.11-14.40.38:116][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.01.11-14.40.38:126][  0]LogD3D11RHI: Async texture creation enabled
-[2016.01.11-14.40.38:136][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/2128/).
-[2016.01.11-14.40.38:136][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/4D7691AC4C74A40C0ABDACB9682BF0C2/'.
-[2016.01.11-14.40.38:136][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.01.11-14.40.38:986][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.01.11-14.40.38:991][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.01.11-14.40.38:995][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.01.11-14.40.39:000][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.01.11-14.40.39:004][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.01.11-14.40.39:007][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.01.11-14.40.39:010][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.01.11-14.40.39:013][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.01.11-14.40.39:016][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.01.11-14.40.39:019][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.01.11-14.40.39:022][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.01.11-14.40.39:025][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.01.11-14.40.39:025][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.01.11-14.40.39:041][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.01.11-14.40.39:044][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.01.11-14.40.39:047][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.01.11-14.40.39:050][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.01.11-14.40.39:050][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.11-14.40.39:125][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.01.11-14.40.39:160][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.01.11-14.40.39:161][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2016.01.11-14.40.39:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.01.11-14.40.39:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.01.11-14.40.39:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.01.11-14.40.39:161][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.01.11-14.40.39:277][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.01.11-14.40.39:289][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Patte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.01.11-14.40.39:433][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.11-14.40.39:435][  0]LogContentStreaming: Texture pool size is 1000.000000MB
-[2016.01.11-14.40.39:530][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.01.11-14.40.39:530][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.01.11-14.40.39:702][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.01.11-14.40.39:859][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Movies/Default_Startup.mp4
-[2016.01.11-14.40.39:974][  0]SourceControl: Info Source control is disabled
-[2016.01.11-14.40.39:974][  0]SourceControl: Info Source control is disabled
-[2016.01.11-14.40.39:984][  0]SourceControl: Info Source control is disabled
-[2016.01.11-14.40.40:064][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.01.11-14.40.40:133][  0]LogObj: 27722 objects as part of root set at end of initial load.
-[2016.01.11-14.40.40:133][  0]LogUObjectAllocator: 5797600 out of 0 bytes used by permanent object pool.
-[2016.01.11-14.40.40:178][  0]LogEngine: Initializing Engine...
-[2016.01.11-14.40.40:180][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2016.01.11-14.40.40:181][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.01.11-14.40.40:281][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.01.11-14.40.40:290][  0]LogInit: FAudioDevice initialized.
-[2016.01.11-14.40.40:293][  0]LogInit: Texture streaming: Enabled
-[2016.01.11-14.40.40:344][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCStartLevel?Name=Player
-[2016.01.11-14.40.40:345][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCStartLevel?Name=Player
-[2016.01.11-14.40.40:355][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000464F03A0C0
-[2016.01.11-14.40.40:362][  0]LogMemory: Platform Memory Stats for Windows
-[2016.01.11-14.40.40:362][  0]LogMemory: Process Physical Memory: 389.11 MB used, 389.11 MB peak
-[2016.01.11-14.40.40:362][  0]LogMemory: Process Virtual Memory: 437.80 MB used, 437.80 MB peak
-[2016.01.11-14.40.40:362][  0]LogMemory: Physical Memory: 4831.02 MB used, 16324.34 MB total
-[2016.01.11-14.40.40:362][  0]LogMemory: Virtual Memory: 972.39 MB used, 134217728.00 MB total
-[2016.01.11-14.40.40:362][  0]LogMemory: 
-[2016.01.11-14.40.40:362][  0]Allocator Stats for TBB: (not implemented)
-[2016.01.11-14.40.40:536][  0]LogAIModule: Creating AISystem for world StartLevel
-[2016.01.11-14.40.40:537][  0]LogWorld: Game class is 'MainMenuGameModeBP_C'
-[2016.01.11-14.40.40:543][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCStartLevel.StartLevel up for play (max tick rate 0) at 2016.01.11-15.40.40
-[2016.01.11-14.40.40:543][  0]LogWorld: Bringing up level for play took: 0.000884
-[2016.01.11-14.40.40:546][  0]LogInit:Display: Game Engine Initialized.
-[2016.01.11-14.40.40:762][  0]LogLoad: Full Startup: 3.89 seconds (BP compile: 0.04 seconds)
-[2016.01.11-14.40.40:853][  2]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
-[2016.01.11-14.40.43:916][188]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve Battleblock.umap.
-[2016.01.11-14.40.43:958][188]LogPackageName: SearchForPackageOnDisk took   0.042s to resolve Battleblock.umap.
-[2016.01.11-14.40.43:958][188]LogNet: Browse: /Game/Maps/BattleBlock
-[2016.01.11-14.40.43:958][188]LogLoad: LoadMap: /Game/Maps/BattleBlock
-[2016.01.11-14.40.43:969][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004649C8B560
-[2016.01.11-14.40.43:980][188]LogMemory: Platform Memory Stats for Windows
-[2016.01.11-14.40.43:980][188]LogMemory: Process Physical Memory: 497.96 MB used, 500.88 MB peak
-[2016.01.11-14.40.43:980][188]LogMemory: Process Virtual Memory: 740.53 MB used, 744.43 MB peak
-[2016.01.11-14.40.43:980][188]LogMemory: Physical Memory: 4888.92 MB used, 16324.34 MB total
-[2016.01.11-14.40.43:980][188]LogMemory: Virtual Memory: 1306.40 MB used, 134217728.00 MB total
-[2016.01.11-14.40.43:980][188]LogMemory: 
-[2016.01.11-14.40.43:980][188]Allocator Stats for TBB: (not implemented)
-[2016.01.11-14.40.44:268][188]LogAIModule: Creating AISystem for world BattleBlock
-[2016.01.11-14.40.44:451][188]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:456][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:460][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:461][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:462][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:463][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:463][188]LogWorld: Bringing World /Game/Maps/BattleBlock.BattleBlock up for play (max tick rate 0) at 2016.01.11-15.40.44
-[2016.01.11-14.40.44:463][188]LogWorld: Bringing up level for play took: 0.009118
-[2016.01.11-14.40.44:464][188]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2016.01.11-14.40.44:467][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:467][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:468][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:468][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:469][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:469][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:469][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:469][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:471][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:471][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:471][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:471][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:471][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.44:472][188]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.40.54:162][788]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.40.54:162][788]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.561586 ... health 13.039652
-[2016.01.11-14.40.57:211][977]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.40.57:211][977]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.718470 ... health 16.961756
-[2016.01.11-14.40.58:791][ 75]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.40.58:791][ 75]LogTemp: Actor: PawnCarBP2 .. impuse scale 2.117323 ... health 26.933071
-[2016.01.11-14.41.08:291][664]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.08:291][664]LogTemp: Actor: PawnCarBP2 .. impuse scale 2.512200 ... health 36.805012
-[2016.01.11-14.41.08:291][664]LogTemp: Actor: PawnCarBP2 .. impuse scale 2.907078 ... health 46.676960
-[2016.01.11-14.41.08:291][664]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.15:468][109]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.15:468][109]LogTemp: Actor: PawnCarBP2 .. impuse scale 3.388264 ... health 58.706612
-[2016.01.11-14.41.15:468][109]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.17:969][264]LogTemp: Actor: PawnCarBP2 .. impuse scale 3.751842 ... health 67.796066
-[2016.01.11-14.41.18:131][274]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.072888 ... health 75.822212
-[2016.01.11-14.41.18:131][274]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.18:131][274]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.406654 ... health 84.166359
-[2016.01.11-14.41.18:147][275]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.736857 ... health 92.421432
-[2016.01.11-14.41.18:163][276]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.071414 ... health 100.785347
-[2016.01.11-14.41.18:163][276]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.18:163][276]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.443291 ... health 110.082275
-[2016.01.11-14.41.23:486][606]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.23:486][606]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.547913 ... health 112.697823
-[2016.01.11-14.41.23:486][606]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.652534 ... health 115.313370
-[2016.01.11-14.41.25:097][706]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.25:097][706]LogTemp: Actor: PawnCarBP2 .. impuse scale 6.095129 ... health 126.378227
-[2016.01.11-14.41.25:372][723]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.25:372][723]LogTemp: Actor: PawnCarBP2 .. impuse scale 6.595119 ... health 138.877991
-[2016.01.11-14.41.25:420][726]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.25:420][726]LogTemp: Actor: PawnCarBP2 .. impuse scale 7.084359 ... health 151.108978
-[2016.01.11-14.41.25:436][727]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.25:436][727]LogTemp: Actor: PawnCarBP2 .. impuse scale 7.562842 ... health 163.071060
-[2016.01.11-14.41.30:484][ 40]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.30:484][ 40]LogTemp: Actor: PawnCarBP2 .. impuse scale 7.562842 ... health 163.071060
-[2016.01.11-14.41.30:484][ 40]LogTemp: Actor: PawnCarBP2 .. impuse scale 7.562842 ... health 163.071060
-[2016.01.11-14.41.30:500][ 41]LogTemp: Actor: PawnCarBP2 .. impuse scale 7.562842 ... health 163.071060
-[2016.01.11-14.41.33:614][234]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.33:614][234]LogTemp: Actor: PawnCarBP2 .. impuse scale 7.836553 ... health 169.913834
-[2016.01.11-14.41.33:614][234]LogTemp: Actor: PawnCarBP2 .. impuse scale 8.108615 ... health 176.715378
-[2016.01.11-14.41.33:630][235]LogTemp: Actor: PawnCarBP2 .. impuse scale 8.406865 ... health 184.171631
-[2016.01.11-14.41.33:742][242]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.33:742][242]LogTemp: Actor: PawnCarBP2 .. impuse scale 8.848034 ... health 195.200836
-[2016.01.11-14.41.33:759][243]LogTemp: Actor: PawnCarBP2 .. impuse scale 9.316812 ... health 206.920288
-[2016.01.11-14.41.33:759][243]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.33:759][243]LogTemp: Actor: PawnCarBP2 .. impuse scale 9.780314 ... health 218.507858
-[2016.01.11-14.41.33:791][245]LogTemp: Actor: PawnCarBP2 .. impuse scale 10.258848 ... health 230.471207
-[2016.01.11-14.41.40:243][645]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.40:243][645]LogTemp: Actor: PawnCarBP2 .. impuse scale 10.993556 ... health 248.838913
-[2016.01.11-14.41.44:455][906]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.41.44:455][906]LogTemp: Actor: PawnCarBP2 .. impuse scale 11.347302 ... health 257.682556
-[2016.01.11-14.41.51:504][343]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.153204 ... health 277.830109
-[2016.01.11-14.42.06:843][294]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.06:843][294]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.338569 ... health 282.464233
-[2016.01.11-14.42.08:408][391]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.709668 ... health 291.741699
-[2016.01.11-14.42.10:279][507]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.10:279][507]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.773574 ... health 293.339355
-[2016.01.11-14.42.10:295][508]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.10:295][508]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.829429 ... health 294.735718
-[2016.01.11-14.42.11:552][586]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.829429 ... health 294.735718
-[2016.01.11-14.42.11:568][587]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.829429 ... health 294.735718
-[2016.01.11-14.42.11:585][588]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.829429 ... health 294.735718
-[2016.01.11-14.42.11:601][589]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.844339 ... health 295.108490
-[2016.01.11-14.42.11:618][590]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.873362 ... health 295.834045
-[2016.01.11-14.42.11:634][591]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.917903 ... health 296.947571
-[2016.01.11-14.42.11:650][592]LogTemp: Actor: PawnCarBP2 .. impuse scale 12.979320 ... health 298.483002
-[2016.01.11-14.42.12:826][665]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.12:826][665]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.102490 ... health 301.562256
-[2016.01.11-14.42.15:503][831]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.15:503][831]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.102490 ... health 301.562256
-[2016.01.11-14.42.21:875][226]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.21:875][226]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.274524 ... health 305.863098
-[2016.01.11-14.42.27:101][550]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.27:101][550]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.510454 ... health 311.761353
-[2016.01.11-14.42.29:633][707]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.29:633][707]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.565131 ... health 313.128296
-[2016.01.11-14.42.29:665][709]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.29:665][709]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.611409 ... health 314.285248
-[2016.01.11-14.42.29:714][712]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.29:714][712]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.674282 ... health 315.857056
-[2016.01.11-14.42.29:794][717]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.29:794][717]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.733592 ... health 317.339813
-[2016.01.11-14.42.29:810][718]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.29:810][718]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.786859 ... health 318.671478
-[2016.01.11-14.42.30:165][740]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.30:165][740]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.891521 ... health 321.288025
-[2016.01.11-14.42.30:682][772]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.950337 ... health 322.758453
-[2016.01.11-14.42.31:004][792]LogTemp: Actor: PawnCarBP2 .. impuse scale 13.991754 ... health 323.793854
-[2016.01.11-14.42.31:052][795]LogTemp: Actor: PawnCarBP2 .. impuse scale 14.080009 ... health 326.000244
-[2016.01.11-14.42.31:101][798]LogTemp: Actor: PawnCarBP2 .. impuse scale 14.171892 ... health 328.297302
-[2016.01.11-14.42.31:101][798]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.31:101][798]LogTemp: Actor: PawnCarBP2 .. impuse scale 14.263774 ... health 330.594360
-[2016.01.11-14.42.33:294][934]LogTemp: Actor: PawnCarBP2 .. impuse scale 14.528604 ... health 337.215088
-[2016.01.11-14.42.33:294][934]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.33:310][935]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.33:310][935]LogTemp: Actor: PawnCarBP2 .. impuse scale 14.808485 ... health 344.212128
-[2016.01.11-14.42.33:310][935]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.42.33:310][935]LogTemp: Actor: PawnCarBP2 .. impuse scale 15.088367 ... health 351.209167
-[2016.01.11-14.42.41:466][438]LogPackageName: SearchForPackageOnDisk took   0.044s to resolve Startlevel.umap.
-[2016.01.11-14.42.41:508][438]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve Startlevel.umap.
-[2016.01.11-14.42.41:508][438]LogNet: Browse: /Game/Maps/StartLevel
-[2016.01.11-14.42.41:508][438]LogLoad: LoadMap: /Game/Maps/StartLevel
-[2016.01.11-14.42.41:508][438]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.42.41:508][438]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.42.41:522][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000465DD2F560
-[2016.01.11-14.42.41:535][438]LogMemory: Platform Memory Stats for Windows
-[2016.01.11-14.42.41:535][438]LogMemory: Process Physical Memory: 535.48 MB used, 636.75 MB peak
-[2016.01.11-14.42.41:535][438]LogMemory: Process Virtual Memory: 915.05 MB used, 1007.82 MB peak
-[2016.01.11-14.42.41:535][438]LogMemory: Physical Memory: 4808.64 MB used, 16324.34 MB total
-[2016.01.11-14.42.41:535][438]LogMemory: Virtual Memory: 1488.16 MB used, 134217728.00 MB total
-[2016.01.11-14.42.41:535][438]LogMemory: 
-[2016.01.11-14.42.41:535][438]Allocator Stats for TBB: (not implemented)
-[2016.01.11-14.42.41:687][438]LogAIModule: Creating AISystem for world StartLevel
-[2016.01.11-14.42.41:687][438]LogWorld: Game class is 'MainMenuGameModeBP_C'
-[2016.01.11-14.42.41:691][438]LogWorld: Bringing World /Game/Maps/StartLevel.StartLevel up for play (max tick rate 0) at 2016.01.11-15.42.41
-[2016.01.11-14.42.41:691][438]LogWorld: Bringing up level for play took: 0.000447
-[2016.01.11-14.42.41:691][438]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.01.11-14.42.41:691][438]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.01.11-14.42.41:691][438]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.01.11-14.42.41:692][438]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.01.11-14.42.59:371][532]LogPackageName: SearchForPackageOnDisk took   0.042s to resolve Bernhard.umap.
-[2016.01.11-14.42.59:413][532]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve Bernhard.umap.
-[2016.01.11-14.42.59:413][532]LogNet: Browse: /Game/Maps/Bernhard
-[2016.01.11-14.42.59:413][532]LogLoad: LoadMap: /Game/Maps/Bernhard
-[2016.01.11-14.42.59:435][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000465DC11D00
-[2016.01.11-14.42.59:442][532]LogMemory: Platform Memory Stats for Windows
-[2016.01.11-14.42.59:442][532]LogMemory: Process Physical Memory: 506.57 MB used, 636.75 MB peak
-[2016.01.11-14.42.59:442][532]LogMemory: Process Virtual Memory: 813.46 MB used, 1099.30 MB peak
-[2016.01.11-14.42.59:442][532]LogMemory: Physical Memory: 4768.96 MB used, 16324.34 MB total
-[2016.01.11-14.42.59:442][532]LogMemory: Virtual Memory: 1499.07 MB used, 134217728.00 MB total
-[2016.01.11-14.42.59:442][532]LogMemory: 
-[2016.01.11-14.42.59:442][532]Allocator Stats for TBB: (not implemented)
-[2016.01.11-14.42.59:725][532]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.01.11-14.42.59:995][532]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.01.11-14.43.00:001][532]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
-[2016.01.11-14.43.00:005][532]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
-[2016.01.11-14.43.00:007][532]LogAIModule: Creating AISystem for world Bernhard
-[2016.01.11-14.43.00:189][532]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:193][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:194][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:195][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:196][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:197][532]LogWorld: Bringing World /Game/Maps/Bernhard.Bernhard up for play (max tick rate 0) at 2016.01.11-15.43.00
-[2016.01.11-14.43.00:202][532]LogWorld: Bringing up level for play took: 0.010101
-[2016.01.11-14.43.00:202][532]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2016.01.11-14.43.00:202][532]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
-[2016.01.11-14.43.00:202][532]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
-[2016.01.11-14.43.00:202][532]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
-[2016.01.11-14.43.00:206][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:206][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:206][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:206][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:208][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:208][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:208][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:208][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:210][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:210][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:210][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.00:210][532]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.04:067][770]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.04:067][770]LogTemp: Actor: PawnCarBP4 .. impuse scale 1.311161 ... health 6.779026
-[2016.01.11-14.43.04:099][772]LogTemp: Actor: PawnCarBP4 .. impuse scale 1.363472 ... health 8.086802
-[2016.01.11-14.43.08:744][ 60]LogTemp: Actor: PawnCarBP .. impuse scale 1.389355 ... health 8.733881
-[2016.01.11-14.43.08:744][ 60]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.08:744][ 60]LogTemp: Actor: PawnCarBP .. impuse scale 1.741494 ... health 17.537355
-[2016.01.11-14.43.10:971][198]LogTemp: Actor: PawnCarBP .. impuse scale 2.048967 ... health 25.224178
-[2016.01.11-14.43.10:971][198]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.11:003][200]LogTemp: Actor: PawnCarBP .. impuse scale 2.182991 ... health 28.574764
-[2016.01.11-14.43.11:003][200]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.11:616][238]LogTemp: Actor: PawnCarBP .. impuse scale 2.509363 ... health 36.734070
-[2016.01.11-14.43.11:616][238]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.11:648][240]LogTemp: Actor: PawnCarBP .. impuse scale 2.781729 ... health 43.543217
-[2016.01.11-14.43.11:648][240]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:454][538]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:454][538]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.176557 ... health 3.413926
-[2016.01.11-14.43.16:471][539]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:471][539]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.310673 ... health 6.766820
-[2016.01.11-14.43.16:519][542]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:519][542]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.436482 ... health 9.912044
-[2016.01.11-14.43.16:535][543]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:535][543]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.559253 ... health 12.981315
-[2016.01.11-14.43.16:551][544]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:551][544]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.672101 ... health 15.802519
-[2016.01.11-14.43.16:567][545]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:567][545]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.781893 ... health 18.547319
-[2016.01.11-14.43.16:583][546]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:583][546]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.888229 ... health 21.205725
-[2016.01.11-14.43.16:648][550]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:712][554]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:713][554]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.976304 ... health 23.407604
-[2016.01.11-14.43.16:728][555]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:728][555]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.062192 ... health 25.554792
-[2016.01.11-14.43.16:744][556]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:744][556]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.145889 ... health 27.647221
-[2016.01.11-14.43.16:745][556]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:761][557]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:761][557]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.227418 ... health 29.685452
-[2016.01.11-14.43.16:777][558]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.16:777][558]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.306712 ... health 31.667801
-[2016.01.11-14.43.20:744][804]LogTemp: Actor: PawnCarBP .. impuse scale 1.440001 ... health 10.000017
-[2016.01.11-14.43.20:744][804]LogTemp: Actor: PawnCarBP .. impuse scale 1.840001 ... health 20.000034
-[2016.01.11-14.43.20:744][804]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.22:697][925]LogTemp: Actor: PawnCarBP .. impuse scale 2.239998 ... health 29.999950
-[2016.01.11-14.43.22:697][925]LogTemp: Actor: PawnCarBP .. impuse scale 2.639998 ... health 39.999962
-[2016.01.11-14.43.22:697][925]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.22:745][928]LogTemp: Actor: PawnCarBP .. impuse scale 3.038454 ... health 49.961361
-[2016.01.11-14.43.26:729][175]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.26:729][175]LogTemp: Actor: PawnCarBP4 .. impuse scale 1.763323 ... health 18.083084
-[2016.01.11-14.43.26:729][175]LogTemp: Actor: PawnCarBP4 .. impuse scale 2.163175 ... health 28.079365
-[2016.01.11-14.43.28:100][260]LogTemp: Actor: PawnCarBP4 .. impuse scale 2.299392 ... health 31.484789
-[2016.01.11-14.43.29:551][350]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.29:551][350]LogTemp: Actor: PawnCarBP4 .. impuse scale 2.315398 ... health 31.884951
-[2016.01.11-14.43.29:567][351]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.29:567][351]LogTemp: Actor: PawnCarBP4 .. impuse scale 2.348806 ... health 32.720161
-[2016.01.11-14.43.41:324][ 80]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:551][ 94]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:567][ 95]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:583][ 96]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:600][ 97]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:616][ 98]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:632][ 99]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:648][100]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:664][101]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:680][102]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:696][103]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:712][104]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:729][105]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:744][106]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:760][107]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:777][108]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:793][109]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:809][110]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:825][111]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:841][112]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:857][113]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:873][114]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:889][115]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:906][116]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:922][117]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:938][118]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:954][119]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:971][120]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.41:987][121]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:003][122]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:019][123]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:035][124]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:051][125]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:067][126]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:084][127]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:100][128]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:116][129]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:132][130]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:148][131]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:164][132]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:180][133]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:196][134]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:196][134]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:212][135]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:229][136]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:245][137]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:261][138]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:277][139]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:293][140]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:309][141]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
-[2016.01.11-14.43.42:349][142]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.01.11-14.43.42:352][142]LogEngine: All Windows Closed
-[2016.01.11-14.43.42:352][142]LogWindows: FPlatformMisc::RequestExit(0)
-[2016.01.11-14.43.43:235][143]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.43:235][143]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.43:235][143]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.43:235][143]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
-[2016.01.11-14.43.43:237][143]LogExit: Preparing to exit.
-[2016.01.11-14.43.43:282][143]LogExit: Game engine shut down
-[2016.01.11-14.43.43:389][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000464CE17880
-[2016.01.11-14.43.43:389][143]LogExit: Object subsystem successfully closed.
-[2016.01.11-14.43.43:399][143]LogD3D11RHI: Shutdown
-[2016.01.11-14.43.43:399][143]LogD3D11RHI: CleanupD3DDevice
-[2016.01.11-14.43.43:436][143]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.01.11-14.43.43:445][143]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (116)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module AutomationController (115)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module AutomationWorker (114)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module CharacterAI (113)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module AITestSuite (112)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module GameplayDebugger (111)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module AIModule (110)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (109)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (108)
-[2016.01.11-14.43.43:830][143]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module SteamVRController (104)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module SteamVR (103)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (102)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module OculusRift (101)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module OculusLibrary (100)
-[2016.01.11-14.43.43:862][143]LogModuleManager: Shutting down and abandoning module LeapMotionController (99)
-[2016.01.11-14.43.43:870][143]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (98)
-[2016.01.11-14.43.43:870][143]LogModuleManager: Shutting down and abandoning module CableComponent (97)
-[2016.01.11-14.43.43:870][143]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (96)
-[2016.01.11-14.43.43:870][143]LogModuleManager: Shutting down and abandoning module HTML5Networking (95)
-[2016.01.11-14.43.43:870][143]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2016.01.11-14.43.43:870][143]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2016.01.11-14.43.43:870][143]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module SourceControl (88)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (87)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module UnrealProject (86)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2016.01.11-14.43.43:871][143]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module Media (81)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2016.01.11-14.43.43:873][143]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module Core (59)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2016.01.11-14.43.43:874][143]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2016.01.11-14.43.43:875][143]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2016.01.11-14.43.43:900][143]LogDerivedDataCache: Shutdown
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.01.11-14.43.43:900][143]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.01.11-14.43.43:901][143]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.01.11-14.43.43:901][143]LogExit: Exiting.
-[2016.01.11-14.43.43:902][143]Log file closed, 01/11/16 15:43:43
+﻿[2016.01.12-12.42.43:845][  0]Log file open, 01/12/16 13:42:43
+[2016.01.12-12.42.43:845][  0]LogInit:Display: Running engine for game: UnrealProject
+[2016.01.12-12.42.43:845][  0]LogInit:Display: RandInit(86067216) SRandInit(86067216).
+[2016.01.12-12.42.43:845][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.12-12.42.43:845][  0]LogStats: Stats thread started at 0.077931
+[2016.01.12-12.42.43:845][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.12-12.42.43:845][  0]LogInit: API Version: 2672455
+[2016.01.12-12.42.43:845][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.12-12.42.43:845][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.12-12.42.43:845][  0]LogInit: Build Configuration: Development
+[2016.01.12-12.42.43:845][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.12-12.42.43:845][  0]LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCStartLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.01.12-12.42.43:845][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.12-12.42.43:845][  0]LogInit: Rocket: 1
+[2016.01.12-12.42.43:859][  0]LogInit: Using libcurl 7.41.0
+[2016.01.12-12.42.43:859][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.12-12.42.43:859][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.12-12.42.43:859][  0]LogInit:  - other features:
+[2016.01.12-12.42.43:859][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.12-12.42.43:859][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.12-12.42.43:859][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.12-12.42.43:859][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.12-12.42.43:859][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.12-12.42.43:859][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.12-12.42.43:859][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.12-12.42.43:859][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.12-12.42.43:859][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.12-12.42.43:859][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.12-12.42.43:866][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.12-12.42.43:871][  0]LogInit: Object subsystem initialized
+[2016.01.12-12.42.43:873][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.12-12.42.43:873][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.12-12.42.43:875][  0]LogInit: Computer: PATTES
+[2016.01.12-12.42.43:875][  0]LogInit: User: Patte
+[2016.01.12-12.42.43:875][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.12-12.42.43:875][  0]LogInit: High frequency timer resolution =3.507518 MHz
+[2016.01.12-12.42.43:875][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.12-12.42.43:875][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-12.42.43:875][  0]LogMemory: Process Physical Memory: 53.95 MB used, 53.95 MB peak
+[2016.01.12-12.42.43:875][  0]LogMemory: Process Virtual Memory: 57.39 MB used, 57.39 MB peak
+[2016.01.12-12.42.43:875][  0]LogMemory: Physical Memory: 5264.67 MB used, 16324.34 MB total
+[2016.01.12-12.42.43:875][  0]LogMemory: Virtual Memory: 367.54 MB used, 134217728.00 MB total
+[2016.01.12-12.42.43:900][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.12-12.42.44:456][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.01.12-12.42.44:456][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2016.01.12-12.42.44:457][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.12-12.42.44:457][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2016.01.12-12.42.44:457][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.12-12.42.44:459][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.12-12.42.44:459][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.12-12.42.44:470][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.12-12.42.44:485][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/WorkingDirectory/7216/).
+[2016.01.12-12.42.44:485][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Intermediate/Shaders/tmp/4C6B7B7B4C6617F3DCC46FB5FA329CD0/'.
+[2016.01.12-12.42.44:485][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.12-12.42.45:326][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.12-12.42.45:331][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.12-12.42.45:335][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.12-12.42.45:340][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.12-12.42.45:344][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.12-12.42.45:347][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.12-12.42.45:350][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.12-12.42.45:352][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.12-12.42.45:355][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.12-12.42.45:358][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.12-12.42.45:360][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.12-12.42.45:363][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.12-12.42.45:364][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.12-12.42.45:379][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.12-12.42.45:381][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.12-12.42.45:384][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.12-12.42.45:387][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.12-12.42.45:387][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.12-12.42.45:466][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.12-12.42.45:507][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.12-12.42.45:507][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Patte/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.12-12.42.45:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.12-12.42.45:507][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.12-12.42.45:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.12-12.42.45:507][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.12-12.42.45:625][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.12-12.42.45:636][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Patte/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.12-12.42.45:787][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.12-12.42.45:789][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.01.12-12.42.45:891][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.12-12.42.45:891][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.12-12.42.46:070][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.12-12.42.46:238][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Patte/Documents/MAH_Arena_UnrealProject/UnrealProject/Content/Movies/Default_Startup.mp4
+[2016.01.12-12.42.46:338][  0]SourceControl: Info Source control is disabled
+[2016.01.12-12.42.46:338][  0]SourceControl: Info Source control is disabled
+[2016.01.12-12.42.46:348][  0]SourceControl: Info Source control is disabled
+[2016.01.12-12.42.46:450][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.12-12.42.46:520][  0]LogObj: 27727 objects as part of root set at end of initial load.
+[2016.01.12-12.42.46:520][  0]LogUObjectAllocator: 5798512 out of 0 bytes used by permanent object pool.
+[2016.01.12-12.42.46:568][  0]LogEngine: Initializing Engine...
+[2016.01.12-12.42.46:569][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.12-12.42.46:570][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.12-12.42.46:659][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-12.42.46:669][  0]LogInit: FAudioDevice initialized.
+[2016.01.12-12.42.46:671][  0]LogInit: Texture streaming: Enabled
+[2016.01.12-12.42.46:722][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCStartLevel?Name=Player
+[2016.01.12-12.42.46:723][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCStartLevel?Name=Player
+[2016.01.12-12.42.46:733][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028A64B20C0
+[2016.01.12-12.42.46:740][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-12.42.46:740][  0]LogMemory: Process Physical Memory: 386.80 MB used, 386.80 MB peak
+[2016.01.12-12.42.46:740][  0]LogMemory: Process Virtual Memory: 437.38 MB used, 437.38 MB peak
+[2016.01.12-12.42.46:740][  0]LogMemory: Physical Memory: 5550.51 MB used, 16324.34 MB total
+[2016.01.12-12.42.46:740][  0]LogMemory: Virtual Memory: 987.44 MB used, 134217728.00 MB total
+[2016.01.12-12.42.46:740][  0]LogMemory: 
+[2016.01.12-12.42.46:740][  0]Allocator Stats for TBB: (not implemented)
+[2016.01.12-12.42.46:904][  0]LogAIModule: Creating AISystem for world StartLevel
+[2016.01.12-12.42.46:904][  0]LogWorld: Game class is 'MainMenuGameModeBP_C'
+[2016.01.12-12.42.46:907][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCStartLevel.StartLevel up for play (max tick rate 0) at 2016.01.12-13.42.46
+[2016.01.12-12.42.46:908][  0]LogWorld: Bringing up level for play took: 0.000668
+[2016.01.12-12.42.46:910][  0]LogInit:Display: Game Engine Initialized.
+[2016.01.12-12.42.47:126][  0]LogLoad: Full Startup: 3.88 seconds (BP compile: 0.04 seconds)
+[2016.01.12-12.42.47:216][  2]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.01.12-12.42.47:721][ 27]LogRenderer: Reallocating scene render targets to support 1920x1020 (Frame:30).
+[2016.01.12-12.42.54:184][425]LogPackageName: SearchForPackageOnDisk took   0.049s to resolve TreacherousLedges.umap.
+[2016.01.12-12.42.54:227][425]LogPackageName: SearchForPackageOnDisk took   0.043s to resolve TreacherousLedges.umap.
+[2016.01.12-12.42.54:227][425]LogNet: Browse: /Game/Maps/TreacherousLedges
+[2016.01.12-12.42.54:227][425]LogLoad: LoadMap: /Game/Maps/TreacherousLedges
+[2016.01.12-12.42.54:239][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028A676B560
+[2016.01.12-12.42.54:250][425]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-12.42.54:250][425]LogMemory: Process Physical Memory: 511.61 MB used, 518.67 MB peak
+[2016.01.12-12.42.54:250][425]LogMemory: Process Virtual Memory: 813.85 MB used, 954.81 MB peak
+[2016.01.12-12.42.54:250][425]LogMemory: Physical Memory: 5641.48 MB used, 16324.34 MB total
+[2016.01.12-12.42.54:250][425]LogMemory: Virtual Memory: 1425.31 MB used, 134217728.00 MB total
+[2016.01.12-12.42.54:250][425]LogMemory: 
+[2016.01.12-12.42.54:250][425]Allocator Stats for TBB: (not implemented)
+[2016.01.12-12.42.54:584][425]LogAIModule: Creating AISystem for world TreacherousLedges
+[2016.01.12-12.42.54:764][425]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.12-12.42.54:768][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:768][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:768][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:768][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:768][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:769][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:772][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:772][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:772][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:772][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:772][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:773][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:774][425]LogWorld: Bringing World /Game/Maps/TreacherousLedges.TreacherousLedges up for play (max tick rate 0) at 2016.01.12-13.42.54
+[2016.01.12-12.42.54:775][425]LogWorld: Bringing up level for play took: 0.008085
+[2016.01.12-12.42.54:775][425]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.12-12.42.54:779][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:779][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:779][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:779][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:782][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:782][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:782][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:782][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:784][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:784][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:784][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:784][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.42.54:784][425]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.43.08:036][245]LogTemp: Actor: PawnCarBP .. impuse scale 1.040300 ... health 0.007489
+[2016.01.12-12.43.08:036][245]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.203450 ... health 4.086250
+[2016.01.12-12.43.08:053][246]LogTemp: Actor: PawnCarBP .. impuse scale 1.061428 ... health 0.535705
+[2016.01.12-12.43.08:053][246]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.355891 ... health 7.897283
+[2016.01.12-12.43.14:215][628]LogTemp: Actor: PawnCarBP .. impuse scale 1.061714 ... health 0.542850
+[2016.01.12-12.43.16:440][766]LogTemp: Actor: PawnCarBP .. impuse scale 1.061714 ... health 0.542850
+[2016.01.12-12.43.16:440][766]LogTemp: Actor: PawnCarBP2 .. impuse scale 2.108264 ... health 26.706612
+[2016.01.12-12.43.16:811][789]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.188826 ... health 3.720642
+[2016.01.12-12.43.19:343][946]LogTemp: Actor: PawnCarBP .. impuse scale 1.061714 ... health 0.542850
+[2016.01.12-12.43.19:343][946]LogTemp: Actor: PawnCarBP .. impuse scale 1.061714 ... health 0.542850
+[2016.01.12-12.43.19:343][946]LogTemp: Actor: PawnCarBP2 .. impuse scale 2.531575 ... health 37.289371
+[2016.01.12-12.43.20:747][ 33]LogTemp: Actor: PawnCarBP .. impuse scale 1.061714 ... health 0.542850
+[2016.01.12-12.43.20:747][ 33]LogTemp: Actor: PawnCarBP2 .. impuse scale 2.900391 ... health 46.509781
+[2016.01.12-12.43.20:844][ 39]LogTemp: Actor: PawnCarBP .. impuse scale 1.061714 ... health 0.542850
+[2016.01.12-12.43.20:876][ 41]LogTemp: Actor: PawnCarBP .. impuse scale 1.061714 ... health 0.542850
+[2016.01.12-12.43.21:505][ 80]LogTemp: Actor: PawnCarBP .. impuse scale 1.095447 ... health 1.386176
+[2016.01.12-12.43.21:505][ 80]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.359973 ... health 7.999331
+[2016.01.12-12.43.21:521][ 81]LogTemp: Actor: PawnCarBP .. impuse scale 1.128335 ... health 2.208385
+[2016.01.12-12.43.21:521][ 81]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.529483 ... health 12.237085
+[2016.01.12-12.43.21:554][ 83]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.698374 ... health 16.459339
+[2016.01.12-12.43.21:554][ 83]LogTemp: Actor: PawnCarBP .. impuse scale 1.167116 ... health 3.177891
+[2016.01.12-12.43.21:554][ 83]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.864859 ... health 20.621483
+[2016.01.12-12.43.21:554][ 83]LogTemp: Actor: PawnCarBP .. impuse scale 1.207510 ... health 4.187751
+[2016.01.12-12.43.21:908][105]LogTemp: Actor: PawnCarBP .. impuse scale 1.271708 ... health 5.792690
+[2016.01.12-12.43.21:908][105]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.896321 ... health 21.408035
+[2016.01.12-12.43.21:925][106]LogTemp: Actor: PawnCarBP .. impuse scale 1.332263 ... health 7.306580
+[2016.01.12-12.43.21:925][106]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.912386 ... health 21.809654
+[2016.01.12-12.43.21:925][106]LogTemp: Actor: PawnCarBP .. impuse scale 1.392819 ... health 8.820471
+[2016.01.12-12.43.21:941][107]LogTemp: Actor: PawnCarBP .. impuse scale 1.448510 ... health 10.212753
+[2016.01.12-12.43.21:941][107]LogTemp: Actor: PawnCarBP3 .. impuse scale 1.961347 ... health 23.033682
+[2016.01.12-12.43.21:957][108]LogTemp: Actor: PawnCarBP .. impuse scale 1.515147 ... health 11.878687
+[2016.01.12-12.43.21:957][108]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.064371 ... health 25.609264
+[2016.01.12-12.43.21:957][108]LogTemp: Actor: PawnCarBP .. impuse scale 1.587314 ... health 13.682858
+[2016.01.12-12.43.24:537][268]LogTemp: Actor: PawnCarBP .. impuse scale 2.015024 ... health 24.375610
+[2016.01.12-12.43.24:537][268]LogTemp: Actor: PawnCarBP2 .. impuse scale 3.568847 ... health 63.221169
+[2016.01.12-12.43.25:619][335]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.143376 ... health 77.584419
+[2016.01.12-12.43.32:489][761]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.162222 ... health 78.055550
+[2016.01.12-12.43.32:489][761]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.355605 ... health 32.890129
+[2016.01.12-12.43.32:602][768]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.620157 ... health 39.503933
+[2016.01.12-12.43.32:602][768]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.219183 ... health 79.479576
+[2016.01.12-12.43.33:102][799]LogTemp: Actor: PawnCarBP3 .. impuse scale 2.827747 ... health 44.693676
+[2016.01.12-12.43.40:425][253]LogTemp: Actor: PawnCarBP3 .. impuse scale 3.230045 ... health 54.751129
+[2016.01.12-12.43.40:425][253]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.414785 ... health 84.369644
+[2016.01.12-12.43.43:151][422]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.414785 ... health 84.369644
+[2016.01.12-12.43.43:151][422]LogTemp: Actor: PawnCarBP3 .. impuse scale 3.381089 ... health 58.527225
+[2016.01.12-12.43.43:151][422]LogTemp: Actor: PawnCarBP3 .. impuse scale 3.547012 ... health 62.675301
+[2016.01.12-12.43.43:280][430]LogTemp: Actor: PawnCarBP3 .. impuse scale 3.713567 ... health 66.839188
+[2016.01.12-12.43.43:393][437]LogTemp: Actor: PawnCarBP3 .. impuse scale 3.880173 ... health 71.004333
+[2016.01.12-12.43.43:490][443]LogTemp: Actor: PawnCarBP3 .. impuse scale 4.045332 ... health 75.133301
+[2016.01.12-12.43.43:635][452]LogTemp: Actor: PawnCarBP3 .. impuse scale 4.191155 ... health 78.778885
+[2016.01.12-12.43.43:796][462]LogTemp: Actor: PawnCarBP3 .. impuse scale 4.326964 ... health 82.174118
+[2016.01.12-12.43.43:958][472]LogTemp: Actor: PawnCarBP3 .. impuse scale 4.535190 ... health 87.379753
+[2016.01.12-12.43.47:539][694]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.826837 ... health 94.670914
+[2016.01.12-12.43.47:539][694]LogTemp: Actor: PawnCarBP3 .. impuse scale 4.535190 ... health 87.379753
+[2016.01.12-12.43.47:539][694]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.258821 ... health 105.470512
+[2016.01.12-12.43.47:539][694]LogTemp: Actor: PawnCarBP3 .. impuse scale 4.535190 ... health 87.379753
+[2016.01.12-12.43.52:055][974]LogTemp: Actor: PawnCarBP .. impuse scale 2.346106 ... health 32.652641
+[2016.01.12-12.43.52:055][974]LogTemp: Actor: PawnCarBP3 .. impuse scale 5.355211 ... health 107.880287
+[2016.01.12-12.43.52:055][974]LogTemp: Actor: PawnCarBP3 .. impuse scale 6.175232 ... health 128.380814
+[2016.01.12-12.43.52:233][985]LogTemp: Actor: PawnCarBP .. impuse scale 2.697989 ... health 41.449722
+[2016.01.12-12.43.52:233][985]LogTemp: Actor: PawnCarBP3 .. impuse scale 6.542454 ... health 137.561356
+[2016.01.12-12.44.03:067][656]LogTemp: Actor: PawnCarBP3 .. impuse scale 7.186365 ... health 153.659134
+[2016.01.12-12.44.03:067][656]LogTemp: Actor: PawnCarBP .. impuse scale 3.205846 ... health 54.146156
+[2016.01.12-12.44.03:067][656]LogTemp: Actor: PawnCarBP3 .. impuse scale 7.831910 ... health 169.797760
+[2016.01.12-12.44.07:051][903]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.280499 ... health 106.012489
+[2016.01.12-12.44.07:051][903]LogTemp: Actor: PawnCarBP .. impuse scale 3.810760 ... health 69.269005
+[2016.01.12-12.44.07:067][904]LogTemp: Actor: PawnCarBP .. impuse scale 3.825872 ... health 69.646812
+[2016.01.12-12.44.07:067][904]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.342459 ... health 107.561470
+[2016.01.12-12.44.07:067][904]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.399719 ... health 108.992981
+[2016.01.12-12.44.07:067][904]LogTemp: Actor: PawnCarBP .. impuse scale 3.919231 ... health 71.980766
+[2016.01.12-12.44.07:083][905]LogTemp: Actor: PawnCarBP2 .. impuse scale 5.468518 ... health 110.712952
+[2016.01.12-12.44.07:083][905]LogTemp: Actor: PawnCarBP .. impuse scale 4.017791 ... health 74.444771
+[2016.01.12-12.44.13:228][286]LogTemp: Actor: PawnCarBP .. impuse scale 4.681351 ... health 91.033783
+[2016.01.12-12.44.13:228][286]LogTemp: Actor: PawnCarBP3 .. impuse scale 7.831910 ... health 169.797760
+[2016.01.12-12.44.13:244][287]LogTemp: Actor: PawnCarBP .. impuse scale 5.219618 ... health 104.490463
+[2016.01.12-12.44.26:406][103]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.289301 ... health 6.232521
+[2016.01.12-12.44.26:406][103]LogTemp: Actor: PawnCarBP3 .. impuse scale 8.083841 ... health 176.096054
+[2016.01.12-12.44.26:406][103]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.527544 ... health 12.188610
+[2016.01.12-12.44.26:471][107]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.601452 ... health 14.036294
+[2016.01.12-12.44.26:471][107]LogTemp: Actor: PawnCarBP2 .. impuse scale 1.675359 ... health 15.883978
+[2016.01.12-12.44.26:471][107]LogTemp: Actor: PawnCarBP3 .. impuse scale 8.106345 ... health 176.658630
+[2016.01.12-12.44.27:680][182]LogTemp: Actor: PawnCarBP2 .. impuse scale 2.420969 ... health 34.524231
+[2016.01.12-12.44.27:680][182]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
+[2016.01.12-12.44.27:680][182]LogTemp: Actor: PawnCarBP2 .. impuse scale 3.060491 ... health 50.512280
+[2016.01.12-12.44.27:680][182]LogTemp: Actor: PawnCarBP .. impuse scale 1.040000 ... health 0.000000
+[2016.01.12-12.44.32:745][496]LogTemp: Actor: PawnCarBP2 .. impuse scale 3.342371 ... health 57.559284
+[2016.01.12-12.44.32:745][496]LogTemp: Actor: PawnCarBP3 .. impuse scale 8.212126 ... health 179.303162
+[2016.01.12-12.44.33:568][547]LogTemp: Actor: PawnCarBP .. impuse scale 1.146191 ... health 2.654774
+[2016.01.12-12.44.33:568][547]LogTemp: Actor: PawnCarBP3 .. impuse scale 8.388186 ... health 183.704651
+[2016.01.12-12.44.37:438][787]LogTemp: Actor: PawnCarBP3 .. impuse scale 8.543556 ... health 187.588898
+[2016.01.12-12.44.37:438][787]LogTemp: Actor: PawnCarBP .. impuse scale 1.351110 ... health 7.777741
+[2016.01.12-12.44.37:438][787]LogTemp: Actor: PawnCarBP .. impuse scale 1.553924 ... health 12.848105
+[2016.01.12-12.44.37:438][787]LogTemp: Actor: PawnCarBP3 .. impuse scale 8.700520 ... health 191.512985
+[2016.01.12-12.44.38:584][858]LogTemp: Actor: PawnCarBP2 .. impuse scale 3.824239 ... health 69.605972
+[2016.01.12-12.44.38:584][858]LogTemp: Actor: PawnCarBP .. impuse scale 1.955535 ... health 22.888380
+[2016.01.12-12.44.38:584][858]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.306106 ... health 81.652657
+[2016.01.12-12.44.39:180][895]LogTemp: Actor: PawnCarBP2 .. impuse scale 4.306106 ... health 81.652657
+[2016.01.12-12.44.39:180][895]LogTemp: Actor: PawnCarBP3 .. impuse scale 9.030996 ... health 199.774902
+[2016.01.12-12.44.39:341][905]LogTemp: Actor: PawnCarBP .. impuse scale 1.955535 ... health 22.888380
+[2016.01.12-12.44.39:341][905]LogTemp: Actor: PawnCarBP3 .. impuse scale 9.157647 ... health 202.941193
+[2016.01.12-12.44.47:499][408]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve Startlevel.umap.
+[2016.01.12-12.44.47:544][408]LogPackageName: SearchForPackageOnDisk took   0.044s to resolve Startlevel.umap.
+[2016.01.12-12.44.47:544][408]LogNet: Browse: /Game/Maps/StartLevel
+[2016.01.12-12.44.47:544][408]LogLoad: LoadMap: /Game/Maps/StartLevel
+[2016.01.12-12.44.47:544][408]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.47:545][408]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.47:545][408]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.47:565][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028BB045A80
+[2016.01.12-12.44.47:581][408]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-12.44.47:581][408]LogMemory: Process Physical Memory: 582.25 MB used, 636.38 MB peak
+[2016.01.12-12.44.47:581][408]LogMemory: Process Virtual Memory: 1137.91 MB used, 1178.30 MB peak
+[2016.01.12-12.44.47:581][408]LogMemory: Physical Memory: 5705.67 MB used, 16324.34 MB total
+[2016.01.12-12.44.47:581][408]LogMemory: Virtual Memory: 1711.06 MB used, 134217728.00 MB total
+[2016.01.12-12.44.47:581][408]LogMemory: 
+[2016.01.12-12.44.47:581][408]Allocator Stats for TBB: (not implemented)
+[2016.01.12-12.44.47:733][408]LogAIModule: Creating AISystem for world StartLevel
+[2016.01.12-12.44.47:733][408]LogWorld: Game class is 'MainMenuGameModeBP_C'
+[2016.01.12-12.44.47:737][408]LogWorld: Bringing World /Game/Maps/StartLevel.StartLevel up for play (max tick rate 0) at 2016.01.12-13.44.47
+[2016.01.12-12.44.47:737][408]LogWorld: Bringing up level for play took: 0.000499
+[2016.01.12-12.44.47:737][408]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.44.47:738][408]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.44.47:738][408]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.44.47:738][408]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.44.52:801][719]LogPackageName: SearchForPackageOnDisk took   0.045s to resolve MashedPolarWharfTribute.umap.
+[2016.01.12-12.44.52:846][719]LogPackageName: SearchForPackageOnDisk took   0.044s to resolve MashedPolarWharfTribute.umap.
+[2016.01.12-12.44.52:846][719]LogNet: Browse: /Game/Maps/MashedPolarWharfTribute
+[2016.01.12-12.44.52:846][719]LogLoad: LoadMap: /Game/Maps/MashedPolarWharfTribute
+[2016.01.12-12.44.52:864][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028BB6ED3A0
+[2016.01.12-12.44.52:871][719]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-12.44.52:871][719]LogMemory: Process Physical Memory: 634.08 MB used, 674.22 MB peak
+[2016.01.12-12.44.52:871][719]LogMemory: Process Virtual Memory: 1100.13 MB used, 1324.65 MB peak
+[2016.01.12-12.44.52:871][719]LogMemory: Physical Memory: 5752.82 MB used, 16324.34 MB total
+[2016.01.12-12.44.52:871][719]LogMemory: Virtual Memory: 1795.99 MB used, 134217728.00 MB total
+[2016.01.12-12.44.52:871][719]LogMemory: 
+[2016.01.12-12.44.52:871][719]Allocator Stats for TBB: (not implemented)
+[2016.01.12-12.44.53:162][719]LogAIModule: Creating AISystem for world MashedPolarWharfTribute
+[2016.01.12-12.44.53:345][719]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:349][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:350][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:350][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:350][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:350][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:350][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:353][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:354][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:355][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:355][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:355][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:355][719]LogWorld: Bringing World /Game/Maps/MashedPolarWharfTribute.MashedPolarWharfTribute up for play (max tick rate 0) at 2016.01.12-13.44.53
+[2016.01.12-12.44.53:355][719]LogWorld: Bringing up level for play took: 0.007813
+[2016.01.12-12.44.53:356][719]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.12-12.44.53:356][719]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2016.01.12-12.44.53:356][719]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2016.01.12-12.44.53:356][719]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2016.01.12-12.44.53:359][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:359][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:359][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:359][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:361][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:361][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:361][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:361][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:363][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:363][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:363][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:363][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.44.53:363][719]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.00:026][131]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.04:317][397]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.08:361][645]LogPackageName: SearchForPackageOnDisk took   0.045s to resolve StartLevel.umap.
+[2016.01.12-12.45.08:408][646]LogPackageName: SearchForPackageOnDisk took   0.045s to resolve StartLevel.umap.
+[2016.01.12-12.45.08:408][646]LogNet: Browse: /Game/Maps/StartLevel
+[2016.01.12-12.45.08:408][646]LogLoad: LoadMap: /Game/Maps/StartLevel
+[2016.01.12-12.45.08:408][646]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.08:447][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028A65779C0
+[2016.01.12-12.45.08:455][646]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-12.45.08:455][646]LogMemory: Process Physical Memory: 652.04 MB used, 674.22 MB peak
+[2016.01.12-12.45.08:455][646]LogMemory: Process Virtual Memory: 1128.52 MB used, 1324.65 MB peak
+[2016.01.12-12.45.08:455][646]LogMemory: Physical Memory: 5777.19 MB used, 16324.34 MB total
+[2016.01.12-12.45.08:455][646]LogMemory: Virtual Memory: 1804.46 MB used, 134217728.00 MB total
+[2016.01.12-12.45.08:455][646]LogMemory: 
+[2016.01.12-12.45.08:455][646]Allocator Stats for TBB: (not implemented)
+[2016.01.12-12.45.08:600][646]LogAIModule: Creating AISystem for world StartLevel
+[2016.01.12-12.45.08:600][646]LogWorld: Game class is 'MainMenuGameModeBP_C'
+[2016.01.12-12.45.08:604][646]LogWorld: Bringing World /Game/Maps/StartLevel.StartLevel up for play (max tick rate 0) at 2016.01.12-13.45.08
+[2016.01.12-12.45.08:604][646]LogWorld: Bringing up level for play took: 0.000672
+[2016.01.12-12.45.08:604][646]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.45.08:605][646]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.45.08:605][646]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.45.08:606][646]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.12-12.45.29:160][918]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve Battleblock.umap.
+[2016.01.12-12.45.29:203][918]LogPackageName: SearchForPackageOnDisk took   0.043s to resolve Battleblock.umap.
+[2016.01.12-12.45.29:203][918]LogNet: Browse: /Game/Maps/BattleBlock
+[2016.01.12-12.45.29:203][918]LogLoad: LoadMap: /Game/Maps/BattleBlock
+[2016.01.12-12.45.29:221][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028E402EAC0
+[2016.01.12-12.45.29:228][918]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-12.45.29:228][918]LogMemory: Process Physical Memory: 616.68 MB used, 738.99 MB peak
+[2016.01.12-12.45.29:228][918]LogMemory: Process Virtual Memory: 1066.81 MB used, 1324.65 MB peak
+[2016.01.12-12.45.29:228][918]LogMemory: Physical Memory: 5738.23 MB used, 16324.34 MB total
+[2016.01.12-12.45.29:228][918]LogMemory: Virtual Memory: 1779.71 MB used, 134217728.00 MB total
+[2016.01.12-12.45.29:228][918]LogMemory: 
+[2016.01.12-12.45.29:228][918]Allocator Stats for TBB: (not implemented)
+[2016.01.12-12.45.29:562][918]LogAIModule: Creating AISystem for world BattleBlock
+[2016.01.12-12.45.29:744][918]LogWorld: Game class is 'UnrealProjectGameModeBP_C'
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:748][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:752][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:753][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:754][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:755][918]LogWorld: Bringing World /Game/Maps/BattleBlock.BattleBlock up for play (max tick rate 0) at 2016.01.12-13.45.29
+[2016.01.12-12.45.29:755][918]LogWorld: Bringing up level for play took: 0.008677
+[2016.01.12-12.45.29:756][918]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2016.01.12-12.45.29:756][918]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2016.01.12-12.45.29:756][918]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2016.01.12-12.45.29:756][918]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2016.01.12-12.45.29:760][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:760][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:760][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:760][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:762][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:762][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:762][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:762][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:764][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:764][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:764][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.45.29:764][918]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.51.07:377][846]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.12-12.51.07:381][846]LogEngine: All Windows Closed
+[2016.01.12-12.51.07:381][846]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.01.12-12.51.07:720][847]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.51.07:720][847]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.51.07:720][847]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.51.07:720][847]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.01.12-12.51.07:721][847]LogExit: Preparing to exit.
+[2016.01.12-12.51.07:806][847]LogExit: Game engine shut down
+[2016.01.12-12.51.07:907][847]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028BB967EC0
+[2016.01.12-12.51.07:907][847]LogExit: Object subsystem successfully closed.
+[2016.01.12-12.51.07:922][847]LogD3D11RHI: Shutdown
+[2016.01.12-12.51.07:922][847]LogD3D11RHI: CleanupD3DDevice
+[2016.01.12-12.51.07:980][847]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.12-12.51.07:989][847]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (116)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module AutomationController (115)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module AutomationWorker (114)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module CharacterAI (113)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module AITestSuite (112)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module GameplayDebugger (111)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module AIModule (110)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (109)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (108)
+[2016.01.12-12.51.08:270][847]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module SteamVRController (104)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module SteamVR (103)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (102)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module OculusRift (101)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module OculusLibrary (100)
+[2016.01.12-12.51.08:305][847]LogModuleManager: Shutting down and abandoning module LeapMotionController (99)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (98)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module CableComponent (97)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (96)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module HTML5Networking (95)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (87)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module UnrealProject (86)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.12-12.51.08:313][847]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.12-12.51.08:316][847]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.12-12.51.08:317][847]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.12-12.51.08:319][847]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.12-12.51.08:361][847]LogDerivedDataCache: Shutdown
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.12-12.51.08:361][847]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.12-12.51.08:362][847]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.12-12.51.08:362][847]LogExit: Exiting.
+[2016.01.12-12.51.08:363][847]Log file closed, 01/12/16 13:51:08

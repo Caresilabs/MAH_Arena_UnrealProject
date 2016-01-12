@@ -52,7 +52,13 @@ void APawnCar::SetPlayerIndex(int32 index) {
 
 	StaticMesh->SetStaticMesh(GroundMesh);
 }
+bool APawnCar::IsBoosting(){
+	return isBoosting;
+}
 
+bool APawnCar::IsSlow(){
+	return isSlowing;
+}
 
 void APawnCar::Boost()
 {
@@ -90,6 +96,7 @@ void APawnCar::Thrust(float value){
 
 	if (ThrustDelay <= 0)
 	{
+		ThrustParticle();
 		ThrustDelay = 5;
 		FRotationMatrix Matrix = FRotationMatrix(BoxComponent->GetRelativeTransform().GetRotation().Rotator());
 		FVector impulse = Matrix.TransformVector(FVector(0, 1200000, 0));

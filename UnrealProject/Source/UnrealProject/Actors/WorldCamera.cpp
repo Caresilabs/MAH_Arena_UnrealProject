@@ -6,7 +6,7 @@
 
 void AWorldCamera::Tick( float delta ) {
 	
-	float MaxDistance = 700;
+	float MaxDistance = 0;
 	FVector Average( 0, 0, 0 );
 	TArray<AActor*> Actors;
 
@@ -16,20 +16,22 @@ void AWorldCamera::Tick( float delta ) {
 		}
 	}
 
+	if (Actors.Num() != 0)
+		Average = Actors[0]->GetActorLocation();
+
 	for ( AActor* Act : Actors ) {
-		Average = Average + Act->GetActorLocation();
+		///Average = Average + Act->GetActorLocation();
 
 		for ( AActor* Act2 : Actors ) {
 			if ( MaxDistance < ( Act->GetActorLocation() - Act2->GetActorLocation() ).Size() ) {
 				MaxDistance = ( Act->GetActorLocation() - Act2->GetActorLocation() ).Size();
+				Average = (Act->GetActorLocation() + Act2->GetActorLocation()) / 2.0f;
 			}
 		}
 	}
 
-	Average = Average / (float)Actors.Num();
-	
-
-	//const FRotator Rot = FRotationMatrix::MakeFromX( Average - GetActorLocation() ).Rotator();
+	//Average = Average / (float)Actors.Num();
+	MaxDistance = FMath::Max(700.0f, MaxDistance);
 	
 	auto NewLocation = Average + (GetActorForwardVector() * -MaxDistance* 1.16f);
 

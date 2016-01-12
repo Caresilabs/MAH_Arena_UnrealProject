@@ -52,6 +52,18 @@ struct FHitResult;
 		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
 	} \
  \
+	DECLARE_FUNCTION(execIsSlow) \
+	{ \
+		P_FINISH; \
+		*(bool*)Z_Param__Result=this->IsSlow(); \
+	} \
+ \
+	DECLARE_FUNCTION(execIsBoosting) \
+	{ \
+		P_FINISH; \
+		*(bool*)Z_Param__Result=this->IsBoosting(); \
+	} \
+ \
 	DECLARE_FUNCTION(execSetLives) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_lives); \
@@ -116,6 +128,18 @@ struct FHitResult;
 		this->NotifyHit(Z_Param_MyComp,Z_Param_Other,Z_Param_OtherComp,Z_Param_bSelfMoved,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
 	} \
  \
+	DECLARE_FUNCTION(execIsSlow) \
+	{ \
+		P_FINISH; \
+		*(bool*)Z_Param__Result=this->IsSlow(); \
+	} \
+ \
+	DECLARE_FUNCTION(execIsBoosting) \
+	{ \
+		P_FINISH; \
+		*(bool*)Z_Param__Result=this->IsBoosting(); \
+	} \
+ \
 	DECLARE_FUNCTION(execSetLives) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_lives); \
@@ -147,6 +171,7 @@ struct FHitResult;
 
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_EVENT_PARMS
 extern UNREALPROJECT_API  FName UNREALPROJECT_CallInvincible;
+extern UNREALPROJECT_API  FName UNREALPROJECT_ThrustParticle;
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_CALLBACK_WRAPPERS
 #define UnrealProject_Source_UnrealProject_PawnCar_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
